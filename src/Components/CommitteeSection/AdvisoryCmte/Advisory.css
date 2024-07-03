@@ -1,0 +1,46 @@
+.AdCmte{
+    display: grid;
+    /* grid-template-columns: 1.5fr 1fr; */
+    gap: 20px;
+    /* margin: 4vh 0; */
+   
+}
+
+.AdvisoryCmte{
+   
+    width: 96%;
+    margin: 4vh  auto;
+    font-family: "Montserrat", sans-serif;
+}
+.AdvisoryCmte h2{
+    background-color: var(--color-green);
+    font-weight: 400;
+    padding: 1vh 0;
+    font-size: 1.5rem;
+    margin: 4vh 0;
+    text-align: center;
+    color: white;
+
+}
+.AdvisoryCmte hr{
+    z-index: -1;
+}
+
+
+/* adding media query  */
+@media(max-width:1000px)
+{
+    .AdvisoryCmte h2{
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 1vh 0;
+    margin-bottom: 0vh;
+
+    }
+    .AdCmte{
+grid-template-columns: 1fr;
+    }
+    .AdvisoryCmte{
+        width: 92%;
+    }
+}

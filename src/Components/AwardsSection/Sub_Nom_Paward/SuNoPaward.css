@@ -1,0 +1,76 @@
+.Submission .submissionStart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+gap: 5px;
+}
+.Submission .submissionStart h1{
+    font-size: 20px;
+}
+.Submission .submissionStart p{
+    font-size: 17px;
+}
+
+.Submission .submissionStart .Sumail{
+    color: rgb(34, 34, 230);
+}
+.Submission .submissionStart .Sucategory{
+    font-weight: 900;
+}
+
+/* submissino table  */
+.submissionTable{
+    border: 1px solid rgb(118, 115, 115);
+    border-radius: 5px;
+    margin: 4vh 0;
+    width: 50%;
+    
+}
+.submissionTable p{
+    padding: 1.5vh;
+    font-weight: 900;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(118, 115, 115);
+}
+.submissionTable p a{
+    color: #5252e8;
+}
+
+/* Nomination table  */
+.Nomination, .PastAwardees{
+    margin: 8vh 0;
+    
+}
+.nominationMain ,.PastMainAward{
+    border: 1px solid rgb(118, 115, 115);
+    border-radius: 5px;
+    margin: 1vh 0;
+    width: 80%;
+}
+.Nomination h1 , .PastAwardees h1{
+font-size: 20px;
+}
+.nominationMain p ,.PastMainAward p{
+    padding: 1.5vh;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(118, 115, 115);
+    
+}
+.nominationMain p:hover, .PastMainAward p:hover{
+    background-color: rgb(228, 220, 220);
+cursor: pointer;
+}
+
+/* past awardees  */
+.PastMainAward{
+    width: 60%;
+}
+.PastMainAward p{
+    padding: 1.5vh;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(118, 115, 115);
+    font-weight: 900;
+}
+.PastMainAward p a{
+    color: rgb(49, 49, 158);
+}

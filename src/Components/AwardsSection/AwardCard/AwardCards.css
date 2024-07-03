@@ -1,0 +1,21 @@
+.AwardCardMain{
+    background-color: rgb(207,226,255);
+    color: rgb(8,66,152);
+   padding: 2vh;
+   border-radius: 10px;
+}
+
+.AwardCardMain h2{
+    margin: 2vh 0;
+    font-size: 20px;
+}
+
+.AwardCardMain p{
+    margin: 2vh 0;
+    color: rgb(19, 19, 19);
+    font-size: 16px
+}
+
+.AwardCardMain hr{
+    color: rgb(8,66,152);
+}

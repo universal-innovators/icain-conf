@@ -1,0 +1,45 @@
+.technicalMain {
+    width: 96%;
+    margin: 4vh auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.technicalMain h2 {
+    background-color: var(--color-green);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 1vh 0;
+    font-size: 1.5rem;
+    margin: 4vh 0;
+    text-align: center;
+    color: white;
+}
+
+.technical {
+    display: grid;
+    /* grid-template-columns: 1.5fr 1fr; */
+    gap: 2rem;
+}
+
+.tecImpDate {
+    margin: 4vh 0;
+}
+
+
+
+
+@media(max-width:1000px) {
+    .technicalMain {
+        width: 95%;
+    }
+
+    .technical {
+        grid-template-columns: 1fr;
+    }
+
+    .technicalMain h2 {
+        font-size: 1.1rem;
+        /* padding: 1vh; */
+    }
+}

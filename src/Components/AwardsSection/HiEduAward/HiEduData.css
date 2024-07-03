@@ -1,0 +1,58 @@
+.EducardData{
+    margin: 2vh 0;
+    width: 80%;
+}
+.edudaMain{
+    background-color: rgb(217,237,247);
+    padding: 10px;
+   color: rgb(49,112,143);
+   border-radius: 10px;
+   border: 0.5px solid rgb(225, 244, 255); 
+   transition: all 0.4s ease-in-out; 
+}
+.edudaMain:hover{
+background: linear-gradient(90deg, rgb(118, 182, 228) 0%, rgb(188, 241, 228) 100%);
+transform: scale(1.04);
+color: rgb(57, 57, 253);
+
+}
+.EducardDataMain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.EducardDataMain .edudaMain h2{
+    font-size: 20px;
+    line-height: 4vh;
+    margin-bottom: 2vh;
+}
+
+.EducardDataMain .edudaMain p{
+    margin: 2vh 0;
+    color: rgb(19, 19, 19);
+    font-size: 16px;
+}
+
+
+
+/* adding media  */
+@media(max-width:1100px)
+{
+    .EducardData{
+        width: 95%;
+    }
+}
+
+@media(max-width:900px)
+{
+    .EducardDataMain{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:600px)
+{
+    .EducardDataMain{
+        grid-template-columns: 1fr;
+    }
+}

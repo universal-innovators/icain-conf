@@ -1,0 +1,134 @@
+
+.fcontainer{
+    width: 96%;
+    margin: 0 auto;
+}
+.fcontainer .heading{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(207,226,255);
+    color: rgba(0, 0, 255, 0.533);
+    padding: 3vh 0;
+}
+
+.submitPaper{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vh 0;
+}
+.submitPaper button{
+   background-color: rgb(52,152,219);
+   padding: 1.5vh 3vh;
+   color: white;
+   outline: none;
+   border: none;
+   font-size: 18px;
+   border-radius: 12px;
+   cursor: pointer;
+}
+.submitPaper button a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.submitPaper button:hover{
+  background: linear-gradient(90deg, rgb(52,152,219) 0% , rgb(147, 213, 243) 100%);
+}
+.submitPaper button a:active{
+color: var(--color-bg1);
+}
+
+
+/* cards section  */
+.flcards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 3rem 2rem;
+    background-color: var(--color-primary);
+
+}
+
+.flcards .flcard{
+    background-color:var(--color-bg1);
+    text-align: center;
+    padding: 4vh 2vh;
+    box-shadow: rgba(251, 253, 255, 0.4) 5px 5px, rgba(251, 253, 255, 0.3) 10px 10px,    
+    rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(252, 254, 255, 0.05) 25px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: all 0.4s ease-in-out;
+    /* border-radius: 40%; */
+    
+}
+
+.flcards .flcard:nth-child(even)
+{
+    background-color: rgb(221, 221, 189);
+    background-color: var(--color-bg2);
+}
+
+
+
+.flcards .flcard:hover{
+    transform: scale(1.08);
+     cursor: pointer;
+}
+
+
+
+.flcards .flcard h1{
+    font-size: 20px;
+    color: rgb(82, 82, 197);
+    color: white;
+
+}
+.flcards .flcard p{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(32, 38, 42);
+    color: var(--color-white);
+    animation: change 1s infinite;
+
+}
+
+
+
+
+
+
+/* media query  */
+@media(max-width:1020px)
+{
+    .flcards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+
+@media(max-width:720px)
+{
+    .fcontainer{
+        width: 90%;
+    }
+    .flcards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+@media(max-width:620px)
+{
+    .flcards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:520px)
+{
+    .flcards{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,108 @@
+.doHeading{
+    font-weight: 500;
+}
+.doHeading h1{
+    background-color: var(--color-green);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 1vh 0;
+    font-size: 1.5rem;
+    margin: 4vh 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+.pdfImp{
+    width: 96%;
+    margin: 6vh auto;
+}
+
+.downloadNotice{
+    margin:auto;
+}
+
+.downloadMain{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    width: 96%;
+    margin: 4vh  auto;
+    font-family: "Montserrat", sans-serif;
+    gap: 3vh;
+}
+
+
+.doPdf{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem;
+    border-radius: 2rem 0.5rem;
+    border: 1px solid var(--color-bg2);
+   padding: 3vh;
+ background: linear-gradient(71deg, #080509, #1a171c, #080509);
+
+
+}
+.doPdf .pdf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    border-radius: 12px;
+    padding: 2vh;
+ /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+ background-color: var(--color-bg2);
+ border-radius: 2rem 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid var(--color-bg2);
+}
+.doPdf .pdf:hover{
+    background-color: var(--color-bg);
+}
+
+
+
+.doPdf .pdf h1{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
+.doPdf .pdf h1:active, .doPdf .doPdf a:active{
+    color: var(--color-bg2);
+}
+.doPdf .pdf a{
+   
+    color: var(--color-white);
+}
+
+
+
+.pdfImp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+/* media query  */
+@media(max-width:760px)
+{
+    .downloadMain{
+        grid-template-columns: 1fr;
+    }
+
+    .doPdf{
+        grid-template-columns: 1fr;
+    }
+    .pdfImp{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .doPdf .pdf h1{
+        font-size: 16px;
+    }
+}

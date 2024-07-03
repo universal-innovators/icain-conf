@@ -1,0 +1,160 @@
+.aParticipation{
+    width: 95%;
+    margin: 4vh auto;
+}
+.aPartcipationHead{
+    background-color: rgb(207,226,255);
+    color: rgb(8,66,152);
+    padding: 3vh;
+    border-radius: 10px;
+}
+.aPartcipationHead h1{ 
+    font-size: 22px;
+}
+
+/* universal leader award  */
+.aLeaderHeading{
+    margin: 3vh 0;
+    font-size: 16px;
+}
+
+/* leadership onwards  */
+.aLeaderAbout {
+    margin: 3vh 0;
+}
+.aLeaderAbout h1{
+    font-size: 18px;
+}
+.aLeaderAbout p{
+    margin: 1vh 0;
+    font-size: 18px;
+    line-height: 4vh;
+}
+
+/* important dates  */
+.aImpDates h2{
+    font-size: 22px;
+   margin-top: 6vh;
+   margin-bottom: 2vh;
+}
+.aImpDatesMain{
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin: 2vh;
+width: 50%;
+}
+
+.aImpDatesMain p{
+    padding: 2vh;
+    font-size: 18px;
+background:linear-gradient(90deg, rgb(207,226,255) 0%, rgb(255, 254, 254) 100%);
+color:rgb(10, 25, 48) ;
+border: 1px solid rgb(195, 195, 195);
+
+
+}
+.aImpDatesMain p span{
+    font-weight: bolder;
+}
+
+.aImpInst{
+    background-color: rgb(207,226,255);
+    color: rgb(8,66,152);
+    padding: 3vh;
+    border-radius: 10px;
+    margin: 6vh 0;
+}
+.aImpInst h1{
+    font-size: 22px;
+}
+
+
+/* award category  */
+.aAwardC h1{
+    font-size: 22px;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    font-weight: 900;
+}
+.aAwardC h2{
+    font-size: 20px;
+    margin: 2vh 0;
+    font-weight: 900;
+}
+
+
+/* individual award  */
+.aIndividual h2{
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+.aIndividualMain{
+    border: 1px solid rgb(192, 189, 189);
+    padding: 2vh;
+    background-color: rgb(207,226,255);
+    border-radius: 10px;
+}
+.aIndividualMain h3{
+    color:rgb(8,66,152) ;
+    font-size: 22px;
+   padding-bottom: 1vh;
+}
+.aIndividualMain p{
+    font-size: 18px;
+    padding: 2vh;
+}
+
+/* young research award  */
+.aYoung{
+    border: 1px solid rgb(192, 189, 189);
+    padding: 2vh;
+    background-color: rgb(207,226,255);
+    border-radius: 10px;
+    margin: 4vh 0;
+}
+.aYoung h3{
+    color:rgb(8,66,152) ;
+    font-size: 22px;
+   padding-bottom: 1vh;
+}
+.aYoung p{
+    font-size: 18px;
+    padding: 2vh;
+}
+
+
+/* CardsAward  */
+.CardsAward .awCard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+
+
+
+
+/* adding media query  */
+
+@media(max-width:900px)
+{
+    .CardsAward .awCard{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:500px)
+{
+    .CardsAward .awCard{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:800px)
+{
+    .aParticipation{
+        width: 90%;
+    }
+}
+
