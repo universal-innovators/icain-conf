@@ -1,0 +1,86 @@
+.spSessionHeading h2{
+    background-color: var(--color-green);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 1vh 0;
+    font-size: 1.5rem;
+    margin: 4vh auto;
+    text-align: center;
+    color: white;
+    width: 96%;
+}
+
+.main-card{
+    width: 90%;
+    margin:2vh auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.card{
+    /* z-index: -1; */
+    /* display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    padding: 4vh;
+    border: 1px solid var(--color-bg2);
+    border-radius: 0.5rem 2rem;
+    box-shadow: var(--color-success) 0px 1px 2px 0px, var(--color-white) 0px 1px 3px 1px;
+    color: white; */
+    background: var(--color-black);
+    padding: 4vh 2vh;
+    margin: 10px;
+    border-radius: 0.5em;
+    border: 1px solid var(--color-black);
+    color: white;
+    box-shadow: var(--color-black) 0px 2px 4px 0px, var(--color-white) 0px 1px 3px 1px;
+    border-radius: 0.5rem 2rem;
+    transition: all 0.5s ease-in-out;
+    min-height: 350px;   
+} 
+/* .card:nth-child(2n+1){
+    background-color:var(--color-black);
+}
+.card:nth-child(2n){
+    background-color:var(--color-green);
+} */
+.card:hover{
+    color:white;
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+.margin-less{
+    margin-top:0px;
+}
+.card-link{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+/* .card-link:hover{
+    color: white;
+} */
+.zero-margin{
+    font-size: 18px;
+    margin: 2vh 0 0 0;
+}
+.ul-zero-margin{
+  margin: 2vh;
+  font-size: 16px;
+}
+
+
+
+/* adding media queries  */
+
+/* @media(max-width:800px)
+{
+    .main-card{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+    }
+} */
