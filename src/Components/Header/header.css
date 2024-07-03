@@ -1,0 +1,139 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,800&family=Poppins:ital,wght@1,200;1,400&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap'); 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.headerMain{
+background-color: rgba(255, 255, 255, 0.7);
+display: flex;
+justify-content: space-between;
+/* background: linear-gradient(to right, #222629 , #86C232 ); */
+color: black;
+font-family: 'Montserrat', serif;
+margin: 10px;
+
+}
+
+.hcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.headerLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoImg{
+    width: 8rem;
+    margin:10px;
+    aspect-ratio:1.2;
+}
+/* images  */
+.img1 .himg, .img2 .himg{
+    height: 20vh;
+    width: 20vh;
+}
+.img1, .img2{
+    display: flex;
+    margin-top: 2vh;
+    gap: 10px;
+}
+.horange{
+    color: var(--color-warning);
+}
+.hblue{
+    color:blue;
+}
+.hspringer{
+    color: var(--color-danger);
+}
+.hheadinner{
+    color: var(--color-green);
+}
+
+.hhead{
+    opacity: 0.9;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+   
+}
+
+.htop1, .htop2{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+font-family: 'Poppins', sans-serif;
+
+
+}
+.htop2{
+    margin-top: 3vh;
+    font-size: 1.1rem; 
+    line-height: 2rem;
+    /* box-shadow: 10px 5px 5px rgb(20, 20, 255); */
+    padding: 2vh;
+
+}
+
+
+@media(max-width:700px){
+    .headerMain{
+        flex-direction: column;
+    }
+    .hcontainer{
+        flex-direction: row;
+        margin: 1rem 0;
+    }
+    .logoImg{
+        width: 65px;
+        height: auto;
+    }
+    
+    .hTopPart{
+        /* width: 90vw; */
+        padding: 10px;
+        
+    }
+    .htop2{
+        margin-top: 0;
+        font-size: 1.1rem; 
+        line-height: 1.2rem;
+        /* box-shadow: 10px 5px 5px rgb(20, 20, 255); */
+        padding: 2vh;
+    
+    }
+    
+    .img1, .img2{
+       flex-direction: column;
+       gap: 1rem;
+    }
+    .img1 .himg, .img2 .himg{
+        height: 12vh;
+        width: 12vh;
+    }
+    .htop1{
+        font-size: 15px;
+    }
+    .htop2{
+        font-size: 13px;
+    }
+}
+

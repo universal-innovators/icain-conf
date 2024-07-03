@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,600;1,800&family=Poppins:ital,wght@1,200;1,400&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+ 
+.intern_container{
+    
+    width: 96%;
+    color: white;
+    margin: 1vh auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.intern_container h5{
+    background-color: var(--color-green);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1vh 0;
+    text-align: center;
+    margin: 4vh 0;
+}
+.intern_inner{
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    padding: 4vh;
+    border-radius: 2rem 0.5rem;
+    line-height: 1.5rem;
+    margin: 3vh 0;
+    border: 1px solid var(--color-bg2);
+}
+
+.intern_inner h3{
+    color: var(--color-warning);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.intern_inner p{
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+}
+
+
+.intern_highlights, .intern_interested{
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    padding: 4vh;
+    border-radius: 2rem 0.5rem;
+    line-height: 1.5rem;
+    margin: 3vh 0;
+    border: 1px solid var(--color-bg2);
+}
+
+
+.intern_interested p, .intern_interested p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+.intern_container li{
+    list-style-type: circle;
+    padding: 1vh 0;
+    font-weight: 500;
+}
+
+/* button  */
+ .submissionLinkhead{
+    margin: 4vh 0;
+}
+.submissionLinkhead a{
+    /* color: var(--color-white); */
+   border-radius: 0.7rem;
+    background: linear-gradient(to left, var(--color-bg), var(--color-green1));
+    padding: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: 1px solid var(--color-green1);
+
+}
+ .submissionLinkhead a:hover{
+    background: linear-gradient(to right, var(--color-bg), var(--color-green1));
+}
+ .submissionLinkhead a:active{
+   color: var(--color-pink);
+}
+
+ .aboutLink:hover{
+    background-color: var(--color-bg2);
+}
+
+
+

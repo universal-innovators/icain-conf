@@ -1,0 +1,110 @@
+.footer{
+  background-color: #010101;
+    color: white;
+    padding: 4vh 0;
+    margin: auto;
+    /* background-color: green; */
+    font-family: "Montserrat", sans-serif;
+}
+.footerLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.logoImg{
+    width: 7rem;
+    margin:10px;
+    aspect-ratio:1.1;
+}
+
+ .footer .f_lower{
+    width: 95%;
+    margin: 0 auto;
+}
+.fmain{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+   gap: 1rem;
+ 
+}
+
+.fleft, .socialMedia, .links{
+    padding: 4vh;
+    
+}
+.fleft h1, .socialMedia h1, .links h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--color-success);
+    margin: 1vh 0;
+}
+.socialMedia{
+   justify-self: center;
+}
+.socialMedia .social{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+}
+.fleft, .fright{
+    justify-self: center;
+
+}
+.socialMedia .social a{
+    color: white;
+    font-weight: 400;
+}
+.socialMedia .social a:hover{
+    color: var(--color-green);
+}
+
+
+.fright .links{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.fright .links p{
+color: white;
+font-weight: 400;
+    cursor: pointer;
+}
+ 
+.fright .links p:hover{
+    color: var(--color-pink);
+}
+
+.line{
+    margin: 1vh 0;
+}
+
+.f_lower{
+    /* background-color: red; */
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.f_lower h3{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+
+@media(max-width:760px)
+{
+    .fmain{
+        grid-template-columns: repeat(1,1fr);      
+     }
+
+     .footer .f_lower{
+        width: 93%;
+    }
+    
+}
+
+

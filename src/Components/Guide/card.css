@@ -1,0 +1,109 @@
+.spSessionHeading h2{
+  background-color: var(--color-green);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 1vh 0;
+  font-size: 1.5rem;
+  margin: 4vh auto;
+  text-align: center;
+  color: white;
+  width: 96%;
+}
+
+.spSessionCont h3{
+  /* background-color: #7d3cff; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  margin: 2vh auto;
+  text-align: left;
+  color: black;
+  width: fit-content;
+}
+.main-card{
+    display: grid;
+    margin:2vh auto;    
+    gap:10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    align-items: center;
+    justify-items: center; 
+    
+}
+.place-card-container {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-black);
+    padding: 4vh 2vh;
+    margin: 10px;
+    border-radius: 0.5em;
+    border: 1px solid var(--color-black);
+    color: white;
+    box-shadow: var(--color-black) 0px 2px 4px 0px, var(--color-white) 0px 1px 3px 1px;
+    border-radius: 0.5rem 2rem;
+    transition: all 0.5s ease-in-out;
+  }
+  .place-card-container:hover{
+    color:white;
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+  .place-card-image {
+    width: 100%;
+    height: 250px;
+    margin: 2px 0 10px 0;
+    object-fit: cover;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-radius: 0.5rem 2rem;
+  }
+  .place-card-container1 {
+    width: 100%;
+    display: flex;
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    flex-direction: column;
+  }
+  .place-card-text {
+    font-size: 20px;
+    
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .place-card-text1 {
+    font-size: 14px;
+    max-width: 250px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .carousel{
+    
+    object-position:'center';
+    object-fit:'revert';
+    transition: 'opacity 0.5s ease'
+  }
+  @media(max-width: 767px) {
+    .place-card-container {
+      width: 200px;
+    }
+   
+  }
+  @media(max-width: 479px) {
+    .place-card-container {
+      width: 300px;
+    }
+  }
+  @media(max-width:800px)
+{
+    .main-card{
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
+}
+
+

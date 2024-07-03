@@ -1,0 +1,9 @@
+.poster{
+  height: 70vh;
+}
+
+@media (max-width:700px) {
+  .poster{
+    height: 25vh;
+  }
+}

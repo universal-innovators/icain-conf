@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,600;1,800&family=Poppins:ital,wght@1,200;1,400&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+
+.submission{
+    width: 96%;
+    color: white;
+    margin: 2vh auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.submission h2{
+    background-color: var(--color-green);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1vh 0;
+    text-align: center;
+    margin: 4vh 0;
+}
+.Submission_con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* submission link css  */
+ .submissionLinkhead{
+    margin: 5vh  0;
+}
+.submissionLinkhead a{
+    color: b;
+   border-radius: 0.7rem;
+    background: linear-gradient(to left, var(--color-bg), var(--color-green1));
+    padding: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: 1px solid var(--color-green1);
+
+}
+ .submissionLinkhead a:hover{
+    background: linear-gradient(to right, var(--color-bg), var(--color-green1));
+}
+.submissionLinkhead a:active{
+   color: var(--color-pink);
+}
+
+
+
+
+.SubGuidelines{
+    color: var(--color-green1);
+}
+.Submission_desc{
+    text-align: justify;
+}
+.Submission_desc p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.Submission_desc li{
+    list-style-type: none;
+    margin: 2vh 0;
+    padding: 4vh;
+    background-color: var(--color-bg1);
+    border-radius: 1rem .5rem;
+
+}
+.ph{
+    font-size: 20px;
+}
+
+
+
+.abtHeader{
+    margin: 2vh 0;
+    font-weight: 1.1rem;
+}
+
+.Sucard {
+   
+    margin: 0 auto;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    z-index: 1;
+    border:1px solid var(--color-green1);
+    padding: 1rem;
+    opacity: 0.7;
+   }
+
+   .subox {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+
+   .su_card__content {
+    background-color:var(--color-bg1);
+    padding: 2vh;
+   }
+   .su_card__content li{
+    margin: 2vh 0;
+    list-style-type:circle;
+   }
+
+.psubPlagrism{
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    border: 1px solid var(--color-bg2);
+    margin: 2vh 0;
+}
+.psubPlagrism h4{
+    background-color: var(--color-green);
+    padding: 1vh;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+@media(max-width: 800px)  {
+    .Submission_con{
+        grid-template-columns: 1fr;
+    }
+
+    
+    
+}
+

@@ -1,0 +1,52 @@
+.imp_Date{
+    /* width: 98%; */
+    margin: 0 auto;
+    width: 40vw;
+}
+
+.imp_Date .impDate h1{
+ text-align: center;
+ margin-bottom: 2vh;
+ background-color: var(--color-bg);
+ padding: 2vh;
+ color: white;
+ font-size: 1.5rem;
+
+}
+.impDate{
+    border: 1px solid rgb(23, 22, 22);
+    /* padding:4vh; */
+    margin: 0 auto;
+    width: 40vw;
+}
+.impDate .dates{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 2vh;
+}
+
+.impDate .dates .date h4{
+    font-size: 18px;
+    color: var(--color-bg1);
+}
+
+    
+.impDate .dates .date p{
+    font-size: 16px;
+    color:rgb(18, 18, 20);
+    font-weight: 600;
+}
+
+@media(max-width:800px)
+{
+    .imp_Date{
+        width: 98%;
+        margin: 0 auto;
+        /* width: 40vw; */
+    }
+    .impDate{
+        width: 80vw;
+
+    }
+}

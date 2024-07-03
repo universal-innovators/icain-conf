@@ -1,0 +1,56 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,600;1,800&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+.imp_Notices{
+    /* width: 98%; */
+    margin: 0 auto;
+    width: 40vw;
+    border: 1px solid rgb(23, 22, 22);
+   
+}
+
+.imp_Notices .impNotices h1{
+    text-align: center;
+    margin-bottom: 2vh;
+    background-color: var(--color-bg2);
+    padding: 2vh;
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.impNotices .notices{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 2vh;
+}
+.impNotices .notices .notice{
+    /* border-bottom: 1px solid grey; */
+    padding: 4px 0;
+}
+.impNotices .notices .notice h4{
+    font-size: 1.1rem;
+    color: var(--color-bg2);
+    padding: 6px;
+    /* animation: color 2s infinite; */
+}
+
+/* @keyframes color {
+    0%{
+        background-color:rgb(245, 76, 76);
+    }
+  
+    100%{
+        background-color: var(--color-danger);
+    }
+    
+} */
+
+
+/* adding media query  */
+@media(max-width:800px)
+{
+   
+    .imp_Notices{
+        width: 80vw;
+    }
+}
