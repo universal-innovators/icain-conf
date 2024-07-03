@@ -1,0 +1,168 @@
+.reContainer{
+    width: 96%;
+    color: white;
+    margin: 1vh auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.reContainer .reHeading{
+    background-color: var(--color-green);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1vh 0;
+    text-align: center;
+    margin: 2vh 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.reDetail .rePara{
+    font-size: 1rem;
+    line-height: 4vh;
+}
+.reDetail .rePara .reParaBold{
+    font-weight: 500;
+    color: var(--color-warning);
+}
+
+
+/* Registration Authors  */
+.reAuthors{
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+   border: 1px solid var(--color-bg2);
+   padding: 2vh;
+   border-radius: 2rem 0.5rem;
+   margin: 2vh 0;
+}
+.reAuthors h2{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-green1);
+    margin: 2vh 0;
+
+}
+.reAuthors .reAuthorsInst{
+    
+    font-size: 1rem;
+    color: white;
+}
+.reAuthors .reAuthorsInst li{
+    padding: 1vh 0;
+}
+
+
+/* Registration and all  */
+.reAccountMain{
+    margin:2vh 0;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+   border: 1px solid var(--color-bg2);
+   padding: 3vh;
+   
+}
+.reAccountMain .reAccountHeading{
+    font-size: 1.1rem; 
+    font-weight: 500;
+    padding: 2vh 0;
+    text-align: center;
+    border: 1px solid var(--color-green);
+    border-radius: 0.5rem 2rem;
+}
+
+.reAccountTransfer{
+    border: 1px solid white;
+   margin: 4vh auto;
+   width: 80%;
+
+}
+
+
+.reAccountTransfer .reAccount{
+    width: 95%;
+    margin: 0 auto;
+}
+.reAccountBank{
+    margin: 2vh 0;
+}
+.reBankDetails{
+    margin: 4vh 0;
+}
+.reAccountBank .reAccountBankHeading{
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgb(170, 169, 169);
+    background-color: var(--color-green);
+    padding: 2vh;
+    border-radius: 12px;
+    font-weight: 500;
+   color: white;
+}
+.reBankDetails .reBank{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2vh;
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  color: white;
+  font-weight: 400;
+}
+
+.reBankDetails .reBank:hover{
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.reBankDetails .reBank p{
+    border: 1px solid var(--color-green);
+    padding: 2vh;
+    color: white;
+    font-weight: 400;
+}
+.reBankDetails .reBank h2{
+    font-size: 1rem;
+    padding: 2vh;
+    font-weight: 500;
+    border: 1px solid var(--color-green);
+    
+}
+
+/* pay pal  */
+.Paypal{
+    padding: 2vh 0;
+    box-shadow: var(--color-success) 0px 20px 30px -10px;
+    margin: 3vh 0;
+}
+
+
+/* razorpay */
+.Razor{
+    padding: 4vh 0;
+    box-shadow: var(--color-success)  0px 20px 30px -10px;
+
+
+}
+
+
+
+
+
+
+/* media query  */
+
+@media(max-width:900px)
+{
+    .reAccountTransfer{
+       width: 100%;
+       padding: 0.5rem;
+    }
+    .reAccountMain .reAccountHeading{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+}
+
+
+

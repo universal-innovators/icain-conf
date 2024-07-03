@@ -1,0 +1,27 @@
+.preConf{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    width: 95%;
+    margin: 4vh auto;
+}
+.pcYear{
+    margin: 4vh auto;
+    margin-top: 8vh;
+    width: 95%;
+    
+}
+
+.imagesPc{
+    width: 95%;
+    margin: 4vh auto;
+}
+
+/* media query  */
+@media(max-width:800px)
+{
+   .preConf{
+    grid-template-columns: 1fr;
+    width: 90%;
+   }
+}

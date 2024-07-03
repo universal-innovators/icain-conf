@@ -1,0 +1,11 @@
+.year h1{
+    margin-bottom: 2vh;
+}
+
+@media(max-width:800px)
+{
+   .year{
+    width: 90%;
+    margin: 2vh auto;
+   }
+}
