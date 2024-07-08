@@ -256,15 +256,16 @@ export default [
     ],
     listing: "SS 024",
   }, 
-  // {
-  //   link: require("./sessions/SS-25.pdf"),
-  //   title:
-  //     "Education Robotics (ER)",
-  //   organisers: [
-  //     "Dr. Muthmainah, Universitas Al Asyariah Mandar, Indonesia"      
-  //   ],
-  //   listing: "SS 025",
-  // }, 
+  {
+    link: require("./sessions/SS-25.pdf"),
+    title:
+      "Integration of IoT and Big Data with Machine Learning and Blockchain",
+    organisers: [
+      "Dr. Neda Fatima, Associate Professor, Manav Rachna International Institute of Research and Studies"      
+    ],
+    listing: "SS 025",
+  }, 
+
   
   
 ];
