@@ -265,6 +265,16 @@ export default [
     ],
     listing: "SS 025",
   }, 
+  {
+    link: require("./sessions/SS-26.pdf"),
+    title:
+      "Applications of Artificial Intelligence and Machine Learning: Transforming Industries and Society",
+    organisers: [
+      "Dr Rashmi Agrawal, Professor, Manav Rachna International Institute of Research and Studies, Faridabad",
+"Dr Parul Gandhi, Professor, Manav Rachna International Institute of Research and Studies, Faridabad,"      
+    ],
+    listing: "SS 026",
+  }, 
 
   
   
