@@ -275,6 +275,15 @@ export default [
     ],
     listing: "SS 026",
   }, 
+  {
+    link: require("./sessions/SS-27.pdf"),
+    title:
+      "AI-Enhanced Network Optimization: Innovations and Challenges",
+    organisers: [
+      "Dr. Deepti Khanna, Department of Information Technology, Jagan Institute of Management Studies, Rohini, Delhi, India"      
+    ],
+    listing: "SS 027",
+  }, 
 
   
   
