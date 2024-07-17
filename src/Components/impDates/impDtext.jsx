@@ -6,19 +6,19 @@ import "./ImpDtext.css";
 const arr = [
   {
     h4: "Deadline for manuscript submission: ",
-    p: "July 15th, 2024",
-  },
-  {
-    h4: "Notification of first review:",
     p: "July 25th, 2024",
   },
   {
-    h4: "Submission of revised manuscript:",
+    h4: "Notification of first review:",
     p: "August 10th, 2024",
   },
   {
-    h4: "Notification of final acceptance:",
+    h4: "Submission of revised manuscript:",
     p: "August 15th, 2024",
+  },
+  {
+    h4: "Notification of final acceptance:",
+    p: "August 20th, 2024",
   },
   {
     h4: "Final manuscript due",
