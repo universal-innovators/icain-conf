@@ -51,6 +51,7 @@ const Call_for_papers = () => {
               <li>Environmental Monitoring</li>
               <li>Secure software development</li>
               <li> Cloud Computing and Distributed Systems</li>
+              <li>Secure communication in UAV</li>
             </ul>
 
             {/* 4th  */}
