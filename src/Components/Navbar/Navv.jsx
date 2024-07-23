@@ -132,6 +132,9 @@ function Navv() {
             <li onClick={clickHandler}>
               <NavLink to="/guide">Visitors Guide</NavLink>
             </li>
+            {/* <li onClick={clickHandler}>
+              <NavLink to="/policy">Privacy Policy</NavLink>
+            </li> */}
 
             {/* <li  onClick={clickHandler} className="dropbtn">
   <FaSortDown/>

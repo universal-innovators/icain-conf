@@ -60,6 +60,10 @@ function Footer() {
               {" "}
               <p>Downloads</p>
             </NavLink>
+            <NavLink to="/policy">
+              {" "}
+              <p>Privacy Policy</p>
+            </NavLink>
           </div>
         </div>
       </div>

@@ -50,6 +50,7 @@ import TechnicalCmte from "./Components/CommitteeSection/TechnicalCmte/Technical
 // home and notice
 import HoDateNotice from "./Components/Date_Notices/HomeDateNotice";
 import Guide from "./Components/Guide/Guide";
+import Policy from "./Components/Policy/Policy";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -110,6 +111,8 @@ function App() {
             <Route path="steerings" element={<StCommittee />} />
             <Route path="technicals" element={<TechnicalCmte />} />
             <Route path="advisorys" element={<AdvisoryCmte />} />
+            <Route path="advisorys" element={<AdvisoryCmte />} />
+            <Route path="policy" element={<Policy />} />
             {/* <Route path='industrys' element={<IndustryCmte/>}/> */}
 
             {/* Previous Conferences  */}
