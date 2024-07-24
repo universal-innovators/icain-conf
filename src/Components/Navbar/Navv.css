@@ -113,10 +113,10 @@ ul{
 .main-menu li {
     font-size: 1rem;
    
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: var(--navColor);
-    padding: 0 10px;
+    padding: 0 8px;
     color: #fff;
     
 }

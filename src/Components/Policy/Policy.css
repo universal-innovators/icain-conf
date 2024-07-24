@@ -1,6 +1,7 @@
 .policyPage {
     margin-bottom: 2rem;
     line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .policyContent {
@@ -37,6 +38,7 @@
 .policySection ul {
     list-style-type: disc !important;
     margin-left: 20px !important;
+    list-style-type: disc;
 }
 
 .policySection ol {
@@ -47,6 +49,7 @@
 /* Ensure list item markers are visible */
 .policySection ul li, .policySection ol li {
     display: list-item !important;
+    list-style: disc;
 }
 
 /* Responsive Design */
