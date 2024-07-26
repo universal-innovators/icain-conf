@@ -191,13 +191,14 @@ function SCcards() {
       h1: "Parminder Singh Bedi (Ex-HOD, IT department)",
       p: " Guru Tegh  Bahadur Institute of Technology",
     },
-    // {
-    //   h1: "Prof. Pradeep Malik",
-    //   p: "(KIIT University, India)",
-    // },
+   
     {
       h1: "Dr. Sandra Fernando",
       p: "(London Metropolitan University)",
+    },
+     {
+      h1: "Prof. Mete YAĞANOĞLU",
+      p: "(Ataturk University, Department of Computer Engineering, Turkey)",
     },
   ];
 
