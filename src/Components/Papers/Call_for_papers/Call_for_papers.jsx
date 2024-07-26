@@ -111,10 +111,10 @@ const Call_for_papers = () => {
 
         <div className="cfp_info">
         <h3>Note:</h3>
-          {/* <li>
+          <li>
             The papers submitted to the conference will be peer reviewed and
-            published as proceedings in Springer(Proposed)
-          </li> */}
+            published as proceedings in Springer(Approved)
+          </li>
 
           <li>
             All papers will undergo a blind peer review process and all accepted

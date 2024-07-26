@@ -13,7 +13,7 @@ function Indexing() {
   return (
     <div className="index">
       <h2>Indexing</h2>
-      <h3>Abstracted and indexed in (Springer Series , Proposed)
+      <h3>Abstracted and indexed in (Springer Series , Approved)
 </h3>
       <div className="IndexImages">
         {/* 1st  */}

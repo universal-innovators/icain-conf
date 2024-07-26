@@ -109,12 +109,12 @@ const Call_for_Special = () => {
             interchange between researchers, developers, engineers, students,
             and practitioners working in and around the world.
           </p>
-          {/* <p className="CfSletter">
+          <p className="CfSletter">
             All the accepted papers (after double blinded peer review) will be
-            published in a Springer AIS series (Proposed) and further extended
+            published in a Springer LNNS series (Approved) and further extended
             accepted papers will be published in the special issues of
             SCI/SCOPUS/WoS/DBLP/ACM/EI indexed Journals.
-          </p> */}
+          </p>
           <p className="CfSletter">
             Looking to see you in ICAIN-2024.
             <p>Sincerely</p>

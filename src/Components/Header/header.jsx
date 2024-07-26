@@ -47,8 +47,8 @@ function HeaderMain() {
               <span className="hblue">Portalegre Polytechnic University, Portugal</span> & <br/><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br/> &
               <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span>
             </p>
-            {/* <p className="hspringer"></p>
-            <p></p> */}
+            <p className="hspringer">Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More)</p>
+            {/* <p></p> */}
             <p>24th - 25th September 2024<br/><span style={{"color":"red"}}></span></p>
           </div>
         </div>
