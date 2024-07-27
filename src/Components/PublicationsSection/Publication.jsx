@@ -6,6 +6,7 @@ import PhyComm from "./PuImages/phy_com.jpg";
 import CompElect from "./PuImages/compElec.jpg";
 import ExSystem from "./PuImages/Expert.jpg";
 import IntDecision from "./PuImages/Intelligent.jpg";
+import hbet from "./PuImages/hbet.jpg"
 // import CompModel from "./PuImages/cmes.jpeg";
 // import Journal from "./PuImages/journal.jpg";
 
@@ -81,15 +82,14 @@ function Publication() {
               </div>
 
               {/* img 5 and data*/}
-              {/* <div className="imgdata">
+              <div className="imgdata">
                 <div className="puimg">
-                  <img src={CompModel} alt="CMES" />
+                  <img src={hbet} alt="CMES" />
                 </div>
                 <p>
-                  Computer Modeling in Engineering & Sciences (SCIE Indexed IF
-                  2.0)
+                Human Behavior and Emerging Technologies, Wiley- ESCI & Scopus
                 </p>
-              </div> */}
+              </div>
 
               {/* img 6 and data */}
               {/* <div className="imgdata">
