@@ -6,7 +6,8 @@ import PhyComm from "./PuImages/phy_com.jpg";
 import CompElect from "./PuImages/compElec.jpg";
 import ExSystem from "./PuImages/Expert.jpg";
 import IntDecision from "./PuImages/Intelligent.jpg";
-import hbet from "./PuImages/hbet.jpg"
+import jbhi from "./PuImages/jbhi.png";
+import hcisj from "./PuImages/hcisj.jfif";
 // import CompModel from "./PuImages/cmes.jpeg";
 // import Journal from "./PuImages/journal.jpg";
 
@@ -80,16 +81,39 @@ function Publication() {
                   Intelligent Decision Technologies (Indexed by SCOPUS & ESCI)
                 </p>
               </div>
-
-              {/* img 5 and data*/}
+              {/* img 4 and data */}
               <div className="imgdata">
                 <div className="puimg">
-                  <img src={hbet} alt="CMES" />
+                <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020" target="_blank">
+                  <img src={jbhi} alt="" />
+                  </a>
                 </div>
                 <p>
-                Human Behavior and Emerging Technologies, Wiley- ESCI & Scopus
+                IEEE JOURNAL OF BIOMEDICAL AND HEALTH INFORMATICS( SCI, IF-6. 7)
                 </p>
               </div>
+              {/* img 4 and data */}
+              <div className="imgdata">
+                <div className="puimg">
+                <a href="http://hcisj.com/" target="_blank">
+                  <img src={hcisj} alt="s" />
+                  </a>
+                </div>
+                <p>
+                Human-centric Computing and Information Sciences(SCI, IF-3. 9)
+                </p>
+              </div>
+
+              {/* img 5 and data*/}
+              {/* <div className="imgdata">
+                <div className="puimg">
+                  <img src={CompModel} alt="CMES" />
+                </div>
+                <p>
+                  Computer Modeling in Engineering & Sciences (SCIE Indexed IF
+                  2.0)
+                </p>
+              </div> */}
 
               {/* img 6 and data */}
               {/* <div className="imgdata">
