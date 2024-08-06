@@ -284,6 +284,16 @@ export default [
     ],
     listing: "SS 027",
   }, 
+  {
+    link: require("./sessions/SS-28.pdf"),
+    title:
+      "Recent Applications of Artificial Intelligence and Machine Learning",
+    organisers: [
+      "Dr. Ganesh Khekare, Vellore Institute of Technology, Vellore, India",
+      " Dr. Gopal Sakarkar, Dr. Vishwanath Karad, MIT World Peace University, Pune, India"   
+    ],
+    listing: "SS 028",
+  }, 
 
   
   
