@@ -8,6 +8,11 @@ import qutubMinarImage from './images/qm.avif';
 import redFortImage from './images/rf.avif';
 import humayunsTombImage from './images/ht.avif';
 import lotusTempleImage from './images/lt.avif';
+import ashok from './images/ashok.jfif';
+import leMeridien from './images/leMeridien.jfif';
+import radissonBlu from './images/radissonblu.jpg';
+import samrat from './images/samrat.jfif';
+import lalit from './images/theLalit.jfif';
 
 
 // const praguePlaces = [
@@ -66,7 +71,35 @@ const delhiPlaces = [
     }
 ];
 
-export {delhiPlaces};
+const delhiHotels=[
+    {
+        title: "Le Meridien",
+        image: leMeridien,
+        description: "Located in the heart of the city, Le Meridien New Delhi boasts contemporary design, exquisite dining options, and stunning city views, ideal for travelers seeking both comfort and style."
+    },
+    {
+        title: "The Ashok Hotel",
+        image: ashok,
+        description: "A flagship luxury hotel in New Delhi, The Ashok offers a blend of traditional Indian hospitality and modern amenities, making it a preferred destination for both business and leisure travelers."
+    },
+    {
+        title: "The Lalit",
+        image: lalit,
+        description: "The Lalit New Delhi stands out with its opulent interiors, world-class service, and a prime location near major attractions, offering a luxurious and memorable stay experience."
+    },
+    {
+        title: "Radisson Blu",
+        image: radissonBlu,
+        description: "Radisson Blu New Delhi offers a sophisticated ambiance, modern amenities, and exceptional dining options, making it a popular choice for both business travelers and tourists."
+    },
+    {
+        title: "Samrat Hotel",
+        image: samrat,
+        description: "Nestled in lush surroundings, Hotel Samrat provides a serene escape with well-appointed rooms and a range of facilities, ensuring a comfortable stay for business and leisure guests alike."
+    },
+]
+
+export {delhiPlaces, delhiHotels};
 
 
 

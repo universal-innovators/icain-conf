@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './card.css'
-import { delhiPlaces } from './places';
+import { delhiPlaces,delhiHotels } from './places';
 import Footer from '../Footer/footer';
 import 'animate.css';
 export default function CardsContainer() {
@@ -44,6 +44,33 @@ export default function CardsContainer() {
      
     <div className='main-card SpSessionCard animate__animated animate__bounceInLeft' id='sessCon'>
         {delhiPlaces.map((p,ind)=>{
+            return(
+
+              <div className="place-card-container">
+  <img alt="image" src={p.image} className="place-card-image" />
+  <div className="place-card-container1">
+    <span className="place-card-text" style={{paddingLeft: 20}}><span>{p.title}</span></span>
+    <span className="place-card-text1">
+      <span>
+        {p.description} 
+      </span>
+    </span>
+    
+  </div>
+</div>
+
+
+    
+    
+            )
+        })}
+    
+    </div>
+    <h3>Hotels</h3>
+      <hr />
+     
+    <div className='main-card SpSessionCard animate__animated animate__bounceInLeft' id='sessCon'>
+        {delhiHotels.map((p,ind)=>{
             return(
 
               <div className="place-card-container">
