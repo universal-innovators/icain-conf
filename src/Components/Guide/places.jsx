@@ -75,27 +75,42 @@ const delhiHotels=[
     {
         title: "Le Meridien",
         image: leMeridien,
-        description: "Located in the heart of the city, Le Meridien New Delhi boasts contemporary design, exquisite dining options, and stunning city views, ideal for travelers seeking both comfort and style."
+        description: "Located in the heart of the city, Le Meridien New Delhi boasts contemporary design, exquisite dining options, and stunning city views, ideal for travelers seeking both comfort and style.",
+        address:"Windsor Place,New Delhi, New Delhi, India, 110001",
+        contact:"+91 11-45020200",
+        website:"https://www.marriott.com/en-us/hotels/delmd-le-meridien-new-delhi/overview/"
     },
     {
         title: "The Ashok Hotel",
         image: ashok,
-        description: "A flagship luxury hotel in New Delhi, The Ashok offers a blend of traditional Indian hospitality and modern amenities, making it a preferred destination for both business and leisure travelers."
+        description: "A flagship luxury hotel in New Delhi, The Ashok offers a blend of traditional Indian hospitality and modern amenities, making it a preferred destination for both business and leisure travelers.",
+        address:"50-B, Diplomatic Enclave, Chanakyapuri, Chanakyapuri, 110021 New Delhi, India",
+        contact:"+91 11-26110101",
+        website:"https://www.theashokhotel.com/"
     },
     {
         title: "The Lalit",
         image: lalit,
-        description: "The Lalit New Delhi stands out with its opulent interiors, world-class service, and a prime location near major attractions, offering a luxurious and memorable stay experience."
+        description: "The Lalit New Delhi stands out with its opulent interiors, world-class service, and a prime location near major attractions, offering a luxurious and memorable stay experience.",
+        address:"Fire Brigade Lane, Barakhamba, New Delhi, Delhi 110001",
+        contact:"+91 011-44447777",
+        website:"https://www.thelalit.com/the-lalit-delhi/"
     },
     {
         title: "Radisson Blu",
         image: radissonBlu,
-        description: "Radisson Blu New Delhi offers a sophisticated ambiance, modern amenities, and exceptional dining options, making it a popular choice for both business travelers and tourists."
+        description: "Radisson Blu New Delhi offers a sophisticated ambiance, modern amenities, and exceptional dining options, making it a popular choice for both business travelers and tourists.",
+        address:"Outer Ring Rd, Sunder Vihar, Paschim Vihar, New Delhi, Delhi, 110087",
+        contact:"+91 11-4639 9999",
+        website:"https://www.radissonhotels.com/en-us/hotels/radisson-blu-new-delhi-paschim-vihar"
     },
     {
         title: "Samrat Hotel",
         image: samrat,
-        description: "Nestled in lush surroundings, Hotel Samrat provides a serene escape with well-appointed rooms and a range of facilities, ensuring a comfortable stay for business and leisure guests alike."
+        description: "Nestled in lush surroundings, Hotel Samrat provides a serene escape with well-appointed rooms and a range of facilities, ensuring a comfortable stay for business and leisure guests alike.",
+        address:"50 B, Kautilya Marg, Chanakyapuri, 110021 New Delhi",
+        contact:"-",
+        website:"https://hotelsamratnewdelhi.com/"
     },
 ]
 
