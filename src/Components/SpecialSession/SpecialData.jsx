@@ -294,6 +294,16 @@ export default [
     ],
     listing: "SS 028",
   }, 
+  {
+    link: require("./sessions/SS-29.pdf"),
+    title:
+      "InnoNet: Innovation in Networking",
+    organisers: [
+      "Dr. Tanvi Gautam, Jaypee Institute of Information and Technology, India",
+      "Dr. Prantik Biswas, Jaypee Institute of Information and Technology, India"   
+    ],
+    listing: "SS 029",
+  }, 
 
   
   
