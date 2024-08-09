@@ -49,6 +49,7 @@ function AboutConference() {
                 Paper Submission Link
               </a>
             </p>
+
            
           </div>
 
@@ -91,6 +92,14 @@ function AboutConference() {
           </div>
         </div>
       </div>
+        <h1>Keynote Speakers</h1>
+      <div className="keynoteSpeaker">
+              <div className="keynoteCard">
+                <img src="aninda.jpeg" alt="" srcset="" />
+                <p> <strong>Mr. Aninda Bose</strong>
+                <br /> Executive Editor Interdisciplinary Applied Sciences, Computational Intelligence, Energy             Springer Nature London</p>
+              </div>
+            </div>
     </div>
   );
 }
