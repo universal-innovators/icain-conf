@@ -6,7 +6,7 @@ import Pdf1 from "./pdfs/Manuscript.pdf";
 import Pdf2 from "./pdfs/Checklist.pdf";
 import Pdf3 from "./pdfs/SESSION PROPOSAL.docx";
 import Pdf4 from "./pdfs/WORKHOP PROPOSAL.docx";
-// import Pdf5 from "./pdfs/sponsorship_Proposal.pdf";
+import Zip from "./Word+Template.zip";
 // import Pdf6 from "./pdfs/Elsevier SSRN_Word Template.pdf";
 import ImpNotices from "../ImpNotices/ImpNtext";
 // import ImpNotices from "./../ImpNotices/impNotices";
@@ -64,14 +64,14 @@ function Downloads() {
               </div>
 
               {/* 5th  */}
-              {/* <div className="pdf pdf1">
-                <a href={Pdf5} target="_blank">
-                  <h1>Sponsorship Proposal</h1>
+              <div className="pdf pdf1">
+                <a href={Zip} target="_blank">
+                  <h1>Springer Word Template</h1>
                 </a>
-                <a href={Pdf5} target="_blank">
+                <a href={Zip} target="_blank">
                   <FaDownload />
                 </a>
-              </div> */}
+              </div>
 
               {/* 6th  */}
               {/* <div className="pdf pdf1">
