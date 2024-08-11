@@ -62,10 +62,6 @@ const advcm = [
     info: 'PhD SMIEEE Senior Lecturer School of Electrical, Mechanical and Mechatronic Systems, Centre for Health Technologies, Faculty of Engineering and IT University of Technology, Sydney'
   },
   {
-    name: 'Dr. Tadeusz Kierzyk',
-    info: 'Prof UJW (Rector of Jan Wyzykowski University, Poland)'
-  },
-  {
     name: 'Dr. Uzzal Sharma',
     info: 'Don Bosco University, Assam, India'
   },
@@ -128,10 +124,6 @@ const advcm = [
   {
     name: 'Prof. (Dr.) Mufti Mahmud',
     info: 'Computer Science, Nottingham Trent, UK'
-  },
-  {
-    name: 'Prof. (Dr.) Pawel Gren',
-    info: 'Jan Wyzykowski University, Poland'
   },
   {
     name: 'Prof. (Dr.) Punam Bedi',
@@ -198,8 +190,8 @@ const advcm = [
     info: 'Aurel Vlaicu University of Arad, Romania'
   },
   {
-    name: 'Prof(Dr.) Pawel Gren',
-    info: 'Jan Wyzykowski University, Poland'
+    name: 'Prof. WSG Dr. Marzena Sobczak-Michałowska',
+    info: 'Vice-Rector, WSG University, Bydgoszcz, Poland'
   },
   {
     name: 'Prof(Dr.) Roshan G. Ragel',
