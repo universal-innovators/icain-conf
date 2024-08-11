@@ -322,7 +322,7 @@ export default [
       "Dr. Gurmeet Singh (PhD IITD, Associate Professor, GTBIT",
       "Dr. Ramandeep Singh, Scientist-D, Neuro-engineering Lab, Department of Neurosurgery, AIIMS, New Delhi"   
     ],
-    listing: "SS 029",
+    listing: "SS 031",
   }, 
 
   
