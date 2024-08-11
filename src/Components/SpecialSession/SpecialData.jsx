@@ -304,6 +304,26 @@ export default [
     ],
     listing: "SS 029",
   }, 
+  {
+    link: require("./sessions/SS-30.pdf"),
+    title:
+      "Machine Learning in Network Optimization",
+    organisers: [
+      "Dr. Deepika Bansal, Maharaja Agrasen Institute of Technology, India",
+      "Dr. Tejna Khosla, Maharaja Agrasen Institute of Technology, India"   
+    ],
+    listing: "SS 030",
+  }, 
+  {
+    link: require("./sessions/SS-31.pdf"),
+    title:
+      "Role of AI and Machine Learning in Biomedical Engineering",
+    organisers: [
+      "Dr. Gurmeet Singh (PhD IITD, Associate Professor, GTBIT",
+      "Dr. Ramandeep Singh, Scientist-D, Neuro-engineering Lab, Department of Neurosurgery, AIIMS, New Delhi"   
+    ],
+    listing: "SS 029",
+  }, 
 
   
   
