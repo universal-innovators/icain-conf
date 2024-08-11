@@ -26,7 +26,7 @@ const tpcm = [
   { name: "Dr. Siddhartha Bhattacharyya", info: "VSB Technical University of Ostrava, Czech Republic" },
   { name: "Dr. S.B. Goyal", info: "Director, City University of Malaysia" },
   { name: "Dr. Surbhi Bhatiakhan", info: "University of Salford, UK" },
-  { name: "Dr. Zdzislaw Polkowskia", info: "The Karkonosze University of Applied Sciences in Jelenia Góra, Poland" },
+  { name: "Prof. WSG Dr. Eng. Zdzislaw Polkowski", info: "WSG University, Bydgoszcz, Poland" },
   { name: "Jan Valicek", info: "Institute of Technology and Business in České Budějovice" },
   { name: "Lakshmanan Sethu", info: "Technical Account Manager (AI/ML), Google, California, USA" },
   { name: "Prof. (Dr.) Amar Mohapatra", info: "Professor, IGDTUW, Delhi, India" },

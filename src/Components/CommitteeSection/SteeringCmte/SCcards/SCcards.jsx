@@ -59,8 +59,8 @@ function SCcards() {
       p: "(National Institute of Technology Kurukshetra, India)",
     },
     {
-      h1: "Dr. Zdzislaw Polkowski",
-      p: "(The Karkonosze University of Applied Sciences in Jelenia Góra, Poland)",
+      h1: "Prof. WSG Dr. Eng. Zdzislaw Polkowski",
+      p: "(WSG University, Bydgoszcz, Poland)",
     },
     {
           h1: "Prof. Isabel DE LA TORRE DÍEZ",
