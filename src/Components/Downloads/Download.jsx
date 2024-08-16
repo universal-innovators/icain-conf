@@ -6,7 +6,7 @@ import Pdf1 from "./pdfs/Manuscript.pdf";
 import Pdf2 from "./pdfs/Checklist.pdf";
 import Pdf3 from "./pdfs/SESSION PROPOSAL.docx";
 import Pdf4 from "./pdfs/WORKHOP PROPOSAL.docx";
-import Zip from "./Word+Template.zip";
+import Zip from "./splnproc1703s.docx";
 // import Pdf6 from "./pdfs/Elsevier SSRN_Word Template.pdf";
 import ImpNotices from "../ImpNotices/ImpNtext";
 // import ImpNotices from "./../ImpNotices/impNotices";
