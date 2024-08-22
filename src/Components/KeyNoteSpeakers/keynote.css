@@ -1,0 +1,50 @@
+.keynoteHeading{
+    background-color: var(--color-green);
+    font-weight: 400;
+    padding: 1vh 0;
+    font-size: 1.5rem;
+    margin: 4vh 0;
+    text-align: center;
+    color: white;
+}
+.keynoteSpeaker {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.keynoteSpeaker .keynoteCard {
+    padding: 1rem;
+    margin: auto;
+    margin-top:1rem;
+    border: 1px solid black;
+    width: 100%; /* Change from 300px to 100% for responsiveness */
+    max-width: 300px; /* This will limit the width on larger screens */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  .keynoteSpeaker .keynoteCard p {
+    text-align: center;
+    word-wrap: break-word; /* Ensures that long words are wrapped */
+    hyphens: auto; /* Adds hyphens to long words if necessary */
+  }
+  
+  .keynoteSpeaker img {
+    height: 16rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 100%; /* Make the image responsive */
+  }
+  
+  @media (max-width: 800px) {
+    .keynoteSpeaker {
+      flex-direction: column;
+    }
+    .keynoteSpeaker .keynoteCard {
+      width: 90%; /* Reduce the width slightly to fit better on small screens */
+    }
+  }
+  

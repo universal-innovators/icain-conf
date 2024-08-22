@@ -51,6 +51,7 @@ import TechnicalCmte from "./Components/CommitteeSection/TechnicalCmte/Technical
 import HoDateNotice from "./Components/Date_Notices/HomeDateNotice";
 import Guide from "./Components/Guide/Guide";
 import Policy from "./Components/Policy/Policy";
+import Keynote from "./Components/KeyNoteSpeakers/Keynote";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -68,6 +69,7 @@ function App() {
                   <Hslides />
                   {/* <FlagShip/> */}
                   <AboutConference />
+                  <Keynote/>
                   <HoDateNotice />
                   <Footer />
                   {/* <Footerr /> */}

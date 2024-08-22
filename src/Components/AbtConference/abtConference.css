@@ -143,40 +143,9 @@ a {
   font-size: 1.1rem;
 }
 
-.keynoteSpeaker {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100%;
-  margin-top: 2rem;
-  justify-content: center;
-}
-.keynoteSpeaker .keynoteCard {
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid black;
-    width: 300px;
-    p{
-        /* position: inherit; */
-        box-sizing: border-box;
-        /* width: 75%; */
-        text-align: center;
-        /* word-wrap:break-word; */
-    }
-  img {
-    height: 16rem;
-    object-fit: cover; 
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-  }
-}
-/* h-48 object-cover  mb-1 mt-2 */
 
 @media (max-width: 800px) {
   .ccontainer .about {
     grid-template-columns: 1fr;
-  }
-  .keyNoteSpeaker {
-    flex-direction: column;
   }
 }
