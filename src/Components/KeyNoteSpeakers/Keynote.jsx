@@ -17,6 +17,11 @@ export default function Keynote() {
                         Over 40 Publications in SCI/Scopus journals.
                         10+ patents and copyrights </p>
                 </div>
+                <div className="keynoteCard">
+                    <img src="BijayaKetan.jpeg" alt="" srcset="" />
+                    <p> <strong>Prof. Bijaya Ketan Panigrahi </strong>
+                        <br />Professor, Electrical Engineering Department, IIT Delhi</p>
+                </div>
             </div>
         </>
     )
