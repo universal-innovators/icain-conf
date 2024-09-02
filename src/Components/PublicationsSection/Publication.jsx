@@ -8,8 +8,8 @@ import ExSystem from "./PuImages/Expert.jpg";
 import IntDecision from "./PuImages/Intelligent.jpg";
 import jbhi from "./PuImages/jbhi.png";
 import hcisj from "./PuImages/hcisj.jfif";
-// import CompModel from "./PuImages/cmes.jpeg";
-// import Journal from "./PuImages/journal.jpg";
+import lnns from "./PuImages/lnns.jpg";
+import ais from "./PuImages/ais.jpg";
 
 import Indexing from "./Indexing";
 
@@ -31,15 +31,26 @@ function Publication() {
               and zbMATH and other reputed databases.
             </p> */}
             <p className="porange">
-            All the papers and the proceedings of ICAIN-2024 will be sent to
-              SCOPUS for evalution!{" "}
-            </p>
-            <p>
-              High-quality selected extended papers of the conference will be
-              invited to submit for publication in the special issues of the
-              following journals :
-            </p>
+            All the papers of ICAIN 2024 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH).<br/> Some of the papers will be published Springer in AIS series Indexed by zbMATH, Google Scholar. All books published in the series are submitted for consideration in Web of Science. {" "}
+            </p>           
+            <div className="puImages">
+            <div className="imgdata">
+                <div className="puimg">
+                  <img src={lnns} alt="Physical communication" />
+                </div>
+                
+              </div>
+              <div className="imgdata">
+                <div className="puimg">
+                  <img src={ais} alt="Physical communication" />
+                </div>
+                
+              </div>
 
+            </div>
+            <p>
+              Some of the High-quality selected extended papers of the conference will be invited to submit for publication in the special issues of the following journals : 
+            </p>
             {/* // PuImages  */}
             <div className="puImages">
               {/* img 1  and data*/}
