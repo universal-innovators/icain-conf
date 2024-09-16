@@ -41,6 +41,10 @@ function SCcards() {
       h1: " Prof. Luis Loures",
       p: "(President, Portalegre Polytechnic University, Portalegre, Portugal)",
     },
+    {
+      h1: " Prof. Madhu Pruthi",
+      p: "(Principal, Keshav Mahavidyalaya, University of Delhi)",       
+    }
   ]
   let honaryChar = [
     {
