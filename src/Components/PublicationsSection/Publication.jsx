@@ -25,13 +25,13 @@ function Publication() {
           <div className="pubProceedings">
             <h3>PUBLICATION- PROCEEDINGS</h3>
             {/* <p>
-              All the accepted papers of ICAIN-2024 will be published as a{" "}
+              All the accepted papers of ICAIN-2025 will be published as a{" "}
               <span className="porange">Springer AIS SERIES (Approved)</span>{" "}
-              proceedings of ICAIN-2024 indexed by Web of Science, Google scholar
+              proceedings of ICAIN-2025 indexed by Web of Science, Google scholar
               and zbMATH and other reputed databases.
             </p> */}
             <p className="porange">
-            All the papers of ICAIN 2024 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH).<br/> Some of the papers will be published Springer in AIS series Indexed by zbMATH, Google Scholar. All books published in the series are submitted for consideration in Web of Science. {" "}
+            All the papers of ICAIN 2025 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH).<br/> Some of the papers will be published Springer in AIS series Indexed by zbMATH, Google Scholar. All books published in the series are submitted for consideration in Web of Science. {" "}
             </p>           
             <div className="puImages">
             <div className="imgdata">

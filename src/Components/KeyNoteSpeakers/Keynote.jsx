@@ -3,7 +3,7 @@ import './keynote.css'
 export default function Keynote() {
     return (
         <>
-            <h1 className='keynoteHeading'>Keynote Speakers</h1>
+            <h1 className='keynoteHeading'>Previous Keynote Speakers</h1>
             <div className="keynoteSpeaker">
                 <div className="keynoteCard">
                     <img src="aninda.jpeg" alt="" srcset="" />

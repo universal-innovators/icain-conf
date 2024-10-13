@@ -10,7 +10,7 @@ const Call_for_papers = () => {
           <div className="call_desc">
             <p style={{color:"black"}}>
               We are pleased to announce the upcoming "International Conference on Artificial Intelligence and Networking" ICAIN to be held in Guru Tegh Bahadur Institute of Technology New Delhi from 24th - 25th
-              September 2024. ICAIN Conference is a premier forum for
+              September 2025. ICAIN Conference is a premier forum for
               researchers, professionals, and practitioners from academia and
               industry to exchange knowledge and share their latest advancements
               in the field of computer science and information technology. We
@@ -20,7 +20,7 @@ const Call_for_papers = () => {
             <br />
             <hr />
             <br />
-            <h5>ICAIN 2024 tracks:</h5>
+            <h5>ICAIN 2025 tracks:</h5>
             <p className="bold1">
               1. Artificial Intelligence and Machine Learning
             </p>
@@ -141,7 +141,7 @@ const Call_for_papers = () => {
           </p>
           <p className="cpaperColor">
             We look forward to your valuable contributions and your presence at
-            ICAIN 2024.
+            ICAIN 2025.
           </p>
         </div>
       </div>

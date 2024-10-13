@@ -50,10 +50,10 @@ function Awards() {
 
             <div className="aImpDatesMain">
               <p>
-                Last date for nomination: <span>31st July, 2024</span>
+                Last date for nomination: <span>31st July, 2025</span>
               </p>
               <p>
-                Announcement of Result: <span>28th August, 2024</span>
+                Announcement of Result: <span>28th August, 2025</span>
               </p>
             </div>
 

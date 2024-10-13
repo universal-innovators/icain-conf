@@ -6,17 +6,17 @@ const Call_for_Special = () => {
     <>
       <div className="callSpecialMain">
         <div className="Special_container">
-          <h2> Invitation to conduct special session in ICAIN 2024</h2>
+          <h2> Invitation to conduct special session in ICAIN 2025</h2>
 
           <span className="greet">Dear Sir/ Mam</span>
 
-          <h3>Greeting from ICAIN-2024!</h3>
+          <h3>Greeting from ICAIN-2025!</h3>
           <p className="CfSletter">
-            ICAIN-2024 Conference team invites you to organize the special
+            ICAIN-2025 Conference team invites you to organize the special
             session in first version of "International Conference on Artificial Intelligence and Networking"
-            (ICAIN-2024), to be held at  Guru Tegh Bahadur Institute of Technology
+            (ICAIN-2025), to be held at  Guru Tegh Bahadur Institute of Technology
             (GTBIT)(GGSIPU), New Delhi{" "}
-            <span className="greet">during 19th-20th September 2024</span> of your
+            <span className="greet">during 19th-20th September 2025</span> of your
             research domain. We are diligently working to bring some of the
             most knowledgeable researchers from all over the world along with
             the leaders from the industry to explore the important topics of
@@ -27,7 +27,7 @@ const Call_for_Special = () => {
               icain-conf.com
             </a>
             . "International Conference on Artificial Intelligence and Networking"{" "}
-            <span className="greet">ICAIN-2024 </span> is organised with the
+            <span className="greet">ICAIN-2025 </span> is organised with the
             objective of bringing together innovative scientists, professors,
             research scholars, students and industrial experts in the field of
             Computing and Communication to a common forum. The primary goal of
@@ -49,7 +49,7 @@ const Call_for_Special = () => {
               <li>
                 {" "}
                 All accepted papers will be published in the proceedings of
-                ICAIN-2024 (All the papers and the proceedings of ICAIN-2024 will be sent to
+                ICAIN-2025 (All the papers and the proceedings of ICAIN-2025 will be sent to
               SCOPUS for evalution!)
               </li>
               <li>
@@ -98,7 +98,7 @@ const Call_for_Special = () => {
             <a href="mailto:icain.conf@gmail.com" className="greet">
               icain.conf@gmail.com
             </a>{" "}
-            latest by 30th July 2024 as per the template given below.
+            latest by 30th July 2025 as per the template given below.
           </p>
 
           <p className="CfSletter">
@@ -116,10 +116,10 @@ const Call_for_Special = () => {
             SCI/SCOPUS/WoS/DBLP/ACM/EI indexed Journals.
           </p>
           <p className="CfSletter">
-            Looking to see you in ICAIN-2024.
+            Looking to see you in ICAIN-2025.
             <p>Sincerely</p>
             <p> Organizer and Convener</p>
-            <p className="greet">ICAIN-2024</p>
+            <p className="greet">ICAIN-2025</p>
           </p>
           <p className="submissionLinkhead">
             <a href={pdf1} target="_blank">

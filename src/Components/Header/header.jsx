@@ -32,7 +32,7 @@ function HeaderMain() {
         <div className="hTopPart">
           <div className="htop1">
             <p>
-            International Conference on Artificial Intelligence and Networking <br/>(ICAIN-2024)
+            International Conference on Artificial Intelligence and Networking <br/>(ICAIN-2025)
             </p>
             
           </div>
@@ -49,7 +49,7 @@ function HeaderMain() {
             </p>
             <p className="hspringer">Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More)</p>
             {/* <p></p> */}
-            <p>24th - 25th September 2024<br/><span style={{"color":"red"}}></span></p>
+            <p>27th - 28th September 2025<br/><span style={{"color":"red"}}></span></p>
           </div>
         </div>
 

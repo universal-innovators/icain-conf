@@ -5,17 +5,17 @@ const Call_for_international = () => {
   return (
     <>
       <div className="intern_container">
-        <h5>Invitation to conduct International Workshop in ICAIN 2024</h5>
+        <h5>Invitation to conduct International Workshop in ICAIN 2025</h5>
         <div className="intern_inner">
           <h3>Dear Researcher/Colleagues</h3>
 
           <p>
-            Greeting from ICAIN-2024! ICAIN Conference team invites you to
+            Greeting from ICAIN-2025! ICAIN Conference team invites you to
             organize the
             <span className="greet"> International Workshop </span>
-            in the "International Conference on Artificial Intelligence and Networking" (ICAIN-2024) , to be
+            in the "International Conference on Artificial Intelligence and Networking" (ICAIN-2025) , to be
             held at Guru Tegh Bahadur Institute of Technology (GGSIPU), New Delhi during
-            <span className="greet"> 24th - 25th September </span>
+            <span className="greet"> 27th - 28th September </span>
             of your research domain.
           </p>
 
@@ -43,7 +43,7 @@ const Call_for_international = () => {
           <ul>
             <li>
               All accepted papers will be published in the proceedings of
-              ICAIN-2024 (All the papers and the proceedings of ICAIN-2024 will be sent to
+              ICAIN-2025 (All the papers and the proceedings of ICAIN-2025 will be sent to
               SCOPUS for evalution!).
             </li>
             <li>
@@ -96,17 +96,17 @@ const Call_for_international = () => {
               {" "}
               icain.conf@gmail.com{" "}
             </a>
-            with subject line as “Proposal for ICAIN-2024 International Workshop”
+            with subject line as “Proposal for ICAIN-2025 International Workshop”
           </p>
 
           <div>
-            <p>Looking to see you in ICAIN-2024.</p>
+            <p>Looking to see you in ICAIN-2025.</p>
 
             <p> Sincerely,</p>
 
             <p> Organizer and Convener</p>
 
-            <p className="greet">ICAIN-2024</p>
+            <p className="greet">ICAIN-2025</p>
           </div>
         </div>
 

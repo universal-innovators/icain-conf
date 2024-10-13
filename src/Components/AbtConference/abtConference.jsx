@@ -25,16 +25,16 @@ function AboutConference() {
           {/* Left about  */}
           <div className="Labout">
             <p>
-              International Conference on Artificial Intelligence and Networking (ICAIN) is organised with the objective of bringing together innovative scientists, professors, research scholars, students and industrial experts in the field of Computing and Communication to a common forum. The primary goal of the conference is to promote the exchange of innovative scientific information between researchers, developers, engineers, students, and practitioners. Another goal is to promote the transformation of fundamental research into institutional and industrialized research and to convert applied exploration into real time application. Overall, the conference will provide the researchers and attendees with prospects for national and international collaboration and networking among universities and institutions from India and abroad for promoting research. ICAIN- 2024 will be held at Guru Tegh Bahadur Institute of Technology (GTBIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi.
+              International Conference on Artificial Intelligence and Networking (ICAIN) is organised with the objective of bringing together innovative scientists, professors, research scholars, students and industrial experts in the field of Computing and Communication to a common forum. The primary goal of the conference is to promote the exchange of innovative scientific information between researchers, developers, engineers, students, and practitioners. Another goal is to promote the transformation of fundamental research into institutional and industrialized research and to convert applied exploration into real time application. Overall, the conference will provide the researchers and attendees with prospects for national and international collaboration and networking among universities and institutions from India and abroad for promoting research. ICAIN- 2025 will be held at Guru Tegh Bahadur Institute of Technology (GTBIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi.
               {/* All the
               accepted papers (after double blinded peer review) will be
-              published as proceedings of ICAIN-2024 in{" "}
+              published as proceedings of ICAIN-2025 in{" "}
               <span className="corange">Springer AIS SERIES (Approved)</span>{" "}
               and other reputed databases. */}
             </p>
 
             <p className="corange">
-              All the papers and the proceedings of ICAIN-2024 will be sent to
+              All the papers and the proceedings of ICAIN-2025 will be sent to
               SCOPUS for evalution!
             </p>
             <h4>
@@ -42,7 +42,7 @@ function AboutConference() {
             </h4>
             <p className="submissionLinkhead">
               <a
-                href="https://cmt3.research.microsoft.com/ICAIN2024"
+                href="https://cmt3.research.microsoft.com/ICAIN2025"
                 target="_blank"
                 className="aboutLink"
               >

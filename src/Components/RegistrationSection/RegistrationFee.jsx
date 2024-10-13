@@ -5,14 +5,14 @@ function RegFee() {
     <>
       <div className="reFeeMain">
         <hr />
-        <h3>Registration Fee For ICAIN 2024</h3>
+        <h3>Registration Fee For ICAIN 2025</h3>
 
         <div className="reFeeTable">
           {/* table head  */}
           <div className="reFeetd">
             <h2>Category</h2>
-            <h2>Early Registration (before 20th August, 2024)</h2>
-            <h2>Late Registration (after 20th August, 2024)</h2>
+            <h2>Early Registration (before 20th August, 2025)</h2>
+            <h2>Late Registration (after 20th August, 2025)</h2>
           </div>
 
           {/* tr1  */}
