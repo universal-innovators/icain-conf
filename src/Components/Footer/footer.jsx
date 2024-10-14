@@ -33,7 +33,8 @@ function Footer() {
           <h1>Social Media</h1>
 
           <div className={classes.social}>
-            <a href="">Gmail</a>
+            <a href="mailto:icain.conf@gmail.com">Gmail</a>
+            {/* <a href="icain.conf@gmail.com">Gmail</a> */}
             <a href="">Facebook</a>
             <a href="">LinkedIn</a>
           </div>

@@ -1,4 +1,5 @@
-export default [
+export default
+ [
   {
     link: require("./sessions/SS-1.pdf"),
     title:

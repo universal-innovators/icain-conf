@@ -3,7 +3,7 @@ import "./impNotices.css";
 
 const arr = [
   {
-    h4: "ICAIN-2025 will be organised by Guru Tegh Bahadur Institute of Technology (GTBIT) affiliated to Guru Gobind Singh Indraprastha University , Delhi, India on 24th - 25th September 2025.",
+    h4: "ICAIN-2025 will be organised by Guru Tegh Bahadur Institute of Technology (GTBIT) affiliated to Guru Gobind Singh Indraprastha University , Delhi, India on 26th - 27th September 2025."
   },
 ];
 

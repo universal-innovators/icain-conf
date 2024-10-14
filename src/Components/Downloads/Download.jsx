@@ -8,8 +8,8 @@ import Pdf3 from "./pdfs/SESSION PROPOSAL.docx";
 import Pdf4 from "./pdfs/WORKHOP PROPOSAL.docx";
 import BACKGROUND_POSTER_ICAIN from "./pdfs/BACKGROUND POSTER ICAIN.jpg" 
 // import springer_ppt from "./pdfs/springer_ppt.pptx"
-import ICAIN_2024_PPT_Template_ELSEVIER from "./pdfs/ICAIN_2024_PPT_Template- ELSEVIER.pptx"
-import ICAIN_2024_PPT_Template_SPRINGER from "./pdfs/ICAIN_2024_PPT_Template-SPRINGER.pptx"
+import ICAIN_2024_PPT_Template_ELSEVIER from "./pdfs/ICAIN_2025_PPT_Template- ELSEVIER.pptx"
+import ICAIN_2024_PPT_Template_SPRINGER from "./pdfs/ICAIN_2025_PPT_Template-SPRINGER.pptx"
 import agreementForm from "./pdfs/License to Publication Agreement Form.docx"
 import Zip from "./splnproc1703s.docx";
 // import Pdf6 from "./pdfs/Elsevier SSRN_Word Template.pdf";

@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 // css of the slides
 import "./Hslides.css";
 import Img3 from "../ConferenceVenue/vste.jpg";
-import icain from "./HslidesImages/icain.jpg"
+import icain from "./HslidesImages/icain.jpeg"
 
 
 export default function App() {

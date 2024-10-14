@@ -49,7 +49,7 @@ function HeaderMain() {
             </p>
             <p className="hspringer">Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More)</p>
             {/* <p></p> */}
-            <p>27th - 28th September 2025<br/><span style={{"color":"red"}}></span></p>
+            <p>26th - 27th September 2025<br/><span style={{"color":"red"}}></span></p>
           </div>
         </div>
 
