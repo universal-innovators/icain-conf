@@ -14,7 +14,7 @@ const Call_for_international = () => {
             organize the
             <span className="greet"> International Workshop </span>
             in the "International Conference on Artificial Intelligence and Networking" (ICAIN-2025) , to be
-            held at Guru Tegh Bahadur Institute of Technology (GGSIPU), New Delhi during
+            held during
             <span className="greet"> 27th - 28th September </span>
             of your research domain.
           </p>

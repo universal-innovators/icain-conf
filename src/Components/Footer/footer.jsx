@@ -15,7 +15,7 @@ function Footer() {
           {/* <h1>Partners</h1> */}
             <div className={classes.footerLogo}>
             <img src={require("./Himages/vste.jpg")} className={classes.logoImg}/>
-              <img src={require("./Himages/gtbit.jpg")} className={classes.logoImg}/>
+              {/* <img src={require("./Himages/gtbit.jpg")} className={classes.logoImg}/> */}
               <img src={require("./Himages/portagal.jpg")} className={classes.logoImg}/>
             </div>
             <div className={classes.footerLogo}>

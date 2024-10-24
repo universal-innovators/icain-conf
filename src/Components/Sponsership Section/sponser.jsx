@@ -55,12 +55,12 @@ function Sponsorships() {
                   attendees with prospects for national and international
                   collaboration and networking among universities and
                   institutions from India and abroad for promoting research.
-                  ICAIN 2025 will be hosted by Guru Tegh Bahadur Institute of
+                  {/* ICAIN 2025 will be hosted by Guru Tegh Bahadur Institute of
                   Technology (GTBIT) (GGSIPU) , a place to pursue knowledge
                   beyond traditional boundaries. An institute initiated to
                   impart quality education to the youth while equipping them
                   with knowledge and skills which would enable them to leave
-                  their individual mark in the business world.
+                  their individual mark in the business world. */}
                 </p>
 
                 <p className="sponsorPara">

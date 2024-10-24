@@ -33,10 +33,7 @@ function SCcards() {
     
   ];
   let patron=[
-      {
-      h1: " Prof. (Dr). Rominder Kaur Randhawa",
-      p: "(Director, Guru Tegh Bahadur Institute of Technology)",
-    },
+    
     {
       h1: " Prof. Luis Loures",
       p: "(President, Portalegre Polytechnic University, Portalegre, Portugal)",
@@ -191,10 +188,7 @@ function SCcards() {
       h1: "Dr. Gulshan Shrivastava",
       p: "(Galgotia University, Gr. Noida, India)",
     },
-     {
-      h1: "Parminder Singh Bedi (Ex-HOD, IT department)",
-      p: " Guru Tegh  Bahadur Institute of Technology",
-    },
+   
    
     {
       h1: "Dr. Sandra Fernando",
@@ -237,10 +231,8 @@ function SCcards() {
     {
       h1: "Moolchand Sharma",
       p: "(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)",
-    },
-    { h1: "Dr Gurmeet Singh",
-      p: "(Guru Tegh Bahadur institute of Technology, Delhi, India)",
-    },
+    }
+   
     // {
     //   h1: "Dr. Utku Kose",
     //   p: "(Suleyman Demirel University, Isparta, Turkey)",

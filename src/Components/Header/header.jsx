@@ -3,7 +3,7 @@ import React from "react";
 // import delhiImgae from "./Himages/unidelhi.png";
 import sapien from "./Himages/sapientia.png";
 // import logo from "./Himages/logosdcn.png";
-import gtbit from "./Himages/gtbit.jpg";
+// import gtbit from "./Himages/gtbit.jpg";
 import springer from "./Himages/springeer.png";
 import portagul from "./Himages/portagal.jpg";
 import sdcn from "./Himages/sdcn.png"
@@ -17,7 +17,7 @@ function HeaderMain() {
         {/* images  */}
         
             <div className="headerLogo">
-            <img src={gtbit} className="logoImg"/>   
+            {/* <img src={gtbit} className="logoImg"/>    */}
             <img src={vste} className="logoImg"/>                                       
             </div>
             <div className="headerLogo">
@@ -39,11 +39,11 @@ function HeaderMain() {
           <div className="htop2">
             <p className="hhead">
               ORGANISED BY :{" "}
-              <span className="hblue">
-              Guru Tegh Bahadur Institute of Technology (GTBIT), GGSIPU, Delhi{" "}
-              </span>
+              {/* <span className="hblue">
+             
+              </span> */}
               <br/>
-              <span >in association with</span>{" "}
+              {/* <span >in association with</span>{" "} */}
               <span className="hblue">Portalegre Polytechnic University, Portugal</span> & <br/><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br/> &
               <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span>
             </p>

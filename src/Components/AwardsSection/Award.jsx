@@ -37,9 +37,7 @@ function Awards() {
             </p>
             <p>
               UI Leadership awards will be organized along with 
-              "International Conference on Artificial Intelligence and Networking" ICAIN organized jointly by  Guru Tegh
-              Bahadur Institute of Technology (GTBIT) Guru Gobind Singh
-              Indraprastha University and Universal Inovators New Delhi, India.
+              "International Conference on Artificial Intelligence and Networking" ICAIN organized by Universal Inovators New Delhi, India.
             </p>
           </div>
 
