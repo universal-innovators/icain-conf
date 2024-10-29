@@ -3,7 +3,7 @@ function Pcyear({ year }) {
   return (
     <>
       <div className="year">
-        <h1>Icicc {year}</h1>
+        <h1>ICAIN {year}</h1>
       </div>
       <hr />
     </>

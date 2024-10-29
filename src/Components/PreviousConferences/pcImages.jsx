@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,7 +12,7 @@ import "./pcImages.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-export default function PcImages({img1, img2, img3, img4, img5, img6, img7, img8}) {
+export default function PcImages({ images }) {  // Destructure the images prop
   return (
     <>
       <Swiper
@@ -28,61 +28,13 @@ export default function PcImages({img1, img2, img3, img4, img5, img6, img7, img8
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {/* 1st  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img1} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
-
-        {/* 2nd  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img2} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
-
-        {/* 3rd  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img3} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
-
-        {/* 4th  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img4} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
-
-        {/* 5th  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img5} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
-
-        {/* 6th  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img6} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
-
-        {/* 7th  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img7} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
-
-        {/* 8th  */}
-        <SwiperSlide>
-        <div className="pcimages">
-  <img src={img8} alt="" className="PCImage" />
-        </div>
-        </SwiperSlide>
+        {images.map((img, index) => (  // Use the correct prop and index as key
+          <SwiperSlide key={index}>
+            <div className="pcimages">
+              <img src={img} alt={`Slide ${index}`} className="PCImage" />
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

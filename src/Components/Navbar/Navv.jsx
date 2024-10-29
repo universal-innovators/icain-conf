@@ -136,18 +136,19 @@ function Navv() {
               <NavLink to="/policy">Policy</NavLink>
             </li>
 
-            {/* <li  onClick={clickHandler} className="dropbtn">
+            <li  onClick={clickHandler} className="dropbtn">
   <FaSortDown/>
   Previous Conferences
             <div className="dropdown-content">
-            <NavLink to="/pcConferences22">Icicc 2022</NavLink>
+            {/* <NavLink to="/pcConferences22">Icicc 2022</NavLink>
             <NavLink to="/pcConferences21">Icicc 2021</NavLink>
             <NavLink to="/pcConferences20">Icicc 2020</NavLink>
             <NavLink to="/pcConferences19">Icicc 2019</NavLink>
-            <NavLink to="/pcConferences18">Icicc 2018</NavLink>
+            <NavLink to="/pcConferences18">Icicc 2018</NavLink> */}
+            <NavLink to="/pcConferences24">ICAIN 2024</NavLink>
 
             </div>
-  </li> */}
+  </li>
           </ul>
         </div>
       </nav>
