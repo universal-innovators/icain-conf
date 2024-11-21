@@ -51,7 +51,7 @@ function HeaderMain() {
           </p>
           <p className="hspringer">Springer LNNS (APPLIED) (Indexed in Scopus, EI, WoS and Many More)</p>
           {/* <p></p> */}
-          <p>26th - 27th September 2025<br /><span style={{ "color": "red" }}></span></p>
+          <p>10th - 11th October 2025<br /><span style={{ "color": "red" }}></span></p>
         </div>
       </div>
 

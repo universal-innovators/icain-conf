@@ -27,7 +27,7 @@ const arr = [
   },
   {
     h4: "Conference Date",
-    p: "26th - 27th September 2025",
+    p: "10th - 11th October 2025",
   },
   // {
   //   h4: "Registration Deadline",
