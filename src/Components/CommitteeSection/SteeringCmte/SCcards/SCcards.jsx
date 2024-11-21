@@ -23,25 +23,61 @@ function SCcards() {
     //   p: "(Polytechnic Institute of Portalegre, Portugal)",
     // },
     {
-      h1:"Prof. Dr. Bal Virdee",
-      p:"(London Metropolitan University)"
+      h1: "Prof. Dr. Bal Virdee",
+      p: "(London Metropolitan University)"
     },
     {
       h1: "Prof Punam Bedi",
       p: "(Department of Computer Science, University of Delhi)",
     },
-    
+
   ];
-  let patron=[
-    
+
+
+  let patron = [
     {
-      h1: " Prof. Luis Loures",
-      p: "(President, Portalegre Polytechnic University, Portalegre, Portugal)",
+      h1: " Mr. Sunil Kumar CT",
+      p: "Director Academics, University Stirling Rak Campus",
     },
     {
-      h1: " Prof. Madhu Pruthi",
-      p: "(Principal, Keshav Mahavidyalaya, University of Delhi)",       
-    }
+      h1: "Ms. Shanthi  Rajan",
+      p: "Director-Internal QA Dept. , Director-Scottish Qualification Authority, RAK Centre, University Stirling RAK Campus",
+    },
+    {
+      h1: "Dr. Abhinanda",
+      p: "Director University Communication and Strategic Alliance, University Stirling RAK Campus",
+    },
+    {
+      h1: " Mr. Mobin Khtib",
+      p: "Director Human Resources, University Stirling RAK Campus",
+    },
+    {
+      h1: "Mr. William Alistair McQueer",
+      p: "Programme Director - Computing Science, University Stirling RAK Campus",
+    },
+    {
+      h1: "Dr. Sanman Jain",
+      p: "Programme Director -  Accounting & Finance University of Stirling RAK Campus",
+    },
+    {
+      h1: "Dr. Nikhil",
+      p: " V.P Programme Director- Management University of Stirling, RAK Campus",
+    },
+    // {
+    //   h1: " Prof. Madhu Pruthi",
+    //   p: "(Principal, Keshav Mahavidyalaya, University of Delhi)",       
+    // }
+  ]
+  let chiefPatron = [
+
+    {
+      h1: " Dr. Richa Arora",
+      p: "(Head of Institution & COO, University Stirling Rak Campus, Planet One International Education FZ-LLC, UAE)",
+    },
+    // {
+    //   h1: " Prof. Madhu Pruthi",
+    //   p: "(Principal, Keshav Mahavidyalaya, University of Delhi)",       
+    // }
   ]
   let honaryChar = [
     {
@@ -56,17 +92,17 @@ function SCcards() {
 
   let confChair = [
     {
-      h1: "Prof. A.K. Singh",
-      p: "(National Institute of Technology Kurukshetra, India)",
+      h1: "Dr. Narina Thakur",
+      p: "(Assistant Prof.  CS and SE , HEAD - Research Innovation Committe, University of Stirling RAK Campus)",
     },
     {
-      h1: "Prof. WSG Dr. Eng. Zdzislaw Polkowski",
-      p: "(WSG University, Bydgoszcz, Poland)",
+      h1: "Dr.  Shamik Palit",
+      p: "(Associate Prof.  CS and SE , HEAD - Corporate Outreach Committe, University of Stirling RAK Campus)",
     },
-    {
-          h1: "Prof. Isabel DE LA TORRE DÍEZ",
-          p: "(University of Valladolid, Spain)",
-        },
+    // {
+    //   h1: "Prof. Isabel DE LA TORRE DÍEZ",
+    //   p: "(University of Valladolid, Spain)",
+    // },
     // {
     //   h1: "Dr. João Manuel R. S. Tavares",
     //   p: "(Universidade do Porto (FEUP), PORTUGAL)",
@@ -76,17 +112,17 @@ function SCcards() {
     //   h1: "Prof. Joel J P C Rodrigues",
     //   p: "(National Institute of Telecommunications (Inatel), Brazil)",
     // },
-    
+
   ];
 
   let techChair = [
     {
-      h1:"Jan Valicek",
-      p:"(Institute of Technology and Business in České Budějovice)"
+      h1: "Jan Valicek",
+      p: "(Institute of Technology and Business in České Budějovice)"
     },
     {
-      h1:"Marta Harnicarova",
-      p:"(Institute of Technology and Business in České Budějovice)"
+      h1: "Marta Harnicarova",
+      p: "(Institute of Technology and Business in České Budějovice)"
     },
     {
       h1: "Dr. Ahmed J. Obaid",
@@ -112,17 +148,17 @@ function SCcards() {
     //   h1: "Prof. Sanjay Mishra",
     //   p: "(Covenant University, Nigeria)",
     // },
-    
+
     // {
     //   h1: "Valentina Emilia Balas",
     //   p: "(Aurel Vlaicu University of Arad, Romania)",
     // },
 
-    
-     
+
+
   ];
   let organisingChair = [
-    
+
     // {
     //   h1: "Dr. Ashish Khanna",
     //   p: "(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi.)",
@@ -139,7 +175,7 @@ function SCcards() {
   //     p: "(College of Business Administration, Kuwait University, Kuwait)",
   //   },
   //   {
-  
+
   // ];
 
   let pubChair = [
@@ -151,7 +187,7 @@ function SCcards() {
       h1: "Prof. Sérgio Duarte Correia",
       p: "(Polytechnic Institute of Portalegre, Portugal. )",
     },
-        {
+    {
       h1: "Dr Pancham Shukla",
       p: "(Imperial College London)",
     },
@@ -162,10 +198,10 @@ function SCcards() {
   ];
 
   let coConvener = [
-   
-    
-    
-  
+
+
+
+
   ];
 
   let publicChair = [
@@ -173,12 +209,12 @@ function SCcards() {
     //   h1: "Dr. Prayag Tiwari",
     //   p: "(Aalto University, Finland)",
     // },
-    
 
-{
-  h1: "Dr Marta Harničárová",
-  p: "(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)",
-},
+
+    {
+      h1: "Dr Marta Harničárová",
+      p: "(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)",
+    },
 
     {
       h1: "Dr. Akshi Kumar",
@@ -188,13 +224,13 @@ function SCcards() {
       h1: "Dr. Gulshan Shrivastava",
       p: "(Galgotia University, Gr. Noida, India)",
     },
-   
-   
+
+
     {
       h1: "Dr. Sandra Fernando",
       p: "(London Metropolitan University)",
     },
-     {
+    {
       h1: "Prof. Mete YAĞANOĞLU",
       p: "(Ataturk University, Department of Computer Engineering, Turkey)",
     },
@@ -225,14 +261,14 @@ function SCcards() {
     //   p: "(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi,India)",
     // },
     {
-      h1:"Roman Danel",
-      p:"(Institute of Technology and Business in České Budějovice)"
+      h1: "Roman Danel",
+      p: "(Institute of Technology and Business in České Budějovice)"
     },
     {
       h1: "Moolchand Sharma",
       p: "(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)",
     }
-   
+
     // {
     //   h1: "Dr. Utku Kose",
     //   p: "(Suleyman Demirel University, Isparta, Turkey)",
@@ -241,11 +277,11 @@ function SCcards() {
     //   h1: "Dr. Jameel Ahamed",
     //   p: "(Maulana Azad National Urdu University (MANUU), Hyderabad, India)",
     // },
-   
+
   ];
 
- 
-  
+
+
   // let OrgTeam=[{
   //   cat:"Faculty Coordinators:",
   //   mem:[
@@ -309,11 +345,60 @@ function SCcards() {
   return (
     <>
       <div className="ScCardsSteering">
-        
 
+        <div className="PaGeCommon">
+          <div className="patron">
+            <h2>Chief Patron(s):</h2>
+            <div className="patronMain">
+              {chiefPatron.map((a) => {
+                return (
+                  <>
+                    <div className="patrondata">
+                      <h1>{a.h1}</h1>
+                      <p>{a.p}</p>
+                    </div>
+                  </>
+                );
+              })}
+            </div>
+          </div>
+          {/* General Chai  */}
+          {/* <div className="patron">
+            <h2>General Chair(s):</h2>
+            <div className="patronMain">
+              {genChair.map((a) => {
+                return (
+                  <>
+                    <div className="patrondata">
+                      <h1>{a.h1}</h1>
+                      <p>{a.p}</p>
+                    </div>
+                  </>
+                );
+              })}
+            </div>
+          </div> */}
+
+          {/* Honary  */}
+          {/* <div className="patron">
+            <h2>Honorary Chair(s):</h2>
+            <div className="patronMain">
+              {honaryChar.map((a) => {
+                return (
+                  <>
+                    <div className="patrondata">
+                      <h1>{a.h1}</h1>
+                      <p>{a.p}</p>
+                    </div>
+                  </>
+                );
+              })}
+            </div>
+          </div> */}
+        </div>
         {/* general chair and honoray chair */}
         <div className="PaGeCommon">
-        <div className="patron">
+          <div className="patron">
             <h2>Patron(s):</h2>
             <div className="patronMain">
               {patron.map((a) => {
@@ -329,7 +414,7 @@ function SCcards() {
             </div>
           </div>
           {/* General Chai  */}
-          <div className="patron">
+          {/* <div className="patron">
             <h2>General Chair(s):</h2>
             <div className="patronMain">
               {genChair.map((a) => {
@@ -343,7 +428,7 @@ function SCcards() {
                 );
               })}
             </div>
-          </div>
+          </div> */}
 
           {/* Honary  */}
           {/* <div className="patron">
@@ -381,7 +466,7 @@ function SCcards() {
               })}
             </div>
           </div>
-          <div className="patron">
+          {/* <div className="patron">
             <h2>Convener(s): </h2>
             <div className="patronMain">
               {convener.map((a) => {
@@ -395,8 +480,8 @@ function SCcards() {
                 );
               })}
             </div>
-          </div>
-          <div className="patron">
+          </div> */}
+          {/* <div className="patron">
             <h2>Publication Chair(s):</h2>
             <div className="patronMain">
               {pubChair.map((a) => {
@@ -410,10 +495,10 @@ function SCcards() {
                 );
               })}
             </div>
-          </div>
+          </div> */}
 
           {/* Technical program  */}
-          <div className="patron">
+          {/* <div className="patron">
             <h2>Technical Program Chair(s):</h2>
             <div className="patronMain">
               {techChair.map((a) => {
@@ -427,16 +512,16 @@ function SCcards() {
                 );
               })}
             </div>
-          </div>
+          </div> */}
         </div>
-        
 
-       
+
+
 
         {/* Publication Chair: and Publicity Chair*/}
         <div className="PaGeCommon">
           {/* Publicity Chair  */}
-          <div className="patron">
+          {/* <div className="patron">
             <h2>Publicity Chair(s):</h2>
             <div className="patronMain">
               {publicChair.map((a) => {
@@ -450,12 +535,12 @@ function SCcards() {
                 );
               })}
             </div>
-          </div>
+          </div> */}
           {/* Publication Chair  */}
-          
+
         </div>
 
-       
+
       </div>
     </>
   );
