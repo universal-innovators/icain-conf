@@ -53,7 +53,7 @@ const Call_for_Special = () => {
               </li>
               <li>
                 {" "}
-                You will get 20% of the total fees collected in your session.
+                You will get 15% of the total fees collected in your session.
               </li>
               <li> The minimum number of pages should be 10.</li>
               <li>
