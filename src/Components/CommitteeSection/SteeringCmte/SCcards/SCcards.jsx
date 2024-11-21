@@ -91,7 +91,21 @@ function SCcards() {
   ];
 
   let confChair = [
+    
     {
+      h1: "Prof. Isabel DE LA TORRE DÍEZ",
+      p: "(University of Valladolid, Spain)",
+    },
+    {
+      h1: "Dr. João Manuel R. S. Tavares",
+      p: "(Universidade do Porto (FEUP), PORTUGAL)",
+    },
+
+    {
+      h1: "Prof. Joel J P C Rodrigues",
+      p: "(National Institute of Telecommunications (Inatel), Brazil)",
+    },
+{
       h1: "Dr. Narina Thakur",
       p: "(Assistant Prof.  CS and SE , HEAD - Research Innovation Committe, University of Stirling RAK Campus)",
     },
@@ -99,20 +113,6 @@ function SCcards() {
       h1: "Dr.  Shamik Palit",
       p: "(Associate Prof.  CS and SE , HEAD - Corporate Outreach Committe, University of Stirling RAK Campus)",
     },
-    // {
-    //   h1: "Prof. Isabel DE LA TORRE DÍEZ",
-    //   p: "(University of Valladolid, Spain)",
-    // },
-    // {
-    //   h1: "Dr. João Manuel R. S. Tavares",
-    //   p: "(Universidade do Porto (FEUP), PORTUGAL)",
-    // },
-
-    // {
-    //   h1: "Prof. Joel J P C Rodrigues",
-    //   p: "(National Institute of Telecommunications (Inatel), Brazil)",
-    // },
-
   ];
 
   let techChair = [
@@ -344,10 +344,11 @@ function SCcards() {
 
   return (
     <>
-      <div className="ScCardsSteering">
+    <div className="ScCardsSteering"> 
+      
 
-        <div className="PaGeCommon">
-          <div className="patron">
+      <div className="PaGeCommon">
+      <div className="patron">
             <h2>Chief Patron(s):</h2>
             <div className="patronMain">
               {chiefPatron.map((a) => {
@@ -362,187 +363,152 @@ function SCcards() {
               })}
             </div>
           </div>
-          {/* General Chai  */}
-          {/* <div className="patron">
-            <h2>General Chair(s):</h2>
-            <div className="patronMain">
-              {genChair.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
-
-          {/* Honary  */}
-          {/* <div className="patron">
-            <h2>Honorary Chair(s):</h2>
-            <div className="patronMain">
-              {honaryChar.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
-        </div>
-        {/* general chair and honoray chair */}
-        <div className="PaGeCommon">
-          <div className="patron">
-            <h2>Patron(s):</h2>
-            <div className="patronMain">
-              {patron.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
+      {/* general chair and honoray chair */}
+      <div className="patron">
+          <h2>Patron(s):</h2>
+          <div className="patronMain">
+            {patron.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
           </div>
-          {/* General Chai  */}
-          {/* <div className="patron">
-            <h2>General Chair(s):</h2>
-            <div className="patronMain">
-              {genChair.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
-
-          {/* Honary  */}
-          {/* <div className="patron">
-            <h2>Honorary Chair(s):</h2>
-            <div className="patronMain">
-              {honaryChar.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
         </div>
-
-        {/* Conference chair  and technical program chair */}
-        <div className="PaGeCommon">
-          {/* Conference Chai  */}
-          <div className="patron">
-            <h2>Conference Chair(s):</h2>
-            <div className="patronMain">
-              {confChair.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
+        {/* General Chai  */}
+        <div className="patron">
+          <h2>General Chair(s):</h2>
+          <div className="patronMain">
+            {genChair.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
           </div>
-          {/* <div className="patron">
-            <h2>Convener(s): </h2>
-            <div className="patronMain">
-              {convener.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
-          {/* <div className="patron">
-            <h2>Publication Chair(s):</h2>
-            <div className="patronMain">
-              {pubChair.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
-
-          {/* Technical program  */}
-          {/* <div className="patron">
-            <h2>Technical Program Chair(s):</h2>
-            <div className="patronMain">
-              {techChair.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
         </div>
 
-
-
-
-        {/* Publication Chair: and Publicity Chair*/}
-        <div className="PaGeCommon">
-          {/* Publicity Chair  */}
-          {/* <div className="patron">
-            <h2>Publicity Chair(s):</h2>
-            <div className="patronMain">
-              {publicChair.map((a) => {
-                return (
-                  <>
-                    <div className="patrondata">
-                      <h1>{a.h1}</h1>
-                      <p>{a.p}</p>
-                    </div>
-                  </>
-                );
-              })}
-            </div>
-          </div> */}
-          {/* Publication Chair  */}
-
-        </div>
-
-
+        {/* Honary  */}
+        {/* <div className="patron">
+          <h2>Honorary Chair(s):</h2>
+          <div className="patronMain">
+            {honaryChar.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div> */}
       </div>
-    </>
+
+      {/* Conference chair  and technical program chair */}
+      <div className="PaGeCommon">
+        {/* Conference Chai  */}
+        <div className="patron">
+          <h2>Conference Chair(s):</h2>
+          <div className="patronMain">
+            {confChair.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+        <div className="patron">
+          <h2>Convener(s): </h2>
+          <div className="patronMain">
+            {convener.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+        <div className="patron">
+          <h2>Publication Chair(s):</h2>
+          <div className="patronMain">
+            {pubChair.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Technical program  */}
+        <div className="patron">
+          <h2>Technical Program Chair(s):</h2>
+          <div className="patronMain">
+            {techChair.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+      
+
+     
+
+      {/* Publication Chair: and Publicity Chair*/}
+      <div className="PaGeCommon">
+        {/* Publicity Chair  */}
+        <div className="patron">
+          <h2>Publicity Chair(s):</h2>
+          <div className="patronMain">
+            {publicChair.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+        {/* Publication Chair  */}
+        
+      </div>
+
+     
+    </div>
+  </>
   );
 }
 
