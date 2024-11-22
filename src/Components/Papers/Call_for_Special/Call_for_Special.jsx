@@ -15,7 +15,8 @@ const Call_for_Special = () => {
             ICAIN-2025 Conference team invites you to organize the special
             session in first version of "International Conference on Artificial Intelligence and Networking"
             (ICAIN-2025), to be held {" "}
-            <span className="greet">during 26th-27th September 2025</span> of your
+            <span className="greet">during 10th - 11th
+            October 2025</span> of your
             research domain. We are diligently working to bring some of the
             most knowledgeable researchers from all over the world along with
             the leaders from the industry to explore the important topics of
