@@ -15,7 +15,7 @@ const Call_for_international = () => {
             <span className="greet"> International Workshop </span>
             in the "International Conference on Artificial Intelligence and Networking" (ICAIN-2025) , to be
             held during
-            <span className="greet"> 10th - 11th October 2025</span>
+            <span className="greet"> 10th - 11th October 2025 </span>
             of your research domain.
           </p>
 
