@@ -22,11 +22,11 @@ function HeaderMain() {
           {/* <img src={gtbit} className="logoImg"/>    */}
           <img src={uos} className="logoImg1" />
         </div>
-        <div className="headerLogo">
+        {/* <div className="headerLogo">
           <img src={vste} className="logoImg" />
           <img src={require("../Footer/Himages/ksmv.png")} className="logoImg" style={{ "margin": "0 auto", "width": "8rem", "height": "auto" }} />
 
-        </div>
+        </div> */}
 
 
       </div>
@@ -44,23 +44,23 @@ function HeaderMain() {
             {/* <span className="hblue">
              
               </span> */}
-            <br />
+            {/* <br /> */}
             {/* <span >in association with</span>{" "} */}
-            <span className="hblue">University of Stirling - RAK Campus, UAE</span> & <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
-            <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span>
+            <span className="hblue">University of Stirling - RAK Campus, UAE</span>
+             {/* & <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
+            <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
           <p className="hspringer">Springer LNNS (APPLIED) (Indexed in Scopus, EI, WoS and Many More)</p>
-          {/* <p></p> */}
           <p>10th - 11th October 2025<br /><span style={{ "color": "red" }}></span></p>
         </div>
       </div>
 
 
-      <div className="headerLogo" style={{ "display": "block", "margin": "auto" }}>
+      {/* <div className="headerLogo" style={{ "display": "block", "margin": "auto" }}> */}
         {/* <img src={sdcn} className="logoImg" style={{"margin":"0 auto","width":"9rem","height":"auto"}}/>  
               <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>   */}
 
-      </div>
+      {/* </div> */}
 
 
     </div>

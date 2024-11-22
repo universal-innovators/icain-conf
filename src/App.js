@@ -53,6 +53,7 @@ import HoDateNotice from "./Components/Date_Notices/HomeDateNotice";
 import Guide from "./Components/Guide/Guide";
 import Policy from "./Components/Policy/Policy";
 import Keynote from "./Components/KeyNoteSpeakers/Keynote";
+import AcademicPartners from "./Components/AcademicParters/AcademicPartners";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -71,6 +72,7 @@ function App() {
                   {/* <FlagShip/> */}
                   <AboutConference />
                   <Keynote/>
+                  <AcademicPartners/>
                   <HoDateNotice />
                   <Footer />
                   {/* <Footerr /> */}
