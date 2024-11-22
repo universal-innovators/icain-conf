@@ -12,16 +12,14 @@ function Footer() {
         {/* footer left  */}
         <div className={classes.fleft}>
           <div className={classes.details}>
-          {/* <h1>Partners</h1> */}
             <div className={classes.footerLogo}>
-            <img src={require("./Himages/vste.jpg")} className={classes.logoImg}/>
-              {/* <img src={require("./Himages/gtbit.jpg")} className={classes.logoImg}/> */}
-              <img src={require("./Himages/portagal.jpg")} className={classes.logoImg}/>
+            <img src={require("../Header/Himages/UOS_LOGO.jpg")} className={classes.logoImg}/>
+            {/* <img src={require("./Himages/portagal.jpg")} className={classes.logoImg}/> */}
             </div>
-            <div className={classes.footerLogo}>
+            {/* <div className={classes.footerLogo}>
               <img src={require("./Himages/du.png")} className={classes.logoImg}/>
               <img src={require("./Himages/ksmv.png")} className={classes.logoImg}/>
-            </div>
+            </div> */}
 
           </div>
         </div>

@@ -3,10 +3,16 @@ import './AcademicPartners.css'
 import uos from "../Header/Himages/UOS_LOGO.jpg";
 import vste from "../Header/Himages/vste.jpg";
 import port from "../Header/Himages/portagal.jpg";
+import du from "../Header/Himages/du.png";
+import ksmv from "../Header/Himages/ksmv.png";
+import gtbit from "../Header/Himages/gtbit.jpg";
+
+
+
 
 
 export default function AcademicPartners() {
-    const academicPartners=[uos,vste,port]
+    const academicPartners=[uos,vste,port,du,ksmv,gtbit]
     return (
         <>
             <h1 className='keynoteHeading'>Our Academic Partners</h1>
