@@ -78,24 +78,7 @@ function Downloads() {
                 </a>
               </div>
 
-              {/* 6th  */}
-              <div className="pdf pdf1">
-                <a href={ICAIN_2024_PPT_Template_SPRINGER} target="_blank">
-                  <h1>ICAIN 2024 PPT Template-SPRINGER</h1>
-                </a>
-                <a href={ICAIN_2024_PPT_Template_SPRINGER} target="_blank">
-                  <FaDownload />
-                </a>
-              </div>
-              {/* 7th  */}
-              <div className="pdf pdf1">
-                <a href={ICAIN_2024_PPT_Template_ELSEVIER} target="_blank">
-                  <h1>ICAIN 2024 PPT Template-ELSEVIER</h1>
-                </a>
-                <a href={ICAIN_2024_PPT_Template_ELSEVIER} target="_blank">
-                  <FaDownload />
-                </a>
-              </div>
+              
               {/* 8th  */}
               <div className="pdf pdf1">
                 <a href={BACKGROUND_POSTER_ICAIN} target="_blank">
@@ -105,14 +88,7 @@ function Downloads() {
                   <FaDownload />
                 </a>
               </div>
-              <div className="pdf pdf1">
-                <a href={agreementForm} target="_blank">
-                  <h1>License to Publication Agreement Form</h1>
-                </a>
-                <a href={agreementForm} target="_blank">
-                  <FaDownload />
-                </a>
-              </div>
+              
             </div>
 
             {/* impdate  */}
