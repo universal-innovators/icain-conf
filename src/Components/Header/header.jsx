@@ -46,8 +46,16 @@ function HeaderMain() {
               </span> */}
             {/* <br /> */}
             {/* <span >in association with</span>{" "} */}
-            <span className="hblue">University of Stirling - RAK Campus, UAE</span>
-             {/* & <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
+            <span className="hblue">
+
+              University of Stirling RAK CAMPUS, 
+              Al Dhait South, 
+              Ras Al Khaimah
+              (NEAR DUBAI), 
+              United Arab Emirates
+
+            </span>
+            {/* & <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
           <p className="hspringer">Springer LNNS (APPLIED) (Indexed in Scopus, EI, WoS and Many More)</p>
@@ -57,7 +65,7 @@ function HeaderMain() {
 
 
       {/* <div className="headerLogo" style={{ "display": "block", "margin": "auto" }}> */}
-        {/* <img src={sdcn} className="logoImg" style={{"margin":"0 auto","width":"9rem","height":"auto"}}/>  
+      {/* <img src={sdcn} className="logoImg" style={{"margin":"0 auto","width":"9rem","height":"auto"}}/>  
               <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>   */}
 
       {/* </div> */}
