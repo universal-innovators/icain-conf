@@ -80,14 +80,7 @@ function Downloads() {
 
               
               {/* 8th  */}
-              <div className="pdf pdf1">
-                <a href={BACKGROUND_POSTER_ICAIN} target="_blank">
-                  <h1>BACKGROUND POSTER ICAIN</h1>
-                </a>
-                <a href={BACKGROUND_POSTER_ICAIN} target="_blank">
-                  <FaDownload />
-                </a>
-              </div>
+              
               
             </div>
 

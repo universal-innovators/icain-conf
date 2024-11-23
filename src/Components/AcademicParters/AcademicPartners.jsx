@@ -12,7 +12,7 @@ import gtbit from "../Header/Himages/gtbit.jpg";
 
 
 export default function AcademicPartners() {
-    const academicPartners=[uos,vste,port,du,ksmv,gtbit]
+    const academicPartners=[uos,vste,port,du,ksmv]
     return (
         <>
             <h1 className='keynoteHeading'>Our Academic Partners</h1>
