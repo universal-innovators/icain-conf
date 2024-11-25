@@ -58,9 +58,9 @@ function Navv() {
               <FaSortDown />
               About
               <div className="dropdown-content">
-                {/* <NavLink to="/about" onClick={lHandler}>
-                  About Institute
-                </NavLink> */}
+                <NavLink to="/about" onClick={lHandler}>
+                  About University of Stirling
+                </NavLink>
                 <NavLink to="/about1" onClick={lHandler}>
                   About Universal Innovators
                 </NavLink>

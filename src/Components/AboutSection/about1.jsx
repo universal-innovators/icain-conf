@@ -3,6 +3,7 @@ import ImpDate from "../impDates/impDtext";
 import Footer from "../Footer/footer";
 import "./about.css";
 import "animate.css";
+import logoui from "./uilogo.webp";
 function AboutUniversal() {
   return (
     <>
@@ -15,6 +16,7 @@ function AboutUniversal() {
             <div className="abLeftRight">
               {/* left  */}
               <div className="abLeft">
+              <img src={logoui}  style={{width:"50vw", height:"30vh", objectFit:"contain"}}/>
                 <p>
                   Every success story begins with a vision. The Universal
                   Innovators (UI) is a private and autonomous body promoting
