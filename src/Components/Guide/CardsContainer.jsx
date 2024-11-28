@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './card.css'
-import { delhiPlaces, delhiHotels } from './places';
+import { delhiPlaces, delhiHotels, rakHotels, uaePlaces } from './places';
 import Footer from '../Footer/footer';
 import 'animate.css';
 export default function CardsContainer() {
@@ -43,7 +43,7 @@ export default function CardsContainer() {
         <hr />
 
         <div className='main-card SpSessionCard animate__animated animate__bounceInLeft' id='sessCon'>
-          {delhiPlaces.map((p, ind) => {
+          {uaePlaces.map((p, ind) => {
             return (
 
               <div className="place-card-container">
@@ -70,7 +70,7 @@ export default function CardsContainer() {
         <hr />
 
         <div className='main-card SpSessionCard animate__animated animate__bounceInLeft' id='sessCon'>
-          {delhiHotels.map((p, ind) => {
+          {rakHotels.map((p, ind) => {
             return (
 
               <div className="place-card-container">

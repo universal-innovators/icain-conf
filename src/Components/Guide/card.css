@@ -57,7 +57,7 @@
     width: 100%;
     height: 250px;
     margin: 2px 0 10px 0;
-    object-fit: cover;
+    object-fit: contain;
     border-top-left-radius: var(--dl-radius-radius-radius8);
     border-top-right-radius: var(--dl-radius-radius-radius8);
     border-radius: 0.5rem 2rem;

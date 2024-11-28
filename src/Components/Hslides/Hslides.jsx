@@ -7,13 +7,15 @@ import "swiper/css/navigation";
 // css of the slides
 import "./Hslides.css";
 import Img3 from "../ConferenceVenue/vste.jpg";
-import icain from "./HslidesImages/icain.jpeg"
+import poster from "./HslidesImages/poster.jpg"
+import poster2 from "./HslidesImages/poster2.jpg"
+
 
 
 export default function App() {
   return (
     <div className="poster">
-        <img src={icain}/>
+        <img src={poster2}/>
     </div>
     
   );

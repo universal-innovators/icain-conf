@@ -1,18 +1,28 @@
-import charlesBridgeImage from './images/1.jpeg';
-import oldTownSquareImage from './images/ots.jpg';
-import pragueCastleImage from './images/pc.jpg';
-import stVitusCathedralImage from './images/st.jpg';
-import powderTowerImage from './images/pt.jpg';
-import indiaGateImage from './images/ig.avif';
-import qutubMinarImage from './images/qm.avif';
-import redFortImage from './images/rf.avif';
-import humayunsTombImage from './images/ht.avif';
-import lotusTempleImage from './images/lt.avif';
-import ashok from './images/ashok.jfif';
-import leMeridien from './images/leMeridien.jfif';
-import radissonBlu from './images/radissonblu.jpg';
-import samrat from './images/samrat.jfif';
-import lalit from './images/theLalit.jfif';
+// import charlesBridgeImage from './images/1.jpeg';
+// import oldTownSquareImage from './images/ots.jpg';
+// import pragueCastleImage from './images/pc.jpg';
+// import stVitusCathedralImage from './images/st.jpg';
+// import powderTowerImage from './images/pt.jpg';
+// import indiaGateImage from './images/ig.avif';
+// import qutubMinarImage from './images/qm.avif';
+// import redFortImage from './images/rf.avif';
+// import humayunsTombImage from './images/ht.avif';
+// import lotusTempleImage from './images/lt.avif';
+// import ashok from './images/ashok.jfif';
+// import leMeridien from './images/leMeridien.jfif';
+// import radissonBlu from './images/radissonblu.jpg';
+// import samrat from './images/samrat.jfif';
+// import lalit from './images/theLalit.jfif';
+import burj from "./images/burj.jpg";
+import alain from "./images/al ain.jpg"
+import alhajar from "./images/al hajar.jpg";
+import mosque from "./images/mosque.jpg";
+import louvre from "./images/louvre.jpg";
+import palm from "./images/palm.jpg";
+import waldorf from "./images/waldorf.jpg";
+import hilton from "./images/hilton.jpg";
+import double from "./images/double.jpg";
+import ritz from "./images/ritz.jpg";
 
 
 // const praguePlaces = [
@@ -43,78 +53,151 @@ import lalit from './images/theLalit.jfif';
 //     }
 // ];
 
-const delhiPlaces = [
+// const delhiPlaces = [
+//     {
+//         title: "India Gate",
+//         image: indiaGateImage,
+//         description: "India Gate is a war memorial located astride the Rajpath in New Delhi. It commemorates the Indian soldiers who died during World War I and serves as a popular landmark and tourist attraction."
+//     },
+//     {
+//         title: "Qutub Minar",
+//         image: qutubMinarImage,
+//         description: "Qutub Minar is a UNESCO World Heritage Site and the tallest brick minaret in the world. It's located in Mehrauli, Delhi, and is known for its intricate carvings and beautiful architecture."
+//     },
+//     {
+//         title: "Red Fort",
+//         image: redFortImage,
+//         description: "Red Fort (Lal Qila) is a historic fort complex that served as the main residence of the Mughal emperors. It showcases Mughal architecture and hosts cultural events, including the Independence Day celebrations."
+//     },
+//     {
+//         title: "Humayun's Tomb",
+//         image: humayunsTombImage,
+//         description: "Humayun's Tomb is another UNESCO World Heritage Site in Delhi, known for its Persian-inspired architecture and beautiful gardens. It's the tomb of the Mughal Emperor Humayun and is a must-visit historical site."
+//     },
+//     {
+//         title: "Lotus Temple",
+//         image: lotusTempleImage,
+//         description: "Lotus Temple is a Bahá'í House of Worship known for its distinctive lotus-shaped architecture. It's open to people of all religions and is a serene place for meditation and reflection."
+//     }
+// ];
+
+const uaePlaces = [
     {
-        title: "India Gate",
-        image: indiaGateImage,
-        description: "India Gate is a war memorial located astride the Rajpath in New Delhi. It commemorates the Indian soldiers who died during World War I and serves as a popular landmark and tourist attraction."
+        title: "Burj Khalifa",
+        image: burj,
+        description: "Burj Khalifa is the tallest building in the world, located in Dubai. It's a marvel of modern architecture and engineering, offering stunning views of the city from its observation decks."
     },
     {
-        title: "Qutub Minar",
-        image: qutubMinarImage,
-        description: "Qutub Minar is a UNESCO World Heritage Site and the tallest brick minaret in the world. It's located in Mehrauli, Delhi, and is known for its intricate carvings and beautiful architecture."
+        title: "Sheikh Zayed Grand Mosque",
+        image: mosque,
+        description: "Sheikh Zayed Grand Mosque in Abu Dhabi is a masterpiece of Islamic architecture. It features 82 domes, crystal chandeliers, and one of the largest hand-knotted carpets in the world."
     },
     {
-        title: "Red Fort",
-        image: redFortImage,
-        description: "Red Fort (Lal Qila) is a historic fort complex that served as the main residence of the Mughal emperors. It showcases Mughal architecture and hosts cultural events, including the Independence Day celebrations."
+        title: "Palm Jumeirah",
+        image: palm,
+        description: "Palm Jumeirah is an artificial island in Dubai shaped like a palm tree. It's home to luxury hotels, beaches, and entertainment venues, offering a unique experience of opulence and leisure."
+    },
+    
+    {
+        title: "Al Ain Oasis",
+        image: alain,
+        description: "Al Ain Oasis is a UNESCO World Heritage Site in Abu Dhabi, known for its ancient irrigation system and tranquil palm groves. It's a glimpse into the UAE's agricultural heritage."
     },
     {
-        title: "Humayun's Tomb",
-        image: humayunsTombImage,
-        description: "Humayun's Tomb is another UNESCO World Heritage Site in Delhi, known for its Persian-inspired architecture and beautiful gardens. It's the tomb of the Mughal Emperor Humayun and is a must-visit historical site."
+        title: "Hajar Mountains",
+        image: alhajar,
+        description: "The Hajar Mountains offer a stunning natural escape with rugged landscapes, hiking trails, and picturesque villages. It's a popular spot for outdoor enthusiasts and nature lovers."
     },
     {
-        title: "Lotus Temple",
-        image: lotusTempleImage,
-        description: "Lotus Temple is a Bahá'í House of Worship known for its distinctive lotus-shaped architecture. It's open to people of all religions and is a serene place for meditation and reflection."
-    }
+        title: "Louvre Abu Dhabi",
+        image: louvre,
+        description: "Louvre Abu Dhabi is a world-class museum showcasing art and artifacts from different cultures and civilizations. Its iconic dome structure is a marvel of design and engineering."
+    },
+    
 ];
 
-const delhiHotels=[
-    {
-        title: "Le Meridien",
-        image: leMeridien,
-        description: "Located in the heart of the city, Le Meridien New Delhi boasts contemporary design, exquisite dining options, and stunning city views, ideal for travelers seeking both comfort and style.",
-        address:"Windsor Place,New Delhi, New Delhi, India, 110001",
-        contact:"+91 11-45020200",
-        website:"https://www.marriott.com/en-us/hotels/delmd-le-meridien-new-delhi/overview/"
-    },
-    {
-        title: "The Ashok Hotel",
-        image: ashok,
-        description: "A flagship luxury hotel in New Delhi, The Ashok offers a blend of traditional Indian hospitality and modern amenities, making it a preferred destination for both business and leisure travelers.",
-        address:"50-B, Diplomatic Enclave, Chanakyapuri, Chanakyapuri, 110021 New Delhi, India",
-        contact:"+91 11-26110101",
-        website:"https://www.theashokhotel.com/"
-    },
-    {
-        title: "The Lalit",
-        image: lalit,
-        description: "The Lalit New Delhi stands out with its opulent interiors, world-class service, and a prime location near major attractions, offering a luxurious and memorable stay experience.",
-        address:"Fire Brigade Lane, Barakhamba, New Delhi, Delhi 110001",
-        contact:"+91 011-44447777",
-        website:"https://www.thelalit.com/the-lalit-delhi/"
-    },
-    {
-        title: "Radisson Blu",
-        image: radissonBlu,
-        description: "Radisson Blu New Delhi offers a sophisticated ambiance, modern amenities, and exceptional dining options, making it a popular choice for both business travelers and tourists.",
-        address:"Outer Ring Rd, Sunder Vihar, Paschim Vihar, New Delhi, Delhi, 110087",
-        contact:"+91 11-4639 9999",
-        website:"https://www.radissonhotels.com/en-us/hotels/radisson-blu-new-delhi-paschim-vihar"
-    },
-    {
-        title: "Samrat Hotel",
-        image: samrat,
-        description: "Nestled in lush surroundings, Hotel Samrat provides a serene escape with well-appointed rooms and a range of facilities, ensuring a comfortable stay for business and leisure guests alike.",
-        address:"50 B, Kautilya Marg, Chanakyapuri, 110021 New Delhi",
-        contact:"-",
-        website:"https://hotelsamratnewdelhi.com/"
-    },
-]
 
-export {delhiPlaces, delhiHotels};
+// const delhiHotels=[
+//     {
+//         title: "Le Meridien",
+//         image: leMeridien,
+//         description: "Located in the heart of the city, Le Meridien New Delhi boasts contemporary design, exquisite dining options, and stunning city views, ideal for travelers seeking both comfort and style.",
+//         address:"Windsor Place,New Delhi, New Delhi, India, 110001",
+//         contact:"+91 11-45020200",
+//         website:"https://www.marriott.com/en-us/hotels/delmd-le-meridien-new-delhi/overview/"
+//     },
+//     {
+//         title: "The Ashok Hotel",
+//         image: ashok,
+//         description: "A flagship luxury hotel in New Delhi, The Ashok offers a blend of traditional Indian hospitality and modern amenities, making it a preferred destination for both business and leisure travelers.",
+//         address:"50-B, Diplomatic Enclave, Chanakyapuri, Chanakyapuri, 110021 New Delhi, India",
+//         contact:"+91 11-26110101",
+//         website:"https://www.theashokhotel.com/"
+//     },
+//     {
+//         title: "The Lalit",
+//         image: lalit,
+//         description: "The Lalit New Delhi stands out with its opulent interiors, world-class service, and a prime location near major attractions, offering a luxurious and memorable stay experience.",
+//         address:"Fire Brigade Lane, Barakhamba, New Delhi, Delhi 110001",
+//         contact:"+91 011-44447777",
+//         website:"https://www.thelalit.com/the-lalit-delhi/"
+//     },
+//     {
+//         title: "Radisson Blu",
+//         image: radissonBlu,
+//         description: "Radisson Blu New Delhi offers a sophisticated ambiance, modern amenities, and exceptional dining options, making it a popular choice for both business travelers and tourists.",
+//         address:"Outer Ring Rd, Sunder Vihar, Paschim Vihar, New Delhi, Delhi, 110087",
+//         contact:"+91 11-4639 9999",
+//         website:"https://www.radissonhotels.com/en-us/hotels/radisson-blu-new-delhi-paschim-vihar"
+//     },
+//     {
+//         title: "Samrat Hotel",
+//         image: samrat,
+//         description: "Nestled in lush surroundings, Hotel Samrat provides a serene escape with well-appointed rooms and a range of facilities, ensuring a comfortable stay for business and leisure guests alike.",
+//         address:"50 B, Kautilya Marg, Chanakyapuri, 110021 New Delhi",
+//         contact:"-",
+//         website:"https://hotelsamratnewdelhi.com/"
+//     },
+// ]
+
+const rakHotels = [
+    {
+        title: "Waldorf Astoria Ras Al Khaimah",
+        image: waldorf,
+        description: "Waldorf Astoria Ras Al Khaimah offers luxurious accommodations with breathtaking views, world-class dining, and a private beach, making it perfect for a lavish getaway.",
+        address: "Vienna Street, Al Hamra Village, Ras Al Khaimah, United Arab Emirates",
+        contact: "+971 7 203 5555",
+        website: "https://www.hilton.com/en/hotels/rktwawa-waldorf-astoria-ras-al-khaimah/resort/"
+    },
+    {
+        title: "Hilton Ras Al Khaimah Beach Resort",
+        image: hilton,
+        description: "Located along a stunning beachfront, Hilton RAK Beach Resort features spacious rooms, multiple pools, and a variety of dining options, ideal for a family-friendly retreat.",
+        address: "Al Maareedh Street, Ras Al Khaimah, United Arab Emirates",
+        contact: "+971 7 228 8844",
+        website: "https://inspiredevents.hilton.com/en_gb/hotels/hilton-ras-al-khaimah-resort-spa/"
+    },
+    {
+        title: "The Ritz-Carlton Ras Al Khaimah, Al Wadi Desert",
+        image: ritz,
+        description: "Set in a serene desert landscape, The Ritz-Carlton Al Wadi Desert offers luxurious villas with private pools, nature-based activities, and an exclusive spa for a tranquil escape.",
+        address: "Al Mazraa, Wadi Khadeja, Ras Al Khaimah, United Arab Emirates",
+        contact: "+971 7 206 7777",
+        website: "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/"
+    },
+    {
+        title: "DoubleTree by Hilton Resort & Spa Marjan Island",
+        image: double,
+        description: "DoubleTree by Hilton on Marjan Island provides a relaxing beachfront experience with multiple dining options, water sports, and family-friendly amenities like a kids' club.",
+        address: "Marjan Island Blvd, Ras Al Khaimah, United Arab Emirates",
+        contact: "+971 7 203 0000",
+        website: "https://www.hilton.com/en/hotels/rasdtdi-doubletree-marjan-island/"        
+    },
+    
+];
+
+
+export {uaePlaces, rakHotels};
 
 
 

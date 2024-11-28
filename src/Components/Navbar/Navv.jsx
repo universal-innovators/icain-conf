@@ -58,9 +58,9 @@ function Navv() {
               <FaSortDown />
               About
               <div className="dropdown-content">
-                {/* <NavLink to="/about" onClick={lHandler}>
-                  About Institute
-                </NavLink> */}
+                <NavLink to="/about" onClick={lHandler}>
+                  About University of Stirling
+                </NavLink>
                 <NavLink to="/about1" onClick={lHandler}>
                   About Universal Innovators
                 </NavLink>
@@ -123,9 +123,9 @@ function Navv() {
             {/* <li onClick={clickHandler}>
               <NavLink to="/awards">Awards</NavLink>
             </li> */}
-            {/* <li onClick={clickHandler}>
+            <li onClick={clickHandler}>
               <NavLink to="/conferences">Conference Venue</NavLink>
-            </li> */}
+            </li>
             <li onClick={clickHandler}>
               <NavLink to="/downloads">Downloads</NavLink>
             </li>
