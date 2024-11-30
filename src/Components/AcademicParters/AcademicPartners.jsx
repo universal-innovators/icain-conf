@@ -1,6 +1,6 @@
 import React from 'react'
 import './AcademicPartners.css'
-import uos from "../Header/Himages/UOS_LOGO.jpg";
+import uos from "../Header/Himages/logo.PNG";
 import vste from "../Header/Himages/vste.jpg";
 import port from "../Header/Himages/portagal.jpg";
 import du from "../Header/Himages/du.png";

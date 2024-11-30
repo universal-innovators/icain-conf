@@ -8,7 +8,7 @@ import springer from "./Himages/springeer.png";
 import portagul from "./Himages/portagal.jpg";
 import sdcn from "./Himages/sdcn.png"
 import vste from "./Himages/vste.jpg"
-import uos from "./Himages/UOS_LOGO.jpg"
+import uos from "./Himages/logo.PNG"
 
 import "./header.css";
 

@@ -13,7 +13,7 @@ function Footer() {
         <div className={classes.fleft}>
           <div className={classes.details}>
             <div className={classes.footerLogo}>
-            <img src={require("../Header/Himages/UOS_LOGO.jpg")} className={classes.logoImg}/>
+            <img src={require("../Header/Himages/logo.PNG")} className={classes.logoImg}/>
             {/* <img src={require("./Himages/portagal.jpg")} className={classes.logoImg}/> */}
             </div>
             {/* <div className={classes.footerLogo}>
