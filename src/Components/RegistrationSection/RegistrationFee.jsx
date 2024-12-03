@@ -11,8 +11,8 @@ function RegFee() {
           {/* table head  */}
           <div className="reFeetd">
             <h2>Category</h2>
-            <h2>Early Registration (before 20th August, 2025)</h2>
-            <h2>Late Registration (after 20th August, 2025)</h2>
+            <h2>Early Registration (before 20th May, 2025)</h2>
+            <h2>Late Registration (after 20th May, 2025)</h2>
           </div>
 
           {/* tr1  */}

@@ -31,7 +31,7 @@ function Publication() {
               and zbMATH and other reputed databases.
             </p> */}
             <p className="porange">
-            All the papers of ICAIN 2025 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH).<br/> Some of the papers will be published Springer in AIS series Indexed by zbMATH, Google Scholar. All books published in the series are submitted for consideration in Web of Science. {" "}
+            All the papers of ICAIN 2025 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH).<br/> All the papers of ICAIN 2025 will be published in the Springer LNNS series as proceedings of ICAIN indexed in  SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH {" "}
             </p>           
             <div className="puImages">
             <div className="imgdata">
