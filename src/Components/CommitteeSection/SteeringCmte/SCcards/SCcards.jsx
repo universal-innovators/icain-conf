@@ -234,6 +234,10 @@ function SCcards() {
       h1: "Prof. Mete YAĞANOĞLU",
       p: "(Ataturk University, Department of Computer Engineering, Turkey)",
     },
+    {
+      h1: "Dr Gurmeet Singh",
+      p: "(Associate professor, Electronics and communication Engineering Department, GTBIT (India))",
+    }
   ];
 
   // let techCoChair = [
