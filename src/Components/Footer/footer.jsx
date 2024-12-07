@@ -1,7 +1,7 @@
 import React, { useLayoutEffect } from "react";
 import classes from "./footer.module.css";
 import { NavLink } from "react-router-dom";
-
+import uos from "../Header/Himages/logo-2.svg"
 function Footer() {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -13,7 +13,7 @@ function Footer() {
         <div className={classes.fleft}>
           <div className={classes.details}>
             <div className={classes.footerLogo}>
-            <img src={require("../Header/Himages/logo.PNG")} className={classes.logoImg}/>
+            <img src={uos} className={classes.logoImg}/>
             {/* <img src={require("./Himages/portagal.jpg")} className={classes.logoImg}/> */}
             </div>
             {/* <div className={classes.footerLogo}>

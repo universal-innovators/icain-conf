@@ -13,6 +13,7 @@ a {
   font-family: "Open-Sans", sans-serif;
 }
 .ccontainer .heading h1 {
+  font-family: var(--font-headings);
   font-size: 22px;
   font-weight: 600;
   background-color: #006938;
@@ -30,6 +31,7 @@ a {
 .about .Labout {
   font-size: 1.1rem;
   line-height: 4vh;
+  font-family: var(--font-content);
 }
 .about .Labout p {
   /* color: #fff; */
@@ -46,7 +48,7 @@ a {
   border-radius: 0.7rem;
   background: linear-gradient(to left, var(--color-bg), var(--color-green1));
   padding: 2vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: -var(--font-heading);
   color: white;
   border: 1px solid var(--color-green1);
   transition: all 0.3s ease-in-out;
@@ -128,7 +130,7 @@ a {
 .Rabout .dwnldSection a {
   font-weight: 400;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-headings);
   font-size: 1.1rem;
   transition: all 0.2s ease-in-out;
 }
@@ -139,7 +141,9 @@ a {
 .Labout .corange {
   padding: 1vh;
   margin: 1vh 0;
-  color: var(--color-warning);
+  color: black;
+  font-weight:800 !important;
+  /* font-weight: bold; */
   font-size: 1.1rem;
 }
 

@@ -13,6 +13,8 @@
     --color-pink: rgb(214, 238, 170);
     --color-green1: #76bd22;
     --color-green: #006938;
+    --font-headings : 'Calibri';
+    --font-content : 'Open Sans';
 }
  
 *{
