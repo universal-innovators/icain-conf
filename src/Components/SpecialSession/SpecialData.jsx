@@ -9,6 +9,15 @@ export default
     ],
     listing: "SS 001",
   },
+  {
+    link: require("./sessions/SS-2.pdf"),
+    title:
+      "Intelligent industrial design",
+    organisers: [
+      "Dr. Souvik Das, Assistant Professor, NIT Rourkela, INDIA"
+    ],
+    listing: "SS 002",
+  },
   
   
   
