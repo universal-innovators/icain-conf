@@ -2,158 +2,132 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navv.css";
 import { FaSortDown } from "react-icons/fa";
+
 function Navv() {
-  function clickHandler() {
-    var x = document.querySelector(".main-menu");
-    x.classList.toggle("show");
-  }
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(null); // Track open dropdown by name
+  const [stickyNav, setStickyNav] = useState(false);
 
-  function subHandler() {
-    var x = document.querySelector(".main-menu");
-    if (x.classList.contains("show")) {
-      x.classList.add("show");
-    } else {
-      x.classList.remove("show");
-    }
-  }
-
-  function lHandler(e) {
-    var x = document.querySelector(".main-menu");
-
-    x.classList.remove("show");
-  }
-
-  const [activee, setActivee] = useState(false);
-  const changeColor = () => {
-    if (window.scrollY >= 140) {
-      setActivee(true);
-    } else {
-      setActivee(false);
-    }
+  // Toggle main menu for mobile view
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+    setDropdownOpen(null); // Close dropdown when menu toggles
   };
 
-  window.addEventListener("scroll", changeColor);
+  // Toggle individual dropdowns
+  const toggleDropdown = (name) => {
+    setDropdownOpen((prev) => (prev === name ? null : name));
+  };
+
+  // Close all menus
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setDropdownOpen(null);
+  };
+
+  // Sticky navigation on scroll
+  const handleScroll = () => {
+    setStickyNav(window.scrollY >= 140);
+  };
+
+  window.addEventListener("scroll", handleScroll);
 
   return (
-    <>
-      <nav className={activee ? "main-nav activee" : "main-nav"}>
-        <div className="menu-btn" onClick={clickHandler}>
-          <i className="fas fa-bars fa-2x"></i>
-        </div>
+    <nav className={stickyNav ? "main-nav activee" : "main-nav"}>
+      <div className="menu-btn" onClick={toggleMenu}>
+        <i className="fas fa-bars fa-2x"></i>
+      </div>
 
-        <div id="myLinks">
-          <ul className="main-menu ">
-            <li onClick={clickHandler}>
-              <NavLink to="/">Home</NavLink>
-            </li>
-
-            {/* <li onClick={clickHandler}>
-            <NavLink to="/about">About Institute</NavLink>
+      <div id="myLinks">
+        <ul className={`main-menu ${menuOpen ? "show" : ""}`}>
+          <li onClick={closeMenu}>
+            <NavLink to="/">Home</NavLink>
           </li>
-          <li onClick={clickHandler}>
-            <NavLink to="/about1">Universal Innovators</NavLink>
-          </li> */}
 
-            <li onClick={subHandler} className="dropbtn">
-              About
-              <FaSortDown />
+          <li className="dropbtn" onClick={() => toggleDropdown("about")}>
+            About <FaSortDown />
+            <div className={`dropdown-content ${dropdownOpen === "about" ? "show" : ""}`}>
+              <NavLink to="/about" onClick={closeMenu}>
+                About University of Stirling
+              </NavLink>
+              <NavLink to="/about1" onClick={closeMenu}>
+                About Universal Innovators
+              </NavLink>
+            </div>
+          </li>
 
-              <div className="dropdown-content">
-                <NavLink to="/about" onClick={lHandler}>
-                  About University of Stirling
-                </NavLink>
-                <NavLink to="/about1" onClick={lHandler}>
-                  About Universal Innovators
-                </NavLink>
-              </div>
-            </li>
+          <li className="dropbtn" onClick={() => toggleDropdown("papers")}>
+            Papers <FaSortDown />
+            <div className={`dropdown-content ${dropdownOpen === "papers" ? "show" : ""}`}>
+              <NavLink to="/callForPapers" onClick={closeMenu}>
+                Call for Papers
+              </NavLink>
+              <NavLink to="/paperSubmissions" onClick={closeMenu}>
+                Paper Submissions
+              </NavLink>
+              <NavLink to="/callForSpecial" onClick={closeMenu}>
+                Call for Special Sessions
+              </NavLink>
+              <NavLink to="/callForInternational" onClick={closeMenu}>
+                Call for International Workshops
+              </NavLink>
+            </div>
+          </li>
 
-            <li onClick={subHandler} className="dropbtn">
-              {/* <FaSortDown /> */}
-              Papers
-              <div className="dropdown-content">
-                <NavLink to="/callForPapers" onClick={lHandler}>
-                  Call for Papers
-                </NavLink>
-                <NavLink to="/paperSubmissions" onClick={lHandler}>
-                  Paper Submissions
-                </NavLink>
-                <NavLink to="/callForSpecial" onClick={lHandler}>
-                  Call for Special Sessions
-                </NavLink>
-                <NavLink to="/callForInternational" onClick={lHandler}>
-                  Call for International Workshops
-                </NavLink>
-              </div>
-            </li>
+          <li onClick={closeMenu}>
+            <NavLink to="/spsessions">Special Sessions</NavLink>
+          </li>
 
-            <li onClick={clickHandler}>
-              <NavLink to="/spsessions">Special Sessions</NavLink>
-            </li>
+          <li onClick={closeMenu}>
+            <NavLink to="/registrations">Registration</NavLink>
+          </li>
 
-            {/* <li  onClick={clickHandler}><NavLink to="/workshops">WorkShops</NavLink> 
-          </li> */}
+          <li onClick={closeMenu}>
+            <NavLink to="/sponsorships">Sponsorships</NavLink>
+          </li>
 
-            <li onClick={clickHandler}>
-              <NavLink to="/registrations">Registration</NavLink>
-            </li>
+          <li className="dropbtn" onClick={() => toggleDropdown("committee")}>
+            Committee <FaSortDown />
+            <div className={`dropdown-content ${dropdownOpen === "committee" ? "show" : ""}`}>
+              <NavLink to="/steerings" onClick={closeMenu}>
+                Steering Committee
+              </NavLink>
+              <NavLink to="/technicals" onClick={closeMenu}>
+                Technical Program Committee
+              </NavLink>
+              <NavLink to="/advisorys" onClick={closeMenu}>
+                Advisory Committee
+              </NavLink>
+            </div>
+          </li>
 
-            <li onClick={clickHandler}>
-              <NavLink to="/sponsorships">Sponsorships</NavLink>
-            </li>
-            <li onClick={clickHandler}>
-              <NavLink to="/publications">Publications</NavLink>
-            </li>
-            <li onClick={subHandler} className="dropbtn">
-              <FaSortDown />
-              Committe
-              <div className="dropdown-content">
-                <NavLink to="/steerings" onClick={lHandler}>
-                  Steering Committee
-                </NavLink>
-                <NavLink to="/technicals" onClick={lHandler}>
-                  Technical Program Committee
-                </NavLink>
-                <NavLink to="/advisorys" onClick={lHandler}>
-                  Advisory Committee
-                </NavLink>
-                {/* <NavLink to="/industrys">Industry Expert</NavLink> */}
-              </div>
-            </li>
+          <li onClick={closeMenu}>
+            <NavLink to="/conferences">Conference Venue</NavLink>
+          </li>
 
-            {/* <li onClick={clickHandler}>
-              <NavLink to="/awards">Awards</NavLink>
-            </li> */}
-            <li onClick={clickHandler}>
-              <NavLink to="/conferences">Conference Venue</NavLink>
-            </li>
-            <li onClick={clickHandler}>
-              <NavLink to="/downloads">Downloads</NavLink>
-            </li>
-            <li onClick={clickHandler}>
-              <NavLink to="/guide">Visitors Guide</NavLink>
-            </li>
-            <li onClick={clickHandler}>
-              <NavLink to="/policy">Policy</NavLink>
-            </li>
+          <li onClick={closeMenu}>
+            <NavLink to="/downloads">Downloads</NavLink>
+          </li>
 
-            <li onClick={subHandler} className="dropbtn">
-              <FaSortDown />
-              Previous Conferences
-              <div className="dropdown-content">
-                {/* <NavLink to="/pcConferences22">Icicc 2022</NavLink>
-            <NavLink to="/pcConferences21">Icicc 2021</NavLink>
-            <NavLink to="/pcConferences20">Icicc 2020</NavLink>
-            <NavLink to="/pcConferences19">Icicc 2019</NavLink>
-            <NavLink to="/pcConferences18">Icicc 2018</NavLink> */}
-                <NavLink to="/pcConferences24" onClick={lHandler}>ICAIN 2024</NavLink>
+          <li onClick={closeMenu}>
+            <NavLink to="/guide">Visitors Guide</NavLink>
+          </li>
 
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </>
+          <li onClick={closeMenu}>
+            <NavLink to="/policy">Policy</NavLink>
+          </li>
+
+          <li className="dropbtn" onClick={() => toggleDropdown("previousConferences")}>
+            Previous Conferences <FaSortDown />
+            <div className={`dropdown-content ${dropdownOpen === "previousConferences" ? "show" : ""}`}>
+              <NavLink to="/pcConferences24" onClick={closeMenu}>
+                ICAIN 2024
+              </NavLink>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 }
 

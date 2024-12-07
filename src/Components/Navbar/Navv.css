@@ -1,193 +1,233 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --navColor: #fff;
-    --primaryColor: #006938;
-    --hoverColor: #76bd22;
+  --navColor: #fff;
+  --primaryColor: #006938;
+  --hoverColor: #76bd22;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* Main Navigation */
 .main-nav {
-    padding: 20px;
-    background-color: var(--navColor);
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    color: var(--primaryColor);
+  padding: 20px;
+  background-color: var(--navColor);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: var(--primaryColor);
 }
 
 .main-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-menu li {
-    position: relative;
-    padding: 10px;
+  position: relative;
+  padding: 10px;
 }
 
 .main-menu li a {
-    color: var(--primaryColor);
-    font-size: 1rem;
-    padding: 5px 0;
-    position: relative;
+  color: var(--primaryColor);
+  font-size: 1rem;
+  padding: 5px 0;
+  position: relative;
 }
 
 .main-menu li a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 5px;
-    background-color: var(--hoverColor);
-    transition: width 0.5s ease;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--hoverColor);
+  transition: width 0.5s ease;
 }
 
-.main-menu li:hover a::after {
-    width: 100%;
+.main-menu li a:hover::after {
+  width: 100%;
 }
 
 /* Dropdown */
-.dropdown {
-    position: relative; /* Ensures dropdown content is positioned relative to this container */
-}
-
 .dropbtn {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    position: relative;
-    padding: 5px 0;
-    color: var(--primaryColor);
-    font-size: 1rem;
-    font-weight: 600;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .dropbtn::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--hoverColor);
-    transition: width 0.5s ease;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--hoverColor);
+  transition: width 0.3s ease;
 }
 
+/* Add underline to dropdown parent link only on hover */
 .dropbtn:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
+/* Dropdown content */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%; /* Position dropdown content directly below the button */
-    left: 0;
-    background-color: var(--navColor);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 2;
-    padding: 10px;
-    min-width: 200px; /* Ensures consistent width for dropdown */
-    border-radius: 4px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--navColor);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  padding: 10px;
+  min-width: 200px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  visibility: hidden;
 }
 
+/* Show dropdown content */
+.dropdown-content.show {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Styling for dropdown sublinks */
 .dropdown-content a {
-    color: var(--primaryColor);
-    font-size: 1rem;
-    padding: 5px 0;
-    display: block;
-    position: relative;
+  color: var(--primaryColor);
+  font-size: 1rem;
+  padding: 5px 0;
+  display: block;
+  position: relative;
 }
 
+/* Remove underline by default for dropdown sublinks */
 .dropdown-content a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--hoverColor);
-    transition: width 0.5s ease;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--hoverColor);
+  transition: width 0.3s ease;
 }
 
+/* Add underline only when sublink is hovered */
 .dropdown-content a:hover::after {
-    width: 100%;
+  width: 100%;
 }
-
-/* Show dropdown content on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-
 
 /* Mobile Navigation */
 .menu-btn {
-    display: none;
-    cursor: pointer;
-    z-index: 2;
+  display: none;
+  cursor: pointer;
+  z-index: 2;
 }
 
 @media (max-width: 800px) {
     .menu-btn {
-        display: block;
+      display: block;
     }
-
+  
     .main-menu {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 70%;
-        height: 100%;
-        background-color: var(--navColor);
-        transform: translateX(-100%);
-        transition: transform 0.3s ease-in-out;
-        padding: 30px;
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 70%;
+      height: 100%;
+      background-color: var(--navColor);
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+      padding: 30px;
+      overflow-y: auto; /* Allow scrolling for long menus */
     }
-
+  
     .main-menu.show {
-        transform: translateX(0);
+      transform: translateX(0);
     }
-
+  
     .main-menu li {
-        border-bottom: 1px solid #ccc;
-        padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+      position: relative; /* Ensure dropdown items are positioned correctly */
     }
-
+  
     .main-menu li:last-child {
-        border-bottom: none;
+      border-bottom: none;
     }
-
+  
+    /* Dropdown parent link */
+    .dropbtn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+  
+    /* Dropdown content for mobile */
     .dropdown-content {
-        position: static;
-        display: none;
-        padding: 10px 0;
-        box-shadow: none;
+      display: none;
+      padding-left: 20px; /* Indent sublinks for better visibility */
+      background-color: transparent; /* Remove background color */
+      margin-top: 10px; /* Add space between parent and sublinks */
+      position: relative; /* Ensure it stacks properly under the parent */
     }
-
-    .dropbtn:hover .dropdown-content {
-        display: block;
+  
+    .dropdown-content.show {
+      display: block;
     }
-}
+  
+    .dropdown-content a {
+      color: var(--primaryColor);
+      font-size: 1rem;
+      padding: 5px 0;
+      display: block;
+    }
+  
+    /* Align dropdown arrow */
+    .dropbtn svg {
+      margin-left: auto;
+      transition: transform 0.3s ease;
+    }
+  
+    /* Rotate arrow when dropdown is open */
+    .dropdown-content.show + .dropbtn svg {
+      transform: rotate(180deg);
+    }
+  
+    /* Prevent overlap and adjacent display */
+    .dropdown-content a {
+      position: relative;
+      padding-left: 10px; /* Add left padding for spacing */
+    }
+  
+    .main-menu li:hover .dropdown-content {
+      display: block; /* Ensure dropdown expands properly */
+    }
+  }
+  
