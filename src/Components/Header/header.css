@@ -43,7 +43,6 @@ img{
 .logoImg1{
     width:20rem;
     margin:10px;
-    aspect-ratio:4;
 }
 /* images  */
 .img1 .himg, .img2 .himg{
@@ -81,14 +80,13 @@ img{
 
 .htop1, .htop2{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 10px;
- 
-font-family: 'Poppins', sans-serif;
+    /* gap: 10px; */
+
 
 
 }

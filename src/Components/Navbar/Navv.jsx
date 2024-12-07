@@ -55,8 +55,9 @@ function Navv() {
           </li> */}
 
             <li onClick={subHandler} className="dropbtn">
-              <FaSortDown />
               About
+              <FaSortDown />
+
               <div className="dropdown-content">
                 <NavLink to="/about" onClick={lHandler}>
                   About University of Stirling
@@ -68,7 +69,7 @@ function Navv() {
             </li>
 
             <li onClick={subHandler} className="dropbtn">
-              <FaSortDown />
+              {/* <FaSortDown /> */}
               Papers
               <div className="dropdown-content">
                 <NavLink to="/callForPapers" onClick={lHandler}>

@@ -10,12 +10,12 @@ a {
 .conference .ccontainer {
   width: 96%;
   margin: auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open-Sans", sans-serif;
 }
 .ccontainer .heading h1 {
   font-size: 22px;
   font-weight: 600;
-  background-color: var(--color-bg1);
+  background-color: #006938;
   text-align: center;
   padding: 0.5rem 0;
   width: 100%;

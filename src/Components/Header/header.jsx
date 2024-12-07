@@ -8,7 +8,7 @@ import springer from "./Himages/springeer.png";
 import portagul from "./Himages/portagal.jpg";
 import sdcn from "./Himages/sdcn.png"
 import vste from "./Himages/vste.jpg"
-import uos from "./Himages/logo.PNG"
+import uos from "./Himages/logo-2.svg"
 
 import "./header.css";
 
@@ -18,10 +18,10 @@ function HeaderMain() {
       <div className="hcontainer">
         {/* images  */}
 
-        <div className="headerLogo">
-          {/* <img src={gtbit} className="logoImg"/>    */}
+        {/* <div className="headerLogo">
+          <img src={gtbit} className="logoImg"/>   
           <img src={uos} className="logoImg1" />
-        </div>
+        </div> */}
         {/* <div className="headerLogo">
           <img src={vste} className="logoImg" />
           <img src={require("../Footer/Himages/ksmv.png")} className="logoImg" style={{ "margin": "0 auto", "width": "8rem", "height": "auto" }} />
@@ -40,15 +40,19 @@ function HeaderMain() {
         </div>
         <div className="htop2">
           <p className="hhead">
-            ORGANISED BY :{" "}
+            {/* ORGANISED BY :{" "} */}
             {/* <span className="hblue">
              
               </span> */}
             {/* <br /> */}
             {/* <span >in association with</span>{" "} */}
-            <span className="hblue">
+            <div className="headerLogo">
+          {/* <img src={gtbit} className="logoImg"/>    */}
+          <img src={uos} className="logoImg1" />
+        </div>
+            <span style={{'color':'#006938',fontSize:'1rem'}}>
 
-              University of Stirling RAK CAMPUS, 
+              
               Al Dhait South, 
               Ras Al Khaimah
               (NEAR DUBAI), 
