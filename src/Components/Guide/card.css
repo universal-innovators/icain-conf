@@ -1,6 +1,6 @@
 .spSessionHeading h2{
   background-color: var(--color-green);
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-headings);
   font-weight: 400;
   padding: 1vh 0;
   font-size: 1.5rem;
@@ -12,7 +12,7 @@
 
 .spSessionCont h3{
   /* background-color: #7d3cff; */
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-headings);
   font-weight: 600;
   text-decoration: underline;
   padding: 10px;

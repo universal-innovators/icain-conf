@@ -100,7 +100,7 @@ function Sponsorships() {
               </div>
 
               {/* right */}
-              <div>
+              <div className="rightSection"> 
                 <ImpDate />
               </div>
             </div>

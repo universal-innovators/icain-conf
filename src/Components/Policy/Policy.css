@@ -1,7 +1,7 @@
 .policyPage {
     margin-bottom: 2rem;
     line-height: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-content);
 }
 
 .policyContent {

@@ -1,13 +1,13 @@
 .technicalMain {
     width: 96%;
     margin: 4vh auto;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-content);
 }
 
 
 .technicalMain h2 {
     background-color: var(--color-green);
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-headings);
     font-weight: 400;
     padding: 1vh 0;
     font-size: 1.5rem;

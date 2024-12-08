@@ -49,7 +49,12 @@
 
 }
 
-
+.abRight{
+    height:fit-content;
+    box-sizing: border-box;
+    position:sticky;
+    top:10rem;
+}
 .abLeftRight .abRight:hover{
     cursor: pointer;
 }

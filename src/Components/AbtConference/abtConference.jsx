@@ -58,7 +58,7 @@ function AboutConference() {
             <h1 style={{ "color": "white" }}>Downloads</h1>
 
             <div class="Docard">
-              <div class="tools">
+              {/* <div class="tools">
                 <div class="circle">
                   <span class="red dobox"></span>
                 </div>
@@ -68,7 +68,7 @@ function AboutConference() {
                 <div class="circle">
                   <span class="green dobox"></span>
                 </div>
-              </div>
+              </div> */}
               <div class="card__content dwnldSection">
                 <p>
                   {" "}

@@ -3,8 +3,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     justify-content: center; */
-    font-family: "Montserrat", sans-serif;
-
+    font-family: var(--font-content);
+    /* color:black; */
 }
 .ScCardsSteering{
  background: linear-gradient(71deg, #080509, #1a171c, #080509);

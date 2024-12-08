@@ -38,7 +38,7 @@ background-color: var(--color-bg1);
    padding-left: 8px;
    color: white;
    font-weight: 400;
-   font-family: "Montserrat",sans-serif;
+   font-family: var(--font-headings);
    background-color: var(--color-bg2);
 }
 .reFeetr p{

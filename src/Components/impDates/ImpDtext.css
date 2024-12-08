@@ -27,10 +27,12 @@
   .container-card {
     position: relative;
     border: 2px solid transparent;
-    background-color: var(--color-bg);
+    /* background-color: var(--color-bg); */
+    background-color: white;
     background-clip: padding-box;
     border-radius: 45px;
     padding: 20px;
+    color:var(--color-green);
     min-width: 500px;
     img {
       margin-bottom: 32px;
@@ -38,7 +40,7 @@
     transition: all 1s ease-in-out;
   }
   .bg-green-box:hover, .bg-white-box:hover{
-background-color: var(--color-bg1);
+/* background-color: var(--color-bg1); */
   }
 
 
@@ -61,14 +63,14 @@ background-color: var(--color-bg1);
     z-index: -1;
     border-radius: 45px;
   }
-
+/* 
   .bg-green-box:after {
     background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
   }
   
   .bg-white-box:after {
     background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
-  } 
+  }  */
   
   .card-title {
     font-weight: 600;
@@ -78,12 +80,13 @@ background-color: var(--color-bg1);
     font-style: normal;
     font-size: 28px;
     padding-bottom: 8px;
+    /* background-color:black; */
   }
   
   .card-description-title{
     font-weight: 400;
-    color: white;
-   font-family: 'Montserrat', sans-serif;
+    color:var(--color-green) ;
+   font-family: var(--font-headings);
     font-size: 1.1rem;
     display: inline;
 
@@ -92,9 +95,10 @@ background-color: var(--color-bg1);
   .card-description {
     font-weight: 600;
     line-height: 2rem;
-    color: hsla(0, 0%, 100%, 0.5);
+    /* color: hsla(0, 0%, 100%, 0.5); */
+    color: var(--color-green);
     font-size: 0.9rem;
-   font-family: 'Montserrat', sans-serif;
+   font-family: car(--font-content);
     text-align: start;
     display: inline;
   }

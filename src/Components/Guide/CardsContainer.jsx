@@ -39,7 +39,7 @@ export default function CardsContainer() {
         })}
     
     </div> */}
-        <h3>Places to visit in Delhi</h3>
+        <h3>Places to visit in UAE</h3>
         <hr />
 
         <div className='main-card SpSessionCard animate__animated animate__bounceInLeft' id='sessCon'>

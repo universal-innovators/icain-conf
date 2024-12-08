@@ -24,11 +24,11 @@ function SCcards() {
     // },
     {
       h1: "Prof. Dr. Bal Virdee",
-      p: "(London Metropolitan University)"
+      p: "London Metropolitan University"
     },
     {
       h1: "Prof Punam Bedi",
-      p: "(Department of Computer Science, University of Delhi)",
+      p: "Department of Computer Science, University of Delhi",
     },
 
   ];
@@ -60,8 +60,8 @@ function SCcards() {
       p: "Programme Director -  Accounting & Finance University of Stirling RAK Campus",
     },
     {
-      h1: "Dr. Nikhil",
-      p: " V.P Programme Director- Management University of Stirling, RAK Campus",
+      h1: "Dr. Nikhil V.P",
+      p: " Programme Director- Management University of Stirling, RAK Campus",
     },
     // {
     //   h1: " Prof. Madhu Pruthi",
@@ -72,7 +72,7 @@ function SCcards() {
 
     {
       h1: " Dr. Richa Arora",
-      p: "(Head of Institution & COO, University Stirling Rak Campus, Planet One International Education FZ-LLC, UAE)",
+      p: "Head of Institution & COO, University Stirling Rak Campus, Planet One International Education FZ-LLC, UAE",
     },
     // {
     //   h1: " Prof. Madhu Pruthi",
@@ -82,11 +82,11 @@ function SCcards() {
   let honaryChar = [
     {
       h1: " Prof. Janusz Kacprzyk",
-      p: "(Polish Academy of Sciences, Systems Research Institute, Poland )",
+      p: "Polish Academy of Sciences, Systems Research Institute, Poland",
     },
     {
       h1: "Prof. Vaclav Snasel, Rector",
-      p: "(VSB-Technical University of Ostrava, Czech Republic)",
+      p: "VSB-Technical University of Ostrava, Czech Republic",
     },
   ];
 
@@ -94,51 +94,51 @@ function SCcards() {
     
     {
       h1: "Prof. Isabel DE LA TORRE DÍEZ",
-      p: "(University of Valladolid, Spain)",
+      p: "University of Valladolid, Spain",
     },
     {
       h1: "Dr. João Manuel R. S. Tavares",
-      p: "(Universidade do Porto (FEUP), PORTUGAL)",
+      p: "Universidade do Porto (FEUP), PORTUGAL",
     },
 
     {
       h1: "Prof. Joel J P C Rodrigues",
-      p: "(National Institute of Telecommunications (Inatel), Brazil)",
+      p: "National Institute of Telecommunications (Inatel), Brazil",
     },
 {
       h1: "Dr. Narina Thakur",
-      p: "(Assistant Prof.  CS and SE , HEAD - Research Innovation Committe, University of Stirling RAK Campus)",
+      p: "Assistant Prof.  CS and SE , HEAD - Research Innovation Committe, University of Stirling RAK Campus",
     },
     {
       h1: "Dr.  Shamik Palit",
-      p: "(Associate Prof.  CS and SE , HEAD - Corporate Outreach Committe, University of Stirling RAK Campus)",
+      p: "Associate Prof.  CS and SE , HEAD - Corporate Outreach Committe, University of Stirling RAK Campus",
     },
   ];
 
   let techChair = [
     {
       h1: "Jan Valicek",
-      p: "(Institute of Technology and Business in České Budějovice)"
+      p: "Institute of Technology and Business in České Budějovice"
     },
     {
       h1: "Marta Harnicarova",
-      p: "(Institute of Technology and Business in České Budějovice)"
+      p: "Institute of Technology and Business in České Budějovice"
     },
     {
       h1: "Dr. Ahmed J. Obaid",
-      p: "(University of Kufa, Iraq)",
+      p: "University of Kufa, Iraq",
     },
     {
       h1: "Dr. Mamoona Humayun",
-      p: "(Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia)",
+      p: "Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia",
     },
     {
       h1: "Dr. Momina Shaheen",
-      p: "(Department of Computing, School of Arts Humanities and Social Sciences, University of Roehampton, London SW15 5PJ, United Kingdom)",
+      p: "Department of Computing, School of Arts Humanities and Social Sciences, University of Roehampton, London SW15 5PJ, United Kingdom",
     },
     {
       h1: "Dr. Richa Sharma",
-      p: "(London Metropolitan University)",
+      p: "London Metropolitan University",
     },
     // {
     //   h1: "Prof. Giancarlo Fortino",
@@ -181,15 +181,15 @@ function SCcards() {
   let pubChair = [
     {
       h1: "Prof. Abhishek Swaroop",
-      p: "(Bhagwan Parshuram Institute of Technology, India)",
+      p: "Bhagwan Parshuram Institute of Technology, India",
     },
     {
       h1: "Prof. Sérgio Duarte Correia",
-      p: "(Polytechnic Institute of Portalegre, Portugal. )",
+      p: "Polytechnic Institute of Portalegre, Portugal.",
     },
     {
       h1: "Dr Pancham Shukla",
-      p: "(Imperial College London)",
+      p: "Imperial College London",
     },
     // {
     //   h1: "Prof. P. Sanjeevi kumar",
@@ -213,26 +213,26 @@ function SCcards() {
 
     {
       h1: "Dr Marta Harničárová",
-      p: "(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)",
+      p: "Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice",
     },
 
     {
       h1: "Dr. Akshi Kumar",
-      p: "(Director, Department of Computing, Goldsmiths University of London)",
+      p: "Director, Department of Computing, Goldsmiths University of London",
     },
     {
       h1: "Dr. Gulshan Shrivastava",
-      p: "(Galgotia University, Gr. Noida, India)",
+      p: "Galgotia University, Gr. Noida, India",
     },
 
 
     {
       h1: "Dr. Sandra Fernando",
-      p: "(London Metropolitan University)",
+      p: "London Metropolitan University",
     },
     {
       h1: "Prof. Mete YAĞANOĞLU",
-      p: "(Ataturk University, Department of Computer Engineering, Turkey)",
+      p: "Ataturk University, Department of Computer Engineering, Turkey",
     },
   ];
 
@@ -262,11 +262,11 @@ function SCcards() {
     // },
     {
       h1: "Roman Danel",
-      p: "(Institute of Technology and Business in České Budějovice)"
+      p: "Institute of Technology and Business in České Budějovice"
     },
     {
       h1: "Moolchand Sharma",
-      p: "(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)",
+      p: "Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi",
     }
 
     // {

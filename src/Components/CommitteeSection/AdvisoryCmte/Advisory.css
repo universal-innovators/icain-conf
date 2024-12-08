@@ -10,7 +10,7 @@
    
     width: 96%;
     margin: 4vh  auto;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-content);
 }
 .AdvisoryCmte h2{
     background-color: var(--color-green);

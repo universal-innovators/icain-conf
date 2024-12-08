@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,600;1,800&family=Poppins:ital,wght@1,200;1,400&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
 
 .cfp{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-content);
     color: white;
     width: 96%;
     margin: 2vh auto;
@@ -9,7 +9,7 @@
 }
 .cfp h2{
     background-color: var(--color-green);
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-headings);
     font-weight: 400;
     padding: 1vh 0;
     font-size: 1.5rem;
@@ -40,13 +40,13 @@
 
 }
 .call_desc p{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-content);
     font-size: 1rem;
     line-height: 1.5rem;
 
 }
 .Call_con h5{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-headings);
     font-weight: 500;
     font-size: 1.2rem;
     padding: 1vh 0;
@@ -66,13 +66,13 @@
     list-style: square;
     line-height: 1.4rem;
     text-align: justify;
-   font-family: "Montserrat", sans-serif;
+   font-family: var(--font-content);
    font-size: 1.1rem;
    color: v;
 
 }
 .imp_dates .dates {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-content);
 }
 
 .Call_con{
@@ -105,7 +105,7 @@
 }
 .call_desc{
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-content);
   margin: 2vh 0;
 }
 
@@ -118,7 +118,7 @@
     margin: 0 4vh;
 }
 .cfp{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-content);
     color: white;
     width: 96%;
     /* margin: 2vh 6vh; */

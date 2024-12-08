@@ -10,13 +10,13 @@ a {
 .conference .ccontainer {
   width: 96%;
   margin: auto;
-  font-family: "Open-Sans", sans-serif;
+  font-family: var(--font-content);
 }
 .ccontainer .heading h1 {
   font-family: var(--font-headings);
   font-size: 22px;
   font-weight: 600;
-  background-color: #006938;
+  background-color: var(--color-green-primary);
   text-align: center;
   padding: 0.5rem 0;
   width: 100%;
@@ -67,9 +67,10 @@ a {
 /* downloads  */
 .Docard {
   margin: 0 auto;
-  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
   z-index: 1;
   border: 1px solid var(--color-green1);
+  background-color: var(--color-green-primary);
   padding: 1rem;
   opacity: 0.7;
 }
