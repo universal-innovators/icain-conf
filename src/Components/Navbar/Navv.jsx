@@ -97,9 +97,9 @@ function Navv() {
               <NavLink to="/registrations">Registration</NavLink>
             </li>
 
-            <li onClick={clickHandler}>
+            {/* <li onClick={clickHandler}>
               <NavLink to="/sponsorships">Sponsorships</NavLink>
-            </li>
+            </li> */}
             <li onClick={clickHandler}>
               <NavLink to="/publications">Publications</NavLink>
             </li>
