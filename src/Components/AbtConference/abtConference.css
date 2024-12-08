@@ -69,10 +69,11 @@ a {
   margin: 0 auto;
   /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
   z-index: 1;
-  border: 1px solid var(--color-green1);
-  background-color: var(--color-green-primary);
+  border: 1px solid var(--color-green);
+  /* background-color: var(--color-green-primary); */
   padding: 1rem;
-  opacity: 0.7;
+  opacity: 1;
+  color:black;
 }
 
 .tools {
@@ -116,27 +117,27 @@ a {
 .Rabout h1 {
   font-size: 22px;
   font-weight: 600;
-  background-color: var(--color-bg1);
+  background-color: var(--color-green);
   text-align: center;
   padding: 1vh 0;
 }
 .Rabout .dwnldSection {
   display: flex;
   flex-direction: column;
-  padding: 3vh 2vh;
+  padding: 1vh 2vh;
 }
 .Rabout .dwnldSection p {
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
 }
 .Rabout .dwnldSection a {
   font-weight: 400;
-  color: white;
+  color: black;
   font-family: var(--font-headings);
   font-size: 1.1rem;
   transition: all 0.2s ease-in-out;
 }
 .Rabout .dwnldSection a:hover {
-  color: var(--color-green1);
+  color: var(--color-green);
 }
 
 .Labout .corange {

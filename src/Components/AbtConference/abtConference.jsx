@@ -33,10 +33,10 @@ function AboutConference() {
               and other reputed databases. */}
             </p>
 
-            <p className="corange">
+            <b className="">
               All the papers and the proceedings of ICAIN-2025 will be sent to
               SCOPUS for evalution!
-            </p>
+            </b>
             <h4>
               All papers must be submitted online via this link:
             </h4>
