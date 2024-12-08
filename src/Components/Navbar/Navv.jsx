@@ -47,10 +47,16 @@ function Navv() {
           <li className="dropbtn" onClick={() => toggleDropdown("about")}>
             About <FaSortDown />
             <div className={`dropdown-content ${dropdownOpen === "about" ? "show" : ""}`}>
-              <NavLink to="/about" onClick={closeMenu}>
-                About University of Stirling
+              <NavLink to="/about" onClick={()=>{
+                closeMenu();
+                toggleDropdown("about");
+                }}>
+                About University of Stirling
               </NavLink>
-              <NavLink to="/about1" onClick={closeMenu}>
+              <NavLink to="/about1" onClick={()=>{
+                closeMenu();
+                toggleDropdown("about");
+                }}>
                 About Universal Innovators
               </NavLink>
             </div>
@@ -59,16 +65,28 @@ function Navv() {
           <li className="dropbtn" onClick={() => toggleDropdown("papers")}>
             Papers <FaSortDown />
             <div className={`dropdown-content ${dropdownOpen === "papers" ? "show" : ""}`}>
-              <NavLink to="/callForPapers" onClick={closeMenu}>
+              <NavLink to="/callForPapers" onClick={()=>{
+                closeMenu();
+                toggleDropdown("papers");
+                }}>
                 Call for Papers
               </NavLink>
-              <NavLink to="/paperSubmissions" onClick={closeMenu}>
+              <NavLink to="/paperSubmissions" onClick={()=>{
+                closeMenu();
+                toggleDropdown("papers");
+                }}>
                 Paper Submissions
               </NavLink>
-              <NavLink to="/callForSpecial" onClick={closeMenu}>
+              <NavLink to="/callForSpecial" onClick={()=>{
+                closeMenu();
+                toggleDropdown("papers");
+                }}>
                 Call for Special Sessions
               </NavLink>
-              <NavLink to="/callForInternational" onClick={closeMenu}>
+              <NavLink to="/callForInternational" onClick={()=>{
+                closeMenu();
+                toggleDropdown("papers");
+                }}>
                 Call for International Workshops
               </NavLink>
             </div>
@@ -82,20 +100,25 @@ function Navv() {
             <NavLink to="/registrations">Registration</NavLink>
           </li>
 
-          <li onClick={closeMenu}>
-            <NavLink to="/sponsorships">Sponsorships</NavLink>
-          </li>
-
           <li className="dropbtn" onClick={() => toggleDropdown("committee")}>
             Committee <FaSortDown />
             <div className={`dropdown-content ${dropdownOpen === "committee" ? "show" : ""}`}>
-              <NavLink to="/steerings" onClick={closeMenu}>
+              <NavLink to="/steerings" onClick={()=>{
+                closeMenu();
+                toggleDropdown("committee");
+                }}>
                 Steering Committee
               </NavLink>
-              <NavLink to="/technicals" onClick={closeMenu}>
+              <NavLink to="/technicals" onClick={()=>{
+                closeMenu();
+                toggleDropdown("committee");
+                }}>
                 Technical Program Committee
               </NavLink>
-              <NavLink to="/advisorys" onClick={closeMenu}>
+              <NavLink to="/advisorys" onClick={()=>{
+                closeMenu();
+                toggleDropdown("committee");
+                }}>
                 Advisory Committee
               </NavLink>
             </div>
@@ -119,8 +142,15 @@ function Navv() {
 
           <li className="dropbtn" onClick={() => toggleDropdown("previousConferences")}>
             Previous Conferences <FaSortDown />
-            <div className={`dropdown-content ${dropdownOpen === "previousConferences" ? "show" : ""}`}>
-              <NavLink to="/pcConferences24" onClick={closeMenu}>
+            <div
+              className={`dropdown-content ${
+                dropdownOpen === "previousConferences" ? "show" : ""
+              }`}
+            >
+              <NavLink to="/pcConferences24" onClick={()=>{
+                closeMenu();
+                toggleDropdown("previousConferences");
+                }}>
                 ICAIN 2024
               </NavLink>
             </div>

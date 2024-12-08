@@ -3,9 +3,9 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    
     padding: 4vh;
-    border: 1px solid var(--color-bg2);
+    
     border-radius: 0.5rem 2rem;
     color: white;
    
@@ -15,12 +15,12 @@ font-size: 1.2rem;
 font-weight: 500;
 }
 .tecPara{
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    
   padding: 4vh 2vh;
   border-radius: 0.5em;
   border: 1px solid var(--color-black);
-  color: white;
-  box-shadow: var(--color-success) 0px 1px 2px 0px, var(--color-white) 0px 1px 3px 1px;
+  color: black;
+  box-shadow: var(--color-green) 0px 1px 2px 0px, var(--color-green1) 0px 1px 3px 1px;
   border-radius: 0.5rem 2rem;
   transition: all 0.5s ease-in-out;
 }
@@ -30,7 +30,7 @@ font-weight: 500;
 
 .tecPara h3{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 

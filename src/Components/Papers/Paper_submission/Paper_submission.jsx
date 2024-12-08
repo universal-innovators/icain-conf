@@ -17,7 +17,7 @@ const Paper_submission = () => {
               theme are invited for presentation/publication in the conference
               proceedings.
             </p>
-            <ol>
+            <ul>
               {/* <li>
                 Kindly ensure that your paper is formatted as per{" "}
                 <a href={Pdf1} target="_blank" className="SubGuidelines">
@@ -50,7 +50,7 @@ const Paper_submission = () => {
                   </a>
                 </p>
               </li>
-            </ol>
+            </ul>
 
             <br />
           </div>
@@ -62,10 +62,10 @@ const Paper_submission = () => {
 
         {/* // Plagrism policy  */}
         <div className="psubPlagrism">
-          <h4 className="highlight ph">Plagiarism Policy</h4>
+          <h4 style={{color:"white"}}>Plagiarism Policy</h4>
 
           <div class="Sucard">
-            <div class="tools">
+            {/* <div class="tools">
               <div class="circle">
                 <span class="red subox"></span>
               </div>
@@ -75,9 +75,9 @@ const Paper_submission = () => {
               <div class="circle">
                 <span class="green subox"></span>
               </div>
-            </div>
+            </div> */}
             <div class="su_card__content ">
-              <ol>
+              <ul>
                 <li>
                   The paper prior to submission should be checked for plagiarism
                   from licensed plagiarism softwares like Turnitin/iAuthenticate
@@ -110,7 +110,7 @@ const Paper_submission = () => {
                   If you are using any copyrighted material, you should acquire
                   prior permission from the copyright holder.{" "}
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>

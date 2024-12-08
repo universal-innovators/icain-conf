@@ -2,7 +2,7 @@
 
 .submission{
     width: 96%;
-    color: white;
+    color: black;
     margin: 2vh auto;
   font-family: var(--font-content);
 }
@@ -28,8 +28,8 @@
 .submissionLinkhead a{
     color: b;
    border-radius: 0.7rem;
-    background: linear-gradient(to left, var(--color-bg), var(--color-green1));
-    padding: 2vh;
+    background:var(--color-green);
+    padding: 3vh;
     font-family: var(--font-content);
     color: white;
     border: 1px solid var(--color-green1);
@@ -57,10 +57,10 @@
 }
 
 .Submission_desc li{
-    list-style-type: none;
+    list-style-type: circle;
     margin: 2vh 0;
-    padding: 4vh;
-    background-color: var(--color-bg1);
+    padding: 1vh 0;
+    background-color: var(--color-white);
     border-radius: 1rem .5rem;
 
 }
@@ -73,16 +73,19 @@
 .abtHeader{
     margin: 2vh 0;
     font-weight: 1.1rem;
+    color: white;
+    font-family: var(--font-headings);
+
 }
 
 .Sucard {
    
     margin: 0 auto;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background: var(--color-white);
     z-index: 1;
     border:1px solid var(--color-green1);
     padding: 1rem;
-    opacity: 0.7;
+    opacity: 1;
    }
 
    .subox {
@@ -95,12 +98,20 @@
    }
 
    .su_card__content {
-    background-color:var(--color-bg1);
+    background-color:var(--color-white);
+    color:black;
     padding: 2vh;
    }
-   .su_card__content li{
+   .su_card__content ul li{
+    /* margin: 2vh 0;
+    color: white; */
+    list-style-type: disc;
     margin: 2vh 0;
+    /* padding: 4vh; */
     list-style-type:circle;
+    background-color: var(--color-white);
+    color:black;
+    border-radius: 1rem .5rem;
    }
 
 .psubPlagrism{

@@ -20,7 +20,7 @@ export default function SpecialCard() {
 
               <div className='card' alignment='center'>
               {/* <MDBCardHeader>Featured</MDBCardHeader> */}
-              <b className='zero-margin margin-less'>{`Session - ${ind+1}`}:</b>
+              <b className='zero-margin margin-less'>{`Session - ${ind+1}`}: </b>
               <a className='card-link' href={qwe.link} target='_blank'>{qwe.title}</a>
               <div>
                 <div className='zero-margin'>Organisers</div>

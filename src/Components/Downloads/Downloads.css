@@ -38,9 +38,9 @@
     grid-template-columns: 1fr 1fr ;
     gap: 1rem;
     border-radius: 2rem 0.5rem;
-    border: 1px solid var(--color-bg2);
-   padding: 3vh;
- background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* border: 1px solid var(--color-bg2); */
+   padding: 1vh;
+ /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
 
 
 }
@@ -52,15 +52,13 @@
     border-radius: 12px;
     padding: 2vh;
  /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
- background-color: var(--color-bg2);
+ background-color: var(--color-green);
  border-radius: 2rem 0.5rem;
     font-weight: 500;
     cursor: pointer;
-    border: 1px solid var(--color-bg2);
+    border: 1px solid var(--color-green1);
 }
-.doPdf .pdf:hover{
-    background-color: var(--color-bg);
-}
+
 
 
 
@@ -83,7 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 

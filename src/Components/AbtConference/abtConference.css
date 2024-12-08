@@ -46,7 +46,7 @@ a {
 .Labout .submissionLinkhead a {
   color: white;
   border-radius: 0.7rem;
-  background: linear-gradient(to left, var(--color-bg), var(--color-green1));
+  background: linear-gradient(to left, var(--color-green), var(--color-green1));
   padding: 2vh;
   font-family: -var(--font-heading);
   color: white;
@@ -54,7 +54,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 .Labout .submissionLinkhead a:hover {
-  background: linear-gradient(to right, var(--color-bg), var(--color-green1));
+  background: linear-gradient(to left, var(--color-green1), var(--color-green));
 }
 .Labout .submissionLinkhead a:active {
   color: var(--color-pink);

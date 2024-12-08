@@ -8,9 +8,9 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: black;
-  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+  background: var(--color-green);
+  /* border: 1px solid rgba(255, 255, 255, 0.1); Subtle border */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Add shadow */
 
   /* Center slide text vertically */
   display: flex;
@@ -31,7 +31,7 @@
   height: 40vh;
   width: 60vw;
   padding: 2vh;
-  background: linear-gradient(90deg, rgb(109, 105, 105) 0%, rgb(30, 29, 29) 100%);
+  /* background: linear-gradient(90deg, pcimages0%, rgb(30, 29, 29) 100%); */
   transition: all 0.6s ease-in-out;
   overflow: hidden; /* Prevent overflowing when scaling */
 }

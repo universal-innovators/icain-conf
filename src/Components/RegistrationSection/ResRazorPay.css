@@ -3,13 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  color: white;
+  color: black;
     gap: 2vh;
   padding: 2vh;
 }
 .razorPay h1{
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
     
 }
 .razorPay p{
@@ -20,21 +20,18 @@
 
 /* button  */
 .submissionLinkheadRazor{
-    margin: 4vh 0;
+    margin: 2vh 0;
 }
  .submissionLinkheadRazor a{
     color: white;
    border-radius: 0.7rem;
-    background: linear-gradient(to left, var(--color-bg1), var(--color-bg2));
+    background:  var(--color-green);
     padding: 2vh;
     font-family: var(--font-content);
     color: white;
-    border: 1px solid var(--color-bg);
 
 }
-.submissionLinkheadRazor a:hover{
-    background: linear-gradient(to right, var(--color-bg1), var(--color-bg2));
-}
+
 
 
 /* adding media query  */

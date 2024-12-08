@@ -10,13 +10,12 @@ const Call_for_Special = () => {
 
           <span className="greet">Dear Sir/ Mam</span>
 
-          <h3>Greeting from ICAIN-2025!</h3>
           <p className="CfSletter">
+            Greeting from ICAIN-2025!<br/>
             ICAIN-2025 Conference team invites you to organize the special
             session in first version of "International Conference on Artificial Intelligence and Networking"
             (ICAIN-2025), to be held {" "}
-            <span className="greet">during 10th - 11th
-            October 2025</span> of your
+            <b> 10th - 11th October 2025 </b> of your
             research domain. We are diligently working to bring some of the
             most knowledgeable researchers from all over the world along with
             the leaders from the industry to explore the important topics of
@@ -99,23 +98,22 @@ const Call_for_Special = () => {
               icain.conf@gmail.com
             </a>{" "}
             latest by 30th July 2025 as per the template given below.
-          </p>
+            <br/>
 
-          <p className="CfSletter">
             ICAIN brings together the innovative research in the field of
             Computing and Communication to a common platform. The primary goal
             of the conference is to promote research and developmental
             activities. Another goal is to promote scientific information
             interchange between researchers, developers, engineers, students,
             and practitioners working in and around the world.
-          </p>
-          <p className="CfSletter">
+            <br/>
             All the accepted papers (after double blinded peer review) will be
             published in a Springer LNNS series (Approved) and further extended
             accepted papers will be published in the special issues of
             SCI/SCOPUS/WoS/DBLP/ACM/EI indexed Journals.
-          </p>
-          <p className="CfSletter">
+            <br/>
+            <br/>
+
             Looking to see you in ICAIN-2025.
             <p>Sincerely</p>
             <p> Organizer and Convener</p>

@@ -43,7 +43,7 @@ function PreConf18() {
             link1="https://link.springer.com/book/10.1007/978-981-13-2324-9"
           /> */}
         </div>
-        <ImpDate />
+        {/* <ImpDate /> */}
       </div>
 
       <div className="imagesPc">

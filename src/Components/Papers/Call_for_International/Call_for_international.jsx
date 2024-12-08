@@ -12,10 +12,10 @@ const Call_for_international = () => {
           <p>
             Greeting from ICAIN-2025! ICAIN Conference team invites you to
             organize the
-            <span className="greet"> International Workshop </span>
+            International Workshop
             in the "International Conference on Artificial Intelligence and Networking" (ICAIN-2025) , to be
             held during
-            <span className="greet"> 10th - 11th October 2025 </span>
+            <b> 10th - 11th October 2025 </b>
             of your research domain.
           </p>
 
@@ -37,9 +37,7 @@ const Call_for_international = () => {
         </div>
 
         <div className="intern_highlights">
-          <span className="highlight greet">
-            <u> Highlights of the International Workshops and Benefits:</u>
-          </span>
+            <h4> Highlights of the International Workshops and Benefits:</h4>
           <ul>
             <li>
               All accepted papers will be published in the proceedings of
@@ -96,7 +94,7 @@ const Call_for_international = () => {
               {" "}
               icain.conf@gmail.com{" "}
             </a>
-            with subject line as “Proposal for ICAIN-2025 International Workshop”
+            with subject line as <b>“Proposal for ICAIN-2025 International Workshop”</b>
           </p>
 
           <div>

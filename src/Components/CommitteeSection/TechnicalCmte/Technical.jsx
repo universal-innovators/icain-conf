@@ -12,9 +12,9 @@ function TechnicalCmte() {
           <div className="tecCards">
             <TecCards />
           </div>
-          <div className="tecImpDate">
+          {/* <div className="tecImpDate">
             <ImpDate />
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

@@ -1,11 +1,11 @@
-import "./ResPayPal.css";
+import "./ResRazorPay.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 function Stripe() {
   return (
     <>
-      <div className="payPal" data-aos="zoom-in">
+      <div className="razorPay" data-aos="zoom-in">
         <h1>Pay via Stripe</h1>
         <p>
           For Payment from International Authors/Attendees, use the following

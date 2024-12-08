@@ -13,9 +13,7 @@ function StCommittee() {
             <SCcards />
           </div>
 
-          <div className="stImpdate">
-            <ImpDate />
-          </div>
+          
         </div>
       </div>
       <Footer />

@@ -4,7 +4,7 @@
     width: 98%;
     margin: 10vh auto;
     /* background-color: red; */
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
    padding: 2vh;
    border-radius: 2rem 0.5rem;
    border: 1px solid var(--color-green);
@@ -15,6 +15,7 @@
     font-weight: 500;
     background-color: var(--color-green);
     padding: 1vh;
+    font-weight: 600;
     text-align: center;
 }
 .reFeetd , .reFeetr{
@@ -24,9 +25,9 @@
 }
 
 
-.reFeetr:hover{
-background-color: var(--color-bg1);
-}
+/* .reFeetr:hover{
+background-color: var(--color-green);
+} */
 .reFeeTable{
     border: 1px solid rgb(164, 164, 164);
     margin: 3vh 0;
@@ -36,22 +37,24 @@ background-color: var(--color-bg1);
    border: 1px solid rgb(164, 164, 164);
    padding: 4px;
    padding-left: 8px;
-   color: white;
-   font-weight: 400;
+   color: black;
+   font-weight: 600;
    font-family: var(--font-headings);
-   background-color: var(--color-bg2);
+   background-color: var(--color-green);
+   color: white;
+   
 }
 .reFeetr p{
     border: 1px solid rgb(164,164,164);
     padding: 8px;
     padding-left: 8px;
-    color: white;
+    color: black;
 }
 
 .reSpDiscount h1{
     font-size: 1.2rem;
    font-weight: 500;
-    color: white;
+    color: black;
 }
 
 @media (max-width:760px)

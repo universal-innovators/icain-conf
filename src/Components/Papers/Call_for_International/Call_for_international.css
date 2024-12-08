@@ -5,7 +5,7 @@
     width: 96%;
     color: white;
     margin: 1vh auto;
-  font-family: var(--font-content);
+  font-family: var(--font-headings);
 }
 .intern_container h5{
     background-color: var(--color-green);
@@ -16,17 +16,17 @@
     margin: 4vh 0;
 }
 .intern_inner{
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
-    padding: 4vh;
+    background: white;
+    padding: 2vh;
     border-radius: 2rem 0.5rem;
     line-height: 1.5rem;
-    margin: 3vh 0;
-    border: 1px solid var(--color-bg2);
+    margin: 1vh 0;
+    /* border: 1px solid var(--color-bg2); */
 }
 
 .intern_inner h3{
-    color: var(--color-warning);
-    font-weight: 500;
+    color: var(--color-black);
+    font-weight: 600;
     font-size: 1.1rem;
 }
 .intern_inner p{
@@ -34,16 +34,21 @@
     font-weight: 400;
     font-size: 1rem;
     margin-bottom: 2vh;
+    color: black;
+    font-family: var(--font-content);
 }
 
 
 .intern_highlights, .intern_interested{
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
-    padding: 4vh;
+    
+    padding: 2vh;
     border-radius: 2rem 0.5rem;
     line-height: 1.5rem;
-    margin: 3vh 0;
-    border: 1px solid var(--color-bg2);
+    margin: 1vh 0;
+    color: black;
+    font-family: var(--font-content);
+
+    
 }
 
 
@@ -67,7 +72,7 @@
 .submissionLinkhead a{
     /* color: var(--color-white); */
    border-radius: 0.7rem;
-    background: linear-gradient(to left, var(--color-bg), var(--color-green1));
+    background: linear-gradient(to left, var(--color-green), var(--color-green1));
     padding: 2vh;
     font-family: var(--font-content);
     color: white;
@@ -75,7 +80,7 @@
 
 }
  .submissionLinkhead a:hover{
-    background: linear-gradient(to right, var(--color-bg), var(--color-green1));
+    background: var(--color-green);
 }
  .submissionLinkhead a:active{
    color: var(--color-pink);

@@ -17,7 +17,7 @@
 }
 
 .greet{
-    color: var(--color-warning);
+    color: var(--color-black);
     font-size: 1.1rem;
 }
 .Special_container h3{
@@ -32,25 +32,27 @@
 .Special_container .CfSletter{
     text-align: justify;
     font-family: var(--font-content);
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
-    /* background-color: var(--color-bg2); */
-    padding: 4vh;
+    color: black;
+    padding: 0.5vh;
     border-radius: 2rem 0.5rem;
     line-height: 1.5rem;
-    margin: 3vh 0;
-    border: 1px solid var(--color-bg2);
+    margin: 1vh 0;
+    /* border: 1px solid var(--color-bg2); */
 
 } 
 
 .callSpecialHighlight{
-    background-color: var(--color-bg1);
+    /* background-color: var(--color-green); */
+    background: linear-gradient(to right, var(--color-green), var(--color-green1));
+
     border: 1px solid var(--color-bg2);
     border-radius: 2rem 0.5rem;
 }
 
 .callSpecialHighlight h2{
+    border-radius: 2rem 0.5rem;
     
-    background: linear-gradient(to left, var(--color-bg), var(--color-green1));
+    background: linear-gradient(to right, var(--color-green), var(--color-green1));
     font-weight: 400;
     font-size: 1.5rem;
     padding: 1vh 0;
@@ -61,17 +63,11 @@
 }
 
 .callSpecialHighlight li{
-  list-style-type: none;    
-  /* background-color: var(--color-bg1); */
-  padding: 1vh 2vh;
+  list-style-type: circle;    
+  margin: 2vh 4vh;
   font-weight: 400;
   font-family: var(--font-content);
   font-size: 1rem;
-  margin: 1vh 0;
-  /* color: var(--color-green); */
-
-
-
 }
 
 
@@ -87,15 +83,16 @@
    border-radius: 0.7rem;
     /* background-color: var(--color-green); */
     background: linear-gradient(to left, var(--color-bg), var(--color-green1));
-    padding: 2vh;
+    padding: 1vh 2vw;
     font-family: var(--font-content);
     /* opacity: 0.8; */
     color: white;
+    font-weight:600;
     border: 1px solid var(--color-green1);
 
 }
 .submissionLinkhead a:hover{
-    background: linear-gradient(to right, var(--color-bg), var(--color-green1));
+    background: linear-gradient(to right, var(--color-green), var(--color-green1));
 }
 
 

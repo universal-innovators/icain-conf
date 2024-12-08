@@ -87,7 +87,7 @@
     font-weight: 400;
     color:var(--color-green) ;
    font-family: var(--font-headings);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     display: inline;
 
 
@@ -97,7 +97,7 @@
     line-height: 2rem;
     /* color: hsla(0, 0%, 100%, 0.5); */
     color: var(--color-green);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
    font-family: car(--font-content);
     text-align: start;
     display: inline;

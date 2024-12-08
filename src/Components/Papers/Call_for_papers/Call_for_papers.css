@@ -18,7 +18,7 @@
 }
 .cfp ul li{
     list-style-type: circle;
-    color: var(--color-green1);
+    color: var(--color-black);
     padding: 1vh 0;
     margin: 0 4vh;
     font-weight: 500;
@@ -33,7 +33,7 @@
 .bold1{
     font-weight: 600;
     margin: 4vh 0 1.5vh 0;
-    background-color: var(--color-bg1);
+    background-color: var(--color-green);
     padding: 1vh ;
     color: white;
     
@@ -54,7 +54,7 @@
     background-color: var(--color-green);
 }
 .cfp_info {
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background:  var(--color-green);
     padding: 3vh;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@
     margin: 2vh 0;
     line-height: 1.4rem;
     font-weight: 400;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background:  var(--color-green);
    padding: 3vh;
    border: 1px solid var(--color-bg2);
 }
@@ -93,14 +93,14 @@
     font-size: 1.1rem;
 }
 .callpaperEnd p a{
-    color: var(--color-green1);
+    color: var(--color-white);
 }
 .callpaperEnd p span{
-    color: var(--color-warning);
+    color: var(--color-white);
 
 }
 .cpaperColor{
-    color: var(--color-green1);
+    color: var(--color-white);
     font-weight: 500;
 }
 .call_desc{

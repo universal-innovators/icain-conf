@@ -65,7 +65,7 @@ function About() {
                 <p>
                   The University of Stirling, RAK Campus is a global university with a reputation for high-quality teaching and research. We help our graduates, staff and students to shape the world. We’re an agent for change, connecting people, innovating and transforming the lives of our students, staff and the global communities we serve.
                 </p><br />
-                <h3>Why Stirling?</h3>
+                <h3 style={{"color":"#006938","fontFamily":"Calibri"}}>Why Stirling?</h3>
                 <p>Highly rated courses, high rate of employability
 
                   We’re proud of the way we prepare our students with life-long career and employability skills. It’s why 91% of all undergraduates and 95% of our postgraduates were in employment or further study fifteen months after graduation (Graduate Outcomes Survey 2021, HESA)

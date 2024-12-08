@@ -5,6 +5,7 @@ import RazorPay from "./ResRazorPay";
 import RegistrationFee from "./RegistrationFee";
 import UPI from "./UPI";
 import Stripe from "./Stripe";
+import StripePay from "./StripePay";
 
 function Registrations() {
   return (
@@ -20,14 +21,11 @@ function Registrations() {
               <div className="rePara">
                 <p style={{"color":"black"}}>
                   Once Your paper is accepted, the registration process begins.
-                  you have to complete the following steps.
+            
                 </p>
 
                 <p>
-                  {" "}
-                  <span className="reParaBold">
-                    Step1 - Registration Fee:
-                  </span>{" "}
+                
                   <p style={{"color":"black"}}>
                   It is mandatory for at least one author of an accepted paper
                   to register in order for the paper to appear in the
@@ -39,7 +37,7 @@ function Registrations() {
               <div className="reAuthors  ">
                 <h2>Author/Co-Author Registration Fee Includes: </h2>
                 <div className="reAuthorsInst  ">
-                  <ol>
+                  <ul>
                     <li>Welcome reception</li>
                     <li>Badge</li>
                     <li>Conference Kit with Proceeding</li>
@@ -47,7 +45,7 @@ function Registrations() {
                     <li>Coffee breaks</li>
                     <li>Lunch</li>
                     <li>Banque</li>
-                  </ol>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -55,7 +53,8 @@ function Registrations() {
             {/* Registration Account Details  */}
             <div className="reAccountMain  ">
             <div className="Razor">
-                  <Stripe />
+                  {/* <Stripe /> */}
+                  <StripePay/>
             </div>
             <div className="Razor">
                   <RazorPay />

@@ -23,54 +23,53 @@
 }
 .reDetail .rePara .reParaBold{
     font-weight: 500;
-    color: var(--color-warning);
+    color: var(--color-black);
 }
 
 
 /* Registration Authors  */
 .reAuthors{
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
-   border: 1px solid var(--color-bg2);
-   padding: 2vh;
    border-radius: 2rem 0.5rem;
    margin: 2vh 0;
 }
 .reAuthors h2{
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: var(--color-green1);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-green);
     margin: 2vh 0;
+    font-family: var(--font-headings);
 
 }
 .reAuthors .reAuthorsInst{
     
     font-size: 1rem;
-    color: white;
+    color: black;
 }
 .reAuthors .reAuthorsInst li{
-    padding: 1vh 0;
+    margin: 1vh 2vw;
+    list-style-type: circle;
 }
 
 
 /* Registration and all  */
 .reAccountMain{
-    margin:2vh 0;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+   margin:2vh 0;
    border: 1px solid var(--color-bg2);
    padding: 3vh;
    
 }
 .reAccountMain .reAccountHeading{
-    font-size: 1.1rem; 
-    font-weight: 500;
+    font-size: 1.4rem; 
+    font-weight: 600;
     padding: 2vh 0;
     text-align: center;
     border: 1px solid var(--color-green);
     border-radius: 0.5rem 2rem;
+    color:black;
 }
 
 .reAccountTransfer{
-    border: 1px solid white;
+    border: 1px solid black;
    margin: 4vh auto;
    width: 80%;
 
@@ -90,7 +89,6 @@
 .reAccountBank .reAccountBankHeading{
     font-size: 1.3rem;
     text-align: center;
-    background-color: rgb(170, 169, 169);
     background-color: var(--color-green);
     padding: 2vh;
     border-radius: 12px;
@@ -103,12 +101,12 @@
   margin-bottom: 2vh;
   box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3);
   border-radius: 12px;
-  color: white;
+  color: black;
   font-weight: 400;
 }
 
 .reBankDetails .reBank:hover{
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    
 
   cursor: pointer;
   border-radius: 0;
@@ -117,7 +115,7 @@
 .reBankDetails .reBank p{
     border: 1px solid var(--color-green);
     padding: 2vh;
-    color: white;
+    color: black;
     font-weight: 400;
 }
 .reBankDetails .reBank h2{

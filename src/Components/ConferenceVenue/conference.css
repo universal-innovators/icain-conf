@@ -25,20 +25,21 @@
 
 .conference .coAddress{
     padding: 2rem;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
     border-radius: 2rem 0.5rem;
     border: 1px solid var(--color-success);
     
-    color: white;
+    color: black;
     margin: 2vh 0;
 
 }
 .conference .coAddress li{
     font-weight: 500;
     font-size: 1.2rem;
-    color: white;
-    list-style-type: circle;
+    color: black;
+    list-style-type: none;
     padding: 0 2vh;
+    font-family: var(--font-content);
 
 }
 .conference .coAddress .confVenueEmail{
@@ -47,7 +48,7 @@
 }
 .conference .coAddress h1{
     margin: 2vh 0;
-    background-color: var(--color-bg1);
+    background-color: var(--color-green);
     color: white;
     padding: 1vh;
     text-align: center;

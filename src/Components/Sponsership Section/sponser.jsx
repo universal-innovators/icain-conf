@@ -4,7 +4,7 @@ import Footer from "../Footer/footer";
 import SponsorImg from "./sponsor.png";
 // import SponsorPdf from "./sponsor.pdf";
 import "./sponser.css";
-// import "./about.css"
+
 
 function Sponsorships() {
   return (
