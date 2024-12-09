@@ -2,6 +2,9 @@ import React, { useLayoutEffect } from "react";
 import classes from "./footer.module.css";
 import { NavLink } from "react-router-dom";
 import uos from "../Header/Himages/logo-2.svg"
+import { IoMdMail } from "react-icons/io";
+import { IoLogoFacebook } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 function Footer() {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -31,10 +34,10 @@ function Footer() {
           <h1>Social Media</h1>
 
           <div className={classes.social}>
-            <a href="mailto:icain.conf@gmail.com">Gmail</a>
+            {/* <a href="mailto:icain.conf@gmail.com"><IoMdMail/></a> */}
             {/* <a href="icain.conf@gmail.com">Gmail</a> */}
-            <a href="">Facebook</a>
-            <a href="">LinkedIn</a>
+            <a href="https://www.facebook.com/people/Universal-Inovators/100064348376055/"><IoLogoFacebook/></a>
+            <a href="https://www.linkedin.com/company/universal-inovators/"><FaLinkedin /></a>
           </div>
         </div>
 

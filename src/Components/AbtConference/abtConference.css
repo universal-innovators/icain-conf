@@ -46,22 +46,23 @@ a {
 .Labout .submissionLinkhead a {
   color: white;
   border-radius: 0.7rem;
-  background: linear-gradient(to left, var(--color-green), var(--color-green1));
+  /* background: linear-gradient(to left, var(--color-green), var(--color-green1)); */
   padding: 2vh;
   font-family: -var(--font-heading);
   color: white;
   border: 1px solid var(--color-green1);
+  background-color:var(--color-green);
   transition: all 0.3s ease-in-out;
 }
 .Labout .submissionLinkhead a:hover {
-  background: linear-gradient(to left, var(--color-green1), var(--color-green));
+  /* background: linear-gradient(to left, var(--color-green1), var(--color-green)); */
 }
 .Labout .submissionLinkhead a:active {
   color: var(--color-pink);
 }
 
 .Labout .aboutLink:hover {
-  background-color: var(--color-bg2);
+  /* background-color: var(--color-bg2); */
 }
 
 /* downloads  */
@@ -95,7 +96,7 @@ a {
   border-radius: 50%;
 }
 
-.red {
+/* .red {
   background-color: #ff605c;
 }
 
@@ -105,7 +106,7 @@ a {
 
 .green {
   background-color: #00ca4e;
-}
+} */
 
 .Rabout {
   margin: -4vh 0;

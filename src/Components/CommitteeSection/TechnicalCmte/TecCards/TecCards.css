@@ -1,36 +1,53 @@
-
-.tecCard{
+.tecCard {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    
     padding: 4vh;
-    
     border-radius: 0.5rem 2rem;
     color: white;
-   
+    align-items: stretch; /* Ensures all items in a row stretch to the tallest */
+}
+
+.tecPara {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 4vh 2vh;
+    border-radius: 0.5rem 2rem;
+    border: 1px solid var(--color-black);
+    color: black;
+    box-shadow: var(--color-green) 0px 1px 2px 0px, var(--color-green1) 0px 1px 3px 1px;
+    transition: all 0.5s ease-in-out;
+    height: auto; /* Dynamic height based on content */
+    min-height: 100px; /* Ensures a consistent base height for all cards */
+}
+
+.tecPara:hover {
+    transform: translateY(-12px);
+}
+
+.tecPara h3 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1000px) {
+    .tecCard {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .tecCard {
+        grid-template-columns: 1fr;
+    }
 }
 .techCard h3{
 font-size: 1.2rem;
 font-weight: 500;
-}
-.tecPara{
-    
-  padding: 4vh 2vh;
-  border-radius: 0.5em;
-  border: 1px solid var(--color-black);
-  color: black;
-  box-shadow: var(--color-green) 0px 1px 2px 0px, var(--color-green1) 0px 1px 3px 1px;
-  border-radius: 0.5rem 2rem;
-  transition: all 0.5s ease-in-out;
-}
-.tecPara:hover{
-    transform: translateY(-12px);
-}
-
-.tecPara h3{
-    font-size: 1rem;
-    font-weight: 800;
 }
 
 

@@ -1,6 +1,33 @@
+
+
+.adCard h1 {
+    font-size: 1rem;
+    color: black;
+}
+
+.adCard:hover {
+    transform: translateY(-6px);
+}
+
+/* Media Queries */
+
+@media (max-width: 1000px) {
+    .adCards {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens */
+    }
+}
+
+@media (max-width: 550px) {
+    .adCards {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+        gap: 2rem;
+    }
+}
+
+
 .adCards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr); /* Ensures 3 columns by default */
     gap: 20px;
     /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
     /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
@@ -8,14 +35,33 @@
     /* border: 1px solid var(--color-bg2); */
     border-radius: 0.5rem 2rem;
     color: black;
+    align-items: stretch; /* Ensures all cards in a row stretch to the tallest */
 }
+
 
 .adCard h1{
   font-size: 1rem;
   color: black;
   
 }
+
+
+.adCard {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 2vh;
+    border-radius: 0.5rem 2rem;
+    border: 1px solid var(--color-black);
+    color: black;
+    box-shadow: var(--color-green) 0px 1px 2px 0px, var(--color-green1) 0px 1px 3px 1px;
+    transition: all 0.5s ease-in-out;
+    height: auto; /* Dynamic height based on content */
+    min-height: 100px; /* Sets a consistent base height for all cards */
+}
+
 .adCard{
+    display: flex;
+    flex-direction: column;
     /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
     padding: 4vh 2vh;
     border-radius: 0.5em;
@@ -25,6 +71,8 @@
 
     border-radius: 0.5rem 2rem;
     transition: all 0.5s ease-in-out;
+    height: auto; /* Dynamic height based on content */
+    min-height: 100px; /* Sets a consistent base height for all cards */
 }
 .odd-h1 {
     background-color: red;

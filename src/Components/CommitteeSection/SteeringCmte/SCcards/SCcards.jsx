@@ -41,7 +41,7 @@ function SCcards() {
     },
     {
       h1: "Ms. Shanthi  Rajan",
-      p: "Director-Internal QA Dept. , Director-Scottish Qualification Authority, RAK Centre, University Stirling RAK Campus",
+      p: "Director-Internal QA Dept. , Director-Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus",
     },
     {
       h1: "Dr. Abhinanda Barman",
@@ -49,19 +49,19 @@ function SCcards() {
     },
     {
       h1: " Mr. Mobin Khtib",
-      p: "Director Human Resources, University Stirling RAK Campus",
+      p: "Director-Human Resources, University of Stirling RAK Campus",
     },
     {
       h1: "Mr. William Alistair McQueer",
-      p: "Programme Director - Computing Science, University Stirling RAK Campus",
+      p: "Programme Director - Computing Science, University of Stirling RAK Campus",
     },
     {
       h1: "Dr. Sanman Jain",
-      p: "Programme Director -  Accounting & Finance University of Stirling RAK Campus",
+      p: "Programme Director -  Accounting & Finance, University of Stirling RAK Campus",
     },
     {
       h1: "Dr. Nikhil V.P",
-      p: " Programme Director- Management University of Stirling, RAK Campus",
+      p: " Programme Director- Management, University of Stirling, RAK Campus",
     },
     // {
     //   h1: " Prof. Madhu Pruthi",
