@@ -37,15 +37,15 @@ function SCcards() {
   let patron = [
     {
       h1: " Mr. Sunil Kumar CT",
-      p: "Director Academics, University Stirling Rak Campus",
+      p: "Director -Academics, University of Stirling RAK Campus",
     },
     {
       h1: "Ms. Shanthi  Rajan",
       p: "Director-Internal QA Dept. , Director-Scottish Qualification Authority, RAK Centre, University Stirling RAK Campus",
     },
     {
-      h1: "Dr. Abhinanda",
-      p: "Director University Communication and Strategic Alliance, University Stirling RAK Campus",
+      h1: "Dr. Abhinanda Barman",
+      p: "Director-University Communication and Strategic Alliance, University  of Stirling RAK Campus"
     },
     {
       h1: " Mr. Mobin Khtib",
@@ -72,7 +72,7 @@ function SCcards() {
 
     {
       h1: " Dr. Richa Arora",
-      p: "Head of Institution & COO, University Stirling Rak Campus, Planet One International Education FZ-LLC, UAE",
+      p: "COO and Head of Institution (HOI), University of Stirling RAK Campus, UAE",
     },
     // {
     //   h1: " Prof. Madhu Pruthi",
