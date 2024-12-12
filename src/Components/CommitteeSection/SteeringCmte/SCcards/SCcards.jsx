@@ -37,31 +37,31 @@ function SCcards() {
   let patron = [
     {
       h1: " Mr. Sunil Kumar CT",
-      p: "Director -Academics, University of Stirling RAK Campus",
+      p: "Director -Academics, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Ms. Shanthi  Rajan",
-      p: "Director-Internal QA Dept. , Director-Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus",
+      p: "Director-Internal QA Dept. , Director-Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Dr. Abhinanda Barman",
-      p: "Director-University Communication and Strategic Alliance, University  of Stirling RAK Campus"
+      p: "Director-University Communication and Strategic Alliance, University  of Stirling RAK Campus, UAE"
     },
     {
       h1: " Mr. Mobin Khtib",
-      p: "Director-Human Resources, University of Stirling RAK Campus",
+      p: "Director-Human Resources, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Mr. William Alistair McQueer",
-      p: "Programme Director - Computing Science, University of Stirling RAK Campus",
+      p: "Programme Director - Computing Science, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Dr. Sanman Jain",
-      p: "Programme Director -  Accounting & Finance, University of Stirling RAK Campus",
+      p: "Programme Director -  Accounting & Finance, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Dr. Nikhil V.P",
-      p: " Programme Director- Management, University of Stirling, RAK Campus",
+      p: " Programme Director- Management, University of Stirling, RAK Campus, UAE",
     },
     // {
     //   h1: " Prof. Madhu Pruthi",
@@ -107,11 +107,11 @@ function SCcards() {
     },
 {
       h1: "Dr. Narina Thakur",
-      p: "Assistant Prof.  CS and SE , HEAD - Research Innovation Committe, University of Stirling RAK Campus",
+      p: "Assistant Prof.  CS and SE , HEAD - Research Innovation Committe, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Dr.  Shamik Palit",
-      p: "Associate Prof.  CS and SE , HEAD - Corporate Outreach Committe, University of Stirling RAK Campus",
+      p: "Associate Prof.  CS and SE , HEAD - Corporate Outreach Committe, University of Stirling RAK Campus, UAE",
     },
   ];
 
