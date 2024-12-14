@@ -62,7 +62,7 @@ function HeaderMain() {
             {/* & <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
-          <p className="hspringer">Springer LNNS (APPLIED) (Indexed in Scopus, EI, WoS and Many More)</p>
+          <p className="hspringer">Springer LNNS( Applied) (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>
           <p>10th - 11th October 2025<br /><span style={{ "color": "red" }}></span></p>
         </div>
       </div>

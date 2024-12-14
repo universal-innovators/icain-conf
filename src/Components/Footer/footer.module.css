@@ -46,9 +46,9 @@
     
 }
 .fleft h1, .socialMedia h1, .links h1{
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.5rem;
-    color: var(--color-success);
+    color: white;
     margin: 1vh 0;
 }
 .socialMedia{
@@ -90,7 +90,7 @@ font-weight: 400;
 }
  
 .fright .links p:hover{
-    color: var(--color-pink);
+    color: #77bf22;
 }
 
 .line{

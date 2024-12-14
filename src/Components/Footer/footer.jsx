@@ -36,8 +36,8 @@ function Footer() {
           <div className={classes.social}>
             {/* <a href="mailto:icain.conf@gmail.com"><IoMdMail/></a> */}
             {/* <a href="icain.conf@gmail.com">Gmail</a> */}
-            <a href="https://www.facebook.com/people/Universal-Inovators/100064348376055/"><IoLogoFacebook/></a>
-            <a href="https://www.linkedin.com/company/universal-inovators/"><FaLinkedin /></a>
+            <a href="https://www.facebook.com/universityofstirling/" target="_blank"><IoLogoFacebook/></a>
+            <a href="https://www.linkedin.com/school/university-of-stirling/" target="_blank"><FaLinkedin /></a>
           </div>
         </div>
 
@@ -76,7 +76,7 @@ function Footer() {
 
       <div className={classes.f_lower}>
         <h3>
-          Copyright ©"International Conference on Artificial Intelligence and Networking" ICAIN | All Rights
+          Copyright ©"International Conference on Artificial Intelligence and Networking" ICAIN | All Rights
           Reserved
         </h3>
         {/* <p>Site By: Akshun Verma</p> */}
