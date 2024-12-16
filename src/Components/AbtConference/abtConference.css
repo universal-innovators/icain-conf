@@ -38,20 +38,20 @@ a {
   /* margin-top: -40px; */
   font-weight: 500;
   text-align: justify;
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 .Labout .submissionLinkhead {
   margin: 4vh 0;
 }
 .Labout .submissionLinkhead a {
   color: white;
-  border-radius: 0.7rem;
+  /* border-radius: 0.7rem; */
   /* background: linear-gradient(to left, var(--color-green), var(--color-green1)); */
   padding: 2vh;
   font-family: -var(--font-heading);
   color: white;
-  border: 1px solid var(--color-green1);
-  background-color:var(--color-green);
+  /* border: 1px solid var(--color-green1); */
+  /* background-color:var(--color-green); */
   transition: all 0.3s ease-in-out;
 }
 .Labout .submissionLinkhead a:hover {

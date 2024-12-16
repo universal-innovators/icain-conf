@@ -68,27 +68,27 @@ function App() {
       document.removeEventListener("contextmenu", handleContextMenu);
     };
   }, []);
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      // Disable F12 (Developer Tools)
-      if (e.key === "F12") {
-        e.preventDefault();
-      }
+  // useEffect(() => {
+  //   const handleKeyDown = (e) => {
+  //     // Disable F12 (Developer Tools)
+  //     if (e.key === "F12") {
+  //       e.preventDefault();
+  //     }
 
-      // Disable Ctrl+Shift+I/J/C/U
-      if (
-        (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key)) ||
-        (e.ctrlKey && e.key === "U")
-      ) {
-        e.preventDefault();
-      }
-    };
+  //     // Disable Ctrl+Shift+I/J/C/U
+  //     if (
+  //       (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key)) ||
+  //       (e.ctrlKey && e.key === "U")
+  //     ) {
+  //       e.preventDefault();
+  //     }
+  //   };
 
-    window.addEventListener("keydown", handleKeyDown);
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
+  //   window.addEventListener("keydown", handleKeyDown);
+  //   return () => {
+  //     window.removeEventListener("keydown", handleKeyDown);
+  //   };
+  // }, []);
   return (
     <>
       <HeaderMain />

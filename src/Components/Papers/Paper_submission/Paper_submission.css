@@ -27,16 +27,19 @@
 }
 .submissionLinkhead a{
     color: b;
-   border-radius: 0.7rem;
+   /* border-radius: 0.7rem; */
     background:var(--color-green);
     padding: 3vh;
     font-family: var(--font-content);
     color: white;
-    border: 1px solid var(--color-green1);
+    /* border: 1px solid var(--color-green1); */
 
 }
  .submissionLinkhead a:hover{
-    background: linear-gradient(to right, var(--color-bg), var(--color-green1));
+    /* background: linear-gradient(to right, var(--color-bg), var(--color-green1)); */
+    background-color:white;
+    border: 3px solid var(--color-green);
+    color: var(--color-green);
 }
 .submissionLinkhead a:active{
    color: var(--color-pink);

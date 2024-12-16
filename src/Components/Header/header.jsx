@@ -32,12 +32,12 @@ function HeaderMain() {
       </div>
       {/* main top part  */}
       <div className="hTopPart">
-        <div className="htop1">
+        {/* <div className="htop1">
           <p>
             International Conference on Artificial Intelligence and Networking <br />(ICAIN-2025)
           </p>
 
-        </div>
+        </div> */}
         <div className="htop2">
           <p className="hhead">
             {/* ORGANISED BY :{" "} */}
@@ -47,10 +47,10 @@ function HeaderMain() {
             {/* <br /> */}
             {/* <span >in association with</span>{" "} */}
             <div className="headerLogo">
-          {/* <img src={gtbit} className="logoImg"/>    */}
-          <img src={uos} className="logoImg1" />
-        </div>
-            <span style={{'color':'#006938',fontSize:'1rem'}}>
+              {/* <img src={gtbit} className="logoImg"/>    */}
+              <img src={uos} className="logoImg1" />
+            </div>
+            {/* <span style={{'color':'#006938',fontSize:'1rem'}}>
 
               
               Al Dhait South, 
@@ -58,12 +58,12 @@ function HeaderMain() {
               (NEAR DUBAI), 
               United Arab Emirates
 
-            </span>
+            </span> */}
             {/* & <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
-          <p className="hspringer">Springer LNNS( Applied) (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>
-          <p>10th - 11th October 2025<br /><span style={{ "color": "red" }}></span></p>
+          {/* <p className="hspringer">Springer LNNS( Applied) (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>
+          <p>10th - 11th October 2025<br /><span style={{ "color": "red" }}></span></p> */}
         </div>
       </div>
 

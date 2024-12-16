@@ -25,6 +25,8 @@ ul {
   padding: 20px;
   background-color: var(--navColor);
   position: sticky;
+  padding-left: 300px;
+  padding-top: 0px;
   top: 0;
   z-index: 2;
   font-family: var(--font-content);
@@ -35,7 +37,7 @@ ul {
 .main-menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -152,7 +154,9 @@ ul {
     .menu-btn {
       display: block;
     }
-  
+    .main-nav{
+      padding-left: 0;
+    }
     .main-menu {
       display: block;
       position: fixed;
