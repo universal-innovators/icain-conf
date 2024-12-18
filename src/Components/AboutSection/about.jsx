@@ -3,7 +3,7 @@ import ImpDate from "../impDates/impDtext";
 import Footer from "../Footer/footer";
 import "./about.css";
 import "animate.css";
-import clg from "../ConferenceVenue/unnamed.jpg";
+import clg from "../ConferenceVenue/uosImage.JPG";
 function About() {
   return (
     <div>
@@ -11,6 +11,7 @@ function About() {
         <div className="abcontainer animate__animated animate__backInRight">
           <div className="abHeadTop ">
             <h1>About University of Stirling</h1>
+            <div className="underlineHeading"></div>
           </div>
           <hr />
 
@@ -57,9 +58,9 @@ function About() {
             {/* <h2>University of Stirling</h2> */}
             <hr />
 
-            <div className="abLeftRight">
+            <div className="abLeftRight1">
               <div className="abLeft">
-                <img src={clg} style={{ "width": "100%", height: "50vh", objectFit: "contain" }} />
+                <img src={clg} style={{ "width": "65%", objectFit: "contain" , display: "block", margin:"auto"}} />
                 <br />
                 <br />
                 <p>
@@ -83,9 +84,9 @@ function About() {
                 </p>
               </div>
 
-              <div className="abRight">
+              {/* <div className="abRight">
                 <ImpDate />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

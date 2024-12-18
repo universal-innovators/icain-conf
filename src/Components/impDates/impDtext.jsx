@@ -49,7 +49,7 @@ const impDtext = () => {
                 viewBox="-1.44 -1.44 26.88 26.88"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                stroke="#2FCB89"
+                stroke="#006938"
                 height="4rem"
                 width="4rem"
               >

@@ -1,7 +1,7 @@
 import React from "react";
 import ImpDate from "../impDates/impDtext";
 import Footer from "../Footer/footer";
-import "./about.css";
+import "./about1.css";
 import "animate.css";
 import logoui from "./uilogo.webp";
 function AboutUniversal() {
@@ -10,13 +10,17 @@ function AboutUniversal() {
       <div className="about">
         <div className="abcontainer animate__animated animate__backInRight">
           <div className="aboutMain">
-            <h2>About Univeral Inovators</h2>
-            <hr />
+            <div className="">
+
+              <h2>About Univeral Inovators</h2>
+              <hr />
+              <div className="underlineHeading"></div>
+            </div>
 
             <div className="abLeftRight">
               {/* left  */}
               <div className="abLeft">
-              <img src={logoui}  style={{width:"50vw", height:"30vh", objectFit:"contain"}}/>
+                <img src={logoui} style={{ width: "50vw", height: "30vh", objectFit: "contain" }} />
                 <p>
                   Every success story begins with a vision. The Universal
                   Innovators (UI) is a private and autonomous body promoting

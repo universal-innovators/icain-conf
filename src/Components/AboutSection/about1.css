@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,600;1,800&family=Poppins:ital,wght@1,200;1,400&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap");
+
+.about {
+  margin: 4vh 0;
+}
+.abHeadTop {
+  width: 96%;
+  margin: 2vh auto;
+}
+.abHeadTop h1 {
+  font-weight: 700;
+  padding: 1vh;
+  padding-left: 20px;
+  text-align: left;
+  /* opacity: 0.8; */
+  color: var(--color-green);
+  /* background-color: var(--color-green); */
+  font-family: var(--font-headings);
+  font-size: 58px;
+}
+
+.aboutMain {
+  width: 96%;
+  margin: 0 auto;
+}
+.aboutMain h2 {
+  /* background-color: var(--color-green); */
+  /* color: white; */
+  font-weight: 700;
+  padding: 1vh;
+  padding-left: 20px;
+  text-align: left;
+  /* opacity: 0.8; */
+  color: var(--color-green);
+  /* background-color: var(--color-green); */
+  font-family: var(--font-headings);
+  font-size: 58px;
+}
+
+.abLeftRight {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 1rem;
+  margin: 3vh 0;
+}
+.abLeft p {
+  font-size: 1rem;
+  font-family: var(--font-content);
+  /* line-height: 4vh; */
+  font-weight: 400;
+  text-align: justify;
+  color: black;
+}
+.underlineHeading{
+    width: 15%;
+    color: var(--color-green1);
+    background-color:var(--color-green1);
+    height:10px;
+    margin-left:20px;
+}
+.abRight {
+  height: fit-content;
+  box-sizing: border-box;
+  position: sticky;
+  top: 10rem;
+}
+.abLeftRight .abRight:hover {
+  cursor: pointer;
+}
+.listPoints {
+  list-style-type: disc !important;
+  margin-left: 20px; /* Adjust indentation if needed */
+  line-height: 1.5; /* Add spacing between list items for better readability */
+}
+
+/* adding media query  */
+@media (max-width: 900px) {
+  .abLeftRight {
+    grid-template-columns: 1fr;
+  
+  }
+  .abHeadTop h1 {
+    font-size: 32px;
+}
+}

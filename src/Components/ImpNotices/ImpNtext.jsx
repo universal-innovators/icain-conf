@@ -18,7 +18,7 @@ const ImpNtext = () => {
                 class="icon"
                 version="1.1"
                 stroke-width="25.056"
-                stroke="#2FCB89"
+                stroke="#006938"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 height="4rem"

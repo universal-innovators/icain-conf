@@ -8,16 +8,23 @@
   margin: 2vh auto;
 }
 .abHeadTop h1 {
-  font-weight: 400;
+  font-weight: 700;
   padding: 1vh;
-  text-align: center;
-  opacity: 0.8;
-  color: white;
-  background-color: var(--color-green);
+  text-align: left;
+  /* opacity: 0.8; */
+  color: var(--color-green);
+  /* background-color: var(--color-green); */
   font-family: var(--font-headings);
-  font-size: 1.5rem;
+  font-size: 58px;
 }
-
+.underlineHeading{
+  width: 15%;
+  color: var(--color-green1);
+  background-color:var(--color-green1);
+  height:10px;
+  margin-left:20px;
+  margin-bottom:2rem;
+}
 .aboutMain {
   width: 96%;
   margin: 0 auto;
@@ -29,20 +36,20 @@
   opacity: 0.8;
   /* font-size: 28px; */
   font-size: 1.3rem;
-  background-color: var(--color-green);
+  /* background-color: var(--color-green); */
   color: white;
 }
 
 .abLeftRight {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 1rem;
-  margin: 3vh 0;
+  margin: 3vh 0; */
 }
 .abLeft p {
   font-size: 1rem;
   font-family: var(--font-content);
-  line-height: 4vh;
+  /* line-height: 4vh; */
   font-weight: 400;
   text-align: justify;
   color: black;
@@ -68,4 +75,7 @@
   .abLeftRight {
     grid-template-columns: 1fr;
   }
+  .abHeadTop h1 {
+    font-size: 32px;
+}
 }
