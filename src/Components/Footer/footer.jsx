@@ -5,6 +5,7 @@ import uos from "../Header/Himages/logo-2.svg"
 import { IoMdMail } from "react-icons/io";
 import { IoLogoFacebook } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 function Footer() {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -36,8 +37,9 @@ function Footer() {
           <div className={classes.social}>
             {/* <a href="mailto:icain.conf@gmail.com"><IoMdMail/></a> */}
             {/* <a href="icain.conf@gmail.com">Gmail</a> */}
-            <a href="https://www.facebook.com/universityofstirling/" target="_blank"><IoLogoFacebook/></a>
-            <a href="https://www.linkedin.com/school/university-of-stirling/" target="_blank"><FaLinkedin /></a>
+            <a href="https://www.facebook.com/stiruae" target="_blank"><IoLogoFacebook/></a>
+            <a href="https://www.linkedin.com/showcase/university-of-stirling-ras-al-khaimah-campus-alumni/" target="_blank"><FaLinkedin /></a>
+            <a href="https://www.instagram.com/universityofstirling_rak/" target="_blank"><FaInstagram /></a>
           </div>
         </div>
 
