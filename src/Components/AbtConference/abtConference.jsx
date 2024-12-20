@@ -25,7 +25,7 @@ function AboutConference() {
           {/* Left about  */}
           <div className="Labout">
             <p>
-              International Conference on Artificial Intelligence and Networking (ICAIN) is organised with the objective of bringing together innovative scientists, professors, research scholars, students and industrial experts in the field of Computing and Communication to a common forum. The primary goal of the conference is to promote the exchange of innovative scientific information between researchers, developers, engineers, students, and practitioners. Another goal is to promote the transformation of fundamental research into institutional and industrialized research and to convert applied exploration into real time application. Overall, the conference will provide the researchers and attendees with prospects for national and international collaboration and networking among universities and institutions from India and abroad for promoting research. 
+              International Conference on Artificial Intelligence and Networking (ICAIN) is organised with the objective of bringing together innovative scientists, professors, research scholars, students and industrial experts in the field of Computing and Communication to a common forum. The primary goal of the conference is to promote the exchange of innovative scientific information between researchers, developers, engineers, students, and practitioners. Another goal is to promote the transformation of fundamental research into institutional and industrialized research and to convert applied exploration into real time application. Overall, the conference will provide the researchers and attendees with prospects for national and international collaboration and networking among universities and institutions from India and abroad for promoting research.
               {/* All the
               accepted papers (after double blinded peer review) will be
               published as proceedings of ICAIN-2025 in{" "}
@@ -34,8 +34,7 @@ function AboutConference() {
             </p>
 
             <b className="">
-              All the papers and the proceedings of ICAIN-2025 will be sent to
-              SCOPUS for evalution!
+              All the papers and the proceedings of ICAIN-2025 will be published in Springer LNNS series ( DBLP, EI Compendex, INSPEC, SCImago SCOPUS, WTI AG, zbMATH)
             </b>
             <h4>
               All papers must be submitted online via this link:
