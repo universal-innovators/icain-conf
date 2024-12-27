@@ -48,7 +48,7 @@ function SCcards() {
       p: "Director-University Communication and Strategic Alliance, University  of Stirling RAK Campus, UAE"
     },
     {
-      h1: " Mr. Mobin Khtib",
+      h1: "Mr. Mubin Khatib",
       p: "Director-Human Resources, University of Stirling RAK Campus, UAE",
     },
     {

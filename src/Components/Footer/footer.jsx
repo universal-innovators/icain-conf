@@ -38,7 +38,7 @@ function Footer() {
             {/* <a href="mailto:icain.conf@gmail.com"><IoMdMail/></a> */}
             {/* <a href="icain.conf@gmail.com">Gmail</a> */}
             <a href="https://www.facebook.com/stiruae" target="_blank"><IoLogoFacebook/></a>
-            <a href="https://www.linkedin.com/showcase/university-of-stirling-ras-al-khaimah-campus-alumni/" target="_blank"><FaLinkedin /></a>
+            <a href="https://www.linkedin.com/company/university-of-stirling-uae/posts/?feedView=all" target="_blank"><FaLinkedin /></a>
             <a href="https://www.instagram.com/universityofstirling_rak/" target="_blank"><FaInstagram /></a>
           </div>
         </div>
