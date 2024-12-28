@@ -8,14 +8,14 @@ import "swiper/css/navigation";
 import "./Hslides.css";
 import Img3 from "../ConferenceVenue/vste.jpg";
 import poster from "./HslidesImages/poster.jpg"
-import poster2 from "./HslidesImages/poster2.jpg"
+import poster1 from "./HslidesImages/poster1.jpeg"
 
 
 
 export default function App() {
   return (
     <div className="poster">
-        <img src={poster2}/>
+        <img src={poster1}/>
     </div>
     
   );
