@@ -15,27 +15,7 @@ function RegFee() {
             <h2>Late Registration (after 20th May, 2025)</h2>
           </div>
 
-          {/* tr1  */}
-          <div className="reFeetr">
-            <p>Research Scholar/Student (SAARC Nations)</p>
-            <p>INR 10000</p>
-            <p>INR 11000</p>
-          </div>
-
-          {/* tr2 */}
-          <div className="reFeetr">
-            <p>Academician (SAARC Nations)</p>
-            <p>INR 11000</p>
-            <p>INR 12000</p>
-          </div>
-
-          {/* tr3  */}
-          <div className="reFeetr">
-            <p>Industrial Participants (SAARC Nations)</p>
-            <p>INR 12000</p>
-            <p>INR 13000</p>
-          </div>
-
+         
           {/* tr4  */}
           <div className="reFeetr">
             <p>Research Scholar/Student (International)</p>
@@ -56,14 +36,37 @@ function RegFee() {
             <p>USD 400</p>
             <p>USD 450</p>
           </div>
+          <h4 style={{color:'black',textAlign:'center'}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations </h4>
         </div>
-        <div className="reSpDiscount">
-          <h1>
-            Special Discount of 10% for{" "}
-            <span className="greet">Universal Inovator (UI) Member</span>
-          </h1>
-          {/* <h1>40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</h1> */}
+    <br/><br/>
+        <h3>Registration Fee For ICAIN 2025 Conference Attendee</h3>
+        
+        <div className="reFeeTable">
+          {/* table head  */}
+          <div className="reFeetd">
+            <h2>Category</h2>
+            <h2>Early Registration (before 20th May, 2025)</h2>
+            <h2>Late Registration (after 20th May, 2025)</h2>
+          </div>
+
+         
+          {/* tr4  */}
+          <div className="reFeetr">
+            <p>Research Student Attendee</p>
+            <p>USD 150</p>
+            <p>USD 200</p>
+          </div>
+
+          {/* tr5  */}
+          <div className="reFeetr">
+            <p>Standard Attendee</p>
+            <p>USD 200</p>
+            <p>USD 250</p>
+          </div>
+          <h4 style={{color:'black',textAlign:'center'}}>Note: Attendee is participant of the conference attending the conference without any paper registration </h4>
+         
         </div>
+        
       </div>
     </>
   );
