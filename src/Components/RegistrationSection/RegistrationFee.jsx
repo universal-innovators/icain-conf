@@ -39,22 +39,22 @@ function RegFee() {
           {/* tr4  */}
           <div className="reFeetr">
             <p>Research Scholar/Student (International)</p>
-            <p>USD 200</p>
-            <p>USD 250</p>
+            <p>USD 300</p>
+            <p>USD 350</p>
           </div>
 
           {/* tr5  */}
           <div className="reFeetr">
             <p>Academician (International)</p>
-            <p>USD 250</p>
-            <p>USD 300</p>
+            <p>USD 350</p>
+            <p>USD 400</p>
           </div>
 
           {/* tr6  */}
           <div className="reFeetr">
             <p>Industrial Participant (International)</p>
-            <p>USD 300</p>
-            <p>USD 350</p>
+            <p>USD 400</p>
+            <p>USD 450</p>
           </div>
         </div>
         <div className="reSpDiscount">
@@ -62,6 +62,7 @@ function RegFee() {
             Special Discount of 10% for{" "}
             <span className="greet">Universal Inovator (UI) Member</span>
           </h1>
+          {/* <h1>40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</h1> */}
         </div>
       </div>
     </>

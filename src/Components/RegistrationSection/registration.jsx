@@ -47,6 +47,9 @@ function Registrations() {
                     <li>Banque</li>
                   </ul>
                 </div>
+                <div>
+                <h2 className="reAuthors">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</h2>
+                </div>
               </div>
             </div>
             
