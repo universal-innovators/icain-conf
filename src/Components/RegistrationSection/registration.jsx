@@ -68,7 +68,7 @@ function Registrations() {
               <div className="Paypal">
                   <UPI />
                 </div>
-              <h1 className="reAccountHeading">Registration Account Details</h1>
+              {/* <h1 className="reAccountHeading">Registration Account Details</h1>
 
               <div className="reAccountTransfer">
                 <div className="reAccount">
@@ -78,53 +78,40 @@ function Registrations() {
                     </h2>
 
                     <div className="reBankDetails">
-                      {/* 1st one  */}
                       <div className="reBank1 reBank">
                         <h2>ACCOUNT NAME</h2>
                         <p>UI CONSULTANTS</p>
                       </div>
 
-                      {/* 2nd one  */}
                       <div className="reBank2 reBank">
                         <h2>ACCOUNT NUMBER</h2>
                         <p>510909010118897</p>
                       </div>
 
-                      {/* 3rd one  */}
                       <div className="reBank3 reBank">
                         <h2>BANK</h2>
                         <p>City Union Bank</p>
                       </div>
 
-                      {/* 4th one  */}
                       <div className="reBank4 reBank">
                         <h2>BRANCH</h2>
                         <p>Sector-8, Rohini Delhi</p>
                       </div>
 
-                      {/* 5th one  */}
                       <div className="reBank5 reBank">
                         <h2>BRANCH CODE</h2>
                         <p>244</p>
                       </div>
 
-                      {/* 6th one  */}
                       <div className="reBank6 reBank">
                         <h2>IFSC CODE</h2>
                         <p>CIUB0000244</p>
                       </div>
-                      {/* 7th one  */}
-                      {/* <div className="reBank7 reBank">
-                        <h2>MICR</h2>
-                        <p>600054027</p>
-                      </div> */}
-                      {/* 8th one  */}
                       <div className="reBank8 reBank">
                         <h2>SWIFT CODE</h2>
                         <p>CIUBIN5M</p>
                       </div>
 
-                      {/* 9th one  */}
                       <div className="reBank9 reBank">
                         <h2>ACCOUNT TYPE</h2>
                         <p>CURRENT</p>
@@ -138,7 +125,7 @@ function Registrations() {
 
                
                 
-              </div>
+              </div> */}
             </div>
           </div>
 
