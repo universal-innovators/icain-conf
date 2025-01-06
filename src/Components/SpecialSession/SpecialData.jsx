@@ -18,6 +18,16 @@ export default
       "Dr. Murari Thejovathi, Department of CSE (AI&ML), Vignan's Institute of Management and Technology for Women, Hyderabad, India"
     ],
     listing: "SS 002",
-  } 
+  },
+  {
+    link: require("./sessions/SS-3.pdf"),
+    title:
+      "Empowering the Future of Transportation: Innovations in Power Electronic Systems, Cyber Security, Artificial Intelligent Control for e-mobility",
+    organisers: [
+      "Dr. M. Venkateshkumar, Amrita Vishwa Vidyapeetham, India",
+      "Dr. Umashankar Subramaniyan, Prince Sultan University Riyadh, Saudi Arabia"
+    ],
+    listing: "SS 003",
+  }  
   
 ];

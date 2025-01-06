@@ -1,7 +1,7 @@
 import "./ResPayPal.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import upi from "./icicc-UPI.png";
+import upi from "./univ-qr.jpg";
 AOS.init();
 function UPI() {
   return (
@@ -12,7 +12,7 @@ function UPI() {
           For Payments using UPI, scan the following QR code:
         </p>
         <p className="submissionLinkhead">
-          <img src={upi} style={{'height':'200px','border-radius':'5px'}}/>
+          <img src={upi} style={{'height':'300px','border-radius':'5px'}}/>
         </p>
       </div>
     </>
