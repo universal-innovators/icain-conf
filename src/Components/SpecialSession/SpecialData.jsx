@@ -28,6 +28,16 @@ export default
       "Dr. Umashankar Subramaniyan, Prince Sultan University Riyadh, Saudi Arabia"
     ],
     listing: "SS 003",
-  }  
+  },
+  {
+    link: require("./sessions/SS-4.pdf"),
+    title:
+      "AI for Advance Predictive Analytics and Decision-Making in Complex Computational Systems",
+    organisers: [
+      "Dr. Divya Agarwal, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
+      "Dr. Sandhya Tarwani, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India,"
+    ],
+    listing: "SS 004",
+  }    
   
 ];
