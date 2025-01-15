@@ -19,7 +19,6 @@ function StripePay() {
             Pay via Stripe
           </a>
         </p>
-        <br/>
         <p className="submissionLinkheadRazor">
           <a
             href="https://rzp.io/rzp/2XqVFyHn"
