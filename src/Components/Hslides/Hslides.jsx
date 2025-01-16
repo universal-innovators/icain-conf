@@ -15,7 +15,7 @@ import poster1 from "./HslidesImages/poster1.jpeg"
 export default function App() {
   return (
     <div className="poster">
-        <img src={poster1}/>
+        <img src={poster}/>
     </div>
     
   );
