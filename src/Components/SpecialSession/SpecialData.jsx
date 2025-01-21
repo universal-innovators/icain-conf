@@ -38,6 +38,16 @@ export default
       "Dr. Sandhya Tarwani, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India,"
     ],
     listing: "SS 004",
-  }    
+  },
+  {
+    link: require("./sessions/SS-5.pdf"),
+    title:
+      "AI and Machine Learning for Block chain, Social network analysis and Computational Intelligence Optimization",
+    organisers: [
+      "Dr. Umesh Gupta, Bennett University (The Times Group), India"
+    ],
+    listing: "SS 005",
+  }     
+  
   
 ];
