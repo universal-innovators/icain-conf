@@ -10,7 +10,7 @@
  background: white;
     padding: 3vh;
     /* border: 1px solid var(--color-success); */
-    border-radius: 0.5rem 2rem;
+    /* border-radius: 0.5rem 2rem; */
     color: black;
 }
 .patron{
@@ -36,7 +36,7 @@
     /* justify-content: space-evenly; */
     gap: 1vh;
     margin: 1vh 0;
-    border-radius: 0.5rem 2rem;
+    /* border-radius: 0.5rem 2rem; */
     border: 1px solid var(--color-green);
     padding: 4vh 1vw;
     color: black;
@@ -104,6 +104,10 @@
     }
     .patrondata{
         height: 16vh;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px;
+        text-align: justify;
     }
     .patronMain{
         grid-template-columns: 1fr;
