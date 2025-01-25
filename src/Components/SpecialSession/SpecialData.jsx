@@ -47,7 +47,19 @@ export default
       "Dr. Umesh Gupta, Bennett University (The Times Group), India"
     ],
     listing: "SS 005",
-  }     
+  },
+  {
+    link: require("./sessions/SS-6.pdf"),
+    title:
+      "Artificial intelligence for sustainable solutions",
+    organisers: [
+      "Dr.Sherin Zafar , Jamia Hamdard ,India",
+      "Dr.Ashu Gautam, MRIIRS , India",
+      "Dr.Kashish Ara Shakil,Princess Nourah Bint Abdul Rehman University,Saudi Arabia"
+    ],
+    listing: "SS 006",
+  } 
+
   
   
 ];
