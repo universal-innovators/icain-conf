@@ -59,7 +59,7 @@ function HeaderMain() {
               United Arab Emirates
 
             </span> */}
-            {/* & <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
+            {/* and <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
           {/* <p className="hspringer">Springer LNNS( Applied) (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>

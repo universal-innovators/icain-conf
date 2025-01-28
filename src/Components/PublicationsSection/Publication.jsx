@@ -70,7 +70,7 @@ function Publication() {
                   />
                 </div>
                 <p>
-                  Computer & Electrical Engineering, Elsevier (SCIE indexed) IF
+                  Computer and Electrical Engineering, Elsevier (SCIE indexed) IF
                   4.15
                 </p>
               </div>
@@ -89,7 +89,7 @@ function Publication() {
                   <img src={IntDecision} alt="Intelligent Decision" />
                 </div>
                 <p>
-                  Intelligent Decision Technologies (Indexed by SCOPUS & ESCI)
+                  Intelligent Decision Technologies (Indexed by SCOPUS and ESCI)
                 </p>
               </div>
               {/* img 4 and data */}
@@ -121,7 +121,7 @@ function Publication() {
                   <img src={CompModel} alt="CMES" />
                 </div>
                 <p>
-                  Computer Modeling in Engineering & Sciences (SCIE Indexed IF
+                  Computer Modeling in Engineering and Sciences (SCIE Indexed IF
                   2.0)
                 </p>
               </div> */}

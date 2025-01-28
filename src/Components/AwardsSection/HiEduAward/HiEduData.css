@@ -6,7 +6,7 @@
     background-color: rgb(217,237,247);
     padding: 10px;
    color: rgb(49,112,143);
-   border-radius: 10px;
+   /* border-radius: 10px; */
    border: 0.5px solid rgb(225, 244, 255); 
    transition: all 0.4s ease-in-out; 
 }

@@ -57,7 +57,7 @@ function SCcards() {
     },
     {
       h1: "Dr. Sanman Jain",
-      p: "Programme Director -  Accounting & Finance, University of Stirling RAK Campus, UAE",
+      p: "Programme Director -  Accounting and Finance, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Dr. Nikhil V.P",

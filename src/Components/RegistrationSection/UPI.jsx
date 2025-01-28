@@ -12,7 +12,7 @@ function UPI() {
           For Payments using UPI, scan the following QR code:
         </p>
         <p className="submissionLinkhead">
-          <img src={upi} style={{'height':'300px','border-radius':'5px'}}/>
+          <img src={upi} style={{'height':'300px'}}/>
         </p>
       </div>
     </>

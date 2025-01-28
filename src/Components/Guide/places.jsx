@@ -186,7 +186,7 @@ const rakHotels = [
         website: "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/"
     },
     {
-        title: "DoubleTree by Hilton Resort & Spa Marjan Island",
+        title: "DoubleTree by Hilton Resort and Spa Marjan Island",
         image: double,
         description: "DoubleTree by Hilton on Marjan Island provides a relaxing beachfront experience with multiple dining options, water sports, and family-friendly amenities like a kids' club.",
         address: "Marjan Island Blvd, Ras Al Khaimah, United Arab Emirates",

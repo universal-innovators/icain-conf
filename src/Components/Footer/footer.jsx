@@ -52,7 +52,7 @@ function Footer() {
               <p>Call for papers</p>
             </NavLink>
             <NavLink to="/publications">
-              <p>Publications & Important Dates</p>
+              <p>Publications and Important Dates</p>
             </NavLink>
 
             <NavLink to="/conferences">

@@ -23,7 +23,7 @@ const advcm = [
   },
   {
     name: 'Dr. Frank H.F. Leung',
-    info: 'Associate Professor Leader, BSc in IMT Programme, Department of Electronic & Information Engineering, Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong'
+    info: 'Associate Professor Leader, BSc in IMT Programme, Department of Electronic and Information Engineering, Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong'
   },
   {
     name: 'Dr. Mamoona Humayun',

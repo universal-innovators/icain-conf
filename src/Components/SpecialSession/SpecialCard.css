@@ -18,26 +18,13 @@
     grid-auto-rows: minmax(100px, auto);
 }
 
-.card{
-    /* z-index: -1; */
-    /* display: flex; 
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 10px;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
-    padding: 4vh;
-    border: 1px solid var(--color-bg2);
-    border-radius: 0.5rem 2rem;
-    box-shadow: var(--color-success) 0px 1px 2px 0px, var(--color-white) 0px 1px 3px 1px;
-    color: white; */
-    /* background: var(--color-green); */
+.card{    
     padding: 4vh 2vh;
     margin: 10px;
-    border-radius: 0.5em;
     border: 1px solid var(--color-black);
     color: black;
     box-shadow: var(--color-black) 0px 2px 4px 0px, var(--color-white) 0px 1px 3px 1px;
-    border-radius: 0.5rem 2rem;
+    /* border-radius: 0.5rem 2rem; */
     transition: all 0.5s ease-in-out;
     min-height: 250px;   
     font-family: var(--font-headings);

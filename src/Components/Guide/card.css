@@ -16,7 +16,7 @@
   font-weight: 600;
   text-decoration: underline;
   padding: 10px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   font-size: 1.4rem;
   margin: 2vh auto;
   text-align: left;
@@ -41,11 +41,11 @@
     /* background: var(--color-green); */
     padding: 4vh 2vh;
     margin: 10px;
-    border-radius: 0.5em;
+    /* border-radius: 0.5em; */
     border: 1px solid var(--color-green);
     color: black;
     box-shadow: var(--color-green) 0px 2px 4px 0px, var(--color-green1) 0px 1px 3px 1px;
-    border-radius: 0.5rem 2rem;
+    /* border-radius: 0.5rem 2rem; */
     transition: all 0.5s ease-in-out;
   }
   /* .place-card-container:hover{
@@ -60,7 +60,7 @@
     object-fit: contain;
     border-top-left-radius: var(--dl-radius-radius-radius8);
     border-top-right-radius: var(--dl-radius-radius-radius8);
-    border-radius: 0.5rem 2rem;
+    /* border-radius: 0.5rem 2rem; */
   }
   .place-card-container1 {
     width: 100%;

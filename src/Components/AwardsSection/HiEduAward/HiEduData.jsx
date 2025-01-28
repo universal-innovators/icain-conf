@@ -11,7 +11,7 @@ function HiEduData() {
  
  {
     head: "Institute offering best certification courses",
-    para: "Institute offering certificate courses in language, vocational courses, technology, multimedia, music & dance, skill enhancement etc."
+    para: "Institute offering certificate courses in language, vocational courses, technology, multimedia, music and dance, skill enhancement etc."
  }, 
 
  {
@@ -64,7 +64,7 @@ function HiEduData() {
  },
  {
     head:"Best Private University",
-    para:"Best academic delivery with desired infrastructure, best practices & working for the cause of Education",
+    para:"Best academic delivery with desired infrastructure, best practices and working for the cause of Education",
  },
  {
     head:"Best Infrastructure of the Year",
