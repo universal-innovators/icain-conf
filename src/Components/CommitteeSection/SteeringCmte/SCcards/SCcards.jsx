@@ -234,6 +234,10 @@ function SCcards() {
       h1: "Prof. Mete YAĞANOĞLU",
       p: "Ataturk University, Department of Computer Engineering, Turkey",
     },
+    {
+      h1: "Dr. Sushil Kumar Singh",
+      p: " Associate Professor, Marwadi University, Rajkot, Gujarat, India, London Metropolitan University, London, UK",
+    },
   ];
 
   // let techCoChair = [
