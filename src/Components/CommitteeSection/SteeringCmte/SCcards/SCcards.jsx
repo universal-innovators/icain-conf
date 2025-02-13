@@ -222,7 +222,7 @@ function SCcards() {
     },
     {
       h1: "Dr. Gulshan Shrivastava",
-      p: "Galgotia University, Gr. Noida, India",
+      p: "Bennett University, Greater Noida, India",
     },
 
 
