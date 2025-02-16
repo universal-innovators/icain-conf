@@ -33,7 +33,7 @@ function Registrations() {
                   </p>
                 </p>
               </div>
-
+              <h2 className="reAuthors">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</h2>
               <div className="reAuthors  ">
                 <h2>Author/Co-Author Registration Fee Includes: </h2>
                 <div className="reAuthorsInst  ">
@@ -48,7 +48,7 @@ function Registrations() {
                   </ul>
                 </div>
                 <div>
-                <h2 className="reAuthors">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</h2>
+                
                 </div>
               </div>
             </div>
