@@ -33,7 +33,7 @@ function Registrations() {
                   </p>
                 </p>
               </div>
-              <h2 className="reAuthors">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</h2>
+              <marquee><b style={{color:"black"}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</b></marquee>
               <div className="reAuthors  ">
                 <h2>Author/Co-Author Registration Fee Includes: </h2>
                 <div className="reAuthorsInst  ">
