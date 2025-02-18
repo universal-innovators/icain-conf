@@ -58,7 +58,36 @@ export default
       "Dr.Kashish Ara Shakil,Princess Nourah Bint Abdul Rehman University,Saudi Arabia"
     ],
     listing: "SS 006",
-  } 
+  },
+  {
+    link: require("./sessions/SS-7.pdf"),
+    title:
+      "Innovation in Biomedical Engineering and Role of AI In medical diagnostics",
+    organisers: [
+      "Dr. Gurmeet Singh, (PhD IITD), Associate Professor, Guru Tegh Bahadur Institute of technology, New Delhi, India"
+    ],
+    listing: "SS 007",
+  },
+  {
+    link: require("./sessions/SS-8.pdf"),
+    title:
+      "AI and Machine Learning for Block chain, Social network analysis and Computational Intelligence Optimization",
+    organisers: [
+      "Dr.K.Dharmarajan, Professor, Vels Institute of Science, Technology & Advanced Studies (VISTAS), India"
+    ],
+    listing: "SS 008",
+  },
+  {
+    link: require("./sessions/SS-9.pdf"),
+    title:
+      "AI-Driven Sustainable Smart Environments",
+    organisers: [
+      "Dr. Akey Sungheetha Associate Professor, Department of Computer Science and Engineering, Alliance University, India",
+      "Dr. John Blake Senior Associate Professor, Center for Language Research University of Aizu, Aizu-wakamatsu, Japan"
+    ],
+    listing: "SS 009",
+  }
+  
 
   
   
