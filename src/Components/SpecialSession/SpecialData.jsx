@@ -86,9 +86,45 @@ export default
       "Dr. John Blake Senior Associate Professor, Center for Language Research University of Aizu, Aizu-wakamatsu, Japan"
     ],
     listing: "SS 009",
-  }
-  
-
-  
+  },
+  {
+    link: require("./sessions/SS-10.pdf"),
+    title:
+      "AI-Powered Sentiment and Emotion Analysis: Advances in LLMs, Gen-AI, and ChatGPT",
+    organisers: [
+      "Dr. Bindu Garg, Professor and Head Department of Computer Science & Engineering and Computer Science & Business Systems, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune",
+      "Dr. Manisha Kasar, Assistant Professor, department of Computer Science and Engineering, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune",
+      "Prof. Anushree Goud, Research Scholar"
+    ],
+    listing: "SS 010",
+  },
+  {
+    link: require("./sessions/SS-11.pdf"),
+    title:
+      "Advancement in AI: Generative Models, Multimodal Learning, and the Future of Intelligence",
+    organisers: [
+      "Dr. Pawan Kumar Verma, Associate Professor, Department of Computer Science & Engineering, Sharda School of Computing Science & Engineering (SSCSE), Greater Noida, Uttar Pradesh, India"
+    ],
+    listing: "SS 011",
+  },
+  {
+    link: require("./sessions/SS-12.pdf"),
+    title:
+      "Generative AI models and their applications in Big Data analytics, Health care and pharmaceuticals, and Cybersecurity",
+    organisers: [
+      "Dr. Hemant Kumar Gianey, Associate Professor, NMIMS University- Shirpur, India"
+    ],
+    listing: "SS 012",
+  },
+  {
+    link: require("./sessions/SS-13.pdf"),
+    title:
+      "AI-Powered Advancements in Medical Imaging and Radiology",
+    organisers: [
+      "Dr. Bindu Garg, Professor and Head Department of Computer Science & Engineering and Computer Science & Business Systems, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune",
+      "Trupti Suryawanshi, Assistant Professor, Department of Computer Science and Engineering, Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune"
+    ],
+    listing: "SS 013",
+  } 
   
 ];
