@@ -39,7 +39,7 @@ export default function CardsContainer() {
         })}
     
     </div> */}
-        <h3 style={{"color":"#006938"}}>Places to visit in UAE</h3>
+        <h3 style={{"color":"#006938"}}>Places to visit in the UAE</h3>
         <hr />
 
         <div className='main-card SpSessionCard animate__animated animate__bounceInLeft' id='sessCon'>
@@ -66,7 +66,7 @@ export default function CardsContainer() {
           })}
 
         </div>
-        <h3 style={{"color":"#006938"}}>Hotels</h3>
+        <h3 style={{"color":"#006938"}}>Hotels in the UAE</h3>
         <hr />
 
         <div className='main-card SpSessionCard animate__animated animate__bounceInLeft' id='sessCon'>

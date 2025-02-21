@@ -5,86 +5,68 @@ const Call_for_international = () => {
   return (
     <>
       <div className="intern_container">
-        <h5>Invitation to conduct International Workshop in ICAIN 2025</h5>
+        <h5>Invitation to Conduct an International Workshop at ICAIN 2025</h5>
         <div className="intern_inner">
-          <h3>Dear Researcher/Colleagues</h3>
+          <h3>Dear Researcher/Colleagues,</h3>
 
           <p>
-            Greeting from ICAIN-2025! ICAIN Conference team invites you to
-            organize the
-            International Workshop
-            in the "International Conference on Artificial Intelligence and Networking" (ICAIN-2025) , to be
-            held during
-            <b> 10th - 11th October 2025 </b>
-            of your research domain.
+            Greeting from ICAIN-2025! <br/>The ICAIN Conference team is pleased to invite you to organise an <b>International Workshop at the International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b>,which will be held on
+            <b> 10th - 11th October 2025. </b>
+          
           </p>
 
           <p>
-            We are diligently working to bring some of the most knowledgeable
-            academician from all over the world and business leaders to discuss
-            critical research topics. The two-day conference will include a
-            workshop, technical workshops and keynotes on our industry's
-            cutting-edge technologies.
+          We are committed to bringing together some of the most knowledgeable academicians from around the world, alongside business leaders, to discuss critical research topics. The two-day conference will feature workshops, technical sessions, and keynote presentations on cutting-edge technologies in our industry.
           </p>
 
           <p>
-            {" "}
-            By being part of this conference as a session chair and leading your
-            own session at this esteemed conference, please increase the
-            importance of the conference. We understand your networking skills
-            and have an eye on identifying quality research papers.
+          By participating in this conference as a workshop organiser and leading your own session, you will significantly contribute to the conference's success. We recognise your networking skills and your ability to identify high-quality research papers, and we would be honoured to have you join us.
           </p>
         </div>
 
-        <div className="intern_highlights">
-            <h4> Highlights of the International Workshops and Benefits:</h4>
-          <ul>
-            <li>
-              All accepted papers will be published in the proceedings of
-              ICAIN-2025 (All the papers and the proceedings of ICAIN-2025 will be sent to
-              SCOPUS for evalution!).
-            </li>
-            <li>
-              The workshop organizers will be entitled to receive a renumeration
-              of 20% of the total fees collected in the workshop.
-            </li>
-            <li>
-              The minimum number of registrations should be 8 in the proposed
-              workshop.
-            </li>
-            <li>
-              Extended papers in SCI/Scopus/ESCI/DBLP/ACM Digital Library
-              journals. For details see
-              <a
-                href="https://www.icain-conf.com/publications"
-                target="_blank"
-                className="greet"
-              >
-                {" "}
-                https://www.icain-conf.com/publications
-              </a>
-            </li>
-            <li>
-              High quality publishing houses are part of this conference like
-              Elsevier, Inderscience, IEEE, Benthm Science, IGI Global
-              and many more.
-            </li>
-            <li>
-              Special discount for your personal paper if above conditions are
-              met. (If minimum number of papers get registered in your session)
-            </li>
-            <li>
-              Extra weightage and support will be provided for your session
-              extended paper in SCI/ Scopus Journal.
-            </li>
-            <li>
-              Many International and National key note speakers will be
-              delivering their lectures on latest innovative technologies in the
-              conference.
-            </li>
-            <li>Easy accessibility of the well-connected conference venue.</li>
-          </ul>
-        </div>
+        
+        <div className="callSpecialHighlight">
+            <h2>Highlights of the International Workshops and Benefits:</h2>
+            
+            <ol>
+              <li><b>Publication in Conference Proceedings: </b>
+                
+                All accepted papers will be published in the proceedings of ICAIN-2025, and these proceedings will be submitted to SCOPUS for evaluation.
+              </li>
+              <li>
+                <b>Workshop Organiser Incentive: </b>
+                As a workshop organiser, you will receive 20% of the total fees collected for your workshop.
+              </li>
+              <li><b>Minimum Registration Requirement: </b>A minimum of 8 registrations is required for the proposed workshop.</li>
+              <li>
+                <b>Extended Paper Publication:</b>
+                Extended papers will be considered for publication in SCI/SCOPUS/ESCI/DBLP/ACM Digital Library journals. For more details, please visit <a style={{textDecoration:'none',color:'white'}} href="https://www.icain-conf.com/publications">Publications</a>.
+              </li>
+              <li>
+                <b>Publisher Collaboration: </b>
+                Renowned publishing houses such as Elsevier, Inderscience, IEEE, Bentham Science, IGI Global, and others are involved in the conference.
+              </li>
+              <li> <b>Session Chair Opportunity: </b>You will have the opportunity to chair your own session at the conference.</li>
+              <li>
+                <b>Special Discount for Your Paper: </b>
+                You will receive a special discount for your personal paper if the required number of papers is registered for your workshop.
+              </li>
+              <li>
+                <b>Additional Support for Extended Papers: </b>
+                Extended papers from your workshop will receive extra
+weightage and support for
+publication in SCI/SCOPUS journals.
+              </li>
+              <li>
+              <b>Keynote Speakers: </b>
+              International and national keynote speakers will present lectures on the latest innovative technologies.
+              </li>
+              <li>
+              <b>Accessible Conference Venue: </b>
+              The conference venue is well-connected and easily accessible.
+              </li>
+            </ol>
+          </div>
 
         <div className="intern_interested">
           <p>

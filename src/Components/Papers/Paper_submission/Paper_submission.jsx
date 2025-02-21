@@ -12,10 +12,8 @@ const Paper_submission = () => {
           {/* left  */}
           <div className="Submission_desc">
             <p style={{"color":"black"}}>
-              The Original unpublished Research Papers, Articles &amp; Working
-              papers having maximum length 10 pages on the topics related to the
-              theme are invited for presentation/publication in the conference
-              proceedings.
+            Original, unpublished research papers, articles, and working papers, with a maximum length of 10 pages, on topics related to the conference theme are invited for presentation and publication in the conference proceedings.
+             
             </p>
             <ul>
               {/* <li>
@@ -28,8 +26,7 @@ const Paper_submission = () => {
               </li> */}
 
               <li>
-                All submissions will be thoroughly peer-reviewed by experts
-                based on originality, significance and clarity.
+              All submissions will undergo a thorough peer review by experts, focusing on originality, significance, and clarity.
               </li>
               <li>
                 Only papers presenting original content with novel research
@@ -77,39 +74,26 @@ const Paper_submission = () => {
               </div>
             </div> */}
             <div class="su_card__content ">
+            Before submission, the paper should be checked for plagiarism using licensed plagiarism detection software such as Turnitin or iAuthenticate. The similarity content should not exceed 20% (including both self-content and others’ work).<br/>
+            Furthermore, the following ethical guidelines must be strictly adhered to for publication:
               <ul>
-                <li>
-                  The paper prior to submission should be checked for plagiarism
-                  from licensed plagiarism softwares like Turnitin/iAuthenticate
-                  etc.
-                </li>
+                
 
                 <li>
-                  The similarity content should not exceed 20% (in any case
-                  either self contents or others). Further, you have to strictly
-                  implement the following ethical guidelines for publication.
+                Any form of self-plagiarism or plagiarism from others’ work will not be tolerated.
                 </li>
                 <li>
-                  Any form of self-plagiarism or plagiarism from others' work(s)
-                  should not be there in an article.
+                If any model, concept, figure, table, data, or conclusive comment from previously published work is used in your article, it must be properly cited, with a clear reference to the original source.
                 </li>
                 <li>
                   {" "}
-                  If any model / concept / figure / table / data / conclusive
-                  comment by any previously published work is used in your
-                  article, you should properly cite a reference to the original
-                  work.
+                  The language used to explain any borrowed content should be distinct from the original work from which it has been adopted.
                 </li>
 
                 <li>
-                  Also language of explaining it should not be same as language
-                  of the work from which you have adopted it.
+                If using any copyrighted material, prior permission from the copyright holder must be obtained.
                 </li>
-                <li>
-                  {" "}
-                  If you are using any copyrighted material, you should acquire
-                  prior permission from the copyright holder.{" "}
-                </li>
+                
               </ul>
             </div>
           </div>

@@ -81,6 +81,7 @@ function About() {
                     <li> 79.6% student satisfaction (National Student Survey 2021)</li>
                     <li> The University of Stirling ranked 28th in the UK in the The Guardian University Guide 2021</li>
                   </ul>
+                  <br/>For more information, visit the <a style={{color:'#006938'}} href="https://www.stir.ae/about-uos-uk">University of Stirling RAK Campus, UAE</a> 
                 </p>
               </div>
 

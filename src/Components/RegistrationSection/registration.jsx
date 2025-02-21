@@ -20,33 +20,33 @@ function Registrations() {
             <div className="reDetail">
               <div className="rePara">
                 <p style={{"color":"black"}}>
-                  Once Your paper is accepted, the registration process begins.
+                Once your paper is accepted, the registration process will begin.
             
                 </p>
 
                 <p>
                 
                   <p style={{"color":"black"}}>
-                  It is mandatory for at least one author of an accepted paper
-                  to register in order for the paper to appear in the
-                  proceedings and included in the Technical Program.
+                  It is mandatory for at least one author of an accepted paper to register in order for the paper to be included in the proceedings and featured in the Technical Program.
                   </p>
                 </p>
               </div>
-              <marquee><b style={{color:"black"}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</b></marquee>
-              <div className="reAuthors  ">
-                <h2>Author/Co-Author Registration Fee Includes: </h2>
-                <div className="reAuthorsInst  ">
-                  <ul>
+              
+                <h4 style={{'color':'black'}}>Author/Co-Author Registration Fee Includes: </h4>
+                <div>
+                  <ul style={{'color':'black',listStyle:'disc',paddingLeft:'20px'}}>
                     <li>Welcome reception</li>
-                    <li>Badge</li>
+                    <li>Conference Badge</li>
                     <li>Conference Kit with Proceeding</li>
                     <li>Participation in the technical program</li>
                     <li>Coffee breaks</li>
                     <li>Lunch</li>
-                    <li>Banque</li>
+                    <li>Banquet</li>
                   </ul>
-                </div>
+                </div><br/>
+                <p style={{color:"black"}}><b>Note:</b><br/>A <b>40% Discount </b>is available for online mode registrations. Custom fees may apply
+                depending on the category of participation or specific details provided.</p>
+              <div className="reAuthors  ">
                 <div>
                 
                 </div>

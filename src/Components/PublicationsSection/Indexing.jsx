@@ -12,9 +12,9 @@ import Springer from "./PuImages/springer.png";
 function Indexing() {
   return (
     <div className="index">
-      <h2>Indexing</h2>
-      <h3>Abstracted and indexed in (Springer Series , Approved)
-</h3>
+      
+      <b style={{fontSize:'18px',color:"white"}}>Abstracted and indexed in (Springer Series , Approved)
+</b>
       <div className="IndexImages">
         {/* 1st  */}
         <div className="indexImg">

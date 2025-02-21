@@ -83,35 +83,35 @@ import ritz from "./images/ritz.jpg";
 
 const uaePlaces = [
     {
-        title: "Burj Khalifa",
+        title: "Burj Khalifa (Dubai)",
         image: burj,
-        description: "Burj Khalifa is the tallest building in the world, located in Dubai. It's a marvel of modern architecture and engineering, offering stunning views of the city from its observation decks."
+        description: "The tallest building in the world, offering breathtaking views of Dubai's skyline from its observation decks. A true marvel of modern architecture and engineering."
     },
     {
-        title: "Sheikh Zayed Grand Mosque",
+        title: "Sheikh Zayed Grand Mosque (Abu Dhabi)",
         image: mosque,
-        description: "Sheikh Zayed Grand Mosque in Abu Dhabi is a masterpiece of Islamic architecture. It features 82 domes, crystal chandeliers, and one of the largest hand-knotted carpets in the world."
+        description: "A magnificent mosque with 82 domes, exquisite crystal chandeliers, and one of the world’s largest hand-knotted carpets. A masterpiece of Islamic design."
     },
     {
-        title: "Palm Jumeirah",
+        title: "Palm Jumeirah (Dubai)",
         image: palm,
-        description: "Palm Jumeirah is an artificial island in Dubai shaped like a palm tree. It's home to luxury hotels, beaches, and entertainment venues, offering a unique experience of opulence and leisure."
+        description: "An artificial island shaped like a palm tree, home to luxurious hotels, pristine beaches, and numerous entertainment venues."
     },
     
     {
-        title: "Al Ain Oasis",
+        title: "Al Ain Oasis (Abu Dhabi)",
         image: alain,
-        description: "Al Ain Oasis is a UNESCO World Heritage Site in Abu Dhabi, known for its ancient irrigation system and tranquil palm groves. It's a glimpse into the UAE's agricultural heritage."
+        description: "A UNESCO World Heritage Site, known for its ancient irrigation systems and peaceful palm groves, offering a glimpse into the UAE’s agricultural heritage."
     },
     {
         title: "Hajar Mountains",
         image: alhajar,
-        description: "The Hajar Mountains offer a stunning natural escape with rugged landscapes, hiking trails, and picturesque villages. It's a popular spot for outdoor enthusiasts and nature lovers."
+        description: "A perfect natural escape with rugged landscapes, hiking trails, and scenic villages. Popular with outdoor enthusiasts and nature lovers."
     },
     {
         title: "Louvre Abu Dhabi",
         image: louvre,
-        description: "Louvre Abu Dhabi is a world-class museum showcasing art and artifacts from different cultures and civilizations. Its iconic dome structure is a marvel of design and engineering."
+        description: "A world-class museum showcasing art and artefacts from different cultures. The museum's iconic dome is a wonder of engineering and design."
     },
     
 ];
@@ -164,7 +164,7 @@ const rakHotels = [
     {
         title: "Waldorf Astoria Ras Al Khaimah",
         image: waldorf,
-        description: "Waldorf Astoria Ras Al Khaimah offers luxurious accommodations with breathtaking views, world-class dining, and a private beach, making it perfect for a lavish getaway.",
+        description: "A luxury resort offering breathtaking views, world-class dining, and a private beach, perfect for a lavish getaway.",
         address: "Vienna Street, Al Hamra Village, Ras Al Khaimah, United Arab Emirates",
         contact: "+971 7 203 5555",
         website: "https://www.hilton.com/en/hotels/rktwawa-waldorf-astoria-ras-al-khaimah/resort/"
@@ -172,7 +172,7 @@ const rakHotels = [
     {
         title: "Hilton Ras Al Khaimah Beach Resort",
         image: hilton,
-        description: "Located along a stunning beachfront, Hilton RAK Beach Resort features spacious rooms, multiple pools, and a variety of dining options, ideal for a family-friendly retreat.",
+        description: "A family-friendly retreat along a beautiful beach, offering spacious rooms, multiple pools, and a variety of dining options.",
         address: "Al Maareedh Street, Ras Al Khaimah, United Arab Emirates",
         contact: "+971 7 228 8844",
         website: "https://inspiredevents.hilton.com/en_gb/hotels/hilton-ras-al-khaimah-resort-spa/"
@@ -180,7 +180,7 @@ const rakHotels = [
     {
         title: "The Ritz-Carlton Ras Al Khaimah, Al Wadi Desert",
         image: ritz,
-        description: "Set in a serene desert landscape, The Ritz-Carlton Al Wadi Desert offers luxurious villas with private pools, nature-based activities, and an exclusive spa for a tranquil escape.",
+        description: "A tranquil desert escape with luxurious villas featuring private pools, nature-based activities, and an exclusive spa.",
         address: "Al Mazraa, Wadi Khadeja, Ras Al Khaimah, United Arab Emirates",
         contact: "+971 7 206 7777",
         website: "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/"
@@ -188,7 +188,7 @@ const rakHotels = [
     {
         title: "DoubleTree by Hilton Resort and Spa Marjan Island",
         image: double,
-        description: "DoubleTree by Hilton on Marjan Island provides a relaxing beachfront experience with multiple dining options, water sports, and family-friendly amenities like a kids' club.",
+        description: "Offering a relaxing beachfront experience with multiple dining options, water sports, and family-friendly amenities such as a kids' club.",
         address: "Marjan Island Blvd, Ras Al Khaimah, United Arab Emirates",
         contact: "+971 7 203 0000",
         website: "https://www.hilton.com/en/hotels/rasdtdi-doubletree-marjan-island/"        

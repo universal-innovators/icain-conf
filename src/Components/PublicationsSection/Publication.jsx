@@ -23,7 +23,7 @@ function Publication() {
         <div className="publicationMain">
           {/* left  */}
           <div className="pubProceedings">
-            <h3>PUBLICATION- PROCEEDINGS</h3>
+          <b style={{fontSize:'18px',color:"white"}}>Publication Proceedings</b>
             {/* <p>
               All the accepted papers of ICAIN-2025 will be published as a{" "}
               <span className="porange">Springer AIS SERIES (Approved)</span>{" "}

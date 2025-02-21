@@ -6,115 +6,79 @@ const Call_for_Special = () => {
     <>
       <div className="callSpecialMain">
         <div className="Special_container">
-          <h2> Invitation to conduct special session in ICAIN 2025</h2>
+          <h2> Invitation to Conduct a Special Session at ICAIN 2025</h2>
 
-          <span className="greet">Dear Sir/ Mam</span>
+          <span className="greet">Dear Sir/ Madam</span>
 
           <p className="CfSletter">
             Greeting from ICAIN-2025!<br/>
-            ICAIN-2025 Conference team invites you to organize the special
-            session in first version of "International Conference on Artificial Intelligence and Networking"
-            (ICAIN-2025), to be held {" "}
-            <b> 10th - 11th October 2025 </b> of your
-            research domain. We are diligently working to bring some of the
-            most knowledgeable researchers from all over the world along with
-            the leaders from the industry to explore the important topics of
-            research. The two day conference will include workshop, technical
-            sessions and keynotes on cutting edge technologies related to our
-            industry. The URL for the conference:{" "}
+            The ICAIN-2025 Conference team is pleased to invite you to organise a special session at the inaugural <b>International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b>which will be held on
+            <b> 10th - 11th October 2025. </b> We are committed to bringing together some of the most knowledgeable researchers and industry leaders from around the world to explore key topics in the field of research. This two-day conference will feature workshops, technical sessions, and keynote presentations on cutting-edge technologies relevant to our industry. The conference website:{" "}
             <a href="www.icain-conf.com" className="greet">
               icain-conf.com
             </a>
-            . "International Conference on Artificial Intelligence and Networking"{" "}
-            <span className="greet">ICAIN-2025 </span> is organised with the
-            objective of bringing together innovative scientists, professors,
-            research scholars, students and industrial experts in the field of
-            Computing and Communication to a common forum. The primary goal of
-            the conference is to promote the exchange of innovative scientific
-            information between researchers, developers, engineers, students,
-            and practitioners. Another goal is to promote the transformation of
-            fundamental research into institutional and industrialized research
-            and to convert applied exploration into real time application.
-            Kindly increase the value of the conference by being part of this
-            conference as a session chair and heading your own session in this
-            esteemed conference. We are aware about your networking skills and
-            of having an eye to identify quality research papers.
+            .ICAIN-2025 is organised with the goal of bringing together innovative scientists, professors, research scholars, students, and industrial experts in the fields of Computing and Communication. The primary aim of the conference is to promote the exchange of innovative scientific information among researchers, developers, engineers, students, and practitioners. Furthermore, we aim to bridge the gap between fundamental research and industrial application.<br/>
+            We would be honoured if you could enhance the value of this conference by participating as a session chair and organising your own session within your research domain. Your reputation in networking and your ability to identify quality research papers are well known, and we believe your involvement will significantly enrich the conference.
           </p>
 
           {/* Highlights of the conference  */}
           <div className="callSpecialHighlight">
             <h2>Highlights of the conference and Special Session Benefits:</h2>
+            
             <ol>
-              <li>
-                {" "}
-                All accepted papers will be published in the proceedings of
-                ICAIN-2025 (All the papers and the proceedings of ICAIN-2025 will be sent to
-              SCOPUS for evalution!)
+              <li><b>Publication in Conference Proceedings: </b>
+                
+                All accepted papers will be published in the proceedings of ICAIN-2025, and these proceedings will be submitted to SCOPUS for evaluation.
               </li>
               <li>
-                {" "}
-                You will get 15% of the total fees collected in your session.
+                <b>Session Chair Incentive: </b>
+                You will receive 15% of the total fees collected for your session.
               </li>
-              <li> The minimum number of pages should be 10.</li>
+              <li><b>Paper Length Requirement: </b>The minimum length for papers is 10 pages.</li>
               <li>
-                {" "}
-                Extended papers in SCI/Scopus/ESCI/DBLP/ACM Digital Library
-                journals. We have already got approval from some Scopus and high
-                quality journals. (Soon will be declared)
+                <b>Extended Paper Publication: </b>
+                Extended papers will be considered for publication in prestigious SCI/SCOPUS/ESCI/DBLP/ACM Digital Library journals. We have already secured approval from several high-quality journals, and more details will be announced soon.
               </li>
               <li>
-                {" "}
-                High quality publishing houses are part of this conference like
-                Elsevier, Inderscience, IEEE, Benthm Science, IGI
-                Global and many more.
+                <b>Publisher Collaboration: </b>
+                Renowned publishing houses such as Elsevier, Inderscience, IEEE, Bentham Science, IGI Global, and others are involved in this conference.
               </li>
-              <li> Opportunity to be Session chair at the conference.</li>
+              <li> <b>Session Chair Opportunity: </b>You will have the opportunity to chair your own session at the conference.</li>
               <li>
-                {" "}
-                Special discount for your personal paper if above conditions are
-                met. (If minimum number of papers get registered in your
-                session)
+                <b>Discount for Your Paper: </b>
+                Special discounts will be provided for your personal paper if the minimum number of papers required for your session is registered.
               </li>
               <li>
-                {" "}
-                Extra weightage and support will be provided for your session
-                extended paper in SCI/ Scopus Journal.
+                <b>Additional Weightage for Extended Papers: </b>
+                Extra support will be given to extended papers from your session for consideration in SCI/SCOPUS journals.
               </li>
               <li>
-                Many international and national key note speakers will be
-                delivering their lectures on latest innovative technologies in
-                the conference.
+              <b>Keynote Speakers: </b>
+              International and national keynote speakers will present lectures on the latest innovative technologies.
               </li>
               <li>
-                Easy accessibility of the well-connected conference venue.
+              <b>Accessible Conference Venue: </b>
+              The conference venue is well-connected and easily accessible.
               </li>
             </ol>
           </div>
 
           <p className="CfSletter">
-            If you are interested to conduct a special session, kindly mail us
-            the special session proposal at{" "}
+          If you are interested in conducting a special session, 
+            If you are interested to conduct a special session, please submit your special session proposal to {" "}
             <a href="mailto:icain.conf@gmail.com" className="greet">
               icain.conf@gmail.com
             </a>{" "}
-            latest by 30th July 2025 as per the template given below.
+            by 30th July 2025, using the template provided below.
             <br/>
 
-            ICAIN brings together the innovative research in the field of
-            Computing and Communication to a common platform. The primary goal
-            of the conference is to promote research and developmental
-            activities. Another goal is to promote scientific information
-            interchange between researchers, developers, engineers, students,
-            and practitioners working in and around the world.
+            ICAIN-2025 aims to bring together innovative research in the fields of Computing and Communication on a common platform. The conference seeks to promote research and development activities and foster scientific information exchange between researchers, developers, engineers, students, and practitioners worldwide.
             <br/>
-            All the accepted papers (after double blinded peer review) will be
-            published in a Springer LNNS series (Approved) and further extended
-            accepted papers will be published in the special issues of
-            SCI/SCOPUS/WoS/DBLP/ACM/EI indexed Journals.
+            All accepted papers (after a double-blind peer review process) will be published in the <b>Springer LNNS series</b> (Approved). Furthermore, extended versions of accepted papers will be published in special issues of SCI/SCOPUS/WoS/DBLP/ACM/EI indexed journals.
             <br/>
             <br/>
 
-            Looking to see you in ICAIN-2025.
+            We look forward to your participation in ICAIN-2025.
             <p>Sincerely</p>
             <p> Organizer and Convener</p>
             <p className="greet">ICAIN-2025</p>

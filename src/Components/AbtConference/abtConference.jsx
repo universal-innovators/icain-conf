@@ -25,7 +25,9 @@ function AboutConference() {
           {/* Left about  */}
           <div className="Labout">
             <p>
-              International Conference on Artificial Intelligence and Networking (ICAIN) is organised with the objective of bringing together innovative scientists, professors, research scholars, students and industrial experts in the field of Computing and Communication to a common forum. The primary goal of the conference is to promote the exchange of innovative scientific information between researchers, developers, engineers, students, and practitioners. Another goal is to promote the transformation of fundamental research into institutional and industrialized research and to convert applied exploration into real time application. Overall, the conference will provide the researchers and attendees with prospects for national and international collaboration and networking among universities and institutions from India and abroad for promoting research.
+            The International Conference on Artificial Intelligence and Networking (ICAIN) is organised with the objective of bringing together innovative scientists, professors, research scholars, students, and industry experts in the fields of Computing and Communication on a common platform.<br/>
+            The primary goal of the conference is to foster the exchange of innovative scientific information between researchers, developers, engineers, students, and practitioners. Another aim is to facilitate the transformation of fundamental research into institutional and industrial applications and to convert applied research into real-time solutions.<br/>
+            Overall, the conference will provide researchers and attendees with opportunities for national and international collaboration and networking among universities and institutions, both in India and abroad, to further research initiatives.
               {/* All the
               accepted papers (after double blinded peer review) will be
               published as proceedings of ICAIN-2025 in{" "}

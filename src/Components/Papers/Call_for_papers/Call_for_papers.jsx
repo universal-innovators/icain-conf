@@ -9,12 +9,8 @@ const Call_for_papers = () => {
         <div className="Call_con">
           <div className="call_desc">
             <p style={{color:"black"}}>
-              We are pleased to announce the upcoming "International Conference on Artificial Intelligence and Networking" ICAIN to be held from         <b> 10th - 11th October 2025 </b>. ICAIN Conference is a premier forum for
-              researchers, professionals, and practitioners from academia and
-              industry to exchange knowledge and share their latest advancements
-              in the field of computer science and information technology. We
-              invite researchers and experts worldwide to submit their original
-              research papers and participate in this prestigious event.
+             We are pleased to announce the upcoming "International Conference on Artificial Intelligence and Networking" (ICAIN), which will be held from         <b> 10th - 11th October 2025 </b>. ICAIN is a premier forum for researchers, professionals, and practitioners from academia and industry to exchange knowledge and share the latest advancements in the fields of computer science and information technology. We invite researchers and experts worldwide to
+             submit their original research papers and participate in this prestigious event.
             </p>
             <br />
             <hr />
@@ -36,8 +32,8 @@ const Call_for_papers = () => {
             <p className="bold1"> 2. Big data processing and management</p>
             <ul>
               <li>Data mining and knowledge discovery</li>
-              <li>Predictive modeling and analysis</li>
-              <li>Data visualization and exploration</li>
+              <li>Predictive modelling and analysis</li>
+              <li>Data visualisation and exploration</li>
               <li>Cybersecurity and Privacy</li>
             </ul>
 
@@ -50,7 +46,7 @@ const Call_for_papers = () => {
               <li>Environmental Monitoring</li>
               <li>Secure software development</li>
               <li> Cloud Computing and Distributed Systems</li>
-              <li>Secure communication in UAV</li>
+              <li>Secure communication in UAVs</li>
             </ul>
 
             {/* 4th  */}
@@ -111,19 +107,11 @@ const Call_for_papers = () => {
         <div className="cfp_info">
         <h3>Note:</h3>
           <li>
-            The papers submitted to the conference will be peer reviewed and
-            published as proceedings in Springer(Approved)
+          The papers submitted to the conference will be peer-reviewed and published as proceedings by Springer (Approved). 
           </li>
 
           <li>
-            All papers will undergo a blind peer review process and all accepted
-            papers will be published in the SHORT NAME conference e-proceedings
-            with an e-ISBN number. The conference organizer encourages
-            submissions of academic and research papers that consider the
-            multidisciplinary/interdisciplinary themes covering the Management,
-            Science and Social Studies, through one of the following sub-themes,
-            although submissions of other topics for consideration are also
-            welcome.
+          All papers will undergo a blind peer-review process, and all accepted papers will be published in the ICAIN 2025 conference e-proceedings with an e-ISBN number. The conference organisers encourage the submission of academic and research papers that explore multidisciplinary/interdisciplinary themes, covering Management, Science, and Social Studies, through one of the following sub-themes, though submissions of other relevant topics are also welcome.
           </li>
         </div>
 
