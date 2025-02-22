@@ -60,16 +60,17 @@ function About() {
 
             <div className="abLeftRight1">
               <div className="abLeft">
-                <img src={clg} style={{ "width": "65%", objectFit: "contain" , display: "block", margin:"auto"}} />
+                <img src={clg} style={{ "width": "45%", objectFit: "contain" , display: "block", margin:"auto"}} />
                 <br />
                 <br />
-                <p>
+                {/* <p>
                   The University of Stirling, RAK Campus is a global university with a reputation for high-quality teaching and research. We help our graduates, staff and students to shape the world. We’re an agent for change, connecting people, innovating and transforming the lives of our students, staff and the global communities we serve.
-                </p><br />
-                <h3 style={{ "color": "#006938", "fontFamily": "Calibri" }}>Why Stirling?</h3>
-                <p>Highly rated courses, high rate of employability
+                </p><br /> */}
+                {/* <h3 style={{ "color": "#006938", "fontFamily": "Calibri" }}>Why Stirling?</h3> */}
+                <p>
+                {/* Highly rated courses, high rate of employability */}
 
-                  We’re proud of the way we prepare our students with life-long career and employability skills. It’s why 91% of all undergraduates and 95% of our postgraduates were in employment or further study fifteen months after graduation (Graduate Outcomes Survey 2021, HESA)
+                  {/* We’re proud of the way we prepare our students with life-long career and employability skills. It’s why 91% of all undergraduates and 95% of our postgraduates were in employment or further study fifteen months after graduation (Graduate Outcomes Survey 2021, HESA)
 
                   Our students love the way we teach. As part of the QS Stars University Ratings 2022, the University of Stirling was awarded 5 stars in the areas of teaching and employability. Students gave us a 96% satisfaction rate for lecturer expertise (International Student Barometer 2018).
 
@@ -80,8 +81,8 @@ function About() {
                     <li> Top 60 in the world in the Times Higher Education Golden Age University Rankings 2020</li>
                     <li> 79.6% student satisfaction (National Student Survey 2021)</li>
                     <li> The University of Stirling ranked 28th in the UK in the The Guardian University Guide 2021</li>
-                  </ul>
-                  <br/>For more information, visit the <a style={{color:'#006938'}} href="https://www.stir.ae/about-uos-uk">University of Stirling RAK Campus, UAE</a> 
+                  </ul> */}
+                  <br/>For more information, visit the University of Stirling RAK Campus, UAE - <a style={{color:'#006938'}} href="https://www.stir.ae/about-uos-uk">https://www.stir.ae/about-uos-uk</a> 
                 </p>
               </div>
 

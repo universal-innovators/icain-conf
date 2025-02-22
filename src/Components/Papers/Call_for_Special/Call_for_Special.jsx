@@ -14,10 +14,10 @@ const Call_for_Special = () => {
             Greeting from ICAIN-2025!<br/>
             The ICAIN-2025 Conference team is pleased to invite you to organise a special session at the inaugural <b>International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b>which will be held on
             <b> 10th - 11th October 2025. </b> We are committed to bringing together some of the most knowledgeable researchers and industry leaders from around the world to explore key topics in the field of research. This two-day conference will feature workshops, technical sessions, and keynote presentations on cutting-edge technologies relevant to our industry. The conference website:{" "}
-            <a href="www.icain-conf.com" className="greet">
+            <a href="www.icain-conf.com" style={{textDecoration:'none',color:"var(--color-green)"}}>
               icain-conf.com
             </a>
-            .ICAIN-2025 is organised with the goal of bringing together innovative scientists, professors, research scholars, students, and industrial experts in the fields of Computing and Communication. The primary aim of the conference is to promote the exchange of innovative scientific information among researchers, developers, engineers, students, and practitioners. Furthermore, we aim to bridge the gap between fundamental research and industrial application.<br/>
+            .<br/>ICAIN-2025 is organised with the goal of bringing together innovative scientists, professors, research scholars, students, and industrial experts in the fields of Computing and Communication. The primary aim of the conference is to promote the exchange of innovative scientific information among researchers, developers, engineers, students, and practitioners. Furthermore, we aim to bridge the gap between fundamental research and industrial application.<br/>
             We would be honoured if you could enhance the value of this conference by participating as a session chair and organising your own session within your research domain. Your reputation in networking and your ability to identify quality research papers are well known, and we believe your involvement will significantly enrich the conference.
           </p>
 
@@ -74,7 +74,7 @@ const Call_for_Special = () => {
 
             ICAIN-2025 aims to bring together innovative research in the fields of Computing and Communication on a common platform. The conference seeks to promote research and development activities and foster scientific information exchange between researchers, developers, engineers, students, and practitioners worldwide.
             <br/>
-            All accepted papers (after a double-blind peer review process) will be published in the <b>Springer LNNS series</b> (Approved). Furthermore, extended versions of accepted papers will be published in special issues of SCI/SCOPUS/WoS/DBLP/ACM/EI indexed journals.
+            All accepted papers (after a double-blind peer review process) will be published in the <b>Springer LNNS series</b> (Proposal Applied). Furthermore, extended versions of accepted papers will be published in special issues of SCI/SCOPUS/WoS/DBLP/ACM/EI indexed journals.
             <br/>
             <br/>
 

@@ -13,7 +13,7 @@ function Indexing() {
   return (
     <div className="index">
       
-      <b style={{fontSize:'18px',color:"white"}}>Abstracted and indexed in (Springer Series , Approved)
+      <b style={{fontSize:'18px',color:"white"}}>Abstracted and indexed in (Springer Series , Proposal Applied)
 </b>
       <div className="IndexImages">
         {/* 1st  */}

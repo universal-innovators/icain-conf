@@ -26,7 +26,7 @@ function Publication() {
           <b style={{fontSize:'18px',color:"white"}}>Publication Proceedings</b>
             {/* <p>
               All the accepted papers of ICAIN-2025 will be published as a{" "}
-              <span className="porange">Springer AIS SERIES (Approved)</span>{" "}
+              <span className="porange">Springer AIS SERIES (Proposal Applied)</span>{" "}
               proceedings of ICAIN-2025 indexed by Web of Science, Google scholar
               and zbMATH and other reputed databases.
             </p> */}
