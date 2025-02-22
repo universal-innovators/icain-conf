@@ -125,6 +125,24 @@ export default
       "Trupti Suryawanshi, Assistant Professor, Department of Computer Science and Engineering, Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune"
     ],
     listing: "SS 013",
-  } 
+  },
+  {
+    link: require("./sessions/SS-14.pdf"),
+    title: "The Future of AI and LLMs: Impact on Education, Research, and Society",
+    organisers: [
+      "Prof. (Dr.) Deepti Mehrotra, Jaypee Institute of Information Technology, Noida, India"
+    ],
+    listing: "SS 014",
+  },
+  {
+    link: require("./sessions/SS-15.pdf"),
+    title: "Sustainable Agriculture through Internet of Things and Artificial Intelligence",
+    organisers: [
+      "Dr. Ashwini Shinde, Ph.D., HOD- E&TC, PCET’s NMVPM’s Nutan Maharashtra Institute of Engineering and Technology, Pune, India",
+      "Dr. Sanjeevkumar Angadi, Ph.D., HOD- CSE, PCET’s NMVPM’s Nutan Maharashtra Institute of Engineering and Technology, Pune, India",
+      "Dr. Ujjwal Baid, Ph.D., Director of Research, Emory University, Atlanta, GA, USA"
+    ],
+    listing: "SS 015",
+  },   
   
 ];
