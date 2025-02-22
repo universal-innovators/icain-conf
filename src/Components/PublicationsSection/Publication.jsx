@@ -40,12 +40,12 @@ function Publication() {
                 </div>
                 
               </div>
-              <div className="imgdata">
+              {/* <div className="imgdata">
                 <div className="puimg">
                   <img src={ais} alt="Physical communication" />
                 </div>
                 
-              </div>
+              </div> */}
 
             </div>
             <p>
