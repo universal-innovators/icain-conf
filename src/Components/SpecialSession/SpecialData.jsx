@@ -143,6 +143,17 @@ export default
       "Dr. Ujjwal Baid, Ph.D., Director of Research, Emory University, Atlanta, GA, USA"
     ],
     listing: "SS 015",
-  },   
+  },  
+  {
+    link: require("./sessions/SS-16.pdf"),
+    title: "AI-Enabled Wearables: Potential of IoT for Healthcare and Beyond",
+    organisers: [
+      "Dr. Shikha Gupta, Professor, Shaheed Sukhdev College of Business Studies, University of Delhi",
+      "Dr. Priya Gupta, Associate Professor, Jawahar Lal Nehru University",
+      "Dr. Princy Randhawa, Assistant Professor, Manipal University Jaipur"
+    ],
+    listing: "SS 016",
+  },    
+  
   
 ];
