@@ -154,6 +154,20 @@ export default
     ],
     listing: "SS 016",
   },    
+  {
+    link: require("./sessions/SS-17.pdf"),
+    title: "Pioneering the Future of Networking with AI, Machine Learning, and Deep Learning",
+    organisers: [
+      "Dr. Lokesh Jain, Associate Professor, Department of Information Technology, Jagan Institute of Management Studies, Rohini, Delhi, India"
+    ],
+    listing: "SS 017",
+  },
+  {
+    link: require("./sessions/SS-18.pdf"),
+    title: "Transforming Big Data Insights: Federated Learning in AI and ML for IoT Solutions",
+    organisers: [    ],
+    listing: "SS 018",
+  },
   
   
 ];
