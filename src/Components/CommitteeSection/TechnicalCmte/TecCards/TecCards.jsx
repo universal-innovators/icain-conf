@@ -45,7 +45,9 @@ const tpcm = [
   { name: "Prof. (Dr.) Srinath Doss", info: "Botho University, Botswana" },
   { name: "Prof. (Dr.) Swagatam Das", info: "Professor, Indian Statistical Institute, Kolkata, India" },
   { name: "Prof. Dr. Bal Virdee", info: "London Metropolitan University" },
-  { name: "Prof. (Dr.) V.C. Pandey", info: "Director, HMRITM, Delhi" }
+  { name: "Prof. (Dr.) V.C. Pandey", info: "Director, HMRITM, Delhi" },
+  { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" }
+
 ];
 
 function TecCards() {
