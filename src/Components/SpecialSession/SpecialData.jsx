@@ -168,6 +168,15 @@ export default
     organisers: [    ],
     listing: "SS 018",
   },
+  {
+    link: require("./sessions/SS-19.pdf"),
+    title: "Advances in Computational Intelligence and NLP: Innovation and Application",
+    organisers: ["Dr. Sayani Ghosal, Jaypee Institute of Information Technology (JIIT), Noida, Uttar Pradesh, India",
+    "Dr. Asma Sbai, Faculty of medicine and pharmacy of Marrakech- university cadi ayyad, Morocco"
+
+        ],
+    listing: "SS 019",
+  },
   
   
 ];
