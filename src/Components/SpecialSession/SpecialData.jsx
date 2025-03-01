@@ -177,6 +177,14 @@ export default
         ],
     listing: "SS 019",
   },
+  {
+    link: require("./sessions/SS-20.pdf"),
+    title: "Machine Learning, Deep Learning & Computational Intelligence Analytics",
+    organisers: ["Dr. Preeti Nagrath, Associate Professor, Bharati Vidyapeeth’s college of Engineering, Delhi, India",
+    "Dr. Rachna Jain, Associate Professor, Bhagwan Parshuram Institute of Technology, Delhi, India"
+    ],
+    listing: "SS 020",
+  },
   
   
 ];
