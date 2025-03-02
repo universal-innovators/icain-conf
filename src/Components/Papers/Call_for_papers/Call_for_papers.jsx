@@ -97,6 +97,21 @@ const Call_for_papers = () => {
               <li>Network performance analysis</li>
               <li>Internet of Everything (IoE)</li>
             </ul>
+
+            <p className="bold1"> 9. AI-Driven Innovations in Networking, Financial Technologies, and Supply Chain Optimization</p>
+            <ul>
+            <li>AI-driven Financial Analytics </li>
+            <li>Blockchain and Cryptocurrencies in Networking</li>
+            <li>Fintech Innovations and Networking</li>
+            <li>Risk Management and Fraud Detection with AI</li>
+            <li>Algorithmic Trading and Network Optimization</li>
+            <li>AI in E-commerce Optimization and Networking</li>
+            <li>Supply Chain Intelligence, Automation, and AI Integration</li>
+            <li>AI-based Procurement Strategies</li>
+            <li>Predictive Analytics for Demand Forecasting and Networked Systems</li>
+            <li>AI-powered Logistics, Inventory Management, and Networking</li>
+            </ul>
+            
           </div>
 
           <div className="imp_dates">
