@@ -130,7 +130,8 @@ export default
     link: require("./sessions/SS-14.pdf"),
     title: "The Future of AI and LLMs: Impact on Education, Research, and Society",
     organisers: [
-      "Prof. (Dr.) Deepti Mehrotra, Jaypee Institute of Information Technology, Noida, India"
+      "Prof. (Dr.) Deepti Mehrotra, Jaypee Institute of Information Technology, Noida, India",
+      "Dr. Seema Sharma, Assistant Professor, Amity University, Noida, Uttar Pradesh"
     ],
     listing: "SS 014",
   },
@@ -184,6 +185,15 @@ export default
     "Dr. Rachna Jain, Associate Professor, Bhagwan Parshuram Institute of Technology, Delhi, India"
     ],
     listing: "SS 020",
+  },
+  {
+    link: require("./sessions/SS-21.pdf"),
+    title: "AI-Powered Chatbots and Virtual Assistants based Cloud Management Systems for Smart Cities",
+    organisers: ["Dr Rashmi Soni, Associate Professor, Department of Information Science & Engineering, Dayananda Sagar Academy of Technology & Management, Bengaluru, Karnataka, India & Research Supervisor CSE (OU)",
+    "Dr Piyush Kumar Soni, Professor & Dean- Industry Interactions, Innovations & Incubations, Global Academy of Technology, Bengaluru, Karnataka, India",
+    "Dr Ved Prakash Mishra, Associate Professor, Department of Computer Science & Engineering, Head Center of Excellence-AI, Data Science & Future Intelligent Systems Program Leader-CSE, Amity, University Dubai, UAE"
+    ],
+    listing: "SS 021",
   },
   
   
