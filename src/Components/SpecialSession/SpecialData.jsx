@@ -112,7 +112,9 @@ export default
     title:
       "Generative AI models and their applications in Big Data analytics, Health care and pharmaceuticals, and Cybersecurity",
     organisers: [
-      "Dr. Hemant Kumar Gianey, Associate Professor, NMIMS University- Shirpur, India"
+      "Dr. Hemant Kumar Gianey, Associate Professor, NMIMS University- Shirpur, India",
+      "Dr. Aayush Shrivastava, Maharishi Markandeshwar University, India",
+      "Dr. Manmohan Singh, IES College of Technology, India"
     ],
     listing: "SS 012",
   },
