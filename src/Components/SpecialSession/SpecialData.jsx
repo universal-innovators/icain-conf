@@ -197,6 +197,16 @@ export default
     ],
     listing: "SS 021",
   },
+  {
+    link: require("./sessions/SS-22.pdf"),
+    title: "AI-based Energy Management for Sustainable WSN",
+    organisers: ["Dr. Narendra Khatri, Manipal Institute of Technology, MAHE, Manipal, India",
+    "Dr. Ajay Kumar Vyas, Adani University, Ahmedabad, India",
+    "Dr. Anupam Agrawal, Bhilai Institute of Technology, Durg, India"
+    ],
+    listing: "SS 022",
+  },
+  
   
   
 ];
