@@ -206,6 +206,38 @@ export default
     ],
     listing: "SS 022",
   },
+  {
+    link: require("./sessions/SS-23.pdf"),
+    title: "Recent Trends in AI/IoT Security and Privacy Issues",
+    organisers: ["Dr. Geetanjali, Netaji Subhas University of Technology, Dwarka sector-3, New Delhi, India"
+    ],
+    listing: "SS 023",
+  },
+  {
+    link: require("./sessions/SS-24.pdf"),
+    title: "Artificial Intelligence and Networking",
+    organisers: ["Associate Professor (Dr.) Tejinder Kaur , Department of MMICTBM, Maharishi Markandeshwar (Deemed To Be University), Mullana, Ambala-Haryana",
+    "Ravi Sharma Kaushik, University of Amsterdam , Research in Computational Science at the University of Amsterdam."
+    ],
+    listing: "SS 024",
+  },
+  {
+    link: require("./sessions/SS-25.pdf"),
+    title: "AI in Healthcare",
+    organisers: ["Associate Professor (Dr.) Tejinder Kaur , Department of MMICTBM, Maharishi Markandeshwar (Deemed To Be University), Mullana, Ambala-Haryana"
+    ],
+    listing: "SS 025",
+  },
+  {
+    link: require("./sessions/SS-26.pdf"),
+    title: "Converging Data Intelligence and Sustainable Computing",
+    organisers: [
+    "Dr Sonali Vyas, Associate Professor, UPES Dehradun",
+    "Prof Deepshikha Bhargava, Professor & Domain Head, Engineering and Technology, Amity University Greater Noida Campus",
+    "Dr Vinod Kumar Shukla, Head of Academics – School of Engineering Architecture Interior Design at Amity University Dubai, UAE"
+    ],
+    listing: "SS 026",
+  },
   
   
   
