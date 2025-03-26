@@ -1,55 +1,33 @@
 import "./Scards.css";
 
 function SCcards() {
-  let genChair = [
-    // {
-    //   h1: " Prof. Giancarlo Fortino",
-    //   p: "(Università della Calabria, Italy)",
-    // },
-    // {
-    //   h1: "Prof. Dr. Karim Ouazzane",
-    //   p: "(London Metropolitan University)",
-    // },
-    // {
-    //   h1: " Prof. Aboul Ella Hassanien",
-    //   p: "(College of Business Administration, Kuwait University, Kuwait)",
-    // },
-    // {
-    //   h1: " Oscar Castillo",
-    //   p: "(Tijuana Institute Technology, Tijuana, Mexico )",
-    // },
-    // {
-    //   h1: "Prof. Sergio Duarte Correia",
-    //   p: "(Polytechnic Institute of Portalegre, Portugal)",
-    // },
+  let genChair = [   
     {
       h1: "Prof. Dr. Bal Virdee",
-      p: "London Metropolitan University"
+      p: "London Metropolitan University, United Kingdom"
     },
     {
-      h1: "Prof Punam Bedi",
-      p: "Department of Computer Science, University of Delhi",
-    },
-
-  ];
-
+      h1: "Prof. (Dr.) Swagatam Das",
+      p: "Professor, Indian Statistical Institute, Kolkata, India"
+    }
+];
 
   let patron = [
     {
-      h1: " Mr. Sunil Kumar CT",
-      p: "Director -Academics, University of Stirling RAK Campus, UAE",
+      h1: "Mr. Sunil Kumar CT",
+      p: "Director - Academics, University of Stirling RAK Campus, UAE",
     },
     {
-      h1: "Ms. Shanthi  Rajan",
-      p: "Director-Internal QA Dept. , Director-Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus, UAE",
+      h1: "Ms. Shanthi Rajan",
+      p: "Director - Internal QA Dept., Director - Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Dr. Abhinanda Barman",
-      p: "Director-University Communication and Strategic Alliance, University  of Stirling RAK Campus, UAE"
+      p: "Director - University Communication and Strategic Alliance, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Mr. Mubin Khatib",
-      p: "Director-Human Resources, University of Stirling RAK Campus, UAE",
+      p: "Director - Human Resources, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Mr. William Alistair McQueer",
@@ -57,17 +35,14 @@ function SCcards() {
     },
     {
       h1: "Dr. Sanman Jain",
-      p: "Programme Director -  Accounting and Finance, University of Stirling RAK Campus, UAE",
+      p: "Programme Director - Accounting and Finance, University of Stirling RAK Campus, UAE",
     },
     {
       h1: "Dr. Nikhil V.P",
-      p: " Programme Director- Management, University of Stirling, RAK Campus, UAE",
-    },
-    // {
-    //   h1: " Prof. Madhu Pruthi",
-    //   p: "(Principal, Keshav Mahavidyalaya, University of Delhi)",       
-    // }
-  ]
+      p: "Programme Director - Management, University of Stirling RAK Campus, UAE",
+    }
+];
+
   let chiefPatron = [
 
     {
@@ -91,72 +66,40 @@ function SCcards() {
   ];
 
   let confChair = [
-    
     {
-      h1: "Prof. Isabel DE LA TORRE DÍEZ",
-      p: "University of Valladolid, Spain",
-    },
-    {
-      h1: "Dr. João Manuel R. S. Tavares",
-      p: "Universidade do Porto (FEUP), PORTUGAL",
-    },
-
-    {
-      h1: "Prof. Joel J P C Rodrigues",
-      p: "National Institute of Telecommunications (Inatel), Brazil",
-    },
-{
-      h1: "Dr. Narina Thakur",
-      p: "Assistant Prof.  CS and SE , HEAD - Research Innovation Committe, University of Stirling RAK Campus, UAE",
-    },
-    {
-      h1: "Dr.  Shamik Palit",
-      p: "Associate Prof.  CS and SE , HEAD - Corporate Outreach Committe, University of Stirling RAK Campus, UAE",
-    },
-  ];
-
-  let techChair = [
-    {
-      h1: "Jan Valicek",
+      h1: "Prof. Dr. Jan Valicek",
       p: "Institute of Technology and Business in České Budějovice"
     },
     {
-      h1: "Marta Harnicarova",
-      p: "Institute of Technology and Business in České Budějovice"
+      h1: "Dr. Pancham Shukla",
+      p: "Imperial College London"
     },
     {
-      h1: "Dr. Ahmed J. Obaid",
-      p: "University of Kufa, Iraq",
-    },
-    {
-      h1: "Dr. Mamoona Humayun",
-      p: "Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia",
-    },
-    {
-      h1: "Dr. Momina Shaheen",
-      p: "Department of Computing, School of Arts Humanities and Social Sciences, University of Roehampton, London SW15 5PJ, United Kingdom",
-    },
-    {
-      h1: "Dr. Richa Sharma",
-      p: "London Metropolitan University",
-    },
-    // {
-    //   h1: "Prof. Giancarlo Fortino",
-    //   p: "(Università della Calabria, Italy)",
-    // },
-    // {
-    //   h1: "Prof. Sanjay Mishra",
-    //   p: "(Covenant University, Nigeria)",
-    // },
-
-    // {
-    //   h1: "Valentina Emilia Balas",
-    //   p: "(Aurel Vlaicu University of Arad, Romania)",
-    // },
+      h1: "Dr. Shamik Palit",
+      p: "Associate Prof. CS and SE, HEAD - Corporate Outreach Committee, University of Stirling RAK Campus, UAE"
+    }
+];
 
 
+let techChair = [
+  {
+    h1: "Prof. Dr. Isabel DE LA TORRE DÍEZ",
+    p: "University of Valladolid, Spain"
+  },
+  {
+    h1: "Dr. Mamoona Humayun",
+    p: "Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia"
+  },
+  {
+    h1: "Dr. Momina Shaheen",
+    p: "Department of Computing, School of Arts Humanities and Social Sciences, University of Roehampton, London SW15 5PJ, United Kingdom"
+  },
+  {
+    h1: "Dr. Richa Sharma",
+    p: "London Metropolitan University, United Kingdom"
+  }
+];
 
-  ];
   let organisingChair = [
 
     // {
@@ -180,22 +123,15 @@ function SCcards() {
 
   let pubChair = [
     {
-      h1: "Prof. Abhishek Swaroop",
-      p: "Bhagwan Parshuram Institute of Technology, India",
+      h1: "Prof. Dr. Abhishek Swaroop",
+      p: "Bhagwan Parshuram Institute of Technology, India"
     },
     {
-      h1: "Prof. Sérgio Duarte Correia",
-      p: "Polytechnic Institute of Portalegre, Portugal.",
-    },
-    {
-      h1: "Dr Pancham Shukla",
-      p: "Imperial College London",
-    },
-    // {
-    //   h1: "Prof. P. Sanjeevi kumar",
-    //   p: "(Aarhus University, Herning, Denmark)",
-    // },
-  ];
+      h1: "Prof. Dr. Sérgio Duarte Correia",
+      p: "Polytechnic Institute of Portalegre, Portugal"
+    }
+];
+
 
   let coConvener = [
 
@@ -205,40 +141,32 @@ function SCcards() {
   ];
 
   let publicChair = [
-    // {
-    //   h1: "Dr. Prayag Tiwari",
-    //   p: "(Aalto University, Finland)",
-    // },
-
-
-    {
-      h1: "Dr Marta Harničárová",
-      p: "Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice",
-    },
-
-    {
-      h1: "Dr. Akshi Kumar",
-      p: "Director, Department of Computing, Goldsmiths University of London",
-    },
-    {
-      h1: "Dr. Gulshan Shrivastava",
-      p: "Bennett University, Greater Noida, India",
-    },
-
-
     {
       h1: "Dr. Sandra Fernando",
-      p: "London Metropolitan University",
+      p: "London Metropolitan University"
+    },
+    {
+      h1: "Dr. Jameel Ahamed",
+      p: "Maulana Azad National Urdu University, Gachibowli, Hyderabad, India"
+    },
+    {
+      h1: "Dr. Marta Harničárová",
+      p: "Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice"
     },
     {
       h1: "Prof. Mete YAĞANOĞLU",
-      p: "Ataturk University, Department of Computer Engineering, Turkey",
+      p: "Ataturk University, Department of Computer Engineering, Turkey"
     },
     {
       h1: "Dr. Sushil Kumar Singh",
-      p: " Associate Professor, Marwadi University, Rajkot, Gujarat, India, London Metropolitan University, London, UK",
+      p: "Associate Professor, Marwadi University, Rajkot, Gujarat, India, London Metropolitan University, London, UK"
     },
-  ];
+    {
+      h1: "Prof. Dr. Zdzislaw Polkowski",
+      p: "The Karkonosze University of Applied Sciences in Jelenia Góra, Poland"
+    }
+];
+
 
   // let techCoChair = [
 
@@ -260,29 +188,20 @@ function SCcards() {
 
 
   let convener = [
-    // {
-    //   h1: "Dr. Deepak Gupta",
-    //   p: "(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi,India)",
-    // },
     {
-      h1: "Roman Danel",
+      h1: "Dr. Narina Thakur",
+      p: "Assistant Prof. CS and SE, HEAD - Research Innovation Committee, University of Stirling RAK Campus, UAE"
+    },
+    {
+      h1: "Dr. Roman Danel",
       p: "Institute of Technology and Business in České Budějovice"
     },
     {
-      h1: "Moolchand Sharma",
-      p: "Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi",
+      h1: "Dr. Moolchand Sharma",
+      p: "Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi"
     }
+];
 
-    // {
-    //   h1: "Dr. Utku Kose",
-    //   p: "(Suleyman Demirel University, Isparta, Turkey)",
-    // },
-    // {
-    //   h1: "Dr. Jameel Ahamed",
-    //   p: "(Maulana Azad National Urdu University (MANUU), Hyderabad, India)",
-    // },
-
-  ];
 
 
 

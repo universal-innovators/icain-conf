@@ -1,21 +1,19 @@
 import "./TecCards.css";
 
 const tpcm = [
-  { name: "Arvind Kumar Bhardwaj", info: "Capgemini, Test Lead, Texas, USA" },
-  { name: "Dr. A.K. Singh", info: "Computer Engineering Department, NIT Kurukshetra" },
-  { name: "Dr. Akshi Kumar", info: "Associate Professor, Goldsmith University of London, UK" },
+  { name: "Dr. Michael Baron", info: "Associate Professor, Curtin University, Melbourne, Australia" },
+  { name: "Dr. Dac-Nhuong Le", info: "Haiphong University, Vietnam" },
   { name: "Dr. Andri Pranolo", info: "Universitas Ahmed Dahlan, Indonesia" },
   { name: "Dr. Brojo Kishore Mishra", info: "Associate Professor, CV Raman College of Engineering, Bhubaneshwar" },
-  { name: "Dr. Dac-Nhuong Le", info: "Haiphong University, Vietnam" },
+  { name: "Arvind Kumar Bhardwaj", info: "Capgemini, Test Lead, Texas, USA" },
   { name: "Dr. Enuouch Suleiman", info: "Bauchi State Govt. of Nigeria, Nigeria" },
   { name: "Dr. Hamid Reza Boveiri", info: "Sama College, IAU, Shoushtar Branch, Khuzestan, Iran" },
   { name: "Dr. Jafar A. Alzubi", info: "Al-Balqa Applied University, Salt - Jordan" },
-  { name: "Dr. Kusum Yadav", info: "Associate Professor, University of Hail, Saudi Arabia" },
   { name: "Dr. Maqbool Khan", info: "Assistant Professor, Pak-Austria Fachhochschule-Institute of Applied Sciences and Technology, Mang, Haripur, Pakistan and Adjunct Researcher, Software Competence Center Hagenberg GmbH, Softwarepark, Hagenberg, Linz, Austria" },
+  { name: "Dr. A.K. Singh", info: "Computer Engineering Department, NIT Kurukshetra" },
+  { name: "Dr. Akshi Kumar", info: "Director, Associate Professor, Goldsmith University of London, UK" },
   { name: "Dr. Mamoona Humayun", info: "Assistant Professor, Jouf university Al-jouf, Saudi Arabia" },
   { name: "Dr. Mamoona Humayun", info: "Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia" },
-  { name: "Dr. Michael Baron", info: "Associate Professor, Curtin University, Melbourne, Australia" },
-  // { name: "Dr. Muhammad Zafar", info: "Cardiff school of technologies, Cardiff Metropolitan University Cardiff" },
   { name: "Dr. Nicu Bizon", info: "University of Pitesti, Romania" },
   { name: "Dr. Nhu Gia Nguyen", info: "Duy Tan University, Vietnam" },
   { name: "Dr. Onuma Suphattanakul", info: "Universiti Utara, Malaysia" },
@@ -47,8 +45,8 @@ const tpcm = [
   { name: "Prof. Dr. Bal Virdee", info: "London Metropolitan University" },
   { name: "Prof. (Dr.) V.C. Pandey", info: "Director, HMRITM, Delhi" },
   { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" }
-
 ];
+
 
 function TecCards() {
   return (
