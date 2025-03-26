@@ -24,10 +24,11 @@ import Img14 from "./PcImages24/icain14.jpeg";
 import Img15 from "./PcImages24/icain15.jpeg";
 import Img16 from "./PcImages24/icain16.jpeg";
 
-function PreConf18() {
+function PreConf24() {
     const images =[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,Img11,Img12,Img13,Img14,Img15,Img16]
   let Mybody =
     "The International Conference on Artificial Intelligence and Networking (ICAIN-2024) was held on 24th-25th September 2024 at Guru Tegh Bahadur Institute of Technology, New Delhi, in collaboration with Portalegre Polytechnic University, Portugal, Institute of Technology and Business in České Budějovice, Czech Republic, and Keshav Mahavidyalaya, Delhi University. The conference received 650 paper submissions from over 1,500 authors across 15 countries, with 120 papers accepted at an 18% acceptance rate. All accepted papers were published in Springer’s Lecture Notes on Networks and Systems, a Scopus-indexed series. With 250+ participants attending both online and offline, including authors, keynote speakers, delegates, academicians, and industry experts, ICAIN-2024 successfully showcased research and developments in AI and networking through a hybrid format.";
+    let links=["https://link.springer.com/book/9789819620142","https://link.springer.com/book/9789819643189"];
 
   return (
     <>
@@ -38,12 +39,9 @@ function PreConf18() {
       <div className="preConf">
         <div className="preConfMain">
           <PcMainBody myBody={Mybody} />
-          {/* <PcLinks
-            year="2018"
-            link1="https://link.springer.com/book/10.1007/978-981-13-2324-9"
-          /> */}
+          <PcLinks
+            year="2024" links={links} /> 
         </div>
-        {/* <ImpDate /> */}
       </div>
 
       <div className="imagesPc">
@@ -54,4 +52,4 @@ function PreConf18() {
   );
 }
 
-export default PreConf18;
+export default PreConf24;

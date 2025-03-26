@@ -40,11 +40,6 @@ import StCommittee from "./Components/CommitteeSection/SteeringCmte/Steering";
 import TechnicalCmte from "./Components/CommitteeSection/TechnicalCmte/Technical";
 
 // Previous Conference
-import PreConf22 from "./Components/PreviousConferences/PC2022/preConf22";
-import PreConf21 from "./Components/PreviousConferences/PC2021/preConf21";
-import PreConf20 from "./Components/PreviousConferences/PC2020/preConf20";
-import PreConf19 from "./Components/PreviousConferences/PC2019/preConf19";
-import PreConf18 from "./Components/PreviousConferences/PC2018/preConf18";
 import PreConf24 from "./Components/PreviousConferences/PC2024/preConf24";
 
 // home and notice

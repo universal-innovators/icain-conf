@@ -1,31 +1,22 @@
 import "./pcLinks.css";
-function PcLinks({ year, link1 }) {
-  return (
+function PcLinks({ year, links }) {
+  return (    
     <>
       <div className="pcLinks">
-        <h1>LINK OF PROCEEDINGS OF Icicc {year}</h1>
-
-        <div className="pcLinkMains">
-          {/* 1st  */}
+        <h1>LINK OF PROCEEDINGS OF ICAIN {year}</h1>
+        {links.map((link,ind)=>{
+          return <div className="pcLinkMains">
           <div className="pcLinkMain">
-            <h2>Volume 1:</h2>
+            <h2>Volume {ind+1}:</h2>
             <p>
-              <a href={link1} target="_blank">
-                Link of the volume 1
+              <a href={link} target="_blank">
+                Link of the volume {ind+1}
               </a>
             </p>
-          </div>
-
-          {/* 2nd  */}
-          <div className="pcLinkMain">
-            <h2>Volume 2:</h2>
-            <p>
-              <a href="#" target="_blank">
-                Link of the volume 2
-              </a>
-            </p>
-          </div>
+          </div>          
         </div>
+        })}
+       
       </div>
     </>
   );
