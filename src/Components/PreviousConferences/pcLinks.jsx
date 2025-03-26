@@ -3,7 +3,7 @@ function PcLinks({ year, links }) {
   return (    
     <>
       <div className="pcLinks">
-        <h1>LINK OF PROCEEDINGS OF ICAIN {year}</h1>
+        <h1>Proceedings of International Conference on Artificial Intelligence and Networks, ICAIN {year}</h1>
         {links.map((link,ind)=>{
           return <div className="pcLinkMains">
           <div className="pcLinkMain">
