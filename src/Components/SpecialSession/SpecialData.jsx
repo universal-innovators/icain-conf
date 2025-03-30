@@ -238,7 +238,23 @@ export default
     ],
     listing: "SS 026",
   },
-  
+  {
+    link: require("./sessions/SS-27.pdf"),
+    title: "Emerging Trends in Computing and Telecommunications: AI Enabled Innovations for Future",
+    organisers: [
+    "Dr. Anvesha Katti, Assistant Professor, Amity University Haryana, India",
+    "Dr. Priyanka Vashisht, Associate Professor, Amity University Haryana, India"
+    ],
+    listing: "SS 027",
+  },
+  {
+    link: require("./sessions/SS-28.pdf"),
+    title: "Recent Advances in Intelligent Systems and Communication & Machine Learning",
+    organisers: [
+    "Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Board of Technical Education, Uttar Pradesh, India"
+    ],
+    listing: "SS 028",
+  },
   
   
 ];
