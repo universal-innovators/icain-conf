@@ -6,13 +6,14 @@ import port from "../Header/Himages/portagal.jpg";
 import du from "../Header/Himages/du.png";
 import ksmv from "../Header/Himages/ksmv.png";
 import gtbit from "../Header/Himages/gtbit.jpg";
+import cognizant from "./cognizant.jpg";
 
 
 
 
 
 export default function AcademicPartners() {
-    const academicPartners=[uos,vste,port,du,ksmv]
+    const academicPartners=[uos,vste,port,du,ksmv,cognizant]
     return (
         <>
             <h1 className='keynoteHeading'>Our Academic Partners</h1>
