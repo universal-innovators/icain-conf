@@ -6,7 +6,7 @@ import port from "../Header/Himages/portagal.jpg";
 import du from "../Header/Himages/du.png";
 import ksmv from "../Header/Himages/ksmv.png";
 import gtbit from "../Header/Himages/gtbit.jpg";
-import cognizant from "./cognizant.jpg";
+import cognizant from "./cognizant.png";
 
 
 
