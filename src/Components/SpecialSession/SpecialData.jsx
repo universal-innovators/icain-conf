@@ -276,6 +276,16 @@ export default
     ],
     listing: "SS 030",
   },
+  {
+    link: require("./sessions/SS-31.pdf"),
+    title: "Recent Advances in Cyber-Security Artificial Intelligence, Machine Learning & Communication Technology",
+    organisers: [
+      "Shanu Khare, Chandigarh University, Chandigarh, India",
+      "Dr. Payal Thakur, Chandigarh University, Chandigarh, India",
+      "Navjot Singh Talwandi, Chandigarh University, Chandigarh, India"
+    ],
+    listing: "SS 031",
+  },
   
   
 ];
