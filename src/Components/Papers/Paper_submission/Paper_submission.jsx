@@ -12,7 +12,7 @@ const Paper_submission = () => {
           {/* left  */}
           <div className="Submission_desc">
             <p style={{"color":"black"}}>
-            Original, unpublished research papers, articles, and working papers, with a maximum length of 10 pages, on topics related to the conference theme are invited for presentation and publication in the conference proceedings.
+            Original, unpublished research papers, articles, and working papers, with a maximum length of 12 pages, on topics related to the conference theme are invited for presentation and publication in the conference proceedings.
              
             </p>
             <ul>
@@ -21,7 +21,7 @@ const Paper_submission = () => {
                 <a href={Pdf1} target="_blank" className="SubGuidelines">
                   Springer Guidelines{" "}
                 </a>
-                (not exceeding 10 pages written in A4 size). Please refer the
+                (not exceeding 12 pages written in A4 size). Please refer the
                 attached springer template for preparation of your paper.
               </li> */}
 
