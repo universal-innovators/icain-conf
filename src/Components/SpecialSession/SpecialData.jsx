@@ -286,6 +286,26 @@ export default
     ],
     listing: "SS 031",
   },
+  {
+    link: require("./sessions/SS-32.pdf"),
+    title: "Next-Gen AI Applications in Education and Safety",
+    organisers: [
+      "Dr. Manvi Breja, The NorthCap University, Gurugram, India",
+      "Dr. Prachi, The NorthCap University, Gurugram, India"
+    ],
+    listing: "SS 032",
+  },
+  {
+    link: require("./sessions/SS-33.pdf"),
+    title: "AI and ML for Cyber Threat Detection and Prevention – Methods, Tools, and Case Studies",
+    organisers: [
+      "Prof (Dr). Kamal Kundra, Professor (IT & AI/ML )& COE, New Delhi Institute of Management, New Delhi, India",
+      "Dr. Deepti Khanna, Associate Professor, IIC- President, Jagan Institute of Management Studies, Rohini, New Delhi, India",
+      "Dr. Shivani Vats, Assistant Professor, IIC- Innovation Coordinator, Jagan Institute of Management Studies, Rohini, New Delhi, India",
+      "Mr. Naveen ananda Kumar Joseph annaiah, Data Engineer, Tekinvaderz, LLC, FLORIDA, USA"
+    ],
+    listing: "SS 033",
+  },
   
   
 ];
