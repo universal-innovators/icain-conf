@@ -27,6 +27,11 @@ export default function Keynote() {
                     <p> <strong>Dr. Kathrin Kind </strong>
                         <br />Member of the Board of Advisors. Swiss School of Business and Management ; Chief Data Scientist / AI A. Director Global Growth Markets (EMEA/APAC). Cognizant</p>
                 </div>
+                <div className="keynoteCard">
+                    <img src="obaid.jpg" alt="" srcset="" />
+                    <p> <strong>Dr. Ahmed J. Obaid </strong>
+                        <br />Associate Professor of Computer Science at the University of Kufa, Iraq, specializing in web mining, AI-driven healthcare applications, and computational intelligence</p>
+                </div>
             </div>
         </>
     )
