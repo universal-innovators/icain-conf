@@ -32,6 +32,11 @@ export default function Keynote() {
                     <p> <strong>Dr. Ahmed J. Obaid </strong>
                         <br />Associate Professor of Computer Science at the University of Kufa, Iraq, specializing in web mining, AI-driven healthcare applications, and computational intelligence</p>
                 </div>
+                <div className="keynoteCard">
+                    <img src="korhan.jpg" alt="" srcset="" />
+                    <p> <strong>Dr. Korhan Cengiz</strong>
+                        <br />Associate Research Professor, Department of Electrical Engineering, Prince Mohammad Bin Fahd University, KSA</p>
+                </div>
             </div>
         </>
     )

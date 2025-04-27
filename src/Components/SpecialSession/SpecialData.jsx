@@ -306,6 +306,14 @@ export default
     ],
     listing: "SS 033",
   },
+  {
+    link: require("./sessions/SS-34.pdf"),
+    title: "Advances in AI-Driven Networking and Edge Intelligence for Smart Systems",
+    organisers: [
+      "Dr. Monica Bhutani, Associate Professor, Bharati Vidyapeeth’s College of Engineering, New Delhi, INDIA"
+    ],
+    listing: "SS 034",
+  },
   
   
 ];
