@@ -49,6 +49,7 @@ import Policy from "./Components/Policy/Policy";
 import Keynote from "./Components/KeyNoteSpeakers/Keynote";
 import AcademicPartners from "./Components/AcademicParters/AcademicPartners";
 import { useEffect } from "react";
+import PrevKeynote from "./Components/KeyNoteSpeakers/PrevKeynote";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -98,6 +99,7 @@ function App() {
                   {/* <FlagShip/> */}
                   <AboutConference />
                   <Keynote/>
+                  <PrevKeynote/>
                   <AcademicPartners/>
                   <HoDateNotice />
                   <Footer />
