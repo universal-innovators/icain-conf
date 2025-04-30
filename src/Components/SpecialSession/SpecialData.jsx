@@ -314,6 +314,15 @@ export default
     ],
     listing: "SS 034",
   },
-  
+  {
+    link: require("./sessions/SS-35.pdf"),
+    title: "AI powered healthcare: IoT and Networking for Next Gen Electronics",
+    organisers: [
+      "Dr. Mrs. Mangal V. Patil, Associate Professor, Department of Electronics and Communication Engineering, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune",
+      "Dr. Ajay Roy, Associate Professor, Department of Electrical Engineering, College of Engineering, University of Bisha, Bisha, Saudi Arabia",
+      "Dr. Harshada Mhetre, Assistant Professor, Department of Electronics and Communication Engineering, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune"
+    ],
+    listing: "SS 035",
+  },
   
 ];
