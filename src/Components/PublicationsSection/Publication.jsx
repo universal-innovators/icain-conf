@@ -10,6 +10,12 @@ import jbhi from "./PuImages/jbhi.png";
 import hcisj from "./PuImages/hcisj.jfif";
 import lnns from "./PuImages/lnns.jpg";
 import ais from "./PuImages/ais.jpg";
+import ijs from "./PuImages/ijs.jpg";
+import das from "./PuImages/das.webp";
+import cmi from "./PuImages/cmir.gif";
+import iet from "./PuImages/iet.jpg";
+
+
 
 import Indexing from "./Indexing";
 
@@ -116,23 +122,36 @@ function Publication() {
               </div>
 
               {/* img 5 and data*/}
-              {/* <div className="imgdata">
+              <div className="imgdata">
                 <div className="puimg">
-                  <img src={CompModel} alt="CMES" />
+                  <img src={ijs} alt="CMES" />
                 </div>
                 <p>
-                  Computer Modeling in Engineering and Sciences (SCIE Indexed IF
-                  2.0)
+                International Journal of Sensors, Wireless Communications and Control, BENTHAM SCIENCE
                 </p>
-              </div> */}
+              </div>
 
               {/* img 6 and data */}
-              {/* <div className="imgdata">
+              <div className="imgdata">
                 <div className="puimg">
-                  <img src={Journal} alt="Journal" />
+                  <img src={iet} alt="Journal" />
                 </div>
-                <p>Journal of Mobile Multimedia(River)(Scopus and ESCI)</p>
-              </div> */}
+                <p>IET Signal Processing Journal, Wiley SCI </p>
+              </div>
+
+              <div className="imgdata">
+                <div className="puimg">
+                  <img src={cmi} alt="Journal" />
+                </div>
+                <p>Current Medical imaging, BENTHAM SCIENCE, IF: 1.1</p>
+              </div>
+
+              <div className="imgdata">
+                <div className="puimg">
+                  <img src={das} alt="Journal" />
+                </div>
+                <p>Discover Applied Sciences Journal, IF:2.8</p>
+              </div>
             </div>
 
             {/* Indexing  */}
