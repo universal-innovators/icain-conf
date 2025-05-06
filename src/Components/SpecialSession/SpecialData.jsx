@@ -324,5 +324,14 @@ export default
     ],
     listing: "SS 035",
   },
+  {
+    link: require("./sessions/SS-36.pdf"),
+    title: "Next-Gen Technologies for Sustainable, Secure, and Intelligent Societies: Innovations in AI, Blockchain, Autonomy, and Healthcare",
+    organisers: [
+      "Dr. Biswadip Basu Mallik, Department of Basic Science and Humanities, Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, India",
+      "Swarnamouli Majumdar, Concordia University, Montréal, Canada"
+    ],
+    listing: "SS 036",
+  },
   
 ];
