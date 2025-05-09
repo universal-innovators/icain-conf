@@ -31,12 +31,12 @@ function AboutConference() {
               {/* All the
               accepted papers (after double blinded peer review) will be
               published as proceedings of ICAIN-2025 in{" "}
-              <span className="corange">Springer AIS SERIES (Proposal Applied)</span>{" "}
+              <span className="corange">Springer AIS SERIES (Approved)</span>{" "}
               and other reputed databases. */}
             </p>
 
             <b className="">
-            All the papers and the proceedings of ICAIN-2025 will be published in Springer LNNS series (Proposal Applied - Indexed in DBLP, EI Compendex, INSPEC, SCImago SCOPUS, WTI AG, zbMATH)
+            All the papers and the proceedings of ICAIN-2025 will be published in Springer LNNS series (Approved - Indexed in DBLP, EI Compendex, INSPEC, SCImago SCOPUS, WTI AG, zbMATH)
             </b>
             <marquee><b className="reAuthors" style={{color:"#006938"}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</b></marquee>
             <h4>

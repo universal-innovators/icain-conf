@@ -14,6 +14,7 @@ import ijs from "./PuImages/ijs.jpg";
 import das from "./PuImages/das.webp";
 import cmi from "./PuImages/cmir.gif";
 import iet from "./PuImages/iet.jpg";
+import fai from "./PuImages/fai.png";
 
 
 
@@ -32,7 +33,7 @@ function Publication() {
           <b style={{fontSize:'18px',color:"white"}}>Publication Proceedings</b>
             {/* <p>
               All the accepted papers of ICAIN-2025 will be published as a{" "}
-              <span className="porange">Springer AIS SERIES (Proposal Applied)</span>{" "}
+              <span className="porange">Springer AIS SERIES (Approved)</span>{" "}
               proceedings of ICAIN-2025 indexed by Web of Science, Google scholar
               and zbMATH and other reputed databases.
             </p> */}
@@ -151,6 +152,12 @@ function Publication() {
                   <img src={das} alt="Journal" />
                 </div>
                 <p>Discover Applied Sciences Journal, IF:2.8</p>
+              </div>
+              <div className="imgdata">
+                <div className="puimg">
+                  <img src={fai} alt="Journal" />
+                </div>
+                <p>Frontiers in Artificial Intelligence Journal, SCI-IF 3.0</p>
               </div>
             </div>
 

@@ -122,7 +122,7 @@ const Call_for_papers = () => {
         <div className="cfp_info">
         <h3>Note:</h3>
           <li>
-          The papers submitted to the conference will be peer-reviewed and published as proceedings by Springer (Proposal Applied). 
+          The papers submitted to the conference will be peer-reviewed and published as proceedings by Springer (Approved). 
           </li>
 
           <li>

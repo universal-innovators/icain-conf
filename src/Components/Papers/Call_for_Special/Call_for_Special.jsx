@@ -74,7 +74,7 @@ const Call_for_Special = () => {
 
             ICAIN-2025 aims to bring together innovative research in the fields of Computing and Communication on a common platform. The conference seeks to promote research and development activities and foster scientific information exchange between researchers, developers, engineers, students, and practitioners worldwide.
             <br/>
-            All accepted papers (after a double-blind peer review process) will be published in the <b>Springer LNNS series</b> (Proposal Applied). Furthermore, extended versions of accepted papers will be published in special issues of SCI/SCOPUS/WoS/DBLP/ACM/EI indexed journals.
+            All accepted papers (after a double-blind peer review process) will be published in the <b>Springer LNNS series</b> (Approved). Furthermore, extended versions of accepted papers will be published in special issues of SCI/SCOPUS/WoS/DBLP/ACM/EI indexed journals.
             <br/>
             <br/>
 
