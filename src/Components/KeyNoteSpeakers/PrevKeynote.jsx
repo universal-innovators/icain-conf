@@ -17,12 +17,8 @@ const speakersData = {
             name: "Prof. Bijaya Ketan Panigrahi",
             title: "Professor, Electrical Engineering Department, IIT Delhi",
             image: "BijayaKetan.jpeg"
-        },
-        {
-            name: "Dr. Kathrin Kind",
-            title: "Member of the Board of Advisors, Swiss School of Business and Management; Chief Data Scientist / AI Director Global Growth Markets (EMEA/APAC), Cognizant",
-            image: "kat.jpg"
-        },
+        }
+        
         
     ]
 };
