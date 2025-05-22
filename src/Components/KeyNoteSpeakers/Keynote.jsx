@@ -23,13 +23,13 @@ export default function Keynote() {
                 </div>
                 <div className="keynoteCard">
                     <img src="jan.gif" alt="" srcset="" />
-                    <p> <strong>professor Jan Valíček, Ph.D</strong>
+                    <p> <strong>Professor Jan Valíček, Ph.D</strong>
                         <br />Institute of Technology and Business in České Budějovice, Faculty of Technology, Czech Republic</p>
                 </div>
                 <div className="keynoteCard">
                     <img src="samiya.jpg" alt="" srcset="" />
                     <p> <strong>Dr Samiya Khan</strong>
-                        <br /></p>
+                        <br />University of Southampton, Delhi</p>
                 </div>
                 <div className="keynoteCard">
                     <img src="kat.jpg" alt="" srcset="" />
