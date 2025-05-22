@@ -333,5 +333,16 @@ export default
     ],
     listing: "SS 036",
   },
+  {
+    link: require("./sessions/SS-37.pdf"),
+    title: "Data Analytics and Smart Technologies for Achieving Sustainable Development Goals (SDGs)",
+    organisers: [
+      "Dr. Biswaranjan Acharya, Department of Computer Engineering – AI & BDA, Marwadi University, Rajkot, Gujarat, India",
+      "Dr. Rocío Pérez de Prado, Telecommunication Engineering Department, University of Jaén, Jaén, Spain",
+      "Dr. Priti Rai, College of Vocational Studies, University of Delhi, New Delhi NCR, India"
+    ],
+    listing: "SS 037",
+  },
+  
   
 ];
