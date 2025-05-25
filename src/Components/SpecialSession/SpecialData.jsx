@@ -358,11 +358,11 @@ export default
   },
   {
     link: require("./sessions/SS-39.pdf"),
-    title: "Transforming VLSI Circuit Design through Artificial Intelligence ",
+    title: "Transforming VLSI Circuit Design through Artificial Intelligence",
     organisers: [
       "Prof. Yashu Swami, Manav Rachna International Institute of Research and Studies, India"
     ],
-    listing: "SS 039",
+    listing: "SS 039"
   }
   
   
