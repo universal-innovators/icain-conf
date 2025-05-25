@@ -29,7 +29,7 @@ export default function Keynote() {
                 <div className="keynoteCard">
                     <img src="samiya.jpg" alt="" srcset="" />
                     <p> <strong>Dr Samiya Khan</strong>
-                        <br />University of Southampton, Delhi</p>
+                        <br />Lecturer in Computer Science at University of Southampton Delhi | Expert in Interdisciplinary Data Science with a focus on inclusive computing and social impact technologies</p>
                 </div>
                 <div className="keynoteCard">
                     <img src="kat.jpg" alt="" srcset="" />
