@@ -363,6 +363,15 @@ export default
       "Prof. Yashu Swami, Manav Rachna International Institute of Research and Studies, India"
     ],
     listing: "SS 039"
+  },
+  {
+    link: require("./sessions/SS-40.pdf"),
+    title: "Emerging Intelligent Computing Techniques and their Applications (EICTA)",
+    organisers: [
+      "Dr. Nitish Pathak, Bhagwan Parshuram Institute of Technology (BPIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India",
+      "Dr. Neelam Sharma, Maharaja Agrasen Institute of Technology (MAIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India"
+    ],
+    listing: "SS 040"
   }
   
   
