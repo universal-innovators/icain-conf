@@ -352,7 +352,8 @@ export default
       "Dr. Basudha Deewan, Assistant Professor, Dept. of Electronics and Communication Engineering, Poornima University, Jaipur, Rajasthan",
       "Prof. (Dr.) Ehsan Sheybani, Professor, School of Information Systems and Management, University of South Florida, Tampa, USA",
       "Dr. M.W.P. Maduranga, Senior Lecturer, Dept. of Electrical and Electronic Engineering, Faculty of Engineering, University of Sri Jayewardenepura, Nugegoda, Sri Lanka",
-      "Prof. (Dr.) Santosh Nagaraj, Professor, Department of Electrical & Computer Engineering, & Co-Director, Wireless Networks and Communications (WINC) Laboratory, San Diego State University, California, USA"
+      "Prof. (Dr.) Santosh Nagaraj, Professor, Department of Electrical & Computer Engineering, & Co-Director, Wireless Networks and Communications (WINC) Laboratory, San Diego State University, California, USA",
+     "Prof. (Dr.) Mahasweta Sarkar, Professor, Department of Electrical & Computer Engineering, & Director, Wireless Networks and Communications (WINC) Laboratory, San Diego State University, California, USA"
     ],
     listing: "SS 038",
   },
