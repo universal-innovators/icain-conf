@@ -13,7 +13,7 @@ import cognizant from "./cognizant.png";
 
 
 export default function AcademicPartners() {
-    const academicPartners=[uos,vste,port,du,ksmv,cognizant]
+    const academicPartners=[vste,port,du,ksmv,cognizant]
     return (
         <>
             <h1 className='keynoteHeading'>Our Academic Partners</h1>

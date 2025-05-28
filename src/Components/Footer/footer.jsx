@@ -17,7 +17,7 @@ function Footer() {
         <div className={classes.fleft}>
           <div className={classes.details}>
             <div className={classes.footerLogo}>
-            <img src={uos} className={classes.logoImg}/>
+            {/* <img src={} className={classes.logoImg}/> */}
             {/* <img src={require("./Himages/portagal.jpg")} className={classes.logoImg}/> */}
             </div>
             {/* <div className={classes.footerLogo}>
@@ -35,11 +35,11 @@ function Footer() {
           <h1>Social Media</h1>
 
           <div className={classes.social}>
-            {/* <a href="mailto:icain.conf@gmail.com"><IoMdMail/></a> */}
+            <a href="mailto:icain.conf@gmail.com"><IoMdMail/></a>
             {/* <a href="icain.conf@gmail.com">Gmail</a> */}
-            <a href="https://www.facebook.com/stiruae" target="_blank"><IoLogoFacebook/></a>
-            <a href="https://www.linkedin.com/company/university-of-stirling-uae/posts/?feedView=all" target="_blank"><FaLinkedin /></a>
-            <a href="https://www.instagram.com/universityofstirling_rak/" target="_blank"><FaInstagram /></a>
+            <a href="" target="_blank"><IoLogoFacebook/></a>
+            <a href="" target="_blank"><FaLinkedin /></a>
+            <a href="" target="_blank"><FaInstagram /></a>
           </div>
         </div>
 

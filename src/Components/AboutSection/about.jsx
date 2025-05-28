@@ -3,14 +3,14 @@ import ImpDate from "../impDates/impDtext";
 import Footer from "../Footer/footer";
 import "./about.css";
 import "animate.css";
-import clg from "../ConferenceVenue/uosImage.JPG";
+import clg from "../Header/Himages/ui-edu.webp";
 function About() {
   return (
     <div>
       <div className="about">
         <div className="abcontainer animate__animated animate__backInRight">
           <div className="abHeadTop ">
-            <h1>About University of Stirling</h1>
+            <h1>About UI-Educon</h1>
             <div className="underlineHeading"></div>
           </div>
           <hr />
@@ -60,12 +60,12 @@ function About() {
 
             <div className="abLeftRight1">
               <div className="abLeft">
-                <img src={clg} style={{ "width": "45%", objectFit: "contain" , display: "block", margin:"auto"}} />
+                <img src={clg} style={{ "width": "30%", objectFit: "contain" , display: "block", margin:"auto"}} />
                 <br />
                 <br />
-                {/* <p>
-                  The University of Stirling, RAK Campus is a global university with a reputation for high-quality teaching and research. We help our graduates, staff and students to shape the world. We’re an agent for change, connecting people, innovating and transforming the lives of our students, staff and the global communities we serve.
-                </p><br /> */}
+                <p>
+                  Universal Innovators Educational Consultants is a leading platform that aims to empower innovators and foster knowledge exchange. With a passion for technology and research, we serve as a bridge between academia, industry, and research laboratories.
+                </p><br />
                 {/* <h3 style={{ "color": "#006938", "fontFamily": "Calibri" }}>Why Stirling?</h3> */}
                 <p>
                 {/* Highly rated courses, high rate of employability */}
@@ -82,7 +82,8 @@ function About() {
                     <li> 79.6% student satisfaction (National Student Survey 2021)</li>
                     <li> The University of Stirling ranked 28th in the UK in the The Guardian University Guide 2021</li>
                   </ul> */}
-                  <br/>For more information, visit the University of Stirling RAK Campus, UAE - <a style={{color:'#006938'}} href="https://www.stir.ae/about-uos-uk">https://www.stir.ae/about-uos-uk</a> 
+                  <br/>
+                  {/* For more information, visit the University of Stirling RAK Campus, UAE - <a style={{color:'#006938'}} href="https://www.stir.ae/about-uos-uk">https://www.stir.ae/about-uos-uk</a>  */}
                 </p>
               </div>
 

@@ -10,7 +10,7 @@
 .headerMain{
 background-color: rgba(255, 255, 255, 0.7);
 display: flex;
-justify-content: flex-start;
+justify-content: space-around;
 color: black;
 font-family: var(--font-content);
 margin: 10px;
@@ -31,18 +31,18 @@ img{
 }
 .headerLogo{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     /* gap:2px; */
 }
 .logoImg{
-    width: 8rem;
+    width: 10rem;
     margin:10px;
-    aspect-ratio:1.2;
 }
-.logoImg1{
-    width:30rem;
-    margin:5px;
+.logoImg1{    
+    width:10rem;
+    margin:10px;
 }
 /* images  */
 .img1 .himg, .img2 .himg{
@@ -109,14 +109,23 @@ img{
         margin: 1rem 0;
     }
     .logoImg{
-        width: 65px;
+        width: 10rem!important;
         height: auto;
+        margin: 5px;
     }
-    .logoImg1{
-        flex-direction: row;
-        width: 90%;        
+    .logoImg1{        
+        width: 10rem;        
         height: auto;
+        margin: 5px;
+
     }
+    .headerLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap:2px; */
+}
     
     .hTopPart{
         /* width: 90vw; */

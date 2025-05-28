@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 // css of the slides
 import "./Hslides.css";
-import Img3 from "../ConferenceVenue/vste.jpg";
+import Img3 from "./HslidesImages/img3.png";
 import poster from "./HslidesImages/poster.jpg"
 import poster1 from "./HslidesImages/poster1.jpeg"
 

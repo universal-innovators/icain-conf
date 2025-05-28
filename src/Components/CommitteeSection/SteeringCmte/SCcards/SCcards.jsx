@@ -67,6 +67,10 @@ function SCcards() {
 
   let confChair = [
     {
+      h1: "Dr. Ahmed J. Obaid",
+      p: "Associate Professor of Computer Science at the University of Kufa, Iraq"
+    },
+    {
       h1: "Prof. Dr. Jan Valicek",
       p: "Institute of Technology and Business in České Budějovice"
     },

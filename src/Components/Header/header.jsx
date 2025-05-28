@@ -9,6 +9,8 @@ import portagul from "./Himages/portagal.jpg";
 import sdcn from "./Himages/sdcn.png"
 import vste from "./Himages/vste.jpg"
 import uos from "./Himages/logo-2.svg"
+import uiedu from "./Himages/ui-edu.webp"
+import uiinov from "./Himages/ui-inov.jpeg"
 
 import "./header.css";
 
@@ -18,10 +20,12 @@ function HeaderMain() {
       <div className="hcontainer">
         {/* images  */}
 
-        {/* <div className="headerLogo">
-          <img src={gtbit} className="logoImg"/>   
-          <img src={uos} className="logoImg1" />
-        </div> */}
+        <div className="headerLogo">
+          <img src={uiinov} className="logoImg"/> 
+          <img src={uiedu} className="logoImg1"/>  
+
+          
+        </div>
         {/* <div className="headerLogo">
           <img src={vste} className="logoImg" />
           <img src={require("../Footer/Himages/ksmv.png")} className="logoImg" style={{ "margin": "0 auto", "width": "8rem", "height": "auto" }} />
@@ -32,23 +36,24 @@ function HeaderMain() {
       </div>
       {/* main top part  */}
       <div className="hTopPart">
-        {/* <div className="htop1">
-          <p>
+        <div className="htop1">
+          <p style={{ "color": "green" }}>
             International Conference on Artificial Intelligence and Networking <br />(ICAIN-2025)
           </p>
 
-        </div> */}
+        </div>
         <div className="htop2">
           <p className="hhead">
-            {/* ORGANISED BY :{" "} */}
+            ORGANISED BY :{" "}
             {/* <span className="hblue">
              
               </span> */}
-            {/* <br /> */}
+            <br />
+            Universal Inovators and UI Educon
             {/* <span >in association with</span>{" "} */}
             <div className="headerLogo">
               {/* <img src={gtbit} className="logoImg"/>    */}
-              <img src={uos} className="logoImg1" />
+              {/* <img src={uos} className="logoImg1" /> */}
             </div>
             {/* <span style={{'color':'#006938',fontSize:'1rem'}}>
 
@@ -62,17 +67,17 @@ function HeaderMain() {
             {/* and <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
-          {/* <p className="hspringer">Springer LNNS( Applied) (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>
-          <p>10th - 11th October 2025<br /><span style={{ "color": "red" }}></span></p> */}
+          <p className="hspringer">Springer LNNS (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>
+          <p style={{ "color": "green" }}>10th - 11th October 2025<br /><span ></span></p>
         </div>
       </div>
 
 
-      {/* <div className="headerLogo" style={{ "display": "block", "margin": "auto" }}> */}
-      {/* <img src={sdcn} className="logoImg" style={{"margin":"0 auto","width":"9rem","height":"auto"}}/>  
-              <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>   */}
+      <div className="headerLogo" > 
+      {/* <img src={uiedu} className="logoImg1"/>   */}
+              {/* <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>    */}
 
-      {/* </div> */}
+      </div>
 
 
     </div>

@@ -51,8 +51,8 @@ function Navv() {
                 dropdownOpen === "about" ? "show" : ""
               }`}
             >
-              <a
-                href="http://www.stir.ae"
+              {/* <a
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => {
@@ -61,7 +61,7 @@ function Navv() {
                 }}
               >
                 University of Stirling RAK Campus, UAE
-              </a>
+              </a> */}
               <NavLink
                 to="/about1"
                 onClick={() => {
@@ -70,6 +70,15 @@ function Navv() {
                 }}
               >
                 Universal Innovators
+              </NavLink>
+              <NavLink
+                to="/about"
+                onClick={() => {
+                  closeMenu();
+                  toggleDropdown("about");
+                }}
+              >
+                UI-Educon
               </NavLink>
             </div>
           </li>
@@ -168,9 +177,9 @@ function Navv() {
           <li onClick={closeMenu}>
             <NavLink to="/publications">Publications</NavLink>
           </li>
-          <li onClick={closeMenu}>
+          {/* <li onClick={closeMenu}>
             <NavLink to="/conferences">Conference Venue</NavLink>
-          </li>
+          </li> */}
 
           <li onClick={closeMenu}>
             <NavLink to="/downloads">Downloads</NavLink>
