@@ -13,42 +13,42 @@ function SCcards() {
 ];
 
   let patron = [
-    {
-      h1: "Mr. Sunil Kumar CT",
-      p: "Director - Academics, University of Stirling RAK Campus, UAE",
-    },
-    {
-      h1: "Ms. Shanthi Rajan",
-      p: "Director - Internal QA Dept., Director - Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus, UAE",
-    },
-    {
-      h1: "Dr. Abhinanda Barman",
-      p: "Director - University Communication and Strategic Alliance, University of Stirling RAK Campus, UAE",
-    },
-    {
-      h1: "Mr. Mubin Khatib",
-      p: "Director - Human Resources, University of Stirling RAK Campus, UAE",
-    },
-    {
-      h1: "Mr. William Alistair McQueer",
-      p: "Programme Director - Computing Science, University of Stirling RAK Campus, UAE",
-    },
-    {
-      h1: "Dr. Sanman Jain",
-      p: "Programme Director - Accounting and Finance, University of Stirling RAK Campus, UAE",
-    },
-    {
-      h1: "Dr. Nikhil V.P",
-      p: "Programme Director - Management, University of Stirling RAK Campus, UAE",
-    }
+    // {
+    //   h1: "Mr. Sunil Kumar CT",
+    //   p: "Director - Academics, University of Stirling RAK Campus, UAE",
+    // },
+    // {
+    //   h1: "Ms. Shanthi Rajan",
+    //   p: "Director - Internal QA Dept., Director - Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus, UAE",
+    // },
+    // {
+    //   h1: "Dr. Abhinanda Barman",
+    //   p: "Director - University Communication and Strategic Alliance, University of Stirling RAK Campus, UAE",
+    // },
+    // {
+    //   h1: "Mr. Mubin Khatib",
+    //   p: "Director - Human Resources, University of Stirling RAK Campus, UAE",
+    // },
+    // {
+    //   h1: "Mr. William Alistair McQueer",
+    //   p: "Programme Director - Computing Science, University of Stirling RAK Campus, UAE",
+    // },
+    // {
+    //   h1: "Dr. Sanman Jain",
+    //   p: "Programme Director - Accounting and Finance, University of Stirling RAK Campus, UAE",
+    // },
+    // {
+    //   h1: "Dr. Nikhil V.P",
+    //   p: "Programme Director - Management, University of Stirling RAK Campus, UAE",
+    // }
 ];
 
   let chiefPatron = [
 
-    {
-      h1: " Dr. Richa Arora",
-      p: "COO and Head of Institution (HOI), University of Stirling RAK Campus, UAE",
-    },
+    // {
+    //   h1: " Dr. Richa Arora",
+    //   p: "COO and Head of Institution (HOI), University of Stirling RAK Campus, UAE",
+    // },
     // {
     //   h1: " Prof. Madhu Pruthi",
     //   p: "(Principal, Keshav Mahavidyalaya, University of Delhi)",       
@@ -78,10 +78,10 @@ function SCcards() {
       h1: "Dr. Pancham Shukla",
       p: "Imperial College London"
     },
-    {
-      h1: "Dr. Shamik Palit",
-      p: "Associate Prof. CS and SE, HEAD - Corporate Outreach Committee, University of Stirling RAK Campus, UAE"
-    }
+    // {
+    //   h1: "Dr. Shamik Palit",
+    //   p: "Associate Prof. CS and SE, HEAD - Corporate Outreach Committee, University of Stirling RAK Campus, UAE"
+    // }
 ];
 
 
@@ -192,10 +192,7 @@ let techChair = [
 
 
   let convener = [
-    {
-      h1: "Dr. Narina Thakur",
-      p: "Assistant Prof. CS and SE, HEAD - Research Innovation Committee, University of Stirling RAK Campus, UAE"
-    },
+    
     {
       h1: "Dr. Roman Danel",
       p: "Institute of Technology and Business in České Budějovice"
@@ -203,7 +200,12 @@ let techChair = [
     {
       h1: "Dr. Moolchand Sharma",
       p: "Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi"
+    },
+    {
+      h1: "Dr. Narina Thakur",
+      p: "Assistant Prof. CS and SE, HEAD - Research Innovation Committee, University of Stirling RAK Campus, UAE"
     }
+
 ];
 
 
