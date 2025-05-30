@@ -200,10 +200,6 @@ let techChair = [
     {
       h1: "Dr. Moolchand Sharma",
       p: "Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi"
-    },
-    {
-      h1: "Dr. Narina Thakur",
-      p: "Assistant Prof. CS and SE, HEAD - Research Innovation Committee, University of Stirling RAK Campus, UAE"
     }
 
 ];
