@@ -200,10 +200,6 @@ let techChair = [
     {
       h1: "Dr. Moolchand Sharma",
       p: "Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi"
-    },
-    {
-      h1: "Dr. Narina Thakur",
-      p: "Assistant Prof. CS and SE, HEAD - Research Innovation Committee, University of Stirling RAK Campus, UAE"
     }
 
 ];
@@ -278,7 +274,7 @@ let techChair = [
 
       <div className="PaGeCommon">
       <div className="patron">
-            <h2>Chief Patron(s):</h2>
+        {/*<h2>Chief Patron(s):</h2>*/}
             <div className="patronMain">
               {chiefPatron.map((a) => {
                 return (
@@ -294,7 +290,7 @@ let techChair = [
           </div>
       {/* general chair and honoray chair */}
       <div className="patron">
-          <h2>Patron(s):</h2>
+        {/*<h2>Patron(s):</h2>*/}
           <div className="patronMain">
             {patron.map((a) => {
               return (

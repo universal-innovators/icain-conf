@@ -373,7 +373,15 @@ export default
       "Dr. Neelam Sharma, Maharaja Agrasen Institute of Technology (MAIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India"
     ],
     listing: "SS 040"
-  }
+  },
+    {
+    link: require("./sessions/SS-41.pdf"),
+    title: "AI-Powered Social Media Analytics: Emerging Trends in Machine Learning and Deep Learning Applications",
+    organisers: [
+      "Dr. Ruchi Kaushal Sharma , NMIMS University, Mumbai  Maharashtra"
+    ],
+    listing: "SS 041"
+    }
   
   
 ];
