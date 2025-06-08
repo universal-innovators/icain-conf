@@ -184,6 +184,9 @@ function Navv() {
           <li onClick={closeMenu}>
             <NavLink to="/downloads">Downloads</NavLink>
           </li>
+          <li onClick={closeMenu}>
+            <NavLink to="/awards">Awards</NavLink>
+          </li>
 
           <li onClick={closeMenu}>
             <NavLink to="/guide">Visitors Guide</NavLink>

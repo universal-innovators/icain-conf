@@ -1,160 +1,120 @@
-.aParticipation{
-    width: 95%;
-    margin: 4vh auto;
-}
-.aPartcipationHead{
-    background-color: rgb(207,226,255);
-    color: rgb(8,66,152);
-    padding: 3vh;
-    /* border-radius: 10px; */
-}
-.aPartcipationHead h1{ 
-    font-size: 22px;
+.elevate-container {
+  
+  color: white;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
-/* universal leader award  */
-.aLeaderHeading{
-    margin: 3vh 0;
-    font-size: 16px;
-}
-
-/* leadership onwards  */
-.aLeaderAbout {
-    margin: 3vh 0;
-}
-.aLeaderAbout h1{
-    font-size: 18px;
-}
-.aLeaderAbout p{
-    margin: 1vh 0;
-    font-size: 18px;
-    line-height: 4vh;
-}
-
-/* important dates  */
-.aImpDates h2{
-    font-size: 22px;
-   margin-top: 6vh;
-   margin-bottom: 2vh;
-}
-.aImpDatesMain{
-display: flex;
-flex-direction: column;
-gap: 5px;
-margin: 2vh;
-width: 50%;
-}
-
-.aImpDatesMain p{
-    padding: 2vh;
-    font-size: 18px;
-background:linear-gradient(90deg, rgb(207,226,255) 0%, rgb(255, 254, 254) 100%);
-color:rgb(10, 25, 48) ;
-border: 1px solid rgb(195, 195, 195);
-
-
-}
-.aImpDatesMain p span{
-    font-weight: bolder;
-}
-
-.aImpInst{
-    background-color: rgb(207,226,255);
-    color: rgb(8,66,152);
-    padding: 3vh;
-    /* border-radius: 10px; */
-    margin: 6vh 0;
-}
-.aImpInst h1{
-    font-size: 22px;
+.elevate-content {
+  max-width: 80vw;
+  width: 100%;
+  background-color: var(--color-green);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 
-/* award category  */
-.aAwardC h1{
-    font-size: 22px;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
-    font-weight: 900;
-}
-.aAwardC h2{
-    font-size: 20px;
-    margin: 2vh 0;
-    font-weight: 900;
+.elevate-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffd700;
+  margin-bottom: 0.5rem;
 }
 
-
-/* individual award  */
-.aIndividual h2{
-    margin-top: 4vh;
-    margin-bottom: 2vh;
-}
-.aIndividualMain{
-    border: 1px solid rgb(192, 189, 189);
-    padding: 2vh;
-    background-color: rgb(207,226,255);
-    /* border-radius: 10px; */
-}
-.aIndividualMain h3{
-    color:rgb(8,66,152) ;
-    font-size: 22px;
-   padding-bottom: 1vh;
-}
-.aIndividualMain p{
-    font-size: 18px;
-    padding: 2vh;
+.highlight {
+  color: white;
 }
 
-/* young research award  */
-.aYoung{
-    border: 1px solid rgb(192, 189, 189);
-    padding: 2vh;
-    background-color: rgb(207,226,255);
-    /* border-radius: 10px; */
-    margin: 4vh 0;
-}
-.aYoung h3{
-    color:rgb(8,66,152) ;
-    font-size: 22px;
-   padding-bottom: 1vh;
-}
-.aYoung p{
-    font-size: 18px;
-    padding: 2vh;
+.elevate-subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
-
-/* CardsAward  */
-.CardsAward .awCard{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+.elevate-x-meaning {
+  color: #f5dd90;
+  font-style: italic;
+  margin-bottom: 2rem;
 }
 
-
-
-
-
-
-/* adding media query  */
-
-@media(max-width:900px)
-{
-    .CardsAward .awCard{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media(max-width:500px)
-{
-    .CardsAward .awCard{
-        grid-template-columns: 1fr;
-    }
+.elevate-theme {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left: 5px solid #ffd700;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  border-radius: 8px;
 }
 
-@media(max-width:800px)
-{
-    .aParticipation{
-        width: 90%;
-    }
+.elevate-theme h3 {
+  color: #ffd700;
+  margin-bottom: 0.5rem;
 }
 
+.elevate-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.detail-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 250px;
+  max-width: 100%;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.full-width {
+  flex: 1 1 100%;
+}
+
+.label {
+  display: block;
+  color: #f5dd90;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.value {
+  display: block;
+}
+
+.elevate-description {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: justify;
+  line-height: 1.6;
+  border-left: 5px solid #ffd700;
+}
+
+.elevate-description p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .elevate-title {
+    font-size: 2.2rem;
+  }
+
+  .elevate-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .elevate-theme,
+  .elevate-description {
+    text-align: left;
+  }
+
+  .detail-box {
+    flex: 1 1 100%;
+  }
+}
