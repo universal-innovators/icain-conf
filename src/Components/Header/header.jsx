@@ -68,7 +68,7 @@ function HeaderMain() {
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
           <p className="hspringer">Springer LNNS (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>
-          <p style={{ "color": "green" }}>10th - 11th October 2025<br /><span ></span></p>
+          <p style={{ "color": "green" }}>6th - 7th October 2025<br /><span ></span></p>
         </div>
       </div>
 

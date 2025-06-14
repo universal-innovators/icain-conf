@@ -9,7 +9,7 @@ const Call_for_papers = () => {
         <div className="Call_con">
           <div className="call_desc">
             <p style={{color:"black"}}>
-             We are pleased to announce the upcoming "International Conference on Artificial Intelligence and Networking" (ICAIN), which will be held from         <b> 10th - 11th October 2025 </b>. ICAIN is a premier forum for researchers, professionals, and practitioners from academia and industry to exchange knowledge and share the latest advancements in the fields of computer science and information technology. We invite researchers and experts worldwide to
+             We are pleased to announce the upcoming "International Conference on Artificial Intelligence and Networking" (ICAIN), which will be held from         <b> 6th - 7th October 2025 </b>. ICAIN is a premier forum for researchers, professionals, and practitioners from academia and industry to exchange knowledge and share the latest advancements in the fields of computer science and information technology. We invite researchers and experts worldwide to
              submit their original research papers and participate in this prestigious event.
             </p>
             <br />

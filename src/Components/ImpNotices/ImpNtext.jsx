@@ -2,7 +2,7 @@ import React from "react";
 
 const arr = [
   {
-    h4: "ICAIN-2025 will be organised on 10th - 11th October 2025.",
+    h4: "ICAIN-2025 will be organised on 6th - 7th October 2025.",
   },
 ];
 const ImpNtext = () => {

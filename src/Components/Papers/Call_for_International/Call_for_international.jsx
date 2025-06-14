@@ -11,7 +11,7 @@ const Call_for_international = () => {
 
           <p>
             Greeting from ICAIN-2025! <br/>The ICAIN Conference team is pleased to invite you to organise an <b>International Workshop at the International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b>,which will be held on
-            <b> 10th - 11th October 2025. </b>
+            <b> 6th - 7th October 2025. </b>
           
           </p>
 

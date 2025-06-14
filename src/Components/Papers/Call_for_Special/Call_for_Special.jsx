@@ -13,7 +13,7 @@ const Call_for_Special = () => {
           <p className="CfSletter">
             Greeting from ICAIN-2025!<br/>
             The ICAIN-2025 Conference team is pleased to invite you to organise a special session at the inaugural <b>International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b>which will be held on
-            <b> 10th - 11th October 2025. </b> We are committed to bringing together some of the most knowledgeable researchers and industry leaders from around the world to explore key topics in the field of research. This two-day conference will feature workshops, technical sessions, and keynote presentations on cutting-edge technologies relevant to our industry. The conference website:{" "}
+            <b> 6th - 7th October 2025. </b> We are committed to bringing together some of the most knowledgeable researchers and industry leaders from around the world to explore key topics in the field of research. This two-day conference will feature workshops, technical sessions, and keynote presentations on cutting-edge technologies relevant to our industry. The conference website:{" "}
             <a href="www.icain-conf.com" style={{textDecoration:'none',color:"var(--color-green)"}}>
               icain-conf.com
             </a>
