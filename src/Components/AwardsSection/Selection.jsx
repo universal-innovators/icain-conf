@@ -13,7 +13,7 @@ const Selection = () => {
 
       <ol className="elevatex-list">
         <li>
-          <strong>Call for Nominations:</strong> Nominations were opened to eligible individuals and organizations. Candidates could be nominated by peers, advisory members, or submit applications directly.
+          <strong>Call for Nominations:</strong> Nominations are open for eligible individuals and organizations. Candidates could be nominated by peers, advisory members, or submit applications directly.
         </li>
         <li>
           <strong>Initial Screening (2–3 Days):</strong> A preliminary review team verified the completeness of each application, ensuring eligibility based on category-specific criteria. Incomplete or ineligible applications were screened out at this stage.
@@ -54,6 +54,10 @@ const Selection = () => {
           <a href="ind_awards.docx" className="btn">📝 Individual Award Form</a>
           <a href="high_edu_awards.docx" className="btn">🏫 Higher Education Award Form</a>
         </div>
+        <br/>
+        <h4>Fill the google form form for the nomination :<a href="https://forms.gle/UbdKjMaYQPdiDXFE8"> Form Link</a></h4>
+        <h4>For contact us :<a href="mailto:elevatexawards@gmail.com"> elevatexawards@gmail.com</a></h4>
+
       </div>
     </section>
   );

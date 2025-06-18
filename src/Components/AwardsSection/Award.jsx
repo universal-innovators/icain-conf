@@ -33,8 +33,12 @@ function Awards() {
             <span className="value">6th – 7th October, 2025</span>
           </div>
           <div className="detail-box full-width">
-            <span className="label">🎯 Organized by:</span>
+            <span className="label">Organized by:</span>
             <span className="value">Universal Inovator & UI-Educon</span>
+          </div>
+          <div className="detail-box full-width">
+            <span className="label">In association with:</span>
+            <span className="value">Indian Institute of Information Technology, Prayagraj/Allahabad</span>
           </div>
         </div>
 

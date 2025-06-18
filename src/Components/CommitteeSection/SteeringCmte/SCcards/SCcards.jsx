@@ -13,10 +13,10 @@ function SCcards() {
 ];
 
   let patron = [
-    // {
-    //   h1: "Mr. Sunil Kumar CT",
-    //   p: "Director - Academics, University of Stirling RAK Campus, UAE",
-    // },
+    {
+      h1: "Prof. Mukul Sharad Sutaone",
+      p: "Director, IIIT Allahabad, India",
+    },
     // {
     //   h1: "Ms. Shanthi Rajan",
     //   p: "Director - Internal QA Dept., Director - Scottish Qualification Authority, RAK Centre, University of Stirling RAK Campus, UAE",
@@ -106,10 +106,10 @@ let techChair = [
 
   let organisingChair = [
 
-    // {
-    //   h1: "Dr. Ashish Khanna",
-    //   p: "(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi.)",
-    // },
+    {
+      h1: "Dr. Anupam Agrawal",
+      p: "Professor & Dean, IIIT Allahabad, India",
+    },
     // {
     //   h1: "Prof. Sergio Duarte Correia",
     //   p: "(Polytechnic Institute of Portalegre, Portugal.)",
@@ -290,7 +290,7 @@ let techChair = [
           </div>
       {/* general chair and honoray chair */}
       <div className="patron">
-        {/*<h2>Patron(s):</h2>*/}
+        <h2>Patron(s):</h2>
           <div className="patronMain">
             {patron.map((a) => {
               return (
@@ -356,6 +356,25 @@ let techChair = [
               );
             })}
           </div>
+        </div>
+        {/* Conference chair  and technical program chair */}
+      <div className="PaGeCommon">
+        {/* Conference Chai  */}
+        <div className="patron">
+          <h2>Organising Chair(s):</h2>
+          <div className="patronMain">
+            {organisingChair.map((a) => {
+              return (
+                <>
+                  <div className="patrondata">
+                    <h1>{a.h1}</h1>
+                    <p>{a.p}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
         </div>
         <div className="patron">
           <h2>Convener(s): </h2>

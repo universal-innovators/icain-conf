@@ -3,7 +3,7 @@ import React from "react";
 // import delhiImgae from "./Himages/unidelhi.png";
 import sapien from "./Himages/sapientia.png";
 // import logo from "./Himages/logosdcn.png";
-// import gtbit from "./Himages/gtbit.jpg";
+import gtbit from "./Himages/gtbit.jpg";
 import springer from "./Himages/springeer.png";
 import portagul from "./Himages/portagal.jpg";
 import sdcn from "./Himages/sdcn.png"
@@ -23,6 +23,7 @@ function HeaderMain() {
         <div className="headerLogo">
           <img src={uiinov} className="logoImg"/> 
           <img src={uiedu} className="logoImg1"/>  
+          
 
           
         </div>
@@ -50,20 +51,15 @@ function HeaderMain() {
               </span> */}
             <br />
             Universal Inovators and UI Educon
-            {/* <span >in association with</span>{" "} */}
+            <span >in association with</span>{" "}
             <div className="headerLogo">
               {/* <img src={gtbit} className="logoImg"/>    */}
               {/* <img src={uos} className="logoImg1" /> */}
             </div>
-            {/* <span style={{'color':'#006938',fontSize:'1rem'}}>
+            <span style={{'color':'#006938',fontSize:'1rem'}}>
+              Indian Institute of Information Technology, Prayagraj/Allahabad
 
-              
-              Al Dhait South, 
-              Ras Al Khaimah
-              (NEAR DUBAI), 
-              United Arab Emirates
-
-            </span> */}
+            </span>
             {/* and <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
@@ -74,6 +70,8 @@ function HeaderMain() {
 
 
       <div className="headerLogo" > 
+              <img src={gtbit} className="logoImg"/>   
+
       {/* <img src={uiedu} className="logoImg1"/>   */}
               {/* <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>    */}
 
