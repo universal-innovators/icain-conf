@@ -51,7 +51,7 @@ function HeaderMain() {
               </span> */}
             <br />
             Universal Inovators and UI Educon
-            <span >in association with</span>{" "}
+            <br/><span > in association with</span>{" "}
             <div className="headerLogo">
               {/* <img src={gtbit} className="logoImg"/>    */}
               {/* <img src={uos} className="logoImg1" /> */}
