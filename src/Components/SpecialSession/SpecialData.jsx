@@ -381,7 +381,17 @@ export default
       "Dr. Ruchi Kaushal Sharma , NMIMS University, Mumbai  Maharashtra"
     ],
     listing: "SS 041"
-    }
+    },
+      {
+    link: require("./sessions/SS-42.pdf"),
+    title: "Machine Learning for Intelligent Communication and Networking Systems",
+    organisers: [
+     "Dr. Puneet Sharma Associate Dean Unitedworld Institute of Technology Karnavati University, Gandhinagar, Gujarat, India",
+     "Bhanu Prakash Reddy Rella Golden Gate University, USA",
+     "Dr. Veera Talukdar Controller of Examination Karnavati University, Gandhinagar, Gujarat, India"
+    ],
+    listing: "SS 042"
+      }
   
   
 ];
