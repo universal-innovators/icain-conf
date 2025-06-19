@@ -38,7 +38,7 @@ function Awards() {
           </div>
           <div className="detail-box full-width">
             <span className="label">In association with:</span>
-            <span className="value">Indian Institute of Information Technology, Prayagraj/Allahabad</span>
+            <span className="value">Indian Institute of Information Technology, Allahabad</span>
           </div>
         </div>
 
