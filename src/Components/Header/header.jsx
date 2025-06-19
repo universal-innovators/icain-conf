@@ -57,7 +57,7 @@ function HeaderMain() {
               {/* <img src={uos} className="logoImg1" /> */}
             </div>
             <span style={{'color':'#006938',fontSize:'1rem'}}>
-              Indian Institute of Information Technology, Prayagraj/Allahabad
+              Indian Institute of Information Technology, Allahabad
 
             </span>
             {/* and <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
