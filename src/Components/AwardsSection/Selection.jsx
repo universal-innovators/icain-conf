@@ -55,8 +55,8 @@ const Selection = () => {
           <a href="high_edu_awards.docx" className="btn">🏫 Higher Education Award Form</a>
         </div>
         <br/>
-        <h4>Fill the google form form for the nomination :<a href="https://forms.gle/UbdKjMaYQPdiDXFE8"> Form Link</a></h4>
-        <h4>For contact us :<a href="mailto:elevatexawards@gmail.com"> elevatexawards@gmail.com</a></h4>
+        <h4>Fill the google form form for the nomination :<a href="https://forms.gle/UbdKjMaYQPdiDXFE8" style={{color:"#e6c200"}}> Form Link</a></h4>
+        <h4>For contact us :<a href="mailto:elevatexawards@gmail.com" style={{color:"#e6c200"}}> elevatexawards@gmail.com</a></h4>
 
       </div>
     </section>
