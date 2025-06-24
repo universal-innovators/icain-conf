@@ -11,6 +11,7 @@ import vste from "./Himages/vste.jpg"
 import uos from "./Himages/logo-2.svg"
 import uiedu from "./Himages/ui-edu.webp"
 import uiinov from "./Himages/ui-inov.jpeg"
+import bits from "./Himages/bits.jpg"
 
 import "./header.css";
 
@@ -21,8 +22,8 @@ function HeaderMain() {
         {/* images  */}
 
         <div className="headerLogo">
-          <img src={uiinov} className="logoImg"/> 
-          <img src={uiedu} className="logoImg1"/>  
+          <img src={bits} style={{"width":"200px"}}/> 
+          {/* <img src={uiedu} className="logoImg1"/>   */}
           
 
           
@@ -50,13 +51,13 @@ function HeaderMain() {
              
               </span> */}
             <br />
-            Universal Inovators and UI Educon
+            <span style={{'color':'#006938',fontSize:'1.25rem'}}>BITS Pilani Dubai Campus, UAE</span>
             <br/><span > in association with</span>{" "}
             <div className="headerLogo">
               {/* <img src={gtbit} className="logoImg"/>    */}
               {/* <img src={uos} className="logoImg1" /> */}
             </div>
-            <span style={{'color':'#006938',fontSize:'1rem'}}>
+            <span style={{'color':'#006938',fontSize:'1.25rem'}}>
               Indian Institute of Information Technology, Allahabad
 
             </span>

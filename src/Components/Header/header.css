@@ -70,6 +70,8 @@ img{
 
 .hhead{
     text-align: center;
+    /* color: var(--color-green); */
+
 }
 .header{
     display: flex;
@@ -109,7 +111,7 @@ img{
         margin: 1rem 0;
     }
     .logoImg{
-        width: 10rem!important;
+        width: 20rem;
         height: auto;
         margin: 5px;
     }

@@ -34,7 +34,7 @@ function Awards() {
           </div>
           <div className="detail-box full-width">
             <span className="label">Organized by:</span>
-            <span className="value">Universal Inovator & UI-Educon</span>
+            <span className="value">BITS Pilani Dubai Campus, UAE</span>
           </div>
           <div className="detail-box full-width">
             <span className="label">In association with:</span>

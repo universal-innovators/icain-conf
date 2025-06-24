@@ -1,0 +1,78 @@
+.travel-support-container {
+  max-width: 80vw;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: var(--color-green);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.travel-support-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.travel-support-container p {
+  margin-bottom: 18px;
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.travel-support-container ul {
+  margin-left: 20px;
+  margin-bottom: 18px;
+}
+
+.travel-support-container ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.travel-support-container ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: white;
+}
+
+.travel-support-container a {
+  color: #fff;
+  text-decoration: underline;
+  word-break: break-word;
+  font-weight: 500;
+}
+
+.travel-support-footer {
+  margin-top: 35px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .travel-support-container {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .travel-support-title {
+    font-size: 22px;
+  }
+
+  .travel-support-container p,
+  .travel-support-container ul li,
+  .travel-support-footer {
+    font-size: 15px;
+  }
+}

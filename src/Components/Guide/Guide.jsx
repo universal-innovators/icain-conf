@@ -6,6 +6,7 @@ import img1 from './images/1.jpeg';
 import img2 from './images/2.jpeg';
 import img3 from './images/burj.jpg';
 import img4 from './images/mosque.jpg';
+import TravelSupport from './TravelSupport';
 
 
 

@@ -67,9 +67,10 @@ function SCcards() {
 
   let confChair = [
     {
-      h1: "Dr. Ahmed J. Obaid",
-      p: "Associate Professor of Computer Science at the University of Kufa, Iraq"
+      h1: " Prof. Sujala D. Shetty",
+      p: "Associate Professor and Head (CS), BITS PILANI DUBAI CAMPUS"
     },
+    
     {
       h1: "Prof. Dr. Jan Valicek",
       p: "Institute of Technology and Business in České Budějovice"
@@ -86,6 +87,10 @@ function SCcards() {
 
 
 let techChair = [
+   {
+      h1: "Prof. Hussain Chowdhury",
+      p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS"
+    },   
   {
     h1: "Prof. Dr. Isabel DE LA TORRE DÍEZ",
     p: "University of Valladolid, Spain"
@@ -146,6 +151,10 @@ let techChair = [
 
   let publicChair = [
     {
+      h1: "Prof. Suyash Shukl",
+      p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS"
+    }, 
+    {
       h1: "Dr. Sandra Fernando",
       p: "London Metropolitan University"
     },
@@ -168,7 +177,11 @@ let techChair = [
     {
       h1: "Prof. Dr. Zdzislaw Polkowski",
       p: "The Karkonosze University of Applied Sciences in Jelenia Góra, Poland"
-    }
+    },
+    {
+      h1: "Dr. Ahmed J. Obaid",
+      p: "Associate Professor of Computer Science at the University of Kufa, Iraq"
+    },
 ];
 
 
@@ -192,7 +205,10 @@ let techChair = [
 
 
   let convener = [
-    
+    {
+      h1: "Prof. Kajal Kansa",
+      p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS"
+    },    
     {
       h1: "Dr. Roman Danel",
       p: "Institute of Technology and Business in České Budějovice"

@@ -4,6 +4,7 @@ import './card.css'
 import { delhiPlaces, delhiHotels, rakHotels, uaePlaces } from './places';
 import Footer from '../Footer/footer';
 import 'animate.css';
+import TravelSupport from './TravelSupport';
 export default function CardsContainer() {
   return (
 
@@ -14,6 +15,8 @@ export default function CardsContainer() {
         <hr />
       </div>
       <div className="spSessionCont">
+            <TravelSupport/>
+      
         {/* <h3>Places to visit in Prague</h3> */}
         {/* <hr /> */}
         {/*      
