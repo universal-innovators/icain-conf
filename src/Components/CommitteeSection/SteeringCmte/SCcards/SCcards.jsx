@@ -14,6 +14,10 @@ function SCcards() {
 
   let patron = [
     {
+      h1: "Prof. Souri Banerjee",
+      p: "Director, BITS Pilani-Dubai Campus",
+    },
+    {
       h1: "Prof. Mukul Sharad Sutaone",
       p: "Director, IIIT Allahabad, India",
     },
@@ -45,10 +49,10 @@ function SCcards() {
 
   let chiefPatron = [
 
-    // {
-    //   h1: " Dr. Richa Arora",
-    //   p: "COO and Head of Institution (HOI), University of Stirling RAK Campus, UAE",
-    // },
+     {
+       h1: "Prof. V. Ramgopal Rao",
+       p: "Vice-Chancellor, BITS Pilani",
+     },
     // {
     //   h1: " Prof. Madhu Pruthi",
     //   p: "(Principal, Keshav Mahavidyalaya, University of Delhi)",       
@@ -290,7 +294,7 @@ let techChair = [
 
       <div className="PaGeCommon">
       <div className="patron">
-        {/*<h2>Chief Patron(s):</h2>*/}
+        <h2>Chief Patron(s):</h2>
             <div className="patronMain">
               {chiefPatron.map((a) => {
                 return (
