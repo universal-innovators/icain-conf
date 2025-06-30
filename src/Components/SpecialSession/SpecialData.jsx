@@ -391,6 +391,35 @@ export default
      "Dr. Veera Talukdar, Controller of Examination Karnavati University, Gandhinagar, Gujarat, India"
     ],
     listing: "SS 042"
+      },
+       {
+    link: require("./sessions/SS-43.pdf"),
+    title: "Ubiquitous and Pervasive Computing for Intelligent Demand Forecasting in Energy Distribution, Smart Retail, and Urban Transit",
+    organisers: [
+     "Dr.N. Deepa, Professor, Department of Computer Science and Engineering, Saveetha School of Engineering, SIMATS, Chennai, India",
+     "Dr. Balamurugan Balasamy, Associate Dean- Students, Shiv Nadar University, Delhi-NCR Campus, Noida, India",
+     "Dr. Devi.T, Professor, Department of Computer Science and Engineering, Saveetha School of Engineering, SIMATS, Chennai, India",
+     "Ahmad Alkhayyat, Department of computers Techniques engineering, College of technical engineering, The Islamic University, Najaf, Iraq"
+    ],
+    listing: "SS 043"
+      },
+      {
+    link: require("./sessions/SS-44.pdf"),
+    title: "Transforming Big Data insights: Federated Learning in AI and ML for IoT Solutions",
+    organisers: [
+     "Dr. Madhura K, Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, India",
+     "Dr. Soumyalatha Naveen, Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, India",
+     "Dr. Shweta S Aladakatti, Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, India"
+    ],
+    listing: "SS 044"
+      },
+      {
+    link: require("./sessions/SS-45.pdf"),
+    title: "AI-Powered Social Media Analytics: Emerging Trends in Machine Learning and Deep Learning Applications",
+    organisers: [
+     "Dr. Ruchi Kaushal Sharma, NMIMS University, Mumbai, Maharashtra, India"
+    ],
+    listing: "SS 045"
       }
   
   
