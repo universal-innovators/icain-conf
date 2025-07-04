@@ -12,15 +12,15 @@
   padding: 1vh;
   text-align: left;
   /* opacity: 0.8; */
-  color: var(--color-green);
-  /* background-color: var(--color-green); */
+  color: var(--color-bits);
+  /* background-color: var(--color-bits); */
   font-family: var(--font-headings);
   font-size: 58px;
 }
 .underlineHeading{
   width: 15%;
-  color: var(--color-green1);
-  background-color:var(--color-green1);
+  color: var(--color-bits1);
+  background-color:var(--color-bits1);
   height:10px;
   margin-left:20px;
   margin-bottom:2rem;
@@ -36,7 +36,7 @@
   opacity: 0.8;
   /* font-size: 28px; */
   font-size: 1.3rem;
-  /* background-color: var(--color-green); */
+  /* background-color: var(--color-bits); */
   color: white;
 }
 

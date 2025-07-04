@@ -210,7 +210,7 @@ let techChair = [
 
   let convener = [
     {
-      h1: "Prof. Kajal Kansa",
+      h1: "Prof. Kajal Kansal",
       p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS"
     },    
     {

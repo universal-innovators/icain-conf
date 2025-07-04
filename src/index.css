@@ -11,11 +11,11 @@
     --color-bg1: #1a1a1a;
     --color-bg2: #6B6E70;
     --color-pink: rgb(214, 238, 170);
-    --color-green1: #76bd22;
-    --color-green: #006938;
-    --color-green-primary:#13840e;
-    --font-headings : 'Calibri';
-    --font-content : 'Open Sans';
+    --color-bits1: #DDA827;
+    --color-bits: #211D70;
+    --color-bits-primary:#13840e;
+    --font-headings :  'Helvetica', Arial, sans-serif;
+    --font-content : 'Helvetica', Arial, sans-serif;
     
 }
  

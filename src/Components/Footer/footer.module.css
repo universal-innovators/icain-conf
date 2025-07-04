@@ -1,5 +1,5 @@
 .footer{
-  /* background-color: #006938; */
+  /* background-color: #211D70; */
   /* border-top: 1px solid black; */
     color: white;
     padding: 4vh 0;
@@ -13,7 +13,7 @@
     /* border-radius:100px 100px 0px 0px; */
 
     /* background-color:rgb(89 ,44 ,130); */
-    background-color:#3a3c39;
+    background-color:#191932;
     /* background-color:rgb(155 ,190 ,172); */
     font-family: var(--font-content);
 }
@@ -74,7 +74,7 @@
     font-weight: 400;
 }
 .socialMedia .social a:hover{
-    color: var(--color-green);
+    color: var(--color-bits);
 }
 
 
@@ -92,7 +92,7 @@ font-weight: 400;
 }
  
 .fright .links p:hover{
-    color: var(--color-green);
+    color: var(--color-bits);
 }
 
 .line{

@@ -65,12 +65,12 @@ img{
     color: var(--color-danger);
 } */
 .hheadinner{
-    color: var(--color-green);
+    color: var(--color-bits);
 }
 
 .hhead{
     text-align: center;
-    /* color: var(--color-green); */
+    /* color: var(--color-bits); */
 
 }
 .header{

@@ -13,8 +13,8 @@
   padding-left: 20px;
   text-align: left;
   /* opacity: 0.8; */
-  color: var(--color-green);
-  /* background-color: var(--color-green); */
+  color: var(--color-bits);
+  /* background-color: var(--color-bits); */
   font-family: var(--font-headings);
   font-size: 58px;
 }
@@ -24,15 +24,15 @@
   margin: 0 auto;
 }
 .aboutMain h2 {
-  /* background-color: var(--color-green); */
+  /* background-color: var(--color-bits); */
   /* color: white; */
   font-weight: 700;
   padding: 1vh;
   padding-left: 20px;
   text-align: left;
   /* opacity: 0.8; */
-  color: var(--color-green);
-  /* background-color: var(--color-green); */
+  color: var(--color-bits);
+  /* background-color: var(--color-bits); */
   font-family: var(--font-headings);
   font-size: 58px;
 }
@@ -53,8 +53,8 @@
 }
 .underlineHeading{
     width: 15%;
-    color: var(--color-green1);
-    background-color:var(--color-green1);
+    color: var(--color-bits1);
+    background-color:var(--color-bits1);
     height:10px;
     margin-left:20px;
 }

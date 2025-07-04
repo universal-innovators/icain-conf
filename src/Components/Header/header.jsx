@@ -39,7 +39,7 @@ function HeaderMain() {
       {/* main top part  */}
       <div className="hTopPart">
         <div className="htop1">
-          <p style={{ "color": "green" }}>
+          <p style={{ "color": "#211D70" }}>
             International Conference on Artificial Intelligence and Networking <br />(ICAIN-2025)
           </p>
 
@@ -51,13 +51,13 @@ function HeaderMain() {
              
               </span> */}
             <br />
-            <span style={{'color':'#006938',fontSize:'1.25rem'}}>BITS Pilani Dubai Campus, UAE</span>
+            <span style={{'color':'#211D70',fontSize:'1.25rem',font:'helvetica bold'}}>BITS Pilani, Dubai Campus</span>
             <br/><span > in association with</span>{" "}
             <div className="headerLogo">
               {/* <img src={gtbit} className="logoImg"/>    */}
               {/* <img src={uos} className="logoImg1" /> */}
             </div>
-            <span style={{'color':'#006938',fontSize:'1.25rem'}}>
+            <span style={{'color':'#211D70',fontSize:'1.25rem'}}>
               Indian Institute of Information Technology, Allahabad
 
             </span>
@@ -65,7 +65,7 @@ function HeaderMain() {
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>
           <p className="hspringer">Springer LNNS (Indexed in DBLP EI Compendex, INSPEC, SCImago, SCOPUS , WTI AG, zbMATH)</p>
-          <p style={{ "color": "green" }}>6th - 7th October 2025<br /><span ></span></p>
+          <p style={{ "color": "211D70" }}>6th - 7th October 2025<br /><span ></span></p>
         </div>
       </div>
 

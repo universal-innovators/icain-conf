@@ -16,7 +16,7 @@ a {
   font-family: var(--font-headings);
   font-size: 22px;
   font-weight: 600;
-  background-color:  var(--color-green) ;
+  background-color:  var(--color-bits) ;
   text-align: center;
   padding: 0.5rem 0;
   width: 100%;
@@ -46,16 +46,16 @@ a {
 .Labout .submissionLinkhead a {
   color: white;
   /* border-radius: 0.7rem; */
-  /* background: linear-gradient(to left, var(--color-green), var(--color-green1)); */
+  /* background: linear-gradient(to left, var(--color-bits), var(--color-bits1)); */
   padding: 2vh;
   font-family: -var(--font-heading);
   color: white;
-  /* border: 1px solid var(--color-green1); */
-  /* background-color:var(--color-green); */
+  /* border: 1px solid var(--color-bits1); */
+  /* background-color:var(--color-bits); */
   transition: all 0.3s ease-in-out;
 }
 .Labout .submissionLinkhead a:hover {
-  /* background: linear-gradient(to left, var(--color-green1), var(--color-green)); */
+  /* background: linear-gradient(to left, var(--color-bits1), var(--color-bits)); */
 }
 .Labout .submissionLinkhead a:active {
   color: var(--color-pink);
@@ -70,8 +70,8 @@ a {
   margin: 0 auto 25px auto;
   /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
   z-index: 1;
-  border: 1px solid var(--color-green);
-  /* background-color: var(--color-green-primary); */
+  border: 1px solid var(--color-bits);
+  /* background-color: var(--color-bits-primary); */
   padding: 1rem;
   opacity: 1;
   color:black;
@@ -118,7 +118,7 @@ a {
 .Rabout h1 {
   font-size: 22px;
   font-weight: 600;
-  background-color: var(--color-green);
+  background-color: var(--color-bits);
   text-align: center;
   padding: 1vh 0;
 }
@@ -138,7 +138,7 @@ a {
   transition: all 0.2s ease-in-out;
 }
 .Rabout .dwnldSection a:hover {
-  color: var(--color-green);
+  color: var(--color-bits);
 }
 
 .Labout .corange {

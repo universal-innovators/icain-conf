@@ -13,7 +13,7 @@
     font-family: var(--font-content);
 }
 .AdvisoryCmte h2{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     font-weight: 400;
     padding: 1vh 0;
     font-size: 1.5rem;

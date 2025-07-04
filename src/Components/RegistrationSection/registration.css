@@ -5,7 +5,7 @@
   font-family: var(--font-content);
 }
 .reContainer .reHeading{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     font-weight: 400;
     font-size: 1.5rem;
     padding: 1vh 0;
@@ -35,7 +35,7 @@
 .reAuthors h2{
     font-size: 1.3rem;
     font-weight: 600;
-    color: var(--color-green);
+    color: var(--color-bits);
     margin: 2vh 0;
     font-family: var(--font-headings);
 
@@ -63,7 +63,7 @@
     font-weight: 600;
     padding: 2vh 0;
     text-align: center;
-    border: 1px solid var(--color-green);
+    border: 1px solid var(--color-bits);
     /* border-radius: 0.5rem 2rem; */
     color:black;
 }
@@ -89,7 +89,7 @@
 .reAccountBank .reAccountBankHeading{
     font-size: 1.3rem;
     text-align: center;
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     padding: 2vh;
     /* border-radius: 12px; */
     font-weight: 500;
@@ -113,7 +113,7 @@
 }
 
 .reBankDetails .reBank p{
-    border: 1px solid var(--color-green);
+    border: 1px solid var(--color-bits);
     padding: 2vh;
     color: black;
     font-weight: 400;
@@ -122,7 +122,7 @@
     font-size: 1rem;
     padding: 2vh;
     font-weight: 500;
-    border: 1px solid var(--color-green);
+    border: 1px solid var(--color-bits);
     
 }
 

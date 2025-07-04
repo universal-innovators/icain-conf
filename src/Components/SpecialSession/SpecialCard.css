@@ -1,5 +1,5 @@
 .spSessionHeading h2{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     font-family:var(--font-headings);
     font-weight: 400;
     padding: 1vh 0;
@@ -33,7 +33,7 @@
     background-color:var(--color-black);
 }
 .card:nth-child(2n){
-    background-color:var(--color-green);
+    background-color:var(--color-bits);
 } */
 .card:hover{
     color:black;

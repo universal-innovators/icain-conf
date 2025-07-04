@@ -32,7 +32,7 @@
     background-clip: padding-box;
     /* border-radius: 45px; */
     padding: 20px;
-    color:var(--color-green);
+    color:var(--color-bits);
     min-width: 500px;
     img {
       margin-bottom: 32px;
@@ -74,7 +74,7 @@
   
   .card-title {
     font-weight: 600;
-    color: var(--color-green);
+    color: var(--color-bits);
     letter-spacing: -0.02em;
     line-height: 2rem;
     font-style: normal;
@@ -85,7 +85,7 @@
   
   .card-description-title{
     font-weight: 400;
-    color:var(--color-green) ;
+    color:var(--color-bits) ;
    font-family: var(--font-headings);
     font-size: 1.2rem;
     display: inline;
@@ -96,7 +96,7 @@
     font-weight: 600;
     line-height: 2rem;
     /* color: hsla(0, 0%, 100%, 0.5); */
-    color: var(--color-green);
+    color: var(--color-bits);
     font-size: 1.2rem;
    font-family: car(--font-content);
     text-align: start;

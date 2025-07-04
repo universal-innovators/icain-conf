@@ -25,7 +25,7 @@
  .submissionLinkheadRazor a{
     color: white;
    /* border-radius: 0.7rem; */
-    background:  var(--color-green);
+    background:  var(--color-bits);
     padding: 2vh;
     font-family: var(--font-content);
     color: white;

@@ -66,7 +66,7 @@ function About() {
                 <p>
                   Universal Innovators Educational Consultants is a leading platform that aims to empower innovators and foster knowledge exchange. With a passion for technology and research, we serve as a bridge between academia, industry, and research laboratories.
                 </p><br />
-                {/* <h3 style={{ "color": "#006938", "fontFamily": "Calibri" }}>Why Stirling?</h3> */}
+                {/* <h3 style={{ "color": "#211D70", "fontFamily": "Calibri" }}>Why Stirling?</h3> */}
                 <p>
                 {/* Highly rated courses, high rate of employability */}
 
@@ -83,7 +83,7 @@ function About() {
                     <li> The University of Stirling ranked 28th in the UK in the The Guardian University Guide 2021</li>
                   </ul> */}
                   <br/>
-                  {/* For more information, visit the University of Stirling RAK Campus, UAE - <a style={{color:'#006938'}} href="https://www.stir.ae/about-uos-uk">https://www.stir.ae/about-uos-uk</a>  */}
+                  {/* For more information, visit the University of Stirling RAK Campus, UAE - <a style={{color:'#211D70'}} href="https://www.stir.ae/about-uos-uk">https://www.stir.ae/about-uos-uk</a>  */}
                 </p>
               </div>
 

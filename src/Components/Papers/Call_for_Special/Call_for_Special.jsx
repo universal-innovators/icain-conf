@@ -14,7 +14,7 @@ const Call_for_Special = () => {
             Greeting from ICAIN-2025!<br/>
             The ICAIN-2025 Conference team is pleased to invite you to organise a special session at the inaugural <b>International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b>which will be held on
             <b> 6th - 7th October 2025. </b> We are committed to bringing together some of the most knowledgeable researchers and industry leaders from around the world to explore key topics in the field of research. This two-day conference will feature workshops, technical sessions, and keynote presentations on cutting-edge technologies relevant to our industry. The conference website:{" "}
-            <a href="www.icain-conf.com" style={{textDecoration:'none',color:"var(--color-green)"}}>
+            <a href="www.icain-conf.com" style={{textDecoration:'none',color:"var(--color-bits)"}}>
               icain-conf.com
             </a>
             .<br/>ICAIN-2025 is organised with the goal of bringing together innovative scientists, professors, research scholars, students, and industrial experts in the fields of Computing and Communication. The primary aim of the conference is to promote the exchange of innovative scientific information among researchers, developers, engineers, students, and practitioners. Furthermore, we aim to bridge the gap between fundamental research and industrial application.<br/>

@@ -1,5 +1,5 @@
 .keynoteHeading{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     font-weight: 400;
     padding: 1vh 0;
     font-size: 1.5rem;
@@ -65,11 +65,11 @@
 }
 
 .tabButton:hover {
-    color:  var(--color-green);
+    color:  var(--color-bits);
 }
 
 .tabButton.active {
     font-weight: bold;
-    border-bottom: 2px solid  var(--color-green);
-    color:  var(--color-green);
+    border-bottom: 2px solid  var(--color-bits);
+    color:  var(--color-bits);
 }

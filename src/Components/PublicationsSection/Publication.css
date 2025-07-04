@@ -4,7 +4,7 @@
     font-family: var(--font-content);
 }
 .Publication h2{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     font-family: var(--font-headings);
     font-weight: 400;
     padding: 1vh 0;
@@ -48,9 +48,9 @@ transform: scale(1.1);
 /* publication proceedings  */
 .pubProceedings{
   padding: 2rem;
- background: var(--color-green);
+ background: var(--color-bits);
  /* border-radius: 2rem 0.5rem; */
- border: 1px solid var(--color-green);
+ border: 1px solid var(--color-bits);
  color: white;
 }
 .pubProceedings .porange{

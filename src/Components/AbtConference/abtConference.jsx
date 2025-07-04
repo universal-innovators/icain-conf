@@ -38,7 +38,7 @@ function AboutConference() {
             <b className="">
             All the papers and the proceedings of ICAIN-2025 will be published in Springer LNNS series (Approved - Indexed in DBLP, EI Compendex, INSPEC, SCImago SCOPUS, WTI AG, zbMATH)
             </b>
-            <marquee><b className="reAuthors" style={{color:"#006938"}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</b></marquee>
+            <marquee><b className="reAuthors" style={{color:"#211D70"}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</b></marquee>
             <h4>
               All papers must be submitted online via this link:
             </h4>

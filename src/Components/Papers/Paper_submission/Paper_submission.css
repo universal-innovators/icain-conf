@@ -8,7 +8,7 @@
 }
 
 .submission h2{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     font-weight: 400;
     font-size: 1.5rem;
     padding: 1vh 0;
@@ -28,18 +28,18 @@
 .submissionLinkhead a{
     color: b;
    /* border-radius: 0.7rem; */
-    background:var(--color-green);
+    background:var(--color-bits);
     padding: 2vh;
     font-family: var(--font-content);
     color: white;
-    /* border: 1px solid var(--color-green1); */
+    /* border: 1px solid var(--color-bits1); */
 
 }
  .submissionLinkhead a:hover{
-    /* background: linear-gradient(to right, var(--color-bg), var(--color-green1)); */
+    /* background: linear-gradient(to right, var(--color-bg), var(--color-bits1)); */
     background-color:white;
-    border: 3px solid var(--color-green);
-    color: var(--color-green);
+    border: 3px solid var(--color-bits);
+    color: var(--color-bits);
 }
 .submissionLinkhead a:active{
    color: var(--color-pink);
@@ -49,7 +49,7 @@
 
 
 .SubGuidelines{
-    color: var(--color-green1);
+    color: var(--color-bits1);
 }
 .Submission_desc{
     text-align: justify;
@@ -86,7 +86,7 @@
     margin: 0 auto;
     background: var(--color-white);
     z-index: 1;
-    border:1px solid var(--color-green1);
+    border:1px solid var(--color-bits1);
     padding: 1rem;
     opacity: 1;
    }
@@ -123,7 +123,7 @@
     margin: 2vh 0;
 }
 .psubPlagrism h4{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     padding: 1vh;
     text-align: center;
     width: 100%;

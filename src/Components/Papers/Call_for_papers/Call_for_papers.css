@@ -8,7 +8,7 @@
    
 }
 .cfp h2{
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     font-family: var(--font-headings);
     font-weight: 400;
     padding: 1vh 0;
@@ -33,7 +33,7 @@
 .bold1{
     font-weight: 600;
     margin: 4vh 0 1.5vh 0;
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
     padding: 1vh ;
     color: white;
     
@@ -51,10 +51,10 @@
     font-size: 1.2rem;
     padding: 1vh 0;
     text-align: center;
-    background-color: var(--color-green);
+    background-color: var(--color-bits);
 }
 .cfp_info {
-    background:  var(--color-green);
+    background:  var(--color-bits);
     padding: 3vh;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@
     margin: 2vh 0;
     line-height: 1.4rem;
     font-weight: 400;
-    background:  var(--color-green);
+    background:  var(--color-bits);
    padding: 3vh;
    border: 1px solid var(--color-bg2);
 }
