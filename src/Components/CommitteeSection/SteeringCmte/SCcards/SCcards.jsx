@@ -155,7 +155,7 @@ let techChair = [
 
   let publicChair = [
     {
-      h1: "Prof. Suyash Shukl",
+      h1: "Prof. Suyash Shukla",
       p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS"
     }, 
     {
