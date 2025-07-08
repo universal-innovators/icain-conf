@@ -415,9 +415,9 @@ export default
       },
       {
     link: require("./sessions/SS-45.pdf"),
-    title: "AI-Powered Social Media Analytics: Emerging Trends in Machine Learning and Deep Learning Applications",
+    title: "Blockchain and AI/ML in LifeSciences, Defense, Agriculture and Healthcare",
     organisers: [
-     "Dr. Ruchi Kaushal Sharma, NMIMS University, Mumbai, Maharashtra, India"
+     "Dr Rohit Kumar Bondugula, University of Hyderabad, India"
     ],
     listing: "SS 045"
       }
