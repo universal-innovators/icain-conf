@@ -1,0 +1,102 @@
+.innostorm-container {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.innostorm-container h1 {
+  font-size: 2em;
+  margin-bottom: 0.2em;
+  color: #2c3e50;
+}
+
+.innostorm-container h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: #34495e;
+}
+
+.innostorm-container h3 {
+  font-size: 1.3em;
+  margin-top: 1em;
+  color: #34495e;
+}
+
+.innostorm-container h4 {
+  font-size: 1.1em;
+  margin-top: 0.8em;
+  color: #34495e;
+}
+
+.innostorm-container .subtitle {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.innostorm-container .tagline {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.innostorm-container .organizers {
+  margin-bottom: 1em;
+}
+
+.innostorm-container ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.2em;
+}
+
+.innostorm-container li {
+  position: relative;
+  padding-left: 1.4em;
+  margin-bottom: 0.6em;
+}
+
+.innostorm-container li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  color: #007BFF;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.innostorm-container a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.innostorm-container a:hover {
+  text-decoration: underline;
+}
+
+.innostorm-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+.innostorm-container table th,
+.innostorm-container table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.innostorm-container table th {
+  background-color: #f5f5f5;
+}
+
+.innostorm-container blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 10px;
+  font-style: italic;
+  margin: 1em 0;
+}

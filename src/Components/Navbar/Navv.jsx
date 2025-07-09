@@ -187,6 +187,9 @@ function Navv() {
           <li onClick={closeMenu}>
             <NavLink to="/awards">Awards</NavLink>
           </li>
+          <li onClick={closeMenu}>
+            <NavLink to="/innostorm">Innostorm</NavLink>
+          </li>
 
           <li onClick={closeMenu}>
             <NavLink to="/guide">Visitors Guide</NavLink>

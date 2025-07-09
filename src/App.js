@@ -50,6 +50,7 @@ import Keynote from "./Components/KeyNoteSpeakers/Keynote";
 import AcademicPartners from "./Components/AcademicParters/AcademicPartners";
 import { useEffect } from "react";
 import PrevKeynote from "./Components/KeyNoteSpeakers/PrevKeynote";
+import InnostormInfo from "./Components/Ideathon/Ideathon";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -135,6 +136,7 @@ function App() {
             <Route path="guide" element={<Guide />} />
 
             <Route path="awards" element={<Awards />} />
+            <Route path="innostorm" element={<InnostormInfo />} />
 
             <Route path="spsessions" element={<SpecialCard />} />
 
