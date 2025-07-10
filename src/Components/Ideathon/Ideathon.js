@@ -86,10 +86,6 @@ const InnostormInfo = () => {
         <li>Payment Proof</li>
       </ul>
 
-      <blockquote>
-        "We confirm that the submitted idea is our original work and does not violate any existing intellectual property rights..."
-      </blockquote>
-
       <h3>Selection Criteria</h3>
       <table>
         <thead>
