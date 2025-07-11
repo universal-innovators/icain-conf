@@ -34,14 +34,46 @@ const InnostormInfo = () => {
         Create an innovative idea, prototype, or product that tackles real-world problems across daily life, industrial automation, and startup ecosystems.
       </p>
 
-      <ul>
-        <li>Artificial Intelligence (AI)</li>
-        <li>Internet of Things (IoT)</li>
-        <li>Sustainable or Assistive Technologies</li>
-        <li>Blockchain Technologies</li>
-        <li>Augmented Reality and Virtual Reality</li>
-        <li>Smart Robotics</li>
-      </ul>
+      <div>
+  <h3>1. Artificial Intelligence, Data Science & Emerging Technologies</h3>
+  <p><strong>Focus Areas:</strong> AI/ML, Generative AI, Big Data, Quantum Computing, Intelligent Automation</p>
+  <p>Explores next-generation tools, platforms, and domain-specific applications that leverage data-driven intelligence and computational innovation.</p>
+  <hr/>
+
+  <h3>2. Cybersecurity, Privacy & Digital Infrastructure</h3>
+  <p><strong>Focus Areas:</strong> Data protection, secure communication, identity & access management, digital trust</p>
+  <p>Includes technologies such as blockchain, Web3, and decentralized frameworks that ensure secure, resilient digital ecosystems.</p>
+  <hr/>
+
+  <h3>3. Healthcare, Wellness & Biotechnology</h3>
+  <p><strong>Focus Areas:</strong> Telemedicine, diagnostics, mental health tech, wearable devices</p>
+  <p>Encourages innovations using AI in healthcare, bioinformatics, and digital solutions for patient-centric wellness and preventive care.</p>
+  <hr/>
+
+  <h3>4. Smart Cities, IoT & Sustainable Living</h3>
+  <p><strong>Focus Areas:</strong> Energy optimization, smart mobility, IoT for public infrastructure</p>
+  <p>Covers sustainable innovations for urban living including waste management, water conservation, pollution control, and intelligent urban systems.</p>
+  <hr/>
+
+  <h3>5. AgriTech, Food Systems & Rural Innovation</h3>
+  <p><strong>Focus Areas:</strong> Precision farming, supply chain digitization, smart irrigation</p>
+  <p>Promotes inclusive solutions such as post-harvest tech, farmer-focused platforms, and digital tools to transform rural livelihoods and agri-finance.</p>
+  <hr/>
+
+  <h3>6. Climate Tech, Environment & Circular Economy</h3>
+  <p><strong>Focus Areas:</strong> Carbon footprint reduction, clean energy, waste-to-resource innovation</p>
+  <p>Supports sustainable technologies aimed at building climate resilience, environmental stewardship, and scalable circular economy models.</p>
+  <hr/>
+
+  <h3>7. Education, Finance & Inclusive Technology</h3>
+  <p><strong>Focus Areas:</strong> EdTech, FinTech, accessibility, digital skilling</p>
+  <p>Welcomes innovations for equitable access to education, inclusive financial tools, microfinancing, and platforms for lifelong learning.</p>
+  <hr/>
+
+  <h3>✅ Optional Track: 8. Open Innovation / Wild Card</h3>
+  <p>For visionary or unconventional ideas that defy traditional categories but demonstrate clear potential for impact and scalability.</p>
+</div>
+
 
       <p><strong>Examples & Directions:</strong></p>
       <ul>
