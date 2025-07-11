@@ -70,10 +70,10 @@ const InnostormInfo = () => {
   <p>Welcomes innovations for equitable access to education, inclusive financial tools, microfinancing, and platforms for lifelong learning.</p>
   <hr/>
 
-  <h3>✅ Optional Track: 8. Open Innovation / Wild Card</h3>
+  <h3>Optional Track: 8. Open Innovation / Wild Card</h3>
   <p>For visionary or unconventional ideas that defy traditional categories but demonstrate clear potential for impact and scalability.</p>
 </div>
-
+<br/><br/>
 
       <p><strong>Examples & Directions:</strong></p>
       <ul>
