@@ -420,6 +420,19 @@ export default
      "Dr Rohit Kumar Bondugula, University of Hyderabad, India"
     ],
     listing: "SS 045"
+      },
+      {
+    link: require("./sessions/SS-46.pdf"),
+    title: "Recent Artificial Intelligence Applications and Research in Structural Health Monitoring",
+    organisers: [
+     "Dr. (Asst. Prof.) Prashant Kumar, Bennett University, Greater Noida, India",
+     "Dr. (Asst. Prof.) Priyanka Mathur, Bennett University, Greater Noida, India",
+     "Dr. (Prof.) Abha Kiran Rajpoot, Galgotias University, Greater Noida, India",
+     "Dr. (Senior Scientist) Naveet Kaur, CSIR – CRRI, Delhi, India",
+      "Dr. (Pro. Vice Chancellor) T. P. Singh, Chandigarh University, Lucknow, India",
+      "Dr. (Chief Scientist) Solomon Raju Kota, CSIR – 4PI, Bengaluru, India"
+    ],
+    listing: "SS 046"
       }
   
   
