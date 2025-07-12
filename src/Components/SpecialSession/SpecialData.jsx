@@ -433,6 +433,15 @@ export default
       "Dr. (Chief Scientist) Solomon Raju Kota, CSIR – 4PI, Bengaluru, India"
     ],
     listing: "SS 046"
+      },
+        {
+    link: require("./sessions/SS-47.pdf"),
+    title: "Applied Image Processing: Current Applications and Emerging Challenges",
+    organisers: [
+     "Dr. Ritu Rani, Assistant Professor, ECE, Bhagwan Parshuram Institute of Technology, Delhi",
+     "Dr. Garima Jaiswal, Assistant Professor, SCSET, Bennett University, India,"
+    ],
+    listing: "SS 047"
       }
   
   
