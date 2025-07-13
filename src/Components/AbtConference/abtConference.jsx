@@ -25,9 +25,8 @@ function AboutConference() {
           {/* Left about  */}
           <div className="Labout">
             <p>
-            The International Conference on Artificial Intelligence and Networking (ICAIN) is organised with the objective of bringing together innovative scientists, professors, research scholars, students, and industry experts in the fields of Computing and Communication on a common platform.<br/>
-            The primary goal of the conference is to foster the exchange of innovative scientific information between researchers, developers, engineers, students, and practitioners. Another aim is to facilitate the transformation of fundamental research into institutional and industrial applications and to convert applied research into real-time solutions.<br/>
-            Overall, the conference will provide researchers and attendees with opportunities for national and international collaboration and networking among universities and institutions, both in India and abroad, to further research initiatives.
+            The International Conference on Artificial Intelligence and Networking (ICAIN) is organized by the Department of Computer Science at BITS Pilani, Dubai, which is committed to producing world-class computer engineers and advancing cutting-edge research. The conference aims to bring together innovative scientists, professors, research scholars, students, and industry experts in the fields of Computing and Communication on a common platform. Its primary goal is to foster the exchange of innovative scientific information among researchers, developers, engineers, students, and practitioners. Another key objective is to facilitate the transformation of fundamental research into institutional and industrial applications, as well as to convert applied research into real-time solutions.<br/>
+            Overall, ICAIN provides a dynamic opportunity for national and international collaboration and networking among universities and institutions, both in India and abroad, to advance ongoing and future research initiatives.
               {/* All the
               accepted papers (after double blinded peer review) will be
               published as proceedings of ICAIN-2025 in{" "}
