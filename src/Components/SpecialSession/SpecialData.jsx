@@ -442,6 +442,15 @@ export default
      "Dr. Garima Jaiswal, Assistant Professor, SCSET, Bennett University, India,"
     ],
     listing: "SS 047"
+      },
+        {
+    link: require("./sessions/SS-48.pdf"),
+    title: "Advancing Natural Language Understanding with GenAI: Deep Learning Architectures for Contextual and Conversational Intelligence",
+    organisers: [
+     "Mr. Rajesh Sura, Anna University, Chennai, Tamil Nadu",
+      "Dr. Deevyankar Agarwal, University of Technology & Applied Sciences(UTAS), Muscat, Oman"
+    ],
+    listing: "SS 048"
       }
   
   
