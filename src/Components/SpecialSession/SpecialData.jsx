@@ -451,6 +451,17 @@ export default
       "Dr. Deevyankar Agarwal, University of Technology & Applied Sciences(UTAS), Muscat, Oman"
     ],
     listing: "SS 048"
+      },
+      {
+    link: require("./sessions/SS-49.pdf"),
+    title: "Next-Gen AI: Bridging Quantum Computing and Intelligent Agents",
+    organisers: [
+     "Dr Raghavendra M Devadas, Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, India",
+    "Ms.Sowmya T,Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, India",
+    "Dr. Simi V R,Manipal Institute of Technology, Bengaluru, Manipal Academy of Higher Education, Manipal, India",
+    "Dr.Praveen Gujjar Faculty of Management Studies JAIN (Deemed-to-be University) Bengaluru, India"
+    ],
+    listing: "SS 049"
       }
   
   
