@@ -177,9 +177,9 @@ function Navv() {
           <li onClick={closeMenu}>
             <NavLink to="/publications">Publications</NavLink>
           </li>
-          {/* <li onClick={closeMenu}>
+          <li onClick={closeMenu}>
             <NavLink to="/conferences">Conference Venue</NavLink>
-          </li> */}
+          </li>
 
           <li onClick={closeMenu}>
             <NavLink to="/downloads">Downloads</NavLink>
