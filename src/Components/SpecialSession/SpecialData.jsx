@@ -462,7 +462,17 @@ export default
     "Dr.Praveen Gujjar Faculty of Management Studies JAIN (Deemed-to-be University) Bengaluru, India"
     ],
     listing: "SS 049"
-      }
+      },
+  {
+    link: require("./sessions/SS-50.pdf"),
+    title: "Sustainable, Secure and Low-power AI architectures for IoT, Next-Gen Communication, & Healthcare Systems",
+    organisers: [
+     "Dr. Tanu Wadhera, Assistant Professor Indian Institute of Information Technology Una, Himachal Pradesh, India",
+     "Dr. Deepti kakkar, Associate Professor National Institute of Technology, Jalandhar, Punjab, India",
+     "Dr. Prashant S Rana  Thapar Institute of Engineering and Technology, Patiala, Punjab, India"
+    ],
+    listing: "SS 050"
+  }
   
   
 ];
