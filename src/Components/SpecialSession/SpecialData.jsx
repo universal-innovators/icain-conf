@@ -472,6 +472,15 @@ export default
      "Dr. Prashant S Rana  Thapar Institute of Engineering and Technology, Patiala, Punjab, India"
     ],
     listing: "SS 050"
+  },
+  {
+    link: require("./sessions/SS-51.pdf"),
+    title: "Artificial Intelligence-Driven Innovations in Industry 4.0: Integrating Robotics, IoT, and Cybersecurity for Intelligent Networking Systems",
+    organisers: [
+     "Sathish Krishna Anumula, IBM Corporation, Detroit, USA",
+      "Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Board of Technical Education, Uttar Pradesh, India"
+    ],
+    listing: "SS 051"
   }
   
   
