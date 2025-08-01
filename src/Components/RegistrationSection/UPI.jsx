@@ -1,7 +1,7 @@
 import "./ResPayPal.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import upi from "./univ-qr.jpg";
+import upi from "./upi.png";
 AOS.init();
 function UPI() {
   return (
