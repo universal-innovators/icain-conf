@@ -27,6 +27,7 @@ const tpcm = [
   { name: "Prof. WSG Dr. Eng. Zdzislaw Polkowski", info: "WSG University, Bydgoszcz, Poland" },
   { name: "Jan Valicek", info: "Institute of Technology and Business in České Budějovice" },
   { name: "Lakshmanan Sethu", info: "Technical Account Manager (AI/ML), Google, California, USA" },
+  { name: "Avinash Reddy Pothu", info: "Principal Application Security Engineer, Frisco, TX, USA" },
   { name: "Prof. (Dr.) Amar Mohapatra", info: "Professor, IGDTUW, Delhi, India" },
   { name: "Prof. (Dr.) Arun Sharma", info: "Professor, IGDTUW, Delhi, India" },
   { name: "Prof. (Dr.) Celia Shahnaz", info: "BUET, Bangladesh" },
