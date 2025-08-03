@@ -46,7 +46,7 @@ const Selection = () => {
 
         <h3>🗓️ Important Dates:</h3>
         <ul className="elevatex-list">
-          <li><strong>Last date for nomination:</strong> 30th July, 2025</li>
+          <li><strong>Last date for nomination:</strong> 20th August, 2025</li>
           <li><strong>Announcement of Result:</strong> 30th August, 2025</li>
         </ul>
 

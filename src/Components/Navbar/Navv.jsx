@@ -198,6 +198,10 @@ function Navv() {
           <li onClick={closeMenu}>
             <NavLink to="/policy">Policy</NavLink>
           </li>
+          <li onClick={closeMenu}>
+            <NavLink to="/invited-speakers">Invited Speakers</NavLink>
+          </li>
+          
 
           <li
             className="dropbtn"

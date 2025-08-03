@@ -51,6 +51,7 @@ import AcademicPartners from "./Components/AcademicParters/AcademicPartners";
 import { useEffect } from "react";
 import PrevKeynote from "./Components/KeyNoteSpeakers/PrevKeynote";
 import InnostormInfo from "./Components/Ideathon/Ideathon";
+import InvitedSpeakers from "./Components/InvitedSpeakers/InvitedSpeakers";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -141,6 +142,8 @@ function App() {
             <Route path="spsessions" element={<SpecialCard />} />
 
             <Route path="publications" element={<Publication />} />
+            <Route path="invited-speakers" element={<InvitedSpeakers />} />
+
 
             {/* Committes  */}
             <Route path="steerings" element={<StCommittee />} />
