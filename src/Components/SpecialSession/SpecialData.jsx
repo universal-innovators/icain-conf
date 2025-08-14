@@ -481,6 +481,14 @@ export default
       "Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Board of Technical Education, Uttar Pradesh, India"
     ],
     listing: "SS 051"
+  },
+  {
+    link: require("./sessions/SS-52.pdf"),
+    title: "AI in Cybersecurity: Innovations, Challenges, and Emerging Trends",
+    organisers: [
+     "Dr. Madhumala R Bagalatti, Professor, CSE in IoT, Cybersecurity including Blockchain, Dayananda Sagar Academy of Technology and Management, Bangalore, Karnataka"
+    ],
+    listing: "SS 052"
   }
   
   
