@@ -21,6 +21,11 @@ export default function Keynote() {
                     <p> <strong>Rajesh Sura</strong>
                         <br /> Anna University, Chennai</p>
                 </div>
+                <div className="keynoteCard">
+                    <img src="./venkat.jpg" alt="" srcset="" />
+                    <p> <strong>Venkatraman Viswanathan</strong>
+                        <br /> Director- Novalink Solutions LLC, Duluth, Georgia, United States</p>
+                </div>
             </div>
         </>
     )
