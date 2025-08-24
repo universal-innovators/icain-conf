@@ -29,6 +29,7 @@ const tpcm = [
   { name: "Lakshmanan Sethu", info: "Technical Account Manager (AI/ML), Google, California, USA" },
   { name: "Avinash Reddy Pothu", info: "Principal Application Security Engineer, Frisco, TX, USA" },
   { name: "Prof. (Dr.) Amar Mohapatra", info: "Professor, IGDTUW, Delhi, India" },
+  { name: "Rajesh Sura", info: "Head of Data Engineering and Analytics, Amazon, USA" },
   { name: "Prof. (Dr.) Arun Sharma", info: "Professor, IGDTUW, Delhi, India" },
   { name: "Prof. (Dr.) Celia Shahnaz", info: "BUET, Bangladesh" },
   { name: "Prof. (Dr.) Gabriela Raducan", info: "Senior Research Fellow, La Trobe Innovation and Entrepreneurship Foundry" },
@@ -68,4 +69,5 @@ function TecCards() {
 }
 
 export default TecCards;
+
 
