@@ -489,6 +489,15 @@ export default
      "Dr. Madhumala R Bagalatti, Professor, CSE in IoT, Cybersecurity including Blockchain, Dayananda Sagar Academy of Technology and Management, Bangalore, Karnataka"
     ],
     listing: "SS 052"
+  },
+  {
+    link: require("./sessions/SS-53.pdf"),
+    title: "AI for Managers: From Automation to Decision Intelligence, and From Insight to Impact",
+    organisers: [
+     "Dr. Gaurav Nagpal, BITS Pilani, India",
+     "Dr. Ankita Nagpal, BITS Pilani, India"
+    ],
+    listing: "SS 053"
   }
   
   

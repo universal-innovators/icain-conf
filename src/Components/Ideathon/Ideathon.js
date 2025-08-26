@@ -96,7 +96,7 @@ const InnostormInfo = () => {
       <ul>
         <li>Fee: USD 20 (non-refundable)</li>
         <li>Deliverable: Idea Abstract (max 2 pages) + Optional Diagram</li>
-        <li>Deadline: 25th August 2025</li>
+        <li>Deadline: 30th August 2025</li>
         <li>Outcome: Shortlisted teams proceed to next round. Others receive feedback.</li>
       </ul>
 

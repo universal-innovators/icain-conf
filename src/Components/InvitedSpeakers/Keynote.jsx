@@ -41,6 +41,11 @@ export default function Keynote() {
                     <p> <strong>Ranjith Goud Karvanga</strong>
                         <br /> Data Analysis Manager, Capital One Financial Corporation, US</p>
                 </div>
+                <div className="keynoteCard">
+                    <img src="./aakash.jpg" alt="" srcset="" />
+                    <p> <strong>Aakash Mor</strong>
+                        <br /> UNIVERSITY OF THE ARTS LONDON</p>
+                </div>                
             </div>
         </>
     )
