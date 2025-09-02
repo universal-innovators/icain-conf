@@ -46,12 +46,12 @@ export default function Keynote() {
                     <p> <strong>Aakash Mor</strong>
                         <br /> UNIVERSITY OF THE ARTS LONDON</p>
                 </div>  
-                <div className="keynoteCard">
+                {/* <div className="keynoteCard">
                     <img src="./raghava.jpg" alt="" srcset="" />
                     <p> <strong> Raghava Chellu </strong>
                         <br />  Innovation Technologist - MFT Systems | AI & ML | Cloud Architect , Equifax
 Alpharetta, Georgia, United States</p>
-                </div> 
+                </div>  */}
                 <div className="keynoteCard">
                     <img src="./sukumar.jpg" alt="" srcset="" />
                     <p> <strong> Sukumar Reddy Beereddy</strong>
