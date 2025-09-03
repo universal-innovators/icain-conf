@@ -56,7 +56,12 @@ Alpharetta, Georgia, United States</p>
                     <img src="./sukumar.jpg" alt="" srcset="" />
                     <p> <strong> Sukumar Reddy Beereddy</strong>
                         <br />  Treasury & ERP Systems Solution Architect |USA</p>
-                </div>                  
+                </div>
+                <div className="keynoteCard">
+                    <img src="./siva.jpg" alt="" srcset="" />
+                    <p> <strong> Siva Sai Krishna Suryadevara</strong>
+                        <br /> Senior Software Engineer, T. Rowe Price, USA</p>
+                </div>
             </div>
         </>
     )
