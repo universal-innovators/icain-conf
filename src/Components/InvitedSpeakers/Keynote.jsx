@@ -42,7 +42,7 @@ export default function Keynote() {
                         <br /> Data Analysis Manager, Capital One Financial Corporation, US</p>
                 </div>
                 <div className="keynoteCard">
-                    <img src="./aakash.jpg" alt="" srcset="" />
+                    <img src="./aakash.jpg" alt="" srcset=""/>
                     <p> <strong>Aakash Mor</strong>
                         <br /> Academic Board Member, University of the Arts London | Artificial Intelligence Researcher, Advancing trustworthy and Transparent AI</p>
                 </div>  
@@ -58,7 +58,7 @@ Alpharetta, Georgia, United States</p>
                         <br />  Treasury & ERP Systems Solution Architect |USA</p>
                 </div>
                 <div className="keynoteCard">
-                    <img src="./siva.jpg" alt="" srcset="" />
+                    <img src="./siva.jpg" alt="" srcset="" style={{objectPosition:'top'}}/>
                     <p> <strong> Siva Sai Krishna Suryadevara</strong>
                         <br /> Senior Software Engineer, T. Rowe Price, USA</p>
                 </div>
