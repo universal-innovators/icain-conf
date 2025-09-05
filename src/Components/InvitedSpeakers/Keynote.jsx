@@ -44,7 +44,7 @@ export default function Keynote() {
                 <div className="keynoteCard">
                     <img src="./aakash.jpg" alt="" srcset="" />
                     <p> <strong>Aakash Mor</strong>
-                        <br /> UNIVERSITY OF THE ARTS LONDON</p>
+                        <br /> Academic Board Member, University of the Arts London | Artificial Intelligence Researcher, Advancing trustworthy and Transparent AI</p>
                 </div>  
                 {/* <div className="keynoteCard">
                     <img src="./raghava.jpg" alt="" srcset="" />
