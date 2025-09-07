@@ -56,7 +56,17 @@ Alpharetta, Georgia, United States</p>
                     <img src="./sukumar.jpg" alt="" srcset="" />
                     <p> <strong> Sukumar Reddy Beereddy</strong>
                         <br />  Treasury & ERP Systems Solution Architect |USA</p>
-                </div>                  
+                </div>
+                <div className="keynoteCard">
+                    <img src="./krishna.jpg" alt="" srcset="" />
+                    <p> <strong> Mr. Krishna Mula</strong>
+                        <br /> Principal Software Engineer, ZumeIT Inc., US</p>
+                </div> 
+                 <div className="keynoteCard">
+                    <img src="./gayatri.jpg" alt="" srcset="" />
+                    <p> <strong> Gayatri Tavva</strong>
+                        <br /> Senior Data Engineer at Amazon, Greater Seattle Area, Washington, US</p>
+                </div>                 
             </div>
         </>
     )
