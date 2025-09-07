@@ -42,9 +42,9 @@ export default function Keynote() {
                         <br /> Data Analysis Manager, Capital One Financial Corporation, US</p>
                 </div>
                 <div className="keynoteCard">
-                    <img src="./aakash.jpg" alt="" srcset="" />
+                    <img src="./aakash.jpg" alt="" srcset=""/>
                     <p> <strong>Aakash Mor</strong>
-                        <br /> UNIVERSITY OF THE ARTS LONDON</p>
+                        <br /> Academic Board Member, University of the Arts London | Artificial Intelligence Researcher, Advancing trustworthy and Transparent AI</p>
                 </div>  
                 {/* <div className="keynoteCard">
                     <img src="./raghava.jpg" alt="" srcset="" />
@@ -57,6 +57,11 @@ Alpharetta, Georgia, United States</p>
                     <p> <strong> Sukumar Reddy Beereddy</strong>
                         <br />  Treasury & ERP Systems Solution Architect |USA</p>
                 </div>
+                <div className="keynoteCard"> 
+                    <img src="./siva.jpg" alt="" srcset="" style={{objectPosition:'top'}}/>
+                    <p> <strong> Siva Sai Krishna Suryadevara</strong>
+                        <br /> Senior Software Engineer, T. Rowe Price, USA</p>
+                </div>
                 <div className="keynoteCard">
                     <img src="./krishna.jpg" alt="" srcset="" />
                     <p> <strong> Mr. Krishna Mula</strong>
@@ -67,6 +72,7 @@ Alpharetta, Georgia, United States</p>
                     <p> <strong> Gayatri Tavva</strong>
                         <br /> Senior Data Engineer at Amazon, Greater Seattle Area, Washington, US</p>
                 </div>                 
+                
             </div>
         </>
     )
