@@ -63,12 +63,12 @@ Alpharetta, Georgia, United States</p>
                         <br /> Senior Software Engineer, T. Rowe Price, USA</p>
                 </div>
                 <div className="keynoteCard">
-                    <img src="./krishna.jpg" alt="" srcset="" />
+                    <img src="./krishna.jpeg" alt="" srcset="" />
                     <p> <strong> Mr. Krishna Mula</strong>
                         <br /> Principal Software Engineer, ZumeIT Inc., US</p>
                 </div> 
                  <div className="keynoteCard">
-                    <img src="./gayatri.jpg" alt="" srcset="" />
+                    <img src="./gayatri.jpeg" alt="" srcset="" />
                     <p> <strong> Gayatri Tavva</strong>
                         <br /> Senior Data Engineer at Amazon, Greater Seattle Area, Washington, US</p>
                 </div>                 
