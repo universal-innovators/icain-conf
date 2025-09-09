@@ -71,7 +71,27 @@ Alpharetta, Georgia, United States</p>
                     <img src="./gayatri.jpeg" alt="" srcset="" />
                     <p> <strong> Gayatri Tavva</strong>
                         <br /> Senior Data Engineer at Amazon, Greater Seattle Area, Washington, US</p>
-                </div>                 
+                </div>     
+                <div className="keynoteCard">
+                    <img src="./Arjun.jpeg" alt="" srcset="" />
+                    <p> <strong> Arjun Chaudhary</strong>
+                        <br /> Senior Executive, Infosys(AI/ML, Project management, and Game development at Disney, Fintech)</p>
+                </div>
+                <div className="keynoteCard">
+                    <img src="./aditya.jpg" alt="" srcset="" />
+                    <p> <strong> Aditya Gupta</strong>
+                        <br />Software Development Engineer II, AWS | Ex-ZS, Seattle, Washington, US</p>
+                </div>  
+                <div className="keynoteCard">
+                    <img src="./Kartheek.jpeg" alt="" srcset="" />
+                    <p> <strong> Kartheek Kalluri</strong>
+                        <br /> Navy Federal Credit Union, Virginia, United States</p>
+                </div>       
+                <div className="keynoteCard">
+                    <img src="./ravi.jpeg" alt="" srcset="" />
+                    <p> <strong> Ravi Thota</strong>
+                        <br />  Global CIO @ STACK Infrastructure | Driving Business Transformation, Global Integration, & Cybersecurity | Data Center Expertise, San Francisco Bay Area</p>
+                </div>     
                 
             </div>
         </>
