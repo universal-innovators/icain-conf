@@ -88,9 +88,9 @@ Alpharetta, Georgia, United States</p>
                         <br /> Navy Federal Credit Union, Virginia, United States</p>
                 </div>       
                 <div className="keynoteCard">
-                    <img src="./ravi.jpeg" alt="" srcset="" />
-                    <p> <strong> Ravi Thota</strong>
-                        <br />  Global CIO @ STACK Infrastructure | Driving Business Transformation, Global Integration, & Cybersecurity | Data Center Expertise, San Francisco Bay Area</p>
+                    <img src="./ravi.jpg" alt="" srcset="" />
+                    <p> <strong> Ravi Chandra Thota</strong>
+                        <br />  REI systems, Virginia, United States</p>
                 </div>     
                 
             </div>
