@@ -80,7 +80,7 @@ Alpharetta, Georgia, United States</p>
                 <div className="keynoteCard">
                     <img src="./aditya.jpg" alt="" srcset="" />
                     <p> <strong> Aditya Gupta</strong>
-                        <br />Software Development Engineer II, AWS | Ex-ZS, Seattle, Washington, US</p>
+                        <br />Software Development Engineer II, AWS | Ex-ZS, Senior Fellow AI2030 , Seattle, Washington, US</p>
                 </div>  
                 <div className="keynoteCard">
                     <img src="./Kartheek.jpeg" alt="" srcset="" />
