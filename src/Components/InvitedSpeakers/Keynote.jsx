@@ -91,7 +91,12 @@ Alpharetta, Georgia, United States</p>
                     <img src="./ravi.jpg" alt="" srcset="" />
                     <p> <strong> Ravi Chandra Thota</strong>
                         <br />  REI systems, Virginia, United States</p>
-                </div>     
+                </div> 
+                <div className="keynoteCard">
+                    <img src="./sarat.jpg" alt="" srcset="" />
+                    <p> <strong>  Sarat Mahavratayajula</strong>
+                        <br /> The Sherwin-Williams Company, Senior Software Engineer | Senior IEEE Member</p>
+                </div>
                 
             </div>
         </>
