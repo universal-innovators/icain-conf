@@ -91,7 +91,25 @@ Alpharetta, Georgia, United States</p>
                     <img src="./ravi.jpg" alt="" srcset="" />
                     <p> <strong> Ravi Chandra Thota</strong>
                         <br />  REI systems, Virginia, United States</p>
-                </div>     
+                </div>  
+                 <div className="keynoteCard">
+                    <img src="./rahul.jpg" alt="" srcset="" />
+                    <p> <strong> Rahul Modak</strong>
+                        <br />AVP, LPL Financial, US</p>
+                </div>  
+                 <div className="keynoteCard">
+                    <img src="./shalini.jpg" alt="" srcset="" />
+                    <p> <strong> Shalini Sivasamy </strong>
+                        <br />Senior AI Engineer, Webster Bank, USA</p>
+                </div>  
+                 <div className="keynoteCard">
+                    <img src="./narasimha.jpg" alt="" srcset="" />
+                    <p> <strong> Narasimha Rao Vanaparthi  </strong>
+                        <br />
+Assistant Vice President (AVP)
+State Street Financial Corp,
+Boston, MA, USA.</p>
+                </div>  
                 
             </div>
         </>
