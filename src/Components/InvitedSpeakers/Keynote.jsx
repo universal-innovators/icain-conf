@@ -116,6 +116,16 @@ Boston, MA, USA.</p>
                     <p> <strong>  Sarat Mahavratayajula</strong>
                         <br /> The Sherwin-Williams Company, Senior Software Engineer | Senior IEEE Member</p>
                 </div>
+                <div className="keynoteCard">
+                    <img src="./harshini.jpg" alt="" srcset="" />
+                    <p> <strong> Harshini Gadam</strong>
+                        <br /> SM IEEE, Staples Inc, Finance Manager, Massachusetts , USA</p>
+                </div>
+                <div className="keynoteCard">
+                    <img src="./balaji.jpg" alt="" srcset="" />
+                    <p> <strong> Balaji Krishnan</strong>
+                        <br />  Senior Technical Architect, Salesforce (USA)</p>
+                </div>
                 </div>
 
                 
