@@ -198,9 +198,37 @@ function Navv() {
           <li onClick={closeMenu}>
             <NavLink to="/policy">Policy</NavLink>
           </li>
-          <li onClick={closeMenu}>
-            <NavLink to="/invited-speakers">Invited Speakers</NavLink>
+
+          <li className="dropbtn" onClick={() => toggleDropdown("speakers")}>
+            Speakers <FaSortDown />
+            <div
+              className={`dropdown-content ${
+                dropdownOpen === "speakers" ? "show" : ""
+              }`}
+            >
+              <NavLink
+                to="/invited-speakers"
+                onClick={() => {
+                  closeMenu();
+                  toggleDropdown("speakers");
+                }}
+              >
+                Invited Speakers from Industry
+              </NavLink>
+              <NavLink
+                to="/keynote-speakers"
+                onClick={() => {
+                  closeMenu();
+                  toggleDropdown("speakers");
+                }}
+              >
+                Keynote Speakers from Industry
+              </NavLink>              
+            </div>
           </li>
+          {/* <li onClick={closeMenu}>
+            <NavLink to="/invited-speakers">Invited Speakers</NavLink>
+          </li> */}
           
 
           <li
