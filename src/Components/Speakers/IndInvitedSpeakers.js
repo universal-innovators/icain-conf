@@ -124,6 +124,41 @@ function IndInvitedSpeakers() {
     designation: "Senior Technical Architect, Salesforce, USA",
     image: "./balaji.jpg",
   },
+  {
+    name: "Sunil Agarwal",
+    designation: "Software Engineering Technical Lead at Cisco Systems Inc, San Jose, California, United States",
+    image: "./sunil.jpg",
+  },
+  {
+    name: "Rajesh Ediga",
+    designation: "Wipro Ltd, USA",
+    image: "./rajesh1.jpg",
+  },
+  {
+    name: "Saurabh Kohli",
+    designation: "BNY , Livingston, New Jersey, United States",
+    image: "./saurabh.jpg",
+  },
+  {
+    name: "Sarvesh Ganesan",
+    designation: "University of Texas, US",
+    image: "./sarvesh.jpg",
+  },
+  {
+    name: "Suresh Kumar Maddala",
+    designation: "University of Hyderabad, India",
+    image: "./suresh.jpg",
+  },
+  {
+    name: "Abhyudaya Gurram",
+    designation: "Northwest Missouri State University, USA",
+    image: "./abhyudaya.jpg"
+  },
+  {
+    name: "",
+    designation: "Software Development Manager at Amazon Web Services, Bedrock AI group, USA",
+    image: "./sp.jpg"
+  }
 ];
 
   return (
