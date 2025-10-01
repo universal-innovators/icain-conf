@@ -155,9 +155,47 @@ function IndInvitedSpeakers() {
     image: "./abhyudaya.jpg"
   },
   {
-    name: "",
-    designation: "Software Development Manager at Amazon Web Services, Bedrock AI group, USA",
-    image: "./sp.jpg"
+    name: "Janakiram Meka",
+    designation: "Independent Researcher, USA",
+    image: "./jana.jpg"
+  },
+  {
+    name: "Bhanu Teja Reddy Maryala",
+    designation: "Southern Illinois University, US",
+    image: "./bhanu.jpg"
+  },{
+    name: "Manevannan Ramasamy",
+    designation: "Solutions Architect, Cisco Systems, Inc., US",
+    image: "./mane.jpg"
+  },
+  {
+    name: "Srinivasa Rao Gunda",
+    designation: "Independent Speaker, US",
+    image: "./srini.jpg"
+  },
+  {
+    name: "Kishore Epuri",
+    designation: "OSMANIA UNIVERSITY, US",
+    image: "./kishore.jpg"
+  },
+  {
+    name: "Rahul Kiran Talaseela",
+    designation: "Senior Application Developer at Source America, US",
+    image: "./rahul_kiran.jpg"
+  },
+  {
+    name: "Surendra Annanki",
+    designation: "Numeric Technologies Inc, USA",
+    image: "./surendra.jpg"
+  },
+  {
+    name: "Amaan Javed",
+    designation: "Application Engineer, Texas McCombs, USA",
+    image: "./amaan.jpg"
+  },{
+    name: "Dr. Kalyan Vijay Kumar Pasumarthi",
+    designation: "Indian Institute of Technology - Madras",
+    image: "./kalyan.jpg"
   }
 ];
 
