@@ -192,11 +192,23 @@ function IndInvitedSpeakers() {
     name: "Amaan Javed",
     designation: "Application Engineer, Texas McCombs, USA",
     image: "./amaan.jpg"
-  },{
+  },
+  {
     name: "Dr. Kalyan Vijay Kumar Pasumarthi",
     designation: "Indian Institute of Technology - Madras",
     image: "./kalyan.jpg"
+  },
+  {
+    name: "Raghavendra Reddy Kapu",
+    designation: "Quality Performance Engineer at Akshaya Inc, USA",
+    image: "./raghavendra.jpg"
+  },
+  {
+    name: "Anil PUTAPU",
+    designation: "University of Central Missouri, USA",
+    image: "./anil.jpg"
   }
+  
 ];
 
   return (
