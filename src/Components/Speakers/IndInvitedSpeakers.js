@@ -204,10 +204,51 @@ function IndInvitedSpeakers() {
     image: "./raghavendra.jpg"
   },
   {
-    name: "Anil PUTAPU",
-    designation: "University of Central Missouri, USA",
-    image: "./anil.jpg"
-  }
+    name: "Venkata Krishna Reddy Kovvuri",
+    designation: "Software Developer IV - KEEN INFO TEK INC., USA",
+    image: "./venkata.jpg"
+  },
+  {
+    name: "Dineshreddy Singireddy",
+    designation: "Product Manager - CGI, USA",
+    image: "./dinesh.jpg"
+  },
+  {
+    name: "Tejendra Patel",
+    designation: "California State University, Los Angeles, USA",
+    image: "./tejendra.jpg"
+  },
+  {
+    name: "Suresh Padala",
+    designation: "Campbellsville University, Kentucky, USA",
+    image: "./suresh1.jpg"
+  },
+  {
+    name: "Premreddy",
+    designation: "Northwestern Polytechnic University( alias San Francisco Bay University), USA",
+    image: "./prem.jpg"
+  },
+  {
+    name: "Dr. Sanjay Nakharu Prasad Kumar",
+    designation: "Senior Member IEEE",
+    image: "./sanjay.jpg"
+  },
+  {
+    name: "Sagar Kukkamudi",
+    designation: "Deloitte LLP, USA",
+    image: "./sagar.jpg"
+  },
+  {
+    name: "Venkateswarlu Jayakumar",
+    designation: "Anna University, Chennai, India",
+    image: "./venkatesh.jpg"
+  },
+  {
+    name: "Kasee Palaniappan",
+    designation: "Ariba Inc (SAP America), USA",
+    image: "./kasee.jpg"
+  }  
+  
   
 ];
 
