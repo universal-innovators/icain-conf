@@ -53,6 +53,7 @@ import PrevKeynote from "./Components/KeyNoteSpeakers/PrevKeynote";
 import InnostormInfo from "./Components/Ideathon/Ideathon";
 import IndInvitedSpeakers from "./Components/Speakers/IndInvitedSpeakers";
 import IndKeynoteSpeakers from "./Components/Speakers/IndKeynoteSpeakers";
+import IndAcademicSpeakers from "./Components/Speakers/IndAcademicSpeakers";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -145,8 +146,7 @@ function App() {
             <Route path="publications" element={<Publication />} />
             <Route path="invited-speakers" element={<IndInvitedSpeakers />} />
             <Route path="keynote-speakers" element={<IndKeynoteSpeakers />} />
-
-
+            <Route path="academic-speakers" element={<IndAcademicSpeakers />} />
 
             {/* Committes  */}
             <Route path="steerings" element={<StCommittee />} />

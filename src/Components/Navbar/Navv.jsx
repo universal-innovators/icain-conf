@@ -223,7 +223,16 @@ function Navv() {
                 }}
               >
                 Keynote Speakers from Industry
-              </NavLink>              
+              </NavLink> 
+              <NavLink
+                to="/academic-speakers"
+                onClick={() => {
+                  closeMenu();
+                  toggleDropdown("speakers");
+                }}
+              >
+                Invited speaker from Academics
+              </NavLink>             
             </div>
           </li>
           {/* <li onClick={closeMenu}>

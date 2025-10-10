@@ -48,11 +48,7 @@ function IndInvitedSpeakers() {
     designation: "Data Analysis Manager, Capital One Financial Corporation, US",
     image: "./ranjith.jpg",
   },
-  {
-    name: "Aakash Mor",
-    designation: "Academic Board Member, University of the Arts London | Artificial Intelligence Researcher, Advancing Trustworthy and Transparent AI",
-    image: "./aakash.jpg",
-  },
+  
   {
     name: "Sukumar Reddy Beereddy",
     designation: "Treasury & ERP Systems Solution Architect, USA",
@@ -247,7 +243,12 @@ function IndInvitedSpeakers() {
     name: "Kasee Palaniappan",
     designation: "Ariba Inc (SAP America), USA",
     image: "./kasee.jpg"
-  }  
+  },
+  {
+    name: "Varghese Paul",
+    designation: "Mahatma Gandhi University, Kerala, India",
+    image: "./varghese.jpg"
+  }    
   
   
 ];
