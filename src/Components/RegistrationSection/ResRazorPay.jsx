@@ -13,7 +13,7 @@ function RazorPay() {
         </p>
         <p className="submissionLinkheadRazor">
           <a
-            href="https://rzp.io/rzp/AoMRyfY"
+            href="https://rzp.io/l/DihIANNqD"
             target="_blank"
           >
             Pay via RazorPay
