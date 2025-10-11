@@ -6,19 +6,19 @@ function StripePay() {
   return (
     <>
       <div className="razorPay" data-aos="zoom-in">
-        <h1>Pay via Razorpay/Stripe (International Authors/Attendees)</h1>
+        <h1>Pay via Stripe (International Authors/Attendees)</h1>
         <p>
         For Payment from International Authors/Attendees, use the following
-        Razorpay/Stripe payment link with additional 5% service charges applied
+        Stripe payment link with additional 5% service charges applied
         </p>
-         <p className="submissionLinkheadRazor">
+         {/* <p className="submissionLinkheadRazor">
           <a
             href="https://rzp.io/rzp/br5zownJ"
             target="_blank"
           >
             Pay via Razorpay
           </a>
-        </p>
+        </p> */}
         <p className="submissionLinkheadRazor">
           <a
             href="https://buy.stripe.com/cN29CX9m7aKUco04gV"
