@@ -184,9 +184,37 @@ function Navv() {
           <li onClick={closeMenu}>
             <NavLink to="/downloads">Downloads</NavLink>
           </li>
-          <li onClick={closeMenu}>
+          {/* <li onClick={closeMenu}>
             <NavLink to="/awards">Awards</NavLink>
+          </li> */}
+          <li className="dropbtn" onClick={() => toggleDropdown("awards")}>
+            Awards <FaSortDown />
+            <div
+              className={`dropdown-content ${
+                dropdownOpen === "awards" ? "show" : ""
+              }`}
+            >
+              <NavLink
+                to="/awards"
+                onClick={() => {
+                  closeMenu();
+                  toggleDropdown("awards");
+                }}
+              >
+                ElevateX Awards
+              </NavLink>
+              <NavLink
+                to="/awardees"
+                onClick={() => {
+                  closeMenu();
+                  toggleDropdown("awards");
+                }}
+              >
+                ElevateX Awards Awardees
+              </NavLink>                         
+            </div>
           </li>
+
           <li onClick={closeMenu}>
             <NavLink to="/innostorm">Innostorm</NavLink>
           </li>

@@ -54,6 +54,7 @@ import InnostormInfo from "./Components/Ideathon/Ideathon";
 import IndInvitedSpeakers from "./Components/Speakers/IndInvitedSpeakers";
 import IndKeynoteSpeakers from "./Components/Speakers/IndKeynoteSpeakers";
 import IndAcademicSpeakers from "./Components/Speakers/IndAcademicSpeakers";
+import ElevatexAwards from "./Components/AwardsSection/Awardees";
 
 // import Footerr from "./Components/Footer/Footerr";
 function App() {
@@ -139,6 +140,7 @@ function App() {
             <Route path="guide" element={<Guide />} />
 
             <Route path="awards" element={<Awards />} />
+            <Route path="awardees" element={<ElevatexAwards />} />
             <Route path="innostorm" element={<InnostormInfo />} />
 
             <Route path="spsessions" element={<SpecialCard />} />
