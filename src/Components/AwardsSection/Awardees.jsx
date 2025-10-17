@@ -40,7 +40,7 @@ const awards2025 = [
   { name: "Rajesh Sura", award: "International Excellence Award: Digital Transformation & Innovation Leader of the Year" },
   { name: "Ramadevi Sannapureddy", award: "Cloud Migration & Modernization Champion Award" },
   { name: "Rami Reddy Kothamaram", award: "Hybrid Cloud and AI Infrastructure Excellence Award" },
-  { name: "Ravi Teja Avireni", award: "Cloud Migration & Modernization Champion Award" },
+  { name: "Ravi Teja Avireneni", award: "Cloud Migration & Modernization Champion Award" },
   { name: "Sandeep Kumar Thota", award: "Best Researcher Award (Global Research Trailblazer)" },
   { name: "Sanjay Nakhrau Prasad Kumar", award: "Outstanding Machine Learning Implementation Award" },
   { name: "Sanketh Nelavelli", award: "Cloud Migration & Modernization Champion Award" },
@@ -59,6 +59,7 @@ const awards2025 = [
   { name: "Venkatraman Viswanathan", award: "Emerging Innovator of the Year – Global Summit Visionary" },
   { name: "Venu Madhav Nadella", award: "Leadership in Networking, Infrastructure & Security Award" },
   { name: "Vetrivelan Tamilmani", award: "Next-Gen SAP Architecture Award" },
+  { name: "Rahul Gupta (Founder of Power Research Consulting)", award: "Best Tech Entrepreneur – Global Summit Digital Disruptor"}
 ];
 
 export default function ElevatexAwards() {
