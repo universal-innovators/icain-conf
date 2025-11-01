@@ -9,6 +9,7 @@ const awards2025 = [
   { name: "Anil Kumar Verma", award: "Global Diversity Champion in Academia – Global Inclusion Advocate" },
   { name: "Aniruddha Arjun Singh", award: "AI-Driven Transformation Excellence Award" },
   { name: "Anupam Agrawal", award: "Sustainable Innovation Award – Global Green Researcher" },
+  { name: "Aravind Narayanan", award: "Cloud Adoption and Agent AI Award - Global InsurTech Leader" },
   { name: "Arnab Saha", award: "Young Researcher Excellence Award – Global Research Star, AI & Data Science Impact Award" },
   { name: "Arunkumar Yadava", award: "Youth Empowerment Through Innovation – Global Summit Youth Impact Award" },
   { name: "Aryender Tyagi", award: "Special Recognition Award - Global Technology Leader" },
@@ -57,7 +58,6 @@ const awards2025 = [
   { name: "Varun Bitkuri", award: "AI-Driven Cloud Computing Championship Award" },
   { name: "Venkata Deepa Namburi", award: "Digital Modernization and Enterprise Architecture Excellence Award" },
   { name: "Venkatraman Viswanathan", award: "Emerging Innovator of the Year – Global Summit Visionary" },
-  { name: "Aravind Narayanan", award: "Cloud Adoption and Agent AI Award - Global InsurTech Leader" },
   { name: "Venu Madhav Nadella", award: "Leadership in Networking, Infrastructure & Security Award" },
   { name: "Vetrivelan Tamilmani", award: "Next-Gen SAP Architecture Award" },
   { name: "Rahul Gupta (Founder of Power Research Consulting)", award: "Best Tech Entrepreneur – Global Summit Digital Disruptor"}
