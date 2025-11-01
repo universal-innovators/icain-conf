@@ -57,6 +57,7 @@ const awards2025 = [
   { name: "Varun Bitkuri", award: "AI-Driven Cloud Computing Championship Award" },
   { name: "Venkata Deepa Namburi", award: "Digital Modernization and Enterprise Architecture Excellence Award" },
   { name: "Venkatraman Viswanathan", award: "Emerging Innovator of the Year – Global Summit Visionary" },
+  { name: "Aravind Narayanan", award: "Cloud Adoption and Agent AI Award - Global InsurTech Leader" },
   { name: "Venu Madhav Nadella", award: "Leadership in Networking, Infrastructure & Security Award" },
   { name: "Vetrivelan Tamilmani", award: "Next-Gen SAP Architecture Award" },
   { name: "Rahul Gupta (Founder of Power Research Consulting)", award: "Best Tech Entrepreneur – Global Summit Digital Disruptor"}
