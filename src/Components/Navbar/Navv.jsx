@@ -287,6 +287,15 @@ function Navv() {
               >
                 ICAIN 2024
               </NavLink>
+              <NavLink
+                to="/pcConferences25"
+                onClick={() => {
+                  closeMenu();
+                  toggleDropdown("previousConferences");
+                }}
+              >
+                ICAIN 2025
+              </NavLink>
             </div>
           </li>
         </ul>

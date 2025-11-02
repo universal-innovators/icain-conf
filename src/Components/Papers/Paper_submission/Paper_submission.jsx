@@ -40,7 +40,7 @@ const Paper_submission = () => {
                 All papers must be submitted online via this link:
                 <p className="submissionLinkhead">
                   <a
-                    href="https://cmt3.research.microsoft.com/ICAIN2025"
+                    href="https://cmt3.research.microsoft.com/ICAIN2026"
                     target="_blank"
                   >
                     Paper Submission Link

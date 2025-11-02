@@ -5,14 +5,14 @@ function RegFee() {
     <>
       <div className="reFeeMain">
         <hr />
-        <h3>Registration Fee For ICAIN 2025</h3>
+        <h3>Registration Fee For ICAIN 2026</h3>
 
         <div className="reFeeTable">
           {/* table head  */}
           <div className="reFeetd">
             <h2>Category</h2>
-            <h2>Early Registration (before 15th August 2025)</h2>
-            <h2>Late Registration (after 15th August 2025)</h2>
+            <h2>Early Registration (before 20th July 2026)</h2>
+            <h2>Late Registration (after 20th July 2026)</h2>
           </div>
 
          
@@ -39,14 +39,14 @@ function RegFee() {
           <h4 style={{color:'black',textAlign:'center'}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations </h4>
         </div>
     <br/><br/>
-        <h3>Registration Fee For ICAIN 2025 Conference Attendee</h3>
+        <h3>Registration Fee For ICAIN 2026 Conference Attendee</h3>
         
         <div className="reFeeTable">
           {/* table head  */}
           <div className="reFeetd">
             <h2>Category</h2>
-            <h2>Early Registration (before 15th August 2025)</h2>
-            <h2>Late Registration (after 15th August 2025)</h2>
+            <h2>Early Registration (before 15th August 2026)</h2>
+            <h2>Late Registration (after 15th August 2026)</h2>
           </div>
 
          

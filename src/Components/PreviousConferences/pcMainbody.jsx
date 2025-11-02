@@ -4,7 +4,7 @@ function PcMainBody({myBody}) {
     return ( 
     
     <div className="Pcbody">
-       <p>{myBody}</p> 
+       <p dangerouslySetInnerHTML={{ __html: myBody }} />
 
     </div>
         )

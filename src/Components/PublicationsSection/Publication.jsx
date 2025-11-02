@@ -32,13 +32,13 @@ function Publication() {
           <div className="pubProceedings">
           <b style={{fontSize:'18px',color:"white"}}>Publication Proceedings</b>
             {/* <p>
-              All the accepted papers of ICAIN-2025 will be published as a{" "}
+              All the accepted papers of ICAIN-2026 will be published as a{" "}
               <span className="porange">Springer AIS SERIES (Approved)</span>{" "}
-              proceedings of ICAIN-2025 indexed by Web of Science, Google scholar
+              proceedings of ICAIN-2026 indexed by Web of Science, Google scholar
               and zbMATH and other reputed databases.
             </p> */}
             <p className="porange">
-            All the papers of ICAIN 2025 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH).<br/> All the papers of ICAIN 2025 will be published in the Springer LNNS series as proceedings of ICAIN indexed in  SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH {" "}
+            All the papers of ICAIN 2026 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH).<br/> All the papers of ICAIN 2026 will be published in the Springer LNNS series as proceedings of ICAIN indexed in  SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH {" "}
             </p>           
             <div className="puImages">
             <div className="imgdata">

@@ -5,10 +5,10 @@ const TravelSupport = () => {
   return (
     <div className="travel-support-container">
       <h2 className="travel-support-title">
-        Travel & Participation Support – ICAIN 2025, Dubai
+        Travel & Participation Support – ICAIN 2026, Dubai
       </h2>
       <p>
-        We are pleased to inform you that we are offering <strong>comprehensive support</strong> for your travel and participation in the conference, scheduled to be held in <strong>Dubai on 6th–7th October 2025</strong>.
+        We are pleased to inform you that we are offering <strong>comprehensive support</strong> for your travel and participation in the conference, scheduled to be held in <strong>Dubai on 11th - 12th December 2026</strong>.
       </p>
       <p>
         As part of our commitment to a seamless experience for our delegates, we are providing a complete travel package that includes:
@@ -32,7 +32,7 @@ const TravelSupport = () => {
         </a>
       </p>
       <p className="travel-support-footer">
-        Looking forward to welcoming you to Dubai for ICAIN 2025!
+        Looking forward to welcoming you to Dubai for ICAIN 2026!
       </p>
     </div>
   );

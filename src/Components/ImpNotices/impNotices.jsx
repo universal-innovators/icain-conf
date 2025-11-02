@@ -3,7 +3,7 @@ import "./impNotices.css";
 
 const arr = [
   {
-    h4: "ICAIN-2025 will be organised on 6th - 7th October 2025.",
+    h4: "ICAIN-2026 will be organised on 11th - 12th December 2026.",
   },
 ];
 

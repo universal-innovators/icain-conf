@@ -5,19 +5,19 @@ import qrImg from "../RegistrationSection/icicc-UPI.png"
 const InnostormInfo = () => {
   return (
     <div className="innostorm-container">
-      <h1>INNOSTORM 2025</h1>
+      <h1>INNOSTORM 2026</h1>
       <p className="subtitle">Ignite. Collaborate. Innovate.</p>
 
       <p className="tagline">
         Where Innovation Sparks, and Ideas Storm In.
       </p>
       <p className="organizers">
-        <strong>The Official Ideathon of ICAIN 2025</strong><br />
+        <strong>The Official Ideathon of ICAIN 2026</strong><br />
         Organized by BITS Pilani Dubai & IIIT Allahabad
       </p>
 
       <p>
-        Join the high-impact innovation sprint at ICAIN 2025—where bold ideas
+        Join the high-impact innovation sprint at ICAIN 2026—where bold ideas
         meet real-world breakthroughs. Whether you’re a thinker, tinkerer, or
         techie, INNOSTORM challenges you to create the future with ideas that
         matter.
@@ -96,7 +96,7 @@ const InnostormInfo = () => {
       <ul>
         <li>Fee: USD 20 (non-refundable)</li>
         <li>Deliverable: Idea Abstract (max 2 pages) + Optional Diagram</li>
-        <li>Deadline: 30th August 2025</li>
+        <li>Deadline: 30th August 2026</li>
         <li>Outcome: Shortlisted teams proceed to next round. Others receive feedback.</li>
       </ul>
 
@@ -179,7 +179,7 @@ const InnostormInfo = () => {
       <h3>Perks of Participation</h3>
       <ul>
         <li>Certificate of Recognition</li>
-        <li>Exposure at ICAIN 2025 Conference</li>
+        <li>Exposure at ICAIN 2026 Conference</li>
         <li>Feedback from experts</li>
         <li>Networking opportunities</li>
         <li>Access to patent and incubation support</li>

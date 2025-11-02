@@ -29,13 +29,13 @@ function AboutConference() {
             Overall, ICAIN provides a dynamic opportunity for national and international collaboration and networking among universities and institutions, both in India and abroad, to advance ongoing and future research initiatives.
               {/* All the
               accepted papers (after double blinded peer review) will be
-              published as proceedings of ICAIN-2025 in{" "}
+              published as proceedings of ICAIN-2026 in{" "}
               <span className="corange">Springer AIS SERIES (Approved)</span>{" "}
               and other reputed databases. */}
             </p>
 
             <b className="">
-            All the papers and the proceedings of ICAIN-2025 will be published in Springer LNNS series (Approved - Indexed in DBLP, EI Compendex, INSPEC, SCImago SCOPUS, WTI AG, zbMATH)
+            All the papers and the proceedings of ICAIN-2026 will be published in Springer LNNS series (Approved - Indexed in DBLP, EI Compendex, INSPEC, SCImago SCOPUS, WTI AG, zbMATH)
             </b>
             <marquee><b className="reAuthors" style={{color:"#211D70"}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</b></marquee>
             <h4>
@@ -44,7 +44,7 @@ function AboutConference() {
             
             <p className="submissionLinkhead">
               <a
-                href="https://cmt3.research.microsoft.com/ICAIN2025"
+                href="https://cmt3.research.microsoft.com/ICAIN2026"
                 target="_blank"
                 className="aboutLink"
               >

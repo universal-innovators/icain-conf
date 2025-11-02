@@ -20,12 +20,50 @@ const speakersData = {
         }
         
         
-    ]
+    ],
+    2025: [
+  {
+    name: "Dr. Ahmed J. Obaid",
+    title:
+      "Associate Professor of Computer Science at the University of Kufa, Iraq, specializing in web mining, AI-driven healthcare applications, and computational intelligence",
+    image: "obaid.jpg",
+  },
+  {
+    name: "Dr. Korhan Cengiz",
+    title:
+      "Associate Research Professor, Department of Electrical Engineering, Prince Mohammad Bin Fahd University, KSA",
+    image: "korhan.jpg",
+  },
+  {
+    name: "Associate Professor Marta Harničárová, PhD",
+    title:
+      "Institute of Technology and Business in České Budějovice, Faculty of Technology, Czech Republic",
+    image: "marta.gif",
+  },
+  {
+    name: "Professor Jan Valíček, Ph.D",
+    title:
+      "Institute of Technology and Business in České Budějovice, Faculty of Technology, Czech Republic",
+    image: "jan.gif",
+  },
+  {
+    name: "Dr. Samiya Khan",
+    title:
+      "Lecturer in Computer Science at University of Southampton Delhi | Expert in Interdisciplinary Data Science with a focus on inclusive computing and social impact technologies",
+    image: "samiya.jpg",
+  },
+  {
+    name: "Dr. Kathrin Kind",
+    title:
+      "Member of the Board of Advisors, Swiss School of Business and Management; Chief Data Scientist / AI A. Director Global Growth Markets (EMEA/APAC) Cognizant",
+    image: "kat.jpg",
+  }],
+    
 };
 
 export default function PrevKeynote() {
     const years = Object.keys(speakersData);
-    const [activeYear, setActiveYear] = useState('2024');
+    const [activeYear, setActiveYear] = useState('2025');
 
     const speakers = speakersData[activeYear] || [];
 

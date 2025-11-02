@@ -9,13 +9,13 @@ const Call_for_papers = () => {
         <div className="Call_con">
           <div className="call_desc">
             <p style={{color:"black"}}>
-             We are pleased to announce the upcoming "International Conference on Artificial Intelligence and Networking" (ICAIN), which will be held from         <b> 6th - 7th October 2025 </b>. ICAIN is a premier forum for researchers, professionals, and practitioners from academia and industry to exchange knowledge and share the latest advancements in the fields of computer science and information technology. We invite researchers and experts worldwide to
+             We are pleased to announce the upcoming "International Conference on Artificial Intelligence and Networking" (ICAIN), which will be held from         <b> 11th - 12th December 2026 </b>. ICAIN is a premier forum for researchers, professionals, and practitioners from academia and industry to exchange knowledge and share the latest advancements in the fields of computer science and information technology. We invite researchers and experts worldwide to
              submit their original research papers and participate in this prestigious event.
             </p>
             <br />
             <hr />
             <br />
-            <h5>ICAIN 2025 tracks:</h5>
+            <h5>ICAIN 2026 tracks:</h5>
             <p className="bold1">
               1. Artificial Intelligence and Machine Learning
             </p>
@@ -126,7 +126,7 @@ const Call_for_papers = () => {
           </li>
 
           <li>
-          All papers will undergo a blind peer-review process, and all accepted papers will be published in the ICAIN 2025 conference e-proceedings with an e-ISBN number. The conference organisers encourage the submission of academic and research papers that explore multidisciplinary/interdisciplinary themes, covering Management, Science, and Social Studies, through one of the following sub-themes, though submissions of other relevant topics are also welcome.
+          All papers will undergo a blind peer-review process, and all accepted papers will be published in the ICAIN 2026 conference e-proceedings with an e-ISBN number. The conference organisers encourage the submission of academic and research papers that explore multidisciplinary/interdisciplinary themes, covering Management, Science, and Social Studies, through one of the following sub-themes, though submissions of other relevant topics are also welcome.
           </li>
         </div>
 
@@ -143,7 +143,7 @@ const Call_for_papers = () => {
           </p><br/>
           <p className="cpaperColor">
             We look forward to your valuable contributions and your presence at
-            ICAIN 2025.
+            ICAIN 2026.
           </p>
         </div>
       </div>

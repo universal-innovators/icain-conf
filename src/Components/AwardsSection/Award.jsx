@@ -1,8 +1,5 @@
 import "./Award.css";
-import AwardsCards from "./AwardsCards";
-import HiEduAward from "./HiEduAward/HiEduAward";
 import Footer from "../Footer/footer";
-import Submission from "./Sub_Nom_Paward/SuNoPaward";
 import AwardAccordion from "./AwardCategories";
 import Selection from "./Selection";
 function Awards() {
@@ -13,7 +10,7 @@ function Awards() {
         <h1 className="elevate-title">
           Elevate<span className="highlight">X</span>
         </h1>
-        <h2 className="elevate-subtitle">ELEVATEX Awards 2025</h2>
+        <h2 className="elevate-subtitle">ELEVATEX Awards 2026</h2>
         <p className="elevate-x-meaning">
           X = Excellence, Exploration, Exchange, Innovation
         </p>
@@ -30,7 +27,7 @@ function Awards() {
           </div>
           <div className="detail-box">
             <span className="label">📅 Date:</span>
-            <span className="value">6th – 7th October, 2025</span>
+            <span className="value">11th - 12th December, 2026</span>
           </div>
           <div className="detail-box full-width">
             <span className="label">Organized by:</span>
@@ -44,7 +41,7 @@ function Awards() {
 
         <div className="elevate-description">
           <p>
-            <strong>ELEVATE Awards 2025</strong> is an international celebration of innovation, excellence,
+            <strong>ELEVATE Awards 2026</strong> is an international celebration of innovation, excellence,
             and transformative collaboration across academia, research, industry, and startups.
             Set in the global hub of innovation—Global Summit, Global—this prestigious platform brings together
             pioneering minds, institutions, and organizations that are redefining the future.

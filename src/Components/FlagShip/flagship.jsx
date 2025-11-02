@@ -11,7 +11,7 @@ function FlagShip() {
               href="https://scholar.google.com/citations?hl=en&user=fFvhHUAAAAAJ"
               target="_blank"
             >
-              A FLAGSHIP CONFERENCE : ICAIN 2025{" "}
+              A FLAGSHIP CONFERENCE : ICAIN 2026{" "}
             </a>
           </h2>
         </div>

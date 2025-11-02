@@ -6,35 +6,35 @@ import "./ImpDtext.css";
 const arr = [
   {
     h4: "Deadline for manuscript submission: ",
-    p: "August 30th, 2025",
+    p: "May 30th 2026",
   },
   {
     h4: "Notification of first review:",
-    p: "September 05th, 2025",
+    p: "June 30th 2026",
   },
   {
     h4: "Submission of revised manuscript:",
-    p: " September 15th, 2025",
+    p: "July 15th 2026",
   },
   {
     h4: "Notification of final acceptance:",
-    p: "September 20th, 2025",
+    p: "July 30th 2026",
   },
   {
     h4: "Final manuscript due",
-    p: "September 25th, 2025",
+    p: "August 20th 2026",
   },
   {
     h4: "Conference Date",
-    p: "6th - 7th October 2025",
+    p: "11th - 12th December 2026",
   },
   // {
   //   h4: "Registration Deadline",
-  //   p: "September 30th, 2025",
+  //   p: "September 30th, 2026",
   // },
   // {
   //   h4: "Final Paper Due",
-  //   p: "September 30th, 2025",
+  //   p: "September 30th, 2026",
   // },
 ];
 const impDtext = () => {

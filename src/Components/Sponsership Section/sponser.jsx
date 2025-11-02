@@ -32,7 +32,7 @@ function Sponsorships() {
                   academia! Therefore, to make a developed India and to match
                   the speed of these above mentioned challenges joint efforts
                   from Industry and Academia are required. Academia is doing its
-                  bit by organizing the international conference ICAIN-2025 and
+                  bit by organizing the international conference ICAIN-2026 and
                   bringing together worlds the best technological brains and
                   ideas under one roof. This kind of initiative require lot of
                   efforts and funding.ICAIN is organized with the objective of
@@ -55,7 +55,7 @@ function Sponsorships() {
                   attendees with prospects for national and international
                   collaboration and networking among universities and
                   institutions from India and abroad for promoting research.
-                  {/* ICAIN 2025 will be hosted by Guru Tegh Bahadur Institute of
+                  {/* ICAIN 2026 will be hosted by Guru Tegh Bahadur Institute of
                   Technology (GTBIT) (GGSIPU) , a place to pursue knowledge
                   beyond traditional boundaries. An institute initiated to
                   impart quality education to the youth while equipping them

@@ -41,6 +41,7 @@ import TechnicalCmte from "./Components/CommitteeSection/TechnicalCmte/Technical
 
 // Previous Conference
 import PreConf24 from "./Components/PreviousConferences/PC2024/preConf24";
+import PreConf25 from "./Components/PreviousConferences/PC2025/preConf25";
 
 // home and notice
 import HoDateNotice from "./Components/Date_Notices/HomeDateNotice";
@@ -103,7 +104,7 @@ function App() {
                   <Hslides />
                   {/* <FlagShip/> */}
                   <AboutConference />
-                  <Keynote/>
+                  {/* <Keynote/> */}
                   <PrevKeynote/>
                   <AcademicPartners/>
                   <HoDateNotice />
@@ -165,6 +166,7 @@ function App() {
 <Route path='pcConferences19' element={<PreConf19/>}/>
 <Route path='pcConferences18' element={<PreConf18/>}/> */}
 <Route path='pcConferences24' element={<PreConf24/>}/>
+<Route path='pcConferences25' element={<PreConf25/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

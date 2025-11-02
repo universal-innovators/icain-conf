@@ -46,13 +46,13 @@ const Selection = () => {
 
         <h3>🗓️ Important Dates:</h3>
         <ul className="elevatex-list">
-          <li><strong>Last date for nomination:</strong> 05th September, 2025</li>
-          <li><strong>Announcement of Result:</strong> 20th September, 2025</li>
+          <li><strong>Last date for nomination:</strong> 05th September, 2026</li>
+          <li><strong>Announcement of Result:</strong> 20th September, 2026</li>
         </ul>
 
         <div className="elevatex-buttons">
-          <a href="ind_awards.docx" className="btn">📝 Individual Award Form</a>
-          <a href="high_edu_awards.docx" className="btn">🏫 Higher Education Award Form</a>
+          <a href="Award Form- Individual Award.docx" className="btn">📝 Individual Award Form</a>
+          <a href="Award Form- Higher Education Award.docx" className="btn">🏫 Higher Education Award Form</a>
         </div>
         <br/>
         <h4>Fill the google form for the nomination :<a href="https://forms.gle/UbdKjMaYQPdiDXFE8" style={{color:"#e6c200"}}> Form Link</a></h4>
