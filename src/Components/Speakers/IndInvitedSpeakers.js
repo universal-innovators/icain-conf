@@ -248,7 +248,12 @@ function IndInvitedSpeakers() {
     name: "Varghese Paul",
     designation: "Mahatma Gandhi University, Kerala, India",
     image: "./varghese.jpg"
-  }    
+  },
+  {
+    name: "Mr. Vinay Kumar Deeti",
+    designation: "",
+    image: "./vinay.jpg"
+  }      
   
   
 ];

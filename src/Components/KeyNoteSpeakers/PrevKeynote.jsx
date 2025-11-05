@@ -57,7 +57,8 @@ const speakersData = {
     title:
       "Member of the Board of Advisors, Swiss School of Business and Management; Chief Data Scientist / AI A. Director Global Growth Markets (EMEA/APAC) Cognizant",
     image: "kat.jpg",
-  }],
+  }
+],
     
 };
 
