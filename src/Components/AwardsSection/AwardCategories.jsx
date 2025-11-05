@@ -136,7 +136,8 @@ const awards = [
       ["Global Peace through Education – Global Peacebuilder"],
       ["Global Diversity Champion in Academia – Global Inclusion Advocate"],
       ["Youth Empowerment through Innovation – Global Summit Youth Impact Award"],
-      ["Public Policy Impact Award – Global Academic Reformer"]
+      ["Public Policy Impact Award – Global Academic Reformer"],
+      ["Artificial Intelligence and Machine Learning Category"]
     ]
   }
 ];
