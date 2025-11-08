@@ -251,7 +251,7 @@ function IndInvitedSpeakers() {
   },
   {
     name: "Mr. Vinay Kumar Deeti",
-    designation: "",
+    designation: "Independent Researcher, USA",
     image: "./vinay.jpg"
   }      
   
