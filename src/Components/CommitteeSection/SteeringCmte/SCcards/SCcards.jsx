@@ -119,6 +119,10 @@ let techChair = [
       h1: "Dr. Anupam Agrawal",
       p: "Professor & Dean, IIIT Allahabad, India",
     },
+    {
+      h1:"Ajay Jaiswal, Ph.D.",
+      p:"Shaheed Sukhdev College of Business Studies (CBS)"
+    }
     // {
     //   h1: "Prof. Sergio Duarte Correia",
     //   p: "(Polytechnic Institute of Portalegre, Portugal.)",
