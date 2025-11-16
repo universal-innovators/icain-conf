@@ -253,7 +253,13 @@ function IndInvitedSpeakers() {
     name: "Mr. Vinay Kumar Deeti",
     designation: "Independent Researcher, USA",
     image: "./vinay.jpg"
-  }      
+  },
+  {
+    name: "Anil Putapu",
+    designation: "Senior Java Full Stack Developer, US",
+    image: "./anil.jpg"
+  }
+
   
   
 ];
