@@ -40,6 +40,7 @@ const tpcm = [
   { name: "Prof. (Dr.) Kirti Tyagi", info: "Inha University, Tashkent" },
   { name: "Prof. (Dr.) Manuel Cardona", info: "Universidad Don Bosco EI Salvador" },
   { name: "Prof. (Dr.) Oana Gaman", info: "Biomedical Branch, Romania" },
+  { name: "Ankush Sanjay Mahajan",info: "Senior Tech Project Manager, Pacific Gas and Electricity, Seattle, Washington, United States"},
   { name: "Prof. (Dr.) P S Rana", info: "Professor, Thapar University, Punjab, India" },
   { name: "Prof. (Dr.) Shelly Sachdeva", info: "NIT Delhi, Delhi" },
   { name: "Prof. (Dr.) Srinath Doss", info: "Botho University, Botswana" },
@@ -47,7 +48,7 @@ const tpcm = [
   { name: "Prof. Dr. Bal Virdee", info: "London Metropolitan University" },
   { name: "Prof. (Dr.) V.C. Pandey", info: "Director, HMRITM, Delhi" },
   { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" },
-  { name: "Name: Dr. Balavignesh Vemparala", info: "R&D Engineer II, ANSYS Inc., USA" }
+  { name: "Dr. Balavignesh Vemparala", info: "R&D Engineer II, ANSYS Inc., USA" }
 ];
 
 
@@ -69,5 +70,6 @@ function TecCards() {
 }
 
 export default TecCards;
+
 
 
