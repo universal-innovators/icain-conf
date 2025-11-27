@@ -12,7 +12,7 @@ import Footer from "../Footer/footer";
 AOS.init();
 
 function IndKeynoteSpeakers() {
-  const speakers = [
+  const speakers2025 = [
   {
     name: "Raghava Chellu",
     designation: "Innovation Technologist | Software Engineering | Support Engineer - Specialist, Equifax Inc, Author and Speaker",
@@ -40,7 +40,12 @@ Your expertise in the industry would provide valuable insights to our global aud
 
 We look forward to your inspiring contribution.
             </p>           
-            <Keynote speakers={speakers}/>
+            <Keynote
+                                        speakersByYear={{
+                                          2025: speakers2025
+                                          
+                                        }}
+                                      />
 
           </div>
 

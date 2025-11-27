@@ -12,7 +12,7 @@ import Footer from "../Footer/footer";
 AOS.init();
 
 function IndInvitedSpeakers() {
-  const speakers = [
+  const speakers2025 = [
   {
     name: "Thilakavathi Sankaran",
     designation: "Data Analytics Professional, The Guitar Center Company, Los Angeles, United States",
@@ -263,6 +263,13 @@ function IndInvitedSpeakers() {
   
   
 ];
+const speakers2026 = [
+  {
+    name: "Praveen Kodakandla",
+    designation: "Senior Data Engineer, USA",
+    image: "./praveen.jpg",
+  }, 
+];
 
   return (
     <>
@@ -284,7 +291,12 @@ Your expertise in the industry would provide valuable insights to our global aud
 
 We look forward to your inspiring contribution.
             </p>           
-            <Keynote speakers={speakers}/>
+            <Keynote
+                            speakersByYear={{
+                              2025: speakers2025,
+                              2026: speakers2026
+                            }}
+                          />
 
           </div>
 

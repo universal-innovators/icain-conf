@@ -11,7 +11,7 @@ const Call_for_international = () => {
 
           <p>
             Greeting from ICAIN-2026! <br/>The ICAIN Conference team is pleased to invite you to organise an <b>International Workshop at the International Conference on Artificial Intelligence and Networking (ICAIN-2026)</b>,which will be held on
-            <b> 11th - 12th December 2026. </b>
+            <b> 26th - 28th November 2026. </b>
           
           </p>
 

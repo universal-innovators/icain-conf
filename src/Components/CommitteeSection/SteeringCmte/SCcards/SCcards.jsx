@@ -141,7 +141,7 @@ let techChair = [
   let pubChair = [
     {
       h1: "Prof. Dr. Abhishek Swaroop",
-      p: "Bhagwan Parshuram Institute of Technology, India"
+      p: "CSE Department, St. Andrews Institute of Technology and Management, Khurrampur, Farrukhnagar, Gurugram, Haryana, India"
     },
     {
       h1: "Prof. Dr. Sérgio Duarte Correia",

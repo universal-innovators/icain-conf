@@ -8,7 +8,7 @@ const TravelSupport = () => {
         Travel & Participation Support – ICAIN 2026, Dubai
       </h2>
       <p>
-        We are pleased to inform you that we are offering <strong>comprehensive support</strong> for your travel and participation in the conference, scheduled to be held in <strong>Dubai on 11th - 12th December 2026</strong>.
+        We are pleased to inform you that we are offering <strong>comprehensive support</strong> for your travel and participation in the conference, scheduled to be held in <strong>Dubai on 26th - 28th November 2026</strong>.
       </p>
       <p>
         As part of our commitment to a seamless experience for our delegates, we are providing a complete travel package that includes:
