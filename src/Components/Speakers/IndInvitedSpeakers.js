@@ -258,17 +258,18 @@ function IndInvitedSpeakers() {
     name: "Anil Putapu",
     designation: "Senior Java Full Stack Developer, US",
     image: "./anil.jpg"
-  }
-
-  
-  
-];
-const speakers2026 = [
+  },
   {
     name: "Praveen Kodakandla",
     designation: "Senior Data Engineer, USA",
     image: "./praveen.jpg",
   }, 
+
+  
+  
+];
+const speakers2026 = [
+  
 ];
 
   return (
@@ -293,8 +294,8 @@ We look forward to your inspiring contribution.
             </p>           
             <Keynote
                             speakersByYear={{
-                              2025: speakers2025,
-                              2026: speakers2026
+                              2025: speakers2025
+                              // 2026: speakers2026
                             }}
                           />
 
