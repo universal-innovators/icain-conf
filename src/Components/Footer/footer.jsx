@@ -80,8 +80,9 @@ function Footer() {
         <h3>
           Copyright ©"International Conference on Artificial Intelligence and Networking" ICAIN | All Rights
           Reserved
-        </h3>
-        {/* <p>Site By: Akshun Verma</p> */}
+        </h3><br/>
+        <p style={{fontSize:'12px'}}>The Microsoft CMT service was used for managing the peer-reviewing process for this conference.<br/>
+This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support</p>
       </div>
     </div>
   );

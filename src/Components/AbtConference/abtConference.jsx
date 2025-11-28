@@ -39,10 +39,11 @@ function AboutConference() {
             </b>
             <marquee><b className="reAuthors" style={{color:"#211D70"}}>Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</b></marquee>
             <h4>
-              All papers must be submitted online via this link:
+              All papers must be submitted online 
+              {/* via this link: */}
             </h4>
             
-            <p className="submissionLinkhead">
+            {/* <p className="submissionLinkhead">
               <a
                 href="https://cmt3.research.microsoft.com/ICAIN2026"
                 target="_blank"
@@ -50,7 +51,7 @@ function AboutConference() {
               >
                 Paper Submission Link
               </a>
-            </p>
+            </p> */}
 
 
           </div>
