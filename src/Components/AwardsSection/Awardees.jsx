@@ -59,6 +59,7 @@ const awards2025 = [
   { name: "Venkata Deepa Namburi", award: "Digital Modernization and Enterprise Architecture Excellence Award" },
   { name: "Venkatraman Viswanathan", award: "Emerging Innovator of the Year – Global Summit Visionary" },
   { name: "Venu Madhav Nadella", award: "Leadership in Networking, Infrastructure & Security Award" },
+  { name: "Mahesh Kumar Goyal", award: "The Google AI - Enterprise migration breakthrough Award" },
   { name: "Vetrivelan Tamilmani", award: "Next-Gen SAP Architecture Award" },
   { name: "Rahul Gupta (Founder of Power Research Consulting)", award: "Best Tech Entrepreneur – Global Summit Digital Disruptor"}
 ];
