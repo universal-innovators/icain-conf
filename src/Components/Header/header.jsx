@@ -60,6 +60,10 @@ function HeaderMain() {
             <span style={{'color':'#211D70',fontSize:'1.25rem'}}>
               Indian Institute of Information Technology, Allahabad
 
+            </span><br/> & <br/>
+            <span style={{'color':'#211D70',fontSize:'1.25rem'}}>
+               Shaheed Sukhdev College of Business Studies, University of Delhi, Delhi
+
             </span>
             {/* and <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}

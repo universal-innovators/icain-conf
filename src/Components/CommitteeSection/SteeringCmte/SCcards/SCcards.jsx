@@ -83,6 +83,10 @@ function SCcards() {
       h1: "Dr. Pancham Shukla",
       p: "Imperial College London"
     },
+    {
+      h1: "Prof. Ajay Jaiswal",
+      p: "Principal, School of Open Learning & Shaheed Sukhdev of College of Business Studies, University of Delhi, Delhi"
+    },
     // {
     //   h1: "Dr. Shamik Palit",
     //   p: "Associate Prof. CS and SE, HEAD - Corporate Outreach Committee, University of Stirling RAK Campus, UAE"
