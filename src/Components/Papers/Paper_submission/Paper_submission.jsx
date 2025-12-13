@@ -37,14 +37,14 @@ const Paper_submission = () => {
               </li>
 
               <li>
-                {/* All papers must be submitted online via this link: */}
+                All papers must be submitted online via this link:
                 <p className="submissionLinkhead">
-                  {/* <a
+                  <a
                     href="https://cmt3.research.microsoft.com/ICAIN2026"
                     target="_blank"
-                  > */}
+                  >
                     Paper Submission Link will be updated soon
-                  {/* </a> */}
+                  </a>
                 </p>
               </li>
             </ul>
