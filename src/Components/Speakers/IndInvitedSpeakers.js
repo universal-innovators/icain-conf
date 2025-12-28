@@ -264,8 +264,11 @@ function IndInvitedSpeakers() {
     designation: "Senior Data Engineer, USA",
     image: "./praveen.jpg",
   }, 
-
-  
+  {
+    name: "Jigar Babaria",
+    designation: "Senior Network Engineer, Amazon, USA",
+    image: "./jigar.jpg",
+  } 
   
 ];
 const speakers2026 = [
