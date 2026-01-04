@@ -9,16 +9,15 @@ export default
     ],
     listing: "SS 001",
   },
-  // {
-  //   link: require("./sessions/SS-2.pdf"),
-  //   title:
-  //     "AI IN DISEASE DIAGNOSIS, PREDICTION, AND PREVENTION",
-  //   organisers: [
-  //     "Dr. Prasanalakshmi Balaji, Department of Computer Science, College of Computer Science, King Khalid University, KSA",
-  //     "Dr. Murari Thejovathi, Department of CSE (AI&ML), Vignan's Institute of Management and Technology for Women, Hyderabad, India"
-  //   ],
-  //   listing: "SS 002",
-  // },
+  {
+    link: require("./sessions/SS-2.pdf"),
+    title:
+      "Internet of AI Things (IoAT) for Intelligent Networking and Autonomous Systems",
+    organisers: [
+      "Partha Pratim Ray, Sikkim University (Central University), Assistant Professor, Department of Computer Applications, Sikkim University, 6th Mile, PO Tadong, Gangtok, Sikkim 737102, India"
+    ],
+    listing: "SS 002",
+  },
   // {
   //   link: require("./sessions/SS-3.pdf"),
   //   title:
