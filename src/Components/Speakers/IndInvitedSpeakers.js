@@ -12,6 +12,13 @@ import Footer from "../Footer/footer";
 AOS.init();
 
 function IndInvitedSpeakers() {
+  const speakers2024 = [
+    {
+      name: "Ramachandra Handaragal",
+      image: "./ram.jpg",
+      designation: "Senior Manager, Peloton Consulting Group, USA"
+    }
+  ]
   const speakers2025 = [
   {
     name: "Thilakavathi Sankaran",
@@ -268,7 +275,8 @@ function IndInvitedSpeakers() {
     name: "Jigar Babaria",
     designation: "Senior Network Engineer, Amazon, USA",
     image: "./jigar.jpg",
-  } 
+  },
+   
   
 ];
 const speakers2026 = [
@@ -297,6 +305,7 @@ We look forward to your inspiring contribution.
             </p>           
             <Keynote
                             speakersByYear={{
+                              2024: speakers2024,
                               2025: speakers2025
                               // 2026: speakers2026
                             }}
