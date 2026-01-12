@@ -16,9 +16,14 @@ function IndInvitedSpeakers() {
     {
       name: "Ramachandra Handaragal",
       image: "./ram.jpg",
-      designation: "Senior Manager, Peloton Consulting Group, USA"
+      designation: "Senior Manager, Peloton Consulting Group, USA",
+    },
+    {
+      name: "Ankush Gupta",
+      image: "./ankush.jpg",
+      designation: "Senior Solution Architect, HCLTech, USA"
     }
-  ]
+  ];
   const speakers2025 = [
   {
     name: "Thilakavathi Sankaran",
