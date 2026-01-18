@@ -18,26 +18,26 @@ export default
     ],
     listing: "SS 002",
   },
-  // {
-  //   link: require("./sessions/SS-3.pdf"),
-  //   title:
-  //     "Empowering the Future of Transportation: Innovations in Power Electronic Systems, Cyber Security, Artificial Intelligent Control for e-mobility",
-  //   organisers: [
-  //     "Dr. M. Venkateshkumar, Amrita Vishwa Vidyapeetham, India",
-  //     "Dr. Umashankar Subramaniyan, Prince Sultan University Riyadh, Saudi Arabia"
-  //   ],
-  //   listing: "SS 003",
-  // },
-  // {
-  //   link: require("./sessions/SS-4.pdf"),
-  //   title:
-  //     "AI for Advance Predictive Analytics and Decision-Making in Complex Computational Systems",
-  //   organisers: [
-  //     "Dr. Divya Agarwal, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
-  //     "Dr. Sandhya Tarwani, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India,"
-  //   ],
-  //   listing: "SS 004",
-  // },
+  {
+    link: require("./sessions/SS-3.pdf"),
+    title:
+      "AI and Data Analytics for Intelligent Decision Systems in Smart Healthcare",
+    organisers: [
+      "Dr. Sakshi Gupta, Dronacharya College of Engineering, Gurugram, India",
+      "Mr. Hilal Ahmad Shah, IILM University, Greater Noida, India"
+    ],
+    listing: "SS 003",
+  },
+  {
+    link: require("./sessions/SS-4.pdf"),
+    title:
+      "Emerging Trends in Computing and Telecommunications: AI Enabled Innovations for Future Networks",
+    organisers: [
+      "Dr. Anvesha Katti, Assistant Professor, Amity University Haryana, India",
+      "Dr. Priyanka Vashisht, Associate Professor, Amity University Haryana, India"
+    ],
+    listing: "SS 004",
+  },
   // {
   //   link: require("./sessions/SS-5.pdf"),
   //   title:
