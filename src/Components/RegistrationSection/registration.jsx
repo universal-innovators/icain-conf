@@ -3,7 +3,7 @@ import Footer from "../Footer/footer";
 import PayPal from "./ResPayPal";
 import RazorPay from "./ResRazorPay";
 import RegistrationFee from "./RegistrationFee";
-import UPI from "./UPI";
+import UPI from "./upi-ui-inov.jpeg";
 import Stripe from "./Stripe";
 import StripePay from "./StripePay";
 
