@@ -38,15 +38,16 @@ export default
     ],
     listing: "SS 004",
   },
-  // {
-  //   link: require("./sessions/SS-5.pdf"),
-  //   title:
-  //     "AI and Machine Learning for Block chain, Social network analysis and Computational Intelligence Optimization",
-  //   organisers: [
-  //     "Dr. Umesh Gupta, Bennett University (The Times Group), India"
-  //   ],
-  //   listing: "SS 005",
-  // },
+  {
+    link: require("./sessions/SS-5.pdf"),
+    title:
+      "AI for Advance Predictive Analytics and Decision-Making in Complex Computational Systems",
+    organisers: [
+      "Dr. Divya Agarwal, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
+      "Dr. Sandhya Tarwani, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India"
+    ],
+    listing: "SS 005",
+  },
   // {
   //   link: require("./sessions/SS-6.pdf"),
   //   title:
