@@ -48,17 +48,16 @@ export default
     ],
     listing: "SS 005",
   },
-  // {
-  //   link: require("./sessions/SS-6.pdf"),
-  //   title:
-  //     "Artificial intelligence for sustainable solutions",
-  //   organisers: [
-  //     "Dr.Sherin Zafar , Jamia Hamdard ,India",
-  //     "Dr.Ashu Gautam, MRIIRS , India",
-  //     "Dr.Kashish Ara Shakil,Princess Nourah Bint Abdul Rehman University,Saudi Arabia"
-  //   ],
-  //   listing: "SS 006",
-  // },
+  {
+    link: require("./sessions/SS-6.pdf"),
+    title:
+      "Transforming Healthcare and Telemedicine through Bioinformatics Using Artificial Intelligence and Machine Learning (An Integrated Approach for Data-Driven Diagnosis, Prediction, and Personalized Care)",
+    organisers: [
+      "Dr. Urmila Pilania, Associate Professor, Department of Computer Science and Technology",
+      "Dr. Manoj Kumar, Associate Professor, Department of Computer Science and Technology"
+    ],
+    listing: "SS 006",
+  },
   // {
   //   link: require("./sessions/SS-7.pdf"),
   //   title:
