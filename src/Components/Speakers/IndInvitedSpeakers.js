@@ -281,6 +281,11 @@ function IndInvitedSpeakers() {
     designation: "Senior Network Engineer, Amazon, USA",
     image: "./jigar.jpg",
   },
+  {
+    name:"Prashanthi Gutha",
+    designation: "Vice President - Digital Software Engineer Lead Analyst, Citi, USA",
+    image: "./gutha.jpg"
+  }
    
   
 ];
