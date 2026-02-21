@@ -58,15 +58,16 @@ export default
     ],
     listing: "SS 006",
   },
-  // {
-  //   link: require("./sessions/SS-7.pdf"),
-  //   title:
-  //     "Innovation in Biomedical Engineering and Role of AI In medical diagnostics",
-  //   organisers: [
-  //     "Dr. Gurmeet Singh, (PhD IITD), Associate Professor, Guru Tegh Bahadur Institute of technology, New Delhi, India"
-  //   ],
-  //   listing: "SS 007",
-  // },
+  {
+    link: require("./sessions/SS-7.pdf"),
+    title:
+      "AI-Driven Precision Medicine and Predictive Healthcare Analytics",
+    organisers: [
+      "Dr. Sanjeevkumar Angadi, Associate Professor, Department of Computer Science and Engineering, Nutan Maharashtra Institute of Engineering and Technology, India",
+        "Dr. Ashwini Shinde, Associate Professor, Department of Electronics and Telecommunication, Nutan Maharashtra Institute of Engineering and Technology, India",
+    ],
+    listing: "SS 007",
+  },
   // {
   //   link: require("./sessions/SS-8.pdf"),
   //   title:
