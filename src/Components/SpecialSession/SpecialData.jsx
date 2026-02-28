@@ -68,15 +68,15 @@ export default
     ],
     listing: "SS 007",
   },
-  // {
-  //   link: require("./sessions/SS-8.pdf"),
-  //   title:
-  //     "AI and Machine Learning for Block chain, Social network analysis and Computational Intelligence Optimization",
-  //   organisers: [
-  //     "Dr.K.Dharmarajan, Professor, Vels Institute of Science, Technology & Advanced Studies (VISTAS), India"
-  //   ],
-  //   listing: "SS 008",
-  // },
+  {
+    link: require("./sessions/SS-8.pdf"),
+    title:
+      "AI-Driven Computer Vision and Edge Intelligence for Secure Cyber-Physical Systems and Industrial IoT",
+    organisers: [
+      "Dr. Hashmat Fida"
+    ],
+    listing: "SS 008",
+  },
   // {
   //   link: require("./sessions/SS-9.pdf"),
   //   title:
