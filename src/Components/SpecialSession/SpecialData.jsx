@@ -73,20 +73,20 @@ export default
     title:
       "AI-Driven Computer Vision and Edge Intelligence for Secure Cyber-Physical Systems and Industrial IoT",
     organisers: [
-      "Dr. Hashmat Fida"
+      "Dr. Hashmat Fida",
+      "Dr. Sabyasachi Bhattacharyya, Assistant Professor, Department of Electronics and Telecommunication Engineering, Assam Engineering College, Guwahati & Department of Electronics and Telecommunication Engineering, Barak Valley Engineering College, Sribhumi, Govt. of Assam"
     ],
-    listing: "SS 008",
+    listing: "SS 008",  
   },
-  // {
-  //   link: require("./sessions/SS-9.pdf"),
-  //   title:
-  //     "AI-Driven Sustainable Smart Environments",
-  //   organisers: [
-  //     "Dr. Akey Sungheetha Associate Professor, Department of Computer Science and Engineering, Alliance University, India",
-  //     "Dr. John Blake Senior Associate Professor, Center for Language Research University of Aizu, Aizu-wakamatsu, Japan"
-  //   ],
-  //   listing: "SS 009",
-  // },
+  {
+    link: require("./sessions/SS-9.pdf"),
+    title:
+      "Emerging Applications & Interdisciplinary Computing: High-Performance and Cloud Computing and Internet of Things (IoT)",
+    organisers: [
+      "Dr. Anup Lal Yadav, Associate Professor Computer Science and Engineering, School of Engineering and Technology, CGC University Mohali, Punjab, India"
+    ],
+    listing: "SS 009",
+  },
   // {
   //   link: require("./sessions/SS-10.pdf"),
   //   title:
