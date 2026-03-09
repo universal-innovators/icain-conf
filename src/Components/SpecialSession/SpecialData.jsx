@@ -87,17 +87,15 @@ export default
     ],
     listing: "SS 009",
   },
-  // {
-  //   link: require("./sessions/SS-10.pdf"),
-  //   title:
-  //     "AI-Powered Sentiment and Emotion Analysis: Advances in LLMs, Gen-AI, and ChatGPT",
-  //   organisers: [
-  //     "Dr. Bindu Garg, Professor and Head Department of Computer Science & Engineering and Computer Science & Business Systems, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune",
-  //     "Dr. Manisha Kasar, Assistant Professor, department of Computer Science and Engineering, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune",
-  //     "Prof. Anushree Goud, Research Scholar"
-  //   ],
-  //   listing: "SS 010",
-  // },
+  {
+    link: require("./sessions/SS-10.pdf"),
+    title:
+      "Emerging Trends in Computer Engineering, Data Processing, Artificial Intelligance and Intelligent Networking",
+    organisers: [
+      "Dr. Gurmeet Singh (PhD IITD), Associate Professor, Guru Tegh Bahadur Institute of technology, GGSIPU , New Delhi , India)"
+    ],
+    listing: "SS 010",
+  },
   // {
   //   link: require("./sessions/SS-11.pdf"),
   //   title:
