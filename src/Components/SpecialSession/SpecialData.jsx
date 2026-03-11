@@ -96,15 +96,17 @@ export default
     ],
     listing: "SS 010",
   },
-  // {
-  //   link: require("./sessions/SS-11.pdf"),
-  //   title:
-  //     "Advancement in AI: Generative Models, Multimodal Learning, and the Future of Intelligence",
-  //   organisers: [
-  //     "Dr. Pawan Kumar Verma, Associate Professor, Department of Computer Science & Engineering, Sharda School of Computing Science & Engineering (SSCSE), Greater Noida, Uttar Pradesh, India"
-  //   ],
-  //   listing: "SS 011",
-  // },
+  {
+    link: require("./sessions/SS-11.pdf"),
+    title:
+      "Explainable and Generative Quantum AI for Data-Driven Decision Science: Applications in Healthcare, FinTech, and Smart Systems",
+    organisers: [
+      "Prof. Naren. J., MS Ramaiah University of Applied Sciences, Bangalore, India",
+      "Dr. A. Abdul Rasheed., MS Ramaiah University of Applied Sciences, Bangalore, India",
+      "Dr. Ashokkumar. S.R., MS Ramaiah University of Applied Sciences, Bangalore, India"
+    ],
+    listing: "SS 011",
+  },
   // {
   //   link: require("./sessions/SS-12.pdf"),
   //   title:
