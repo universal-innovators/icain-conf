@@ -290,7 +290,21 @@ function IndInvitedSpeakers() {
   
 ];
 const speakers2026 = [
-  
+  {
+    name: "KetanKumar Patel",
+    designation:"Senior Software Enginner, Anaqua Inc",
+    image: "./ketan.jpg"
+  },
+  {
+    name: "Ravindrakumar Prajapati ",
+    designation:"Sr Business System Analyst, Relanto Inc",
+    image: "./ravindra.jpg"
+  },
+  {
+    name: "Mihir Dhakan",
+    designation:"Principal Data Engineer / Data & AI Architect, Shermco Industries (Data & Analytics)",
+    image: "./mihir.jpg"
+  }
 ];
 
   return (
