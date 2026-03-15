@@ -330,8 +330,8 @@ We look forward to your inspiring contribution.
             <Keynote
                             speakersByYear={{
                               2024: speakers2024,
-                              2025: speakers2025
-                              // 2026: speakers2026
+                              2025: speakers2025,
+                              2026: speakers2026
                             }}
                           />
 
