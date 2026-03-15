@@ -293,17 +293,17 @@ const speakers2026 = [
   {
     name: "KetanKumar Patel",
     designation:"Senior Software Enginner, Anaqua Inc",
-    image: "./ketan.jpg"
+    image: "./ketan.jpeg"
   },
   {
     name: "Ravindrakumar Prajapati ",
     designation:"Sr Business System Analyst, Relanto Inc",
-    image: "./ravindra.jpg"
+    image: "./ravindra.jpeg"
   },
   {
     name: "Mihir Dhakan",
     designation:"Principal Data Engineer / Data & AI Architect, Shermco Industries (Data & Analytics)",
-    image: "./mihir.jpg"
+    image: "./mihir.jpeg"
   }
 ];
 
