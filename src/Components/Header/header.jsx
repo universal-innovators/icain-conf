@@ -54,7 +54,7 @@ function HeaderMain() {
             <span style={{'color':'#211D70',fontSize:'1.25rem',font:'helvetica bold'}}>BITS Pilani, Dubai Campus</span>
             <br/><span > in association with</span>{" "}
             <div className="headerLogo">
-              {/* <img src={gtbit} className="logoImg"/>    */}
+              <img src={gtbit} className="logoImg"/>   
               {/* <img src={uos} className="logoImg1" /> */}
             </div>
             <span style={{'color':'#211D70',fontSize:'1.25rem'}}>
@@ -62,11 +62,11 @@ function HeaderMain() {
 
             </span><br/>
               
-             {/* & <br/> */}
-            {/* <span style={{'color':'#211D70',fontSize:'1.25rem'}}>
-               Shaheed Sukhdev College of Business Studies, University of Delhi, Delhi
+             & <br/>
+            <span style={{'color':'#211D70',fontSize:'1.25rem'}}>
+               Guru Tegh Bahadur Institute of Technology, Delhi, India
 
-            </span> */}
+            </span>
             {/* and <br /><span className="hblue">Institute of Technology and Business in České Budějovice, Czech Republic</span><br /> &
             <span className="hblue"> Keshav Mahavidyalaya, Delhi University</span> */}
           </p>

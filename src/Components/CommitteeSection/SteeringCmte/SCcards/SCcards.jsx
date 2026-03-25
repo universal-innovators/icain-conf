@@ -194,6 +194,10 @@ let techChair = [
       h1: "Dr. Ahmed J. Obaid",
       p: "Associate Professor of Computer Science at the University of Kufa, Iraq"
     },
+    {
+      h1: "Dr Gurmeet Singh",
+      p: "Associate Professor , GTBIT, Delhi"
+    }
 ];
 
 
