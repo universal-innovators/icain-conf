@@ -77,7 +77,7 @@ function HeaderMain() {
 
 
       <div className="headerLogo" > 
-              <img src={gtbit} className="logoImg"/>   
+              <img src={iiit} className="logoImg"/>   
 
       {/* <img src={uiedu} className="logoImg1"/>   */}
               {/* <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>    */}
