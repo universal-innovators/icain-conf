@@ -4,6 +4,7 @@ import React from "react";
 import sapien from "./Himages/sapientia.png";
 // import logo from "./Himages/logosdcn.png";
 import gtbit from "./Himages/gtbit.jpg";
+import iiit from "./Himages/iiit.jpg";
 import springer from "./Himages/springeer.png";
 import portagul from "./Himages/portagal.jpg";
 import sdcn from "./Himages/sdcn.png"
@@ -54,8 +55,8 @@ function HeaderMain() {
             <span style={{'color':'#211D70',fontSize:'1.25rem',font:'helvetica bold'}}>BITS Pilani, Dubai Campus</span>
             <br/><span > in association with</span>{" "}
             <div className="headerLogo">
-              <img src={gtbit} className="logoImg"/>   
-              {/* <img src={uos} className="logoImg1" /> */}
+              {/* <img src={iiit} className="logoImg"/>   
+              <img src={gtbit} className="logoImg1" /> */}
             </div>
             <span style={{'color':'#211D70',fontSize:'1.25rem'}}>
               Indian Institute of Information Technology, Allahabad
@@ -79,7 +80,7 @@ function HeaderMain() {
       <div className="headerLogo" > 
               <img src={iiit} className="logoImg"/>   
 
-      {/* <img src={uiedu} className="logoImg1"/>   */}
+      <img src={gtbit} className="logoImg1"/>  
               {/* <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>    */}
 
       </div>
