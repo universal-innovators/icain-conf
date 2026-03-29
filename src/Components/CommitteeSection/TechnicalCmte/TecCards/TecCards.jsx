@@ -48,7 +48,8 @@ const tpcm = [
   { name: "Prof. Dr. Bal Virdee", info: "London Metropolitan University" },
   { name: "Prof. (Dr.) V.C. Pandey", info: "Director, HMRITM, Delhi" },
   { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" },
-  { name: "Dr. Balavignesh Vemparala", info: "R&D Engineer II, ANSYS Inc., USA" }
+  { name: "Dr. Balavignesh Vemparala", info: "R&D Engineer II, ANSYS Inc., USA" },
+  { name:"GURUPRASAD RAGHOTHAMA RAO", info:"Wiser Solutions Inc, USA"}
 ];
 
 
