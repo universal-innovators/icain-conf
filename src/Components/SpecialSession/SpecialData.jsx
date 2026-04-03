@@ -111,9 +111,8 @@ export default
     link: require("./sessions/SS-12.pdf"),
     title:
        "AI-Driven Financial Analytics, Fintech, E-commerce and Intelligent Decision-Making in Digital Financial Ecosystems",
-    organisers: [
-      "Dr. Rajwinder Kaur, Assistant Professor, CGC University, Mohali,Punjab, India",
-      "Weiwei Jiang, Associate Professor, BeijingUniversityofPostsand Telecommunications, Beijing, China"
+organisers: [
+      "Dr. Rajwinder Kaur, Assistant Professor, CGC University, Mohali,Punjab, India","Weiwei Jiang, Associate Professor, BeijingUniversityofPostsand Telecommunications, Beijing, China"
      ],
      listing: "SS 012",
   },
