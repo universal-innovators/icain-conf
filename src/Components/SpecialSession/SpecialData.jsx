@@ -107,17 +107,16 @@ export default
     ],
     listing: "SS 011",
   },
-  // {
-  //   link: require("./sessions/SS-12.pdf"),
-  //   title:
-  //     "Generative AI models and their applications in Big Data analytics, Health care and pharmaceuticals, and Cybersecurity",
-  //   organisers: [
-  //     "Dr. Hemant Kumar Gianey, Associate Professor, NMIMS University- Shirpur, India",
-  //     "Dr. Aayush Shrivastava, Maharishi Markandeshwar University, India",
-  //     "Dr. Manmohan Singh, IES College of Technology, India"
-  //   ],
-  //   listing: "SS 012",
-  // },
+   {
+    link: require("./sessions/SS-12.pdf"),
+    title:
+       "AI-Driven Financial Analytics, Fintech, E-commerce and Intelligent Decision-Making in Digital Financial Ecosystems",
+    organisers: [
+      "Dr. Rajwinder Kaur, Assistant Professor, CGC University, Mohali,Punjab, India",
+      "Weiwei Jiang, Associate Professor, BeijingUniversityofPostsand Telecommunications, Beijing, China"
+     ],
+     listing: "SS 012",
+  },
   // {
   //   link: require("./sessions/SS-13.pdf"),
   //   title:
