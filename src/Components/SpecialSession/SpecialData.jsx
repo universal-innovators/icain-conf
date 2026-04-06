@@ -107,17 +107,16 @@ export default
     ],
     listing: "SS 011",
   },
-  // {
-  //   link: require("./sessions/SS-12.pdf"),
-  //   title:
-  //     "Generative AI models and their applications in Big Data analytics, Health care and pharmaceuticals, and Cybersecurity",
-  //   organisers: [
-  //     "Dr. Hemant Kumar Gianey, Associate Professor, NMIMS University- Shirpur, India",
-  //     "Dr. Aayush Shrivastava, Maharishi Markandeshwar University, India",
-  //     "Dr. Manmohan Singh, IES College of Technology, India"
-  //   ],
-  //   listing: "SS 012",
-  // },
+  {
+    link: require("./sessions/SS-12.pdf"),
+    title:
+      "Research Trends in Data Science, IoT and Computational Intelligence",
+    organisers: [
+      "Dr. Shruti Aggarwal, Department of Computer Science & Engineering, Thapar Institute of Engineering and Technology, India",
+      "Dr. Syed Anar Ansar, Associate Professor , School of Computer Science and Engineering , Sandip University, Sijoul, Madhubani, Bihar"
+    ],
+    listing: "SS 012",
+  },
   // {
   //   link: require("./sessions/SS-13.pdf"),
   //   title:

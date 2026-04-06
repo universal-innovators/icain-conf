@@ -304,6 +304,11 @@ const speakers2026 = [
     name: "Mihir Dhakan",
     designation:"Principal Data Engineer / Data & AI Architect, Shermco Industries (Data & Analytics)",
     image: "./mihir.jpeg"
+  },
+  {
+    name: "Arjun Shivarudraiah",
+    designation:"Senior Software Engineer Meijer",
+    image: "./arjun.jpeg"
   }
 ];
 
