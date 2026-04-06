@@ -107,26 +107,26 @@ export default
     ],
     listing: "SS 011",
   },
-  {
+   {
     link: require("./sessions/SS-12.pdf"),
+    title:
+       "AI-Driven Financial Analytics, Fintech, E-commerce and Intelligent Decision-Making in Digital Financial Ecosystems",
+organisers: [
+      "Dr. Rajwinder Kaur, Assistant Professor, CGC University, Mohali,Punjab, India","Weiwei Jiang, Associate Professor, BeijingUniversityofPostsand Telecommunications, Beijing, China"
+    ],
+     listing: "SS 012",
+  },
+  {
+    link: require("./sessions/SS-13.pdf"),
     title:
       "Research Trends in Data Science, IoT and Computational Intelligence",
     organisers: [
       "Dr. Shruti Aggarwal, Department of Computer Science & Engineering, Thapar Institute of Engineering and Technology, India",
       "Dr. Syed Anar Ansar, Associate Professor , School of Computer Science and Engineering , Sandip University, Sijoul, Madhubani, Bihar"
     ],
-    listing: "SS 012",
+    listing: "SS 013",
+  
   },
-  // {
-  //   link: require("./sessions/SS-13.pdf"),
-  //   title:
-  //     "AI-Powered Advancements in Medical Imaging and Radiology",
-  //   organisers: [
-  //     "Dr. Bindu Garg, Professor and Head Department of Computer Science & Engineering and Computer Science & Business Systems, Bharati Vidyapeeth(Deemed to be University) College of Engineering, Pune",
-  //     "Trupti Suryawanshi, Assistant Professor, Department of Computer Science and Engineering, Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune"
-  //   ],
-  //   listing: "SS 013",
-  // },
   // {
   //   link: require("./sessions/SS-14.pdf"),
   //   title: "The Future of AI and LLMs: Impact on Education, Research, and Society",
