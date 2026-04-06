@@ -127,15 +127,16 @@ organisers: [
     listing: "SS 013",
   
   },
-  // {
-  //   link: require("./sessions/SS-14.pdf"),
-  //   title: "The Future of AI and LLMs: Impact on Education, Research, and Society",
-  //   organisers: [
-  //     "Prof. (Dr.) Deepti Mehrotra, Jaypee Institute of Information Technology, Noida, India",
-  //     "Dr. Seema Sharma, Assistant Professor, Amity University, Noida, Uttar Pradesh"
-  //   ],
-  //   listing: "SS 014",
-  // },
+  {
+    link: require("./sessions/SS-14.pdf"),
+    title: "Robust and Edge-Intelligent AI for Wearable Biomedical Signal Analytics and Digital Health",
+    organisers: [
+      "Dr. Vishwanath Bijalwan, Associate Professor, Amity University Punjab, India",
+      "Dr. Vijay Bhaskar Semwal, Assistant Professor, MANIT Bhopal, India",
+      "Dr. Vaibhav Soni, Assistant Professor, MANIT Bhopal, India"
+    ],
+    listing: "SS 014",
+  },
   // {
   //   link: require("./sessions/SS-15.pdf"),
   //   title: "Sustainable Agriculture through Internet of Things and Artificial Intelligence",
