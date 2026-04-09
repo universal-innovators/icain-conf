@@ -285,6 +285,11 @@ function IndInvitedSpeakers() {
     name:"Prashanthi Gutha",
     designation: "Vice President - Digital Software Engineer Lead Analyst, Citi, USA",
     image: "./gutha.jpg"
+  },
+  {
+    name: "Likhit Verma",
+    designation:"Senior Member, IEEE | Ericsson, USA",
+    image: "./likhit.jpeg"
   }
    
   
@@ -309,7 +314,7 @@ const speakers2026 = [
     name: "Arjun Shivarudraiah",
     designation:"Senior Software Engineer Meijer",
     image: "./arjun.jpeg"
-  }
+  },
 ];
 
   return (
