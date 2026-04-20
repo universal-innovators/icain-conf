@@ -138,16 +138,15 @@ organisers: [
     ],
     listing: "SS 014",
   },
-  // {
-  //   link: require("./sessions/SS-15.pdf"),
-  //   title: "Sustainable Agriculture through Internet of Things and Artificial Intelligence",
-  //   organisers: [
-  //     "Dr. Ashwini Shinde, Ph.D., HOD- E&TC, PCET’s NMVPM’s Nutan Maharashtra Institute of Engineering and Technology, Pune, India",
-  //     "Dr. Sanjeevkumar Angadi, Ph.D., HOD- CSE, PCET’s NMVPM’s Nutan Maharashtra Institute of Engineering and Technology, Pune, India",
-  //     "Dr. Ujjwal Baid, Ph.D., Director of Research, Emory University, Atlanta, GA, USA"
-  //   ],
-  //   listing: "SS 015",
-  // },  
+  {
+    link: require("./sessions/SS-15.pdf"),
+    title: "AI for Societal Good: Scalable, Ethical and Intelligent Systems for Global Impact",
+    organisers: [
+      "Dr. Ruchi Kaushal Sharma, NMIMS Mumbai, India",
+"Dr. Keshav Kaushik, Sharda University"
+    ],
+    listing: "SS 015",
+  },
   // {
   //   link: require("./sessions/SS-16.pdf"),
   //   title: "AI-Enabled Wearables: Potential of IoT for Healthcare and Beyond",
