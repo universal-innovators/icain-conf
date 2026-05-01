@@ -147,16 +147,15 @@ organisers: [
     ],
     listing: "SS 015",
   },
-  // {
-  //   link: require("./sessions/SS-16.pdf"),
-  //   title: "AI-Enabled Wearables: Potential of IoT for Healthcare and Beyond",
-  //   organisers: [
-  //     "Dr. Shikha Gupta, Professor, Shaheed Sukhdev College of Business Studies, University of Delhi",
-  //     "Dr. Priya Gupta, Associate Professor, Jawahar Lal Nehru University",
-  //     "Dr. Princy Randhawa, Assistant Professor, Manipal University Jaipur"
-  //   ],
-  //   listing: "SS 016",
-  // },    
+  {
+    link: require("./sessions/SS-16.pdf"),
+    title: "Machine Learning and GenAI for Intelligent Systems and Decision Making",
+    organisers: [
+      "Dr. Gaurav Agarwal, Galgotias University, India",
+"Swati Sharma, Galgotias University, India", "Dr. Namrata Kumari, Galgotias University, India"
+    ],
+    listing: "SS 016",
+  }, 
   // {
   //   link: require("./sessions/SS-17.pdf"),
   //   title: "Pioneering the Future of Networking with AI, Machine Learning, and Deep Learning",
