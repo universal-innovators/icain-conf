@@ -1,4 +1,4 @@
-import 'pcLinks.css'
+import './pcLinks.css'
 function PcLinks({ links, year }) {
 
   // ✅ helper to detect valid URL
