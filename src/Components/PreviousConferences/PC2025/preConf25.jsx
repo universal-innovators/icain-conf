@@ -29,7 +29,7 @@ function PreConf25() {
   let Mybody =
     "The <b>Second International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b> was proudly organized by BITS Pilani, Dubai Campus in association with the <b>Indian Institute of Information Technology, Allahabad & Universal Inovator</b> on <b>06th -07th</b> October 2025. ICAIN-2025 received over <b>1450 paper submissions</b> from researchers, academicians, and industry professionals across the globe. After a rigorous peer-review process, <b>20% of the submitted papers were accepted and registered for presentation</b>.<br/><br/>The conference attracted submissions from more than 30 countries, reflecting its truly international scope and growing recognition within the global research community. ICAIN-2025 brought together distinguished speakers, authors, and delegates to discuss cutting-edge innovations in artificial intelligence, networking technologies, and their multidisciplinary applications, fostering collaboration and knowledge exchange among academia and industry.<br/><br/><b>YOUTUBE LINK OF ICAIN 2025:</b> <a href='https://youtu.be/7ompLI9gm7s'>https://youtu.be/7ompLI9gm7s</a>";
     
-    let links=[];
+ let links=["https://link.springer.com/book/9783032232182","Link will be available soon","Link will be available soon","https://link.springer.com/book/9783032249258", "https://link.springer.com/book/9783032233134","Link will be available soon","Link will be available soon"];
 
   return (
     <>
