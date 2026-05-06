@@ -25,11 +25,24 @@ import Img15 from "./PcImages25/15.jpg";
 import Img16 from "./PcImages25/16.jpg";
 
 function PreConf25() {
-    const images =[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,Img11,Img12,Img13,Img14,Img15,Img16]
+  const images = [
+    Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8,
+    Img9, Img10, Img11, Img12, Img13, Img14, Img15, Img16
+  ];
+
   let Mybody =
     "The <b>Second International Conference on Artificial Intelligence and Networking (ICAIN-2025)</b> was proudly organized by BITS Pilani, Dubai Campus in association with the <b>Indian Institute of Information Technology, Allahabad & Universal Inovator</b> on <b>06th -07th</b> October 2025. ICAIN-2025 received over <b>1450 paper submissions</b> from researchers, academicians, and industry professionals across the globe. After a rigorous peer-review process, <b>20% of the submitted papers were accepted and registered for presentation</b>.<br/><br/>The conference attracted submissions from more than 30 countries, reflecting its truly international scope and growing recognition within the global research community. ICAIN-2025 brought together distinguished speakers, authors, and delegates to discuss cutting-edge innovations in artificial intelligence, networking technologies, and their multidisciplinary applications, fostering collaboration and knowledge exchange among academia and industry.<br/><br/><b>YOUTUBE LINK OF ICAIN 2025:</b> <a href='https://youtu.be/7ompLI9gm7s'>https://youtu.be/7ompLI9gm7s</a>";
-    
- let links=["https://link.springer.com/book/9783032232182","Link will be available soon","Link will be available soon","https://link.springer.com/book/9783032249258", "https://link.springer.com/book/9783032233134","Link will be available soon","Link will be available soon"];
+
+  // ✅ Updated links structure
+  let links = [
+    { url: "https://link.springer.com/book/9783032232182", label: "View Proceedings" },
+    { url: null, label: "Link will be available soon" },
+    { url: null, label: "Link will be available soon" },
+    { url: "https://link.springer.com/book/9783032249258", label: "View Proceedings" },
+    { url: "https://link.springer.com/book/9783032233134", label: "View Proceedings" },
+    { url: null, label: "Link will be available soon" },
+    { url: null, label: "Link will be available soon" }
+  ];
 
   return (
     <>
@@ -40,14 +53,14 @@ function PreConf25() {
       <div className="preConf">
         <div className="preConfMain">
           <PcMainBody myBody={Mybody} />
-          <PcLinks
-            year="2025" links={links} /> 
+          <PcLinks year="2025" links={links} />
         </div>
       </div>
 
       <div className="imagesPc">
-        <PcImages images={images}/>
+        <PcImages images={images} />
       </div>
+
       <Footer />
     </>
   );
