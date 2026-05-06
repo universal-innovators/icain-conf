@@ -1,25 +1,24 @@
 import "./pcLinks.css";
-function PcLinks({ year, links }) {
-  return (    
-    <>
-      <div className="pcLinks">
-        <h1>Proceedings of International Conference on Artificial Intelligence and Networks, ICAIN {year}</h1>
-        {links.map((link,ind)=>{
-          return <div className="pcLinkMains">
-          <div className="pcLinkMain">
-            <h2>Volume {ind+1}:</h2>
-            <p>
-              <a href={link} target="_blank">
-                Link of the volume {ind+1}
+function PcLinks({ links, year }) {
+  return (
+    <div>
+      <h3>Proceedings {year}</h3>
+      <ul>
+        {links.map((item, index) => (
+          <li key={index}>
+            {item.url ? (
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                {item.label}
               </a>
-            </p>
-          </div>          
-        </div>
-        })}
-       
-      </div>
-    </>
+            ) : (
+              <span style={{ color: "gray" }}>
+                {item.label}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
-
 export default PcLinks;
