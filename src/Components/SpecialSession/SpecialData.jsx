@@ -164,12 +164,12 @@ organisers: [
     ],
     listing: "SS 017",
   },
-  // {
-  //   link: require("./sessions/SS-18.pdf"),
-  //   title: "Transforming Big Data Insights: Federated Learning in AI and ML for IoT Solutions",
-  //   organisers: [    ],
-  //   listing: "SS 018",
-  // },
+  {
+    link: require("./sessions/SS-18.pdf"),
+    title: "Secure and Trustworthy Generative AI for Autonomous Cyber Threat Intelligence in Modern Networked Systems",
+    organisers: [  "Dr. Namita Dahiya, The NorthCap University,Gurugram, India","Dr. Manvi Breja, The NorthCap University,Gurugram, India"  ],
+    listing: "SS 018",
+  },
   // {
   //   link: require("./sessions/SS-19.pdf"),
   //   title: "Advances in Computational Intelligence and NLP: Innovation and Application",
