@@ -40,7 +40,8 @@ function PreConf25() {
       <div className="preConf">
         <div className="preConfMain">
           <PcMainBody myBody={Mybody} />
-           
+           <PcLinks
+            year="2025" links={links} /> 
         </div>
       </div>
 

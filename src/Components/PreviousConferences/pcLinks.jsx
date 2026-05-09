@@ -1,28 +1,29 @@
-import './pcLinks.css'
+import "./pcLinks.css";
+
+const isUrl = (value) => {
+  if (typeof value !== "string") {
+    return false;
+  }
+
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
+};
+
 function PcLinks({ links, year }) {
-
-  // ✅ helper to detect valid URL
-  const isValidUrl = (str) => {
-    try {
-      new URL(str);
-      return true;
-    } catch {
-      return false;
-    }
-  };
-
   return (
     <div className="pc-links-container">
       <h3 className="pc-links-title">Proceedings {year}</h3>
 
       <ul className="pc-links-list">
         {links.map((item, index) => {
-          const isLink = isValidUrl(item);
+          const isLink = isUrl(item);
 
           return (
-            <li key={index} className="pc-link-item">
-
-              {/* LEFT: Link or Text */}
+            <li key={`${year}-${index}`} className="pc-link-item">
               <div className="pc-link-text">
                 {isLink ? (
                   <a
@@ -34,21 +35,13 @@ function PcLinks({ links, year }) {
                     View Proceedings {index + 1}
                   </a>
                 ) : (
-                  <span className="pc-link-disabled">
-                    {item}
-                  </span>
+                  <span className="pc-link-disabled">{item}</span>
                 )}
               </div>
 
-              {/* RIGHT: Badge */}
-              <div>
-                {isLink ? (
-                  <span className="badge available">Available</span>
-                ) : (
-                  <span className="badge coming">Coming Soon</span>
-                )}
-              </div>
-
+              <span className={`pc-link-badge ${isLink ? "available" : "coming"}`}>
+                {isLink ? "Available" : "Coming Soon"}
+              </span>
             </li>
           );
         })}
