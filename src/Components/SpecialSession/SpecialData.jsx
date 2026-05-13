@@ -170,15 +170,14 @@ organisers: [
     organisers: [  "Dr. Namita Dahiya, The NorthCap University,Gurugram, India","Dr. Manvi Breja, The NorthCap University,Gurugram, India"  ],
     listing: "SS 018",
   },
-  // {
-  //   link: require("./sessions/SS-19.pdf"),
-  //   title: "Advances in Computational Intelligence and NLP: Innovation and Application",
-  //   organisers: ["Dr. Sayani Ghosal, Jaypee Institute of Information Technology (JIIT), Noida, Uttar Pradesh, India",
-  //   "Dr. Asma Sbai, Faculty of medicine and pharmacy of Marrakech- university cadi ayyad, Morocco"
+  {
+    link: require("./sessions/SS-19.pdf"),
+    title: "Explainable AI, Smart Networking, and Digital Transformation",
+    organisers: ["Dr. Punam Kumari, Associate Professor & HoD-Smart Technologies, Amity University Bengaluru Karnataka India"
 
-  //       ],
-  //   listing: "SS 019",
-  // },
+        ],
+    listing: "SS 019",
+  },
   // {
   //   link: require("./sessions/SS-20.pdf"),
   //   title: "Machine Learning, Deep Learning & Computational Intelligence Analytics",
