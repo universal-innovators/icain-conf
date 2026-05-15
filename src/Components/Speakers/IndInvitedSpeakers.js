@@ -22,6 +22,11 @@ function IndInvitedSpeakers() {
       name: "Ankush Gupta",
       image: "./ankush.jpg",
       designation: "Senior Solution Architect, HCLTech, USA"
+    },
+    {
+      name: "Wazeed Shirdi",
+      image: "./wazeed.jpg",
+      designation: "VISA Inc"
     }
   ];
   const speakers2025 = [
