@@ -79,14 +79,14 @@ function SCcards() {
       h1: "Prof. Dr. Jan Valicek",
       p: "Institute of Technology and Business in České Budějovice"
     },
-    {
-      h1: "Dr. Pancham Shukla",
-      p: "Imperial College London"
-    },
-    {
-      h1: "Prof. Ajay Jaiswal",
-      p: "Principal, School of Open Learning & Shaheed Sukhdev of College of Business Studies, University of Delhi, Delhi"
-    },
+    // {
+    //   h1: "Dr. Pancham Shukla",
+    //   p: "Imperial College London"
+    // },
+    // {
+    //   h1: "Prof. Ajay Jaiswal",
+    //   p: "Principal, School of Open Learning & Shaheed Sukhdev of College of Business Studies, University of Delhi, Delhi"
+    // },
     // {
     //   h1: "Dr. Shamik Palit",
     //   p: "Associate Prof. CS and SE, HEAD - Corporate Outreach Committee, University of Stirling RAK Campus, UAE"
@@ -124,9 +124,13 @@ let techChair = [
       p: "Professor & Dean, IIIT Allahabad, India",
     },
     {
-      h1:"Ajay Jaiswal, Ph.D.",
-      p:"Shaheed Sukhdev College of Business Studies (CBS)"
-    }
+      h1: "Prof. Hussain Chowdhury",
+      p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS",
+    },
+    // {
+    //   h1:"Ajay Jaiswal, Ph.D.",
+    //   p:"Shaheed Sukhdev College of Business Studies (CBS)"
+    // }
     // {
     //   h1: "Prof. Sergio Duarte Correia",
     //   p: "(Polytechnic Institute of Portalegre, Portugal.)",
@@ -190,10 +194,10 @@ let techChair = [
       h1: "Prof. Dr. Zdzislaw Polkowski",
       p: "The Karkonosze University of Applied Sciences in Jelenia Góra, Poland"
     },
-    {
-      h1: "Dr. Ahmed J. Obaid",
-      p: "Associate Professor of Computer Science at the University of Kufa, Iraq"
-    },
+    // {
+    //   h1: "Dr. Ahmed J. Obaid",
+    //   p: "Associate Professor of Computer Science at the University of Kufa, Iraq"
+    // },
     {
       h1: "Dr Gurmeet Singh",
       p: "Associate Professor , GTBIT, Delhi"

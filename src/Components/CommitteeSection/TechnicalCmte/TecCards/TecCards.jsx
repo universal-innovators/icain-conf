@@ -11,9 +11,7 @@ const tpcm = [
   { name: "Dr. Jafar A. Alzubi", info: "Al-Balqa Applied University, Salt - Jordan" },
   { name: "Dr. Maqbool Khan", info: "Assistant Professor, Pak-Austria Fachhochschule-Institute of Applied Sciences and Technology, Mang, Haripur, Pakistan and Adjunct Researcher, Software Competence Center Hagenberg GmbH, Softwarepark, Hagenberg, Linz, Austria" },
   { name: "Dr. A.K. Singh", info: "Computer Engineering Department, NIT Kurukshetra" },
-  { name: "Dr. Akshi Kumar", info: "Director, Associate Professor, Goldsmith University of London, UK" },
-  { name: "Dr. Mamoona Humayun", info: "Assistant Professor, Jouf university Al-jouf, Saudi Arabia" },
-  { name: "Dr. Mamoona Humayun", info: "Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia" },
+  { name: "Dr. Mamoona Humayun", info: "Assistant Professor, Jouf University Al-jouf, Saudi Arabia" },
   { name: "Dr. Nicu Bizon", info: "University of Pitesti, Romania" },
   { name: "Dr. Nhu Gia Nguyen", info: "Duy Tan University, Vietnam" },
   { name: "Dr. Onuma Suphattanakul", info: "Universiti Utara, Malaysia" },
@@ -34,13 +32,13 @@ const tpcm = [
   { name: "Prof. (Dr.) Celia Shahnaz", info: "BUET, Bangladesh" },
   { name: "Prof. (Dr.) Gabriela Raducan", info: "Senior Research Fellow, La Trobe Innovation and Entrepreneurship Foundry" },
   { name: "Prof. (Dr.) Huynh Thanh Binh", info: "Hanoi University of Science and Technology, Vietnam" },
-  { name: "Prof. (Dr.) Isabel de la", info: "University of Valladolid, Spain" },
+  { name: "Prof. (Dr.) Isabel de la Torre Díez", info: "University of Valladolid, Spain" },
   { name: "Prof. (Dr.) Joanna Paliszkiewkz", info: "Director, SGGN, Warsaw, Poland" },
   { name: "Prof. (Dr.) Kapil Sharma", info: "Professor, Delhi Technical University, Delhi" },
   { name: "Prof. (Dr.) Kirti Tyagi", info: "Inha University, Tashkent" },
   { name: "Prof. (Dr.) Manuel Cardona", info: "Universidad Don Bosco EI Salvador" },
   { name: "Prof. (Dr.) Oana Gaman", info: "Biomedical Branch, Romania" },
-  { name: "Ankush Sanjay Mahajan",info: "Senior Tech Project Manager, Pacific Gas and Electricity, Seattle, Washington, United States"},
+  { name: "Ankush Sanjay Mahajan", info: "Senior Tech Project Manager, Pacific Gas and Electricity, Seattle, Washington, United States" },
   { name: "Prof. (Dr.) P S Rana", info: "Professor, Thapar University, Punjab, India" },
   { name: "Prof. (Dr.) Shelly Sachdeva", info: "NIT Delhi, Delhi" },
   { name: "Prof. (Dr.) Srinath Doss", info: "Botho University, Botswana" },
@@ -49,7 +47,7 @@ const tpcm = [
   { name: "Prof. (Dr.) V.C. Pandey", info: "Director, HMRITM, Delhi" },
   { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" },
   { name: "Dr. Balavignesh Vemparala", info: "R&D Engineer II, ANSYS Inc., USA" },
-  { name:"GURUPRASAD RAGHOTHAMA RAO", info:"Wiser Solutions Inc, USA"}
+  { name: "GURUPRASAD RAGHOTHAMA RAO", info: "Wiser Solutions Inc, USA" },
 ];
 
 
