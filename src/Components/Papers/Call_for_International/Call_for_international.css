@@ -69,20 +69,22 @@
  .submissionLinkhead{
     margin: 4vh 0;
 }
-.submissionLinkhead a{
-    /* color: var(--color-white); */
-   /* border-radius: 0.7rem; */
-    /* background: linear-gradient(to left, var(--color-bits), var(--color-bits1)); */
-    padding: 2vh;
-    font-family: var(--font-content);
-    color: white;
-    /* border: 1px solid var(--color-bits1); */
-
-}
- .submissionLinkhead a:hover{
+.proposalDownloadBtn{
     background: var(--color-bits);
+    border: 1px solid var(--color-bits);
+    font-family: var(--font-content);
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    padding: 1.2vh 2vw;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
 }
- .submissionLinkhead a:active{
+.proposalDownloadBtn:hover{
+    background: white;
+    color: var(--color-bits);
+}
+.proposalDownloadBtn:active{
    color: var(--color-pink);
 }
 

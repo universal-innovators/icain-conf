@@ -178,14 +178,13 @@ organisers: [
         ],
     listing: "SS 019",
   },
-  // {
-  //   link: require("./sessions/SS-20.pdf"),
-  //   title: "Machine Learning, Deep Learning & Computational Intelligence Analytics",
-  //   organisers: ["Dr. Preeti Nagrath, Associate Professor, Bharati Vidyapeeth’s college of Engineering, Delhi, India",
-  //   "Dr. Rachna Jain, Associate Professor, Bhagwan Parshuram Institute of Technology, Delhi, India"
-  //   ],
-  //   listing: "SS 020",
-  // },
+  {
+    link: require("./sessions/SS-20.pdf"),
+    title: "Green AI and Sustainable Computing in Next-Generation Networks",
+    organisers: ["Dr. Neeraj Chugh, Associate Professor, Program Lead (Cloud Computing and Virtualization Technology), School of Computer Science, UPES, Dehradun, Uttarakhand, India"
+    ],
+    listing: "SS 020",
+  },
   // {
   //   link: require("./sessions/SS-21.pdf"),
   //   title: "AI-Powered Chatbots and Virtual Assistants based Cloud Management Systems for Smart Cities",
