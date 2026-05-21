@@ -185,15 +185,14 @@ organisers: [
     ],
     listing: "SS 020",
   },
-  // {
-  //   link: require("./sessions/SS-21.pdf"),
-  //   title: "AI-Powered Chatbots and Virtual Assistants based Cloud Management Systems for Smart Cities",
-  //   organisers: ["Dr Rashmi Soni, Associate Professor, Department of Information Science & Engineering, Dayananda Sagar Academy of Technology & Management, Bengaluru, Karnataka, India & Research Supervisor CSE (OU)",
-  //   "Dr Piyush Kumar Soni, Professor & Dean- Industry Interactions, Innovations & Incubations, Global Academy of Technology, Bengaluru, Karnataka, India",
-  //   "Dr Ved Prakash Mishra, Associate Professor, Department of Computer Science & Engineering, Head Center of Excellence-AI, Data Science & Future Intelligent Systems Program Leader-CSE, Amity, University Dubai, UAE"
-  //   ],
-  //   listing: "SS 021",
-  // },
+  {
+    link: require("./sessions/SS-21.pdf"),
+    title: "Recent Advancements in Artificial Intelligence",
+    organisers: ["Dr. Mahesh Kumar Singh, Associate Professor, Department of Computer Science and Engineering, SRM Institute of Science and Technology, Delhi NCR campus Modinagar, Ghaziabad, U.P., India",
+      "Dr. Pushpendra Singh, Associate Professor, Department of Computer Science and Engineering, SRM Institute of Science and Technology, Delhi NCR campus Modinagar, Ghaziabad, U.P. India", "Dr. Pushpa Choudhary, Professor, Department of Computer Sciences and Engineering, Galgotias College of Engineering and Technology, Greater Noida, India", "Dr. Arun Kumar Singh, Professor, Department of Computer and Engineering, Greater Noida Institute of Technology, Gr Noida, India"
+    ],
+    listing: "SS 021",
+  },
   // {
   //   link: require("./sessions/SS-22.pdf"),
   //   title: "AI-based Energy Management for Sustainable WSN",
