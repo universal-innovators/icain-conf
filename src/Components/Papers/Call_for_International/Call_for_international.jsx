@@ -1,5 +1,5 @@
 import "./Call_for_international.css";
-import workshopProposal from "/docs/Workshop_Proposal_Template-ICIST.docx";
+import wsp from "../../Downloads/pdfs/WORKHOP PROPOSAL.docx"
 import Footer from "../../Footer/footer";
 const Call_for_international = () => {
   return (
@@ -92,13 +92,7 @@ publication in SCI/SCOPUS journals.
 
         <br />
         <p className="submissionLinkhead">
-          <a
-            href={workshopProposal}
-            download="ICAIN-2026-Workshop-Proposal.docx"
-            className="proposalDownloadBtn"
-          >
-            Download Workshop Proposal
-          </a>
+          <a href={wsp}>Workshop Proposal Template</a>
         </p>
       </div>
       <Footer />

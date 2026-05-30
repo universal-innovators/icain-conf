@@ -14,7 +14,7 @@ const arr = [
   },
   {
     h4: "Submission of revised manuscript:",
-    p: "August 20th, 2026",o
+    p: "August 20th, 2026",
   },
   {
     h4: "Notification of final acceptance:",

@@ -1,6 +1,6 @@
 import "./Call_for_Special.css";
 import Footer from "../../Footer/footer";
-import sessionProposal from "/docs/Session_Proposal_Template-ICIST.docx";
+import pdf1 from "../../Downloads/pdfs/SESSION PROPOSAL.docx";
 const Call_for_Special = () => {
   return (
     <>
@@ -79,19 +79,13 @@ const Call_for_Special = () => {
             <br/>
 
             We look forward to your participation in ICAIN-2026.
-          </p>
-          <div className="closingText">
             <p>Sincerely</p>
-            <p>Organizer and Convener</p>
+            <p> Organizer and Convener</p>
             <p className="greet">ICAIN-2026</p>
-          </div>
+          </p>
           <p className="submissionLinkhead">
-            <a
-              href={sessionProposal}
-              download="ICAIN-2026-Session-Proposal.docx"
-              className="proposalDownloadBtn"
-            >
-              Download Session Proposal
+            <a href={pdf1} target="_blank">
+              Session Proposal Template
             </a>
           </p>
         </div>

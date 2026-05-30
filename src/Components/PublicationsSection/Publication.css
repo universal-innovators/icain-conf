@@ -45,24 +45,6 @@ transform: scale(1.1);
     margin-bottom: 4vh;
     font-size: 1rem;
 }
-.publicationLink{
-    color: white;
-    display: block;
-    text-decoration: none;
-}
-.publicationLink:hover p{
-    text-decoration: underline;
-}
-.proceedingsImages{
-    grid-template-columns: max-content;
-    justify-content: start;
-}
-.sectionLabel{
-    color: white;
-    display: inline-block;
-    font-size: 18px;
-    margin-bottom: 1rem;
-}
 /* publication proceedings  */
 .pubProceedings{
   padding: 2rem;
@@ -100,12 +82,7 @@ transform: scale(1.1);
 .indexImg{ 
     height: 15vh;
     width: 20vh;
-    background: white;
-    padding: 0.75rem;
     transition: all 0.5s ease-in-out;
-}
-.indexImg img{
-    object-fit: contain;
 }
 .indexImg:hover{
 transform: scale(1.1);
@@ -153,6 +130,7 @@ transform: scale(1.1);
     }
     .pubProceedings{
         padding: 1rem;
+          background-color: rgb(237,246,250);
       }
     .puImages{
         grid-template-columns: repeat(2,1fr);
