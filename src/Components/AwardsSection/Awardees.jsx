@@ -61,7 +61,8 @@ const awards2025 = [
   { name: "Venu Madhav Nadella", award: "Leadership in Networking, Infrastructure & Security Award" },
   { name: "Mahesh Kumar Goyal", award: "The Google AI - Enterprise migration breakthrough Award" },
   { name: "Vetrivelan Tamilmani", award: "Next-Gen SAP Architecture Award" },
-  { name: "Rahul Gupta (Founder of Power Research Consulting)", award: "Best Tech Entrepreneur – Global Summit Digital Disruptor"}
+  { name: "Rahul Gupta (Founder of Power Research Consulting)", award: "Best Tech Entrepreneur – Global Summit Digital Disruptor"},
+{ name: "Sammip Biradar", award: "International Excellence Award: Digital Transformation & Innovation Leader of the Year" },
 ];
 
 export default function ElevatexAwards() {
