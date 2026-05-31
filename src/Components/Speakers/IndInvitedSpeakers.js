@@ -27,6 +27,12 @@ function IndInvitedSpeakers() {
       name: "Wazeed Shirdi",
       image: "./wazeed.jpg",
       designation: "VISA Inc"
+    },
+   {
+      name: "Santhosh Reddy Basireddy",
+designation: "Senior Salesforce Lead Developer
+USA",
+      image: "./santhosh.jpg"
     }
   ];
   const speakers2025 = [
