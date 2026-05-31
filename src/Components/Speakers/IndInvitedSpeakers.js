@@ -323,7 +323,7 @@ const speakers2026 = [
   {
     name: "Arjun Shivarudraiah",
     designation:"Senior Software Engineer Meijer",
-    image: "./arjun.jpeg"
+    image: "./arjun.jpg"
   },
 ];
 
