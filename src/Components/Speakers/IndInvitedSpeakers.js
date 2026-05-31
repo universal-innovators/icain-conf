@@ -30,8 +30,7 @@ function IndInvitedSpeakers() {
     },
    {
       name: "Santhosh Reddy Basireddy",
-designation: "Senior Salesforce Lead Developer
-USA",
+      designation: "Senior Salesforce Lead Developer, USA",
       image: "./santhosh.jpg"
     }
   ];
