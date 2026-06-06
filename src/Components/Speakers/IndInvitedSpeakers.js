@@ -300,6 +300,11 @@ function IndInvitedSpeakers() {
     name: "Likhit Verma",
     designation:"Senior Member, IEEE | Ericsson, USA",
     image: "./likhit.jpeg"
+  },
+{
+    name: "Sathish Kaniganahalli Ramareddy",
+    designation:"Vice president,Northern Trust Bank",
+    image: "./sathish.jpg"
   }
    
   
