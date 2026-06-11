@@ -48,6 +48,7 @@ const tpcm = [
   { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" },
   { name: "Dr. Balavignesh Vemparala", info: "R&D Engineer II, ANSYS Inc., USA" },
   { name: "GURUPRASAD RAGHOTHAMA RAO", info: "Wiser Solutions Inc, USA" },
+  { name: "Rahul Juvvadi", info: "Principal Software Engineer (Finance Systems),Redmond, WA" },
 ];
 
 
