@@ -27,6 +27,11 @@ function IndInvitedSpeakers() {
       name: "Wazeed Shirdi",
       image: "./wazeed.jpg",
       designation: "VISA Inc"
+    },
+   {
+      name: "Santhosh Reddy Basireddy",
+      designation: "Senior Salesforce Lead Developer, USA",
+      image: "./santhosh.jpg"
     }
   ];
   const speakers2025 = [
@@ -295,6 +300,11 @@ function IndInvitedSpeakers() {
     name: "Likhit Verma",
     designation:"Senior Member, IEEE | Ericsson, USA",
     image: "./likhit.jpeg"
+  },
+{
+    name: "Sathish Kaniganahalli Ramareddy",
+    designation:"Vice president,Northern Trust Bank",
+    image: "./sathish.jpg"
   }
    
   
@@ -318,7 +328,7 @@ const speakers2026 = [
   {
     name: "Arjun Shivarudraiah",
     designation:"Senior Software Engineer Meijer",
-    image: "./arjun.jpeg"
+    image: "./arjun.jpg"
   },
 ];
 
