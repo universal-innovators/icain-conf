@@ -27,7 +27,7 @@ function Awards() {
           </div>
           <div className="detail-box">
             <span className="label">📅 Date:</span>
-            <span className="value">11th - 12th December, 2026</span>
+            <span className="value">26th - 28th November, 2026</span>
           </div>
           <div className="detail-box full-width">
             <span className="label">Organized by:</span>
