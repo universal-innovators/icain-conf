@@ -2,6 +2,8 @@ import React from "react";
 import "./ElevatexAwards.css";
 
 const awards2025 = [
+  { name: "Rajendra Kattunga", award: "SAP-Innovation & Digital Transformation Award" },
+  { name: "Janardhana Naidu Kola", award: "Enterprise Decision Intelligence & Analytics Leadership Award" },
   { name: "Jaya Vardhani Mamidala", award: "AI-Driven Cloud Transformation Excellence Award" },
   { name: "Mahadev A. Gawas", award: "Young Researcher Excellence Award – Global Research Star" },
   { name: "Sheshang Degadwala", award: "Best Researcher Award (Global Research Trailblazer)" },
