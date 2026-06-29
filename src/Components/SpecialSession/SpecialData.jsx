@@ -193,15 +193,13 @@ organisers: [
     ],
     listing: "SS 021",
   },
-  // {
-  //   link: require("./sessions/SS-22.pdf"),
-  //   title: "AI-based Energy Management for Sustainable WSN",
-  //   organisers: ["Dr. Narendra Khatri, Manipal Institute of Technology, MAHE, Manipal, India",
-  //   "Dr. Ajay Kumar Vyas, Adani University, Ahmedabad, India",
-  //   "Dr. Anupam Agrawal, Bhilai Institute of Technology, Durg, India"
-  //   ],
-  //   listing: "SS 022",
-  // },
+  {
+    link: require("./sessions/SS-22.pdf"),
+    title: "Agentic AI and Multi-Agent Systems for Intelligent Computing and Networking",
+    organisers: ["Dr. Lokesh Jain, Associate Professor, School of Engineering and Technology, Vivekananda Institute of Professional Studies - Technical Campus (VIPS-TC), Delhi, India"
+    ],
+    listing: "SS 022",
+  },
   // {
   //   link: require("./sessions/SS-23.pdf"),
   //   title: "Recent Trends in AI/IoT Security and Privacy Issues",
