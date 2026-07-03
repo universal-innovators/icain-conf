@@ -65,6 +65,7 @@ const awards2025 = [
   { name: "Vetrivelan Tamilmani", award: "Next-Gen SAP Architecture Award" },
   { name: "Rahul Gupta (Founder of Power Research Consulting)", award: "Best Tech Entrepreneur – Global Summit Digital Disruptor"},
 { name: "Sammip Biradar", award: "International Excellence Award: Digital Transformation & Innovation Leader of the Year" },
+{ name: "Sudhakara Reddy Peram", award: "Emerging Technology Leader Award – Enterprise Software Architecture & AI Systems" }
 ];
 
 export default function ElevatexAwards() {
