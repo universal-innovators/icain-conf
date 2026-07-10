@@ -194,7 +194,7 @@ const InnostormInfo = () => {
       </ul>
 
       <p><strong>Form Submission Link:</strong><br />
-        <a href="https://forms.gle/WMtajJELvqQE7LK77" target="_blank" rel="noopener noreferrer">
+        <a href="https://forms.gle/114gKV2QnWsrjkKA8" target="_blank" rel="noopener noreferrer">
           Submit Your Idea
         </a>
       </p>
