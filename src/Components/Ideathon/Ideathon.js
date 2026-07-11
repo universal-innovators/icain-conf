@@ -84,6 +84,117 @@ const InnostormInfo = () => {
         <li>Everyday AI Tools for Productivity</li>
       </ul>
 
+      {/* ===========================================
+    Benefits Section
+=========================================== */}
+
+<h2>Beyond the Competition – Building the Next Generation of Innovators</h2>
+
+<p>
+  At <strong>INNOSTORM 2026</strong>, we believe that great ideas deserve
+  support beyond the competition. Our goal is to help participants transform
+  innovative concepts into impactful solutions through mentorship, incubation,
+  industry connections, and innovation support.
+</p>
+
+<h3>What Participants Can Expect</h3>
+
+<div className="benefits-section">
+
+  <div className="benefit-card">
+    <h4>🚀 Incubation Support</h4>
+    <p>
+      Outstanding innovations will receive assistance in connecting with reputed
+      incubation centers and startup support organizations. The organizing team
+      will facilitate the incubation process wherever possible, subject to the
+      evaluation criteria and policies of the respective incubators.
+    </p>
+  </div>
+
+  <div className="benefit-card">
+    <h4>💻 Virtual Incubation for All Participants</h4>
+    <p>
+      Every participating team will have access to virtual incubation support,
+      including guidance on idea validation, business model development, product
+      roadmap planning, and startup readiness.
+    </p>
+  </div>
+
+  <div className="benefit-card">
+    <h4>🎯 Personalized Mentorship</h4>
+    <p>
+      Participants will be connected with experienced mentors from academia,
+      industry, research organizations, and the startup ecosystem. Mentor
+      allocation will be based on the project's domain and specific
+      requirements.
+    </p>
+  </div>
+
+  <div className="benefit-card">
+    <h4>💼 Investor Connect Program</h4>
+    <p>
+      The most promising ideas shortlisted by the jury may be introduced to
+      angel investors, venture ecosystem partners, or startup funding experts
+      for mentoring and investment discussions, subject to mutual interest and
+      availability.
+    </p>
+  </div>
+
+  <div className="benefit-card">
+    <h4>🛡️ Intellectual Property (IP) Guidance</h4>
+    <p>
+      Receive expert guidance on Intellectual Property Rights (IPR), including
+      patents, copyrights, technology transfer, commercialization strategies,
+      and support schemes for protecting innovations.
+    </p>
+  </div>
+
+  <div className="benefit-card">
+    <h4>📈 Startup & Innovation Development</h4>
+    <p>
+      Expert sessions will help participants strengthen their ideas through
+      business model refinement, market validation, pitch preparation,
+      prototype development, and commercialization planning.
+    </p>
+  </div>
+
+  <div className="benefit-card">
+    <h4>🤝 Industry & Academic Networking</h4>
+    <p>
+      Interact with researchers, entrepreneurs, innovation leaders, investors,
+      industry experts, and startup ecosystem partners to build valuable
+      collaborations and future opportunities.
+    </p>
+  </div>
+
+  <div className="benefit-card">
+    <h4>🌟 Continued Innovation Support</h4>
+    <p>
+      INNOSTORM is designed to be more than a one-time event. Promising projects
+      will continue receiving guidance and ecosystem connections through our
+      mentor network and innovation partners wherever feasible.
+    </p>
+  </div>
+
+</div>
+
+<h3>Our Commitment</h3>
+
+<p>
+  INNOSTORM is committed to nurturing innovation by providing participants with
+  access to knowledge, mentorship, ecosystem connections, and opportunities
+  that accelerate the journey from idea to impact.
+</p>
+
+<p>
+  While specific outcomes such as incubation, funding, or patent approvals are
+  subject to independent evaluations and partner policies, we are dedicated to
+  supporting every promising innovation through the appropriate channels and
+  networks.
+</p>
+
+<hr />
+
       <h2>Participation Guidelines</h2>
       <ul>
         <li>Team Size: 1 to 7 members</li>
@@ -197,6 +308,10 @@ const InnostormInfo = () => {
         <a href="https://forms.gle/114gKV2QnWsrjkKA8" target="_blank" rel="noopener noreferrer">
           Submit Your Idea
         </a>
+        <ul>
+        <li>Deadline : 30th October 2026</li>
+        <li>Further Round Selection : 10th November 2026</li>
+        </ul>
       </p>
 
       <p><strong>Payment Links:</strong></p>
