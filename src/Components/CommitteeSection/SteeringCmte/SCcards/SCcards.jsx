@@ -103,14 +103,14 @@ let techChair = [
     h1: "Prof. Dr. Isabel DE LA TORRE DÍEZ",
     p: "University of Valladolid, Spain"
   },
-  {
-    h1: "Dr. Mamoona Humayun",
-    p: "Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia"
-  },
-  {
-    h1: "Dr. Momina Shaheen",
-    p: "Department of Computing, School of Arts Humanities and Social Sciences, University of Roehampton, London SW15 5PJ, United Kingdom"
-  },
+  // {
+  //   h1: "Dr. Mamoona Humayun",
+  //   p: "Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia"
+  // },
+  // {
+  //   h1: "Dr. Momina Shaheen",
+  //   p: "Department of Computing, School of Arts Humanities and Social Sciences, University of Roehampton, London SW15 5PJ, United Kingdom"
+  // },
   {
     h1: "Dr. Richa Sharma",
     p: "London Metropolitan University, United Kingdom"
@@ -126,6 +126,10 @@ let techChair = [
     {
       h1: "Prof. Hussain Chowdhury",
       p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS",
+    },
+    {
+      h1: "Prof. Dr. Abhishek Swaroop",
+      p: "(CSE Department, St. Andrews Institute of Technology and Management, Khurrampur, Farrukhnagar, Gurugram, Haryana, India)",
     },
     // {
     //   h1:"Ajay Jaiswal, Ph.D.",
@@ -148,12 +152,12 @@ let techChair = [
 
   let pubChair = [
     {
-      h1: "Prof. Dr. Abhishek Swaroop",
-      p: "CSE Department, St. Andrews Institute of Technology and Management, Khurrampur, Farrukhnagar, Gurugram, Haryana, India"
+      h1: "Prof. Sergio Duarte Correia",
+      p: "(Polytechnic Institute of Portalegre, Portugal.)",
     },
     {
-      h1: "Prof. Dr. Sérgio Duarte Correia",
-      p: "Polytechnic Institute of Portalegre, Portugal"
+      h1: "Dr Jameel Ahamed",
+      p: "(College of Computing and Information Technology, University of Bisha, Saudi Arabia)"
     }
 ];
 

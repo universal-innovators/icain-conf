@@ -32,6 +32,11 @@ function IndInvitedSpeakers() {
       name: "Santhosh Reddy Basireddy",
       designation: "Senior Salesforce Lead Developer, USA",
       image: "./santhosh.jpg"
+    },
+    {
+      name: "Amit Kumar",
+      designation: "Lead Software Engineer, AT&T Services Inc.",
+      image: "./amit.jpeg"
     }
   ];
   const speakers2025 = [
