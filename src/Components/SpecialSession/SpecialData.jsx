@@ -214,13 +214,15 @@ organisers: [
     ],
     listing: "SS 024",
   },
-  // {
-  //   link: require("./sessions/SS-25.pdf"),
-  //   title: "AI in Healthcare",
-  //   organisers: ["Associate Professor (Dr.) Tejinder Kaur , Department of MMICTBM, Maharishi Markandeshwar (Deemed To Be University), Mullana, Ambala-Haryana"
-  //   ],
-  //   listing: "SS 025",
-  // },
+  {
+    link: require("./sessions/SS-25.pdf"),
+    title: "Intelligent and Secure Networks: AI and Blockchain for IoT and Next-Generation Communication Systems",
+    organisers: ["Dr. Faisal Rasheed Lone, Assistant Professor (Senior Scale), UPES Dehradun, India",
+    "Dr. Azra Nazir, Assistant Professor (Senior Scale), UPES Dehradun",
+    "Dr. Tawseef Ayoub Sheikh, Assistant National Institute of Technology, Srinagar J&K, India"
+    ],
+    listing: "SS 025",
+  },
   // {
   //   link: require("./sessions/SS-26.pdf"),
   //   title: "Converging Data Intelligence and Sustainable Computing",
