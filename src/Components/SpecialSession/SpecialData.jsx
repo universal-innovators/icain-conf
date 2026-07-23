@@ -223,25 +223,23 @@ organisers: [
     ],
     listing: "SS 025",
   },
-  // {
-  //   link: require("./sessions/SS-26.pdf"),
-  //   title: "Converging Data Intelligence and Sustainable Computing",
-  //   organisers: [
-  //   "Dr Sonali Vyas, Associate Professor, UPES Dehradun",
-  //   "Prof Deepshikha Bhargava, Professor & Domain Head, Engineering and Technology, Amity University Greater Noida Campus",
-  //   "Dr Vinod Kumar Shukla, Head of Academics – School of Engineering Architecture Interior Design at Amity University Dubai, UAE"
-  //   ],
-  //   listing: "SS 026",
-  // },
-  // {
-  //   link: require("./sessions/SS-27.pdf"),
-  //   title: "Emerging Trends in Computing and Telecommunications: AI Enabled Innovations for Future",
-  //   organisers: [
-  //   "Dr. Anvesha Katti, Assistant Professor, Amity University Haryana, India",
-  //   "Dr. Priyanka Vashisht, Associate Professor, Amity University Haryana, India"
-  //   ],
-  //   listing: "SS 027",
-  // },
+  {
+    link: require("./sessions/SS-26.pdf"),
+    title: "AI and Networked Sensing for Climate Resilience, Agriculture and Earth Observation",
+    organisers: ["Dr. Jagannath Nalavade, Professor, Department of Computer Science and Engineering, MIT School of Computing, MIT ART DESIGN AND TECHNOLOGY UNIVERSITY PUNE, INDIA",
+"Dr. Vanita Kshirsagar, Department of Artificial Intelligence and Data Science, Dr. D. Y. Patil Institute of Technology, Pimpri, Pune, INDIA"
+    ],
+    listing: "SS 026",
+  },
+  {
+    link: require("./sessions/SS-27.pdf"),
+    title: "Sustainable Data Analytics in Generative AI in Management",
+    organisers: ["Dr Aditi Srivastava, ABES Business School, India",
+            "Dr Neha Verma, ABES Business School, India",
+            "Dr Revati Rautrao, Dr D.Y. Patil B-School, India "
+    ],
+    listing: "SS 027",
+  },
   // {
   //   link: require("./sessions/SS-28.pdf"),
   //   title: "Recent Advances in Intelligent Systems and Communication & Machine Learning",
