@@ -310,6 +310,11 @@ function IndInvitedSpeakers() {
     name: "Sathish Kaniganahalli Ramareddy",
     designation:"Vice president,Northern Trust Bank",
     image: "./sathish.jpg"
+  },
+  {
+    name: "Binitkumar M Vaghani",
+    designation:"Sr Engineer, Siemens Heathineers ",
+    image: "./binit.jpg"
   }
    
   
