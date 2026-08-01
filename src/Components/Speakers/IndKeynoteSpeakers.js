@@ -17,7 +17,14 @@ function IndKeynoteSpeakers() {
     name: "Raghava Chellu",
     designation: "Innovation Technologist | Software Engineering | Support Engineer - Specialist, Equifax Inc, Author and Speaker",
     image: "./raghava.jpg",
-  }
+  }];
+  const speakers2024 = [
+    {
+       name: "Mr. Arun K Gangula",
+    designation: "Software Applications Developer, Advanced Technology Group/ The State of New Jersey, USA",
+    image: "./arun.jpg",
+    }
+    
 ];
 
   return (
@@ -42,7 +49,8 @@ We look forward to your inspiring contribution.
             </p>           
             <Keynote
                                         speakersByYear={{
-                                          2025: speakers2025
+                                          2025: speakers2025,
+                                          2024: speakers2024,
                                           
                                         }}
                                       />
