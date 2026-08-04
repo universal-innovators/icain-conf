@@ -6,6 +6,8 @@ const awards2025 = [
   { name: "Janardhana Naidu Kola", award: "Enterprise Decision Intelligence & Analytics Leadership Award" },
   { name: "Jaya Vardhani Mamidala", award: "AI-Driven Cloud Transformation Excellence Award" },
   { name: "Mahadev A. Gawas", award: "Young Researcher Excellence Award – Global Research Star" },
+  { name: "Venkata Pavan Kumar Aka", award: "SAP Enterprise Excellence Award" },
+  { name: "Nagababu Kandula", award: "Global Technology Leadership Award" },
   { name: "Sheshang Degadwala", award: "Best Researcher Award (Global Research Trailblazer)" },
   { name: "Anala Venkata Sai Abhishek", award: "Best Researcher Award (Global Research Trailblazer)" },
   { name: "Anil Kumar Verma", award: "Global Diversity Champion in Academia – Global Inclusion Advocate" },
