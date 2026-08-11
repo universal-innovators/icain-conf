@@ -3,6 +3,7 @@ import "./ElevatexAwards.css";
 
 const awards2025 = [
   { name: "Rajendra Kattunga", award: "SAP-Innovation & Digital Transformation Award" },
+  { name: "Vishnu Vardhan Chakravaram", award: "Workforce Development Excellence - Global Talent Catalyst Award" },
   { name: "Janardhana Naidu Kola", award: "Enterprise Decision Intelligence & Analytics Leadership Award" },
   { name: "Jaya Vardhani Mamidala", award: "AI-Driven Cloud Transformation Excellence Award" },
   { name: "Mahadev A. Gawas", award: "Young Researcher Excellence Award – Global Research Star" },
