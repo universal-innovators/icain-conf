@@ -7,23 +7,23 @@ AOS.init();
 const arr = [
   {
     h4: "Deadline for manuscript submission: ",
-    p: "June 30th, 2026",
+    p: "August 25th, 2026",
   },
   {
     h4: "Notification of first review:",
-    p: "July 30th, 2026",
-  },
-  {
-    h4: "Submission of revised manuscript:",
-    p: "August 20th, 2026",
-  },
-  {
-    h4: "Notification of final acceptance:",
     p: "August 30th, 2026",
   },
   {
+    h4: "Submission of revised manuscript:",
+    p: "September 10th, 2026",
+  },
+  {
+    h4: "Notification of final acceptance:",
+    p: "September 20th, 2026",
+  },
+  {
     h4: "Final manuscript due",
-    p: "September 15th, 2026",
+    p: "September 30th, 2026",
   },
   {
     h4: "Conference Date",
