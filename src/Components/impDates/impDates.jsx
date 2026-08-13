@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
+/*NOT IN USE*/
 const arr = [
   {
     h4: "Deadline for manuscript submission: ",
