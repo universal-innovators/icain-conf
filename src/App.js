@@ -104,7 +104,7 @@ function App() {
                   <Hslides />
                   {/* <FlagShip/> */}
                   <AboutConference />
-                  {/* <Keynote/> */}
+                  <Keynote/>
                   <PrevKeynote/>
                   <AcademicPartners/>
                   <HoDateNotice />
