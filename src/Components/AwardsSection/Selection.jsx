@@ -46,8 +46,8 @@ const Selection = () => {
 
         <h3>🗓️ Important Dates:</h3>
         <ul className="elevatex-list">
-          <li><strong>Last date for nomination:</strong> 05th September, 2026</li>
-          <li><strong>Announcement of Result:</strong> 20th September, 2026</li>
+          <li><strong>Last date for nomination:</strong> 30th October, 2026</li>
+          <li><strong>Announcement of Result:</strong> 10th November, 2026</li>
         </ul>
 
         <div className="elevatex-buttons">
