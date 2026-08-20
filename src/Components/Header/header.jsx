@@ -13,6 +13,9 @@ import uos from "./Himages/logo-2.svg"
 import uiedu from "./Himages/ui-edu.webp"
 import uiinov from "./Himages/ui-inov.jpeg"
 import bits from "./Himages/bits.jpg"
+import acm from "./Himages/acm2.jpg"
+import acmai from "./Himages/acm.jpg"
+
 
 import "./header.css";
 
@@ -23,7 +26,7 @@ function HeaderMain() {
         {/* images  */}
 
         <div className="headerLogo">
-          <img src={bits} style={{"width":"200px"}}/> 
+          <img src={bits} className="logoImg" alt="BITS Pilani Dubai Campus" />
           {/* <img src={uiedu} className="logoImg1"/>   */}
           
 
@@ -78,11 +81,16 @@ function HeaderMain() {
 
 
       <div className="headerLogo" > 
-              <img src={iiit} className="logoImg"/>   
+              <img src={iiit} className="logoImg" alt="IIIT Allahabad" />   
 
-      <img src={gtbit} className="logoImg1"/>  
-              {/* <img src={springer} className="logoImg" style={{"margin":"0 auto","width":"8rem","height":"auto"}}/>    */}
+      <img src={gtbit} className="logoImg" alt="GTBIT Delhi" />  
+               
 
+
+      </div>
+      <div className="headerLogo">
+         <img src={acm} className="logoImg" alt="ACM" />   
+              <img src={acmai} className="logoImg" alt="ACM India" /> 
       </div>
 
 
