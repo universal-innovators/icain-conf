@@ -240,14 +240,15 @@ organisers: [
     ],
     listing: "SS 027",
   },
-  // {
-  //   link: require("./sessions/SS-28.pdf"),
-  //   title: "Recent Advances in Intelligent Systems and Communication & Machine Learning",
-  //   organisers: [
-  //   "Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Board of Technical Education, Uttar Pradesh, India"
-  //   ],
-  //   listing: "SS 028",
-  // },
+  {
+    link: require("./sessions/SS-28.pdf"),
+    title: "Quantum-Inspired Optimization of Neuromorphic Self-Supervised Heterogeneous Graph Transformers for Multimodal Neurodegenerative Disease Analysis",
+    organisers: [
+    "Dr. Tarak Hussain, Associate Professor, Department of Computer Science and Engineering Koneru Lakshmaiah Education Foundation (KL University) Vijayawada, Andhra Pradesh, India",
+    "Gufran Ahmad Khan, College of Electronics & Communications Engineering, Shenzhen Polytechnic University, Shenzhen-518107,China"
+    ],
+    listing: "SS 028",
+  },
   // {
   //   link: require("./sessions/SS-29.pdf"),
   //   title: "AI for Cognitive, Computational and Cyber Security",

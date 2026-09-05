@@ -45,6 +45,8 @@ const advcm = [
   { name: "Prof (Dr.) Joanna Jozefowska", info: "Pro-Rector for Research, Poznan University of Technology" },
   { name: "Prof (Dr.) Marius Balas", info: "Aurel Vlaicu University of Arad, Romania" },
   { name: "Prof. WSG Dr. Marzena Sobczak-Michałowska", info: "Vice-Rector, WSG University, Bydgoszcz, Poland" },
+  { name: "Prof. (Dr.) Supaprawat Siripipatthanakul", info: "School of Business, GlobalNxt University, Malaysia, and the Faculty of Education and Public Health, Bangkokthonburi University, Thailand" },
+
 ];
 
 
