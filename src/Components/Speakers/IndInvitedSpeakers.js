@@ -43,6 +43,11 @@ function IndInvitedSpeakers() {
     designation:"Senior Software Engineer Meijer",
     image: "./arjun.jpg"
   },
+  {
+    name:"Varsha Shah",
+    designation:"Technical Architect, Tata Consultancy Services Ltd",
+    image: "./varsha.jpg"
+  }
   ];
   const speakers2025 = [
   {
