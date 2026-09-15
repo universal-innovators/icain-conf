@@ -37,7 +37,12 @@ function IndInvitedSpeakers() {
       name: "Amit Kumar",
       designation: "Lead Software Engineer, AT&T Services Inc.",
       image: "./amit.jpeg"
-    }
+    },
+    {
+    name: "Arjun Shivarudraiah",
+    designation:"Senior Software Engineer Meijer",
+    image: "./arjun.jpg"
+  },
   ];
   const speakers2025 = [
   {
@@ -336,9 +341,13 @@ const speakers2026 = [
     image: "./mihir.jpeg"
   },
   {
-    name: "Arjun Shivarudraiah",
-    designation:"Senior Software Engineer Meijer",
-    image: "./arjun.jpg"
+    name: "Dhavalkumar Thakar",
+    designation:"Product Software Engineer, Capgemini America Inc",
+    image: "./dhaval.jpg"
+  },{
+    name: "Kalpesh Rathod",
+    designation:"Director of Engineering , Lecorpio LLC",
+    image: "./kalpesh.jpg"
   },
 ];
 
