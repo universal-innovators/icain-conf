@@ -249,17 +249,16 @@ organisers: [
     ],
     listing: "SS 028",
   },
-  // {
-  //   link: require("./sessions/SS-29.pdf"),
-  //   title: "AI for Cognitive, Computational and Cyber Security",
-  //   organisers: [
-  //     "Dr. Ashish Kumar, Bennett University, Greater Noida, U.P, India",
-  //     "Dr. Rohit Kumar Sachan, Bennett University, Greater Noida, U.P, India",
-  //     "Dr. Deepak Kumar Verma, Marwadi University, Rajkot, Gujarat, India",
-  //     "Dr Manoj Kumar, School of computer science, University of Wollongong, Dubai knowledge, UAE"
-  //   ],
-  //   listing: "SS 029",
-  // },
+  {
+    link: require("./sessions/SS-29.pdf"),
+    title: "AI-Driven Intelligent Networking: Emerging Trends, Applications and Future Directions",
+    organisers: [
+      "Dr. Madhumala R Bagalatti,Professor & Head, Department of CSE – IoT, Cybersecurity and Blockchain, Dayananda Sagar Academy of Technology and Management, Bengaluru, Karnataka, India",
+      "Dr. Tanvir H Sardar, Professor, Department of Computer Science and Engineering, Dayananda Sagar University, Bengaluru, Karnataka, India",
+    "Dr. Mazhar Malik, Professor, Bradford University, England, United Kingdom"
+    ],
+    listing: "SS 029",
+  },
   // {
   //   link: require("./sessions/SS-30.pdf"),
   //   title: "Current Trends in NLP: Applications of Transformers",
