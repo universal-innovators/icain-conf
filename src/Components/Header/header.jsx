@@ -20,7 +20,7 @@ import acmai from "./Himages/acm.jpg"
 import "./header.css";
 
 function HeaderMain() {
-  return (
+  return (<>
     <div className="headerMain">
       <div className="hcontainer">
         {/* images  */}
@@ -88,13 +88,15 @@ function HeaderMain() {
 
 
       </div>
-      <div className="headerLogo">
-         <img src={acm} className="logoImg" alt="ACM" />   
-              <img src={acmai} className="logoImg" alt="ACM India" /> 
-      </div>
+      
 
 
     </div>
+    <div className="headerLogo">
+         <img src={acm} className="logoImg" alt="ACM" />   
+              <img src={acmai} className="logoImg" alt="ACM India" /> 
+      </div>
+      </>
 
   );
 }
