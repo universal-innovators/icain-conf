@@ -50,7 +50,7 @@ function HeaderMain() {
         </div>
         <div className="htop2">
           <p className="hhead">
-            ORGANISED BY :{" "}
+            VENUE :{" "}
             {/* <span className="hblue">
              
               </span> */}
