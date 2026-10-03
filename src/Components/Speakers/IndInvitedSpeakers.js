@@ -325,6 +325,11 @@ function IndInvitedSpeakers() {
     name: "Binitkumar M Vaghani",
     designation:"Sr Engineer, Siemens Heathineers ",
     image: "./binit.jpg"
+  },
+  {
+    name: "Lokeshkumar Madabathula",
+    designation: "Lead Data Engineer, Webilent Technology Inc.",
+    image: "./lokesh.jpg"
   }
    
   
@@ -354,6 +359,16 @@ const speakers2026 = [
     designation:"Director of Engineering , Lecorpio LLC",
     image: "./kalpesh.jpg"
   },
+  {
+    name: "Soumyajit Mukherjee",
+    designation: "Senior Manager, Data & Analytics Engineering, Shutterfly Inc.",
+    image: "./soumyajit.jpg"
+  },
+  {
+    name: "Pritesh Gehlot",
+    designation: "Senior Architect, Staples",
+    image: "./pritesh.jpg"
+  }
 ];
 
   return (
