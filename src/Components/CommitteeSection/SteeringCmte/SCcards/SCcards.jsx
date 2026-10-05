@@ -79,6 +79,9 @@ function SCcards() {
       h1: "Prof. Dr. Jan Valicek",
       p: "Institute of Technology and Business in České Budějovice"
     },
+{
+h1:"Dr Rominder Kaur",
+p ; "Director, Guru Tegh Bahadur institute of technology, New Delhi India"
     // {
     //   h1: "Dr. Pancham Shukla",
     //   p: "Imperial College London"
