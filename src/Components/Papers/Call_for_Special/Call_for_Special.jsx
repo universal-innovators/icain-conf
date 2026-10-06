@@ -66,8 +66,8 @@ const Call_for_Special = () => {
           <p className="CfSletter">
           If you are interested in conducting a special session, 
             If you are interested to conduct a special session, please submit your special session proposal to {" "}
-            <a href="mailto:icain.conf@gmail.com" className="greet">
-              icain.conf@gmail.com
+            <a href="mailto:info@icain-conf.com" className="greet">
+              info@icain-conf.com
             </a>{" "}
             by 30th July 2026, using the template provided below.
             <br/>

@@ -72,9 +72,9 @@ publication in SCI/SCOPUS journals.
           <p>
             If you are interested to conduct an International Workshop, please
             email us the workshop proposal at
-            <a href="mailto:icain.conf@gmail.com" className="greet">
+            <a href="mailto:info@icain-conf.com" className="greet">
               {" "}
-              icain.conf@gmail.com{" "}
+              info@icain-conf.com{" "}
             </a>
             with subject line as <b>“Proposal for ICAIN-2026 International Workshop”</b>
           </p>

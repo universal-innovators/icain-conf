@@ -31,12 +31,12 @@ function Footer() {
         {/* footer middle  */}
         <div className={classes.socialMedia}>
         <h1>Contact Details</h1>
-            <p>icain.conf@gmail.com</p>
+            <p>info@icain-conf.com</p>
           <h1>Social Media</h1>
 
           <div className={classes.social}>
-            <a href="mailto:icain.conf@gmail.com"><IoMdMail/></a>
-            {/* <a href="icain.conf@gmail.com">Gmail</a> */}
+            <a href="mailto:info@icain-conf.com"><IoMdMail/></a>
+            {/* <a href="info@icain-conf.com">Gmail</a> */}
             <a href="" target="_blank"><IoLogoFacebook/></a>
             <a href="" target="_blank"><FaLinkedin /></a>
             <a href="" target="_blank"><FaInstagram /></a>

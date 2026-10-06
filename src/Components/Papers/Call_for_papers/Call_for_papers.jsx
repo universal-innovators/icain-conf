@@ -139,7 +139,7 @@ const Call_for_papers = () => {
             more information, please visit the
             <a href=" https://www.icain-conf.com/"> conference website</a> .
             Should you have any inquiries, feel free to contact us at
-            <span> icain.conf@gmail.com</span>
+            <span> info@icain-conf.com</span>
           </p><br/>
           <p className="cpaperColor">
             We look forward to your valuable contributions and your presence at
