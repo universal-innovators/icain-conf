@@ -259,16 +259,14 @@ organisers: [
     ],
     listing: "SS 029",
   },
-  // {
-  //   link: require("./sessions/SS-30.pdf"),
-  //   title: "Current Trends in NLP: Applications of Transformers",
-  //   organisers: [
-  //     "Dr. Anuj Kumar Bharti, Bennett University (The Times Group), India",
-  //     "Dr. Naween Kumar, Bennett University (The Times Group), India",
-  //     "Ms. Swati Sharma, Galgotias University, India"
-  //   ],
-  //   listing: "SS 030",
-  // },
+  {
+    link: require("./sessions/SS-30.pdf"),
+    title: "Emerging Challenges in IoT, Cloud Computing and Machine Learning Security",
+    organisers: [
+      "Dr. Sohail Saif, Maulana Abul Kalam Azad University of Technology, West Bengal, India"
+    ],
+    listing: "SS 030",
+  },
   // {
   //   link: require("./sessions/SS-31.pdf"),
   //   title: "Recent Advances in Cyber-Security Artificial Intelligence, Machine Learning & Communication Technology",
