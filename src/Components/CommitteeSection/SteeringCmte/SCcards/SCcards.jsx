@@ -81,7 +81,8 @@ function SCcards() {
     },
 {
 h1:"Dr Rominder Kaur",
-p ; "Director, Guru Tegh Bahadur institute of technology, New Delhi India"
+p : "Director, Guru Tegh Bahadur institute of technology, New Delhi India"
+}
     // {
     //   h1: "Dr. Pancham Shukla",
     //   p: "Imperial College London"
