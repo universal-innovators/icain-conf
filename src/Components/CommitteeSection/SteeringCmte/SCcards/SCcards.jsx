@@ -128,8 +128,8 @@ let techChair = [
       p: "Professor & Dean, IIIT Allahabad, India",
     },
     {
-      h1: "Prof. Hussain Chowdhury",
-      p: "Assistant Professor (CS), BITS PILANI DUBAI CAMPUS",
+      h1: "Dr. Ashish Gupta",
+      p: "Assistant Professor, BITS Pilani, Dubai Campus",
     },
     {
       h1: "Prof. Dr. Abhishek Swaroop",
