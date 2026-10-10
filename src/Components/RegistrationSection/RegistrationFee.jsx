@@ -11,8 +11,8 @@ function RegFee() {
           {/* table head  */}
           <div className="reFeetd">
             <h2>Category</h2>
-            <h2>Early Registration (before 05th October 2026)</h2>
-            <h2>Late Registration (after 05th October 2026)</h2>
+            <h2>Early Registration (before 20th October 2026)</h2>
+            <h2>Late Registration (after 20th October 2026)</h2>
           </div>
 
          
@@ -45,8 +45,8 @@ function RegFee() {
           {/* table head  */}
           <div className="reFeetd">
             <h2>Category</h2>
-            <h2>Early Registration (before 05th October 2026)</h2>
-            <h2>Late Registration (after 05th October 2026)</h2>
+            <h2>Early Registration (before 20th October 2026)</h2>
+            <h2>Late Registration (after 20th October 2026)</h2>
           </div>
 
          
@@ -79,8 +79,8 @@ function RegFee() {
           {/* table head  */}
           <div className="reFeetd">
             <h2>Category</h2>
-            <h2>Early Registration (before 05th October 2026)</h2>
-            <h2>Late Registration (after 05th October 2026)</h2>
+            <h2>Early Registration (before 20th October 2026)</h2>
+            <h2>Late Registration (after 20th October 2026)</h2>
           </div>
 
          
