@@ -368,6 +368,11 @@ const speakers2026 = [
     name: "Pritesh Gehlot",
     designation: "Senior Architect, Staples",
     image: "./pritesh.jpg"
+  },
+  {
+    name: "Dr. Santosh Reddy Addula",
+    designation: "Department of Information Technology, University of the Cumberlands, Williamsburg, Kentucky, USA",
+    image: "./santosh.jpg"
   }
 ];
 
