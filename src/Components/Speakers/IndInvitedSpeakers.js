@@ -373,6 +373,11 @@ const speakers2026 = [
     name: "Dr. Santosh Reddy Addula",
     designation: "Department of Information Technology, University of the Cumberlands, Williamsburg, Kentucky, USA",
     image: "./santosh.jpg"
+  },
+  {
+    name: "Chethan Kanakuppe Siddegowda",
+    designation: "Engineering Manager, Magna Electronics",
+    image: "./chethan.jpg"
   }
 ];
 
