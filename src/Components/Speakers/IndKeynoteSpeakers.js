@@ -17,7 +17,13 @@ function IndKeynoteSpeakers() {
     name: "Raghava Chellu",
     designation: "Innovation Technologist | Software Engineering | Support Engineer - Specialist, Equifax Inc, Author and Speaker",
     image: "./raghava.jpg",
-  }];
+  },
+  {
+    name: "Mahendrakumar Kalal",
+    designation: "Senior SAP Analyst, O.C.Tanner - Salt Lake City, Utah USA",
+    image: "./mahendra.jpg"
+  }
+];
   const speakers2024 = [
     {
        name: "Mr. Arun K Gangula",
