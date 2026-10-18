@@ -378,6 +378,16 @@ const speakers2026 = [
     name: "Chethan Kanakuppe Siddegowda",
     designation: "Engineering Manager, Magna Electronics",
     image: "./chethan.jpg"
+  },
+  {
+    name: "George Zacharia",
+    designation: "Senior Software Developer, Mitchell Martin, USA",
+    image: "./george.jpg"
+  },
+  {
+    name: "Ameya Chhatre",
+    designation: "Sr. Software Engineer, PAYPAL INC",
+    image: "./ameya.jpg"
   }
 ];
 
