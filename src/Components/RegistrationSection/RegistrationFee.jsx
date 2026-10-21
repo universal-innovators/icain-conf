@@ -70,7 +70,7 @@ function RegFee() {
             <p>USD 240</p>
             <p>USD 270</p>
           </div>
-          
+          <h4 style={{color:'black',textAlign:'center'}}>Note: Online registration fees already include a 40% discount</h4>
         </div>
     <br/><br/>
         <h3>Registration Fee For ICAIN 2026 Conference Attendee</h3>
