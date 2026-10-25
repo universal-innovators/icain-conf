@@ -1,102 +1,117 @@
-import React, { useState } from 'react';
-import './keynote.css';
+import React, { useEffect, useState } from "react";
+import "./keynote.css";
 
-const speakersData = {
-    2024: [
-        {
-            name: "Mr. Aninda Bose",
-            title: "Executive Editor Interdisciplinary Applied Sciences, Computational Intelligence, Energy, Springer Nature London",
-            image: "aninda.jpeg"
-        },
-        {
-            name: "Dr. Biswajit Brahma",
-            title: "Data Expert, McKesson Corporation, USA. Over 40 Publications in SCI/Scopus journals. 10+ patents and copyrights",
-            image: "biswajit.jpg"
-        },
-        {
-            name: "Prof. Bijaya Ketan Panigrahi",
-            title: "Professor, Electrical Engineering Department, IIT Delhi",
-            image: "BijayaKetan.jpeg"
-        }
-        
-        
-    ],
-    2025: [
-  {
-    name: "Dr. Ahmed J. Obaid",
-    title:
-      "Associate Professor of Computer Science at the University of Kufa, Iraq, specializing in web mining, AI-driven healthcare applications, and computational intelligence",
-    image: "obaid.jpg",
-  },
-  {
-    name: "Dr. Korhan Cengiz",
-    title:
-      "Associate Research Professor, Department of Electrical Engineering, Prince Mohammad Bin Fahd University, KSA",
-    image: "korhan.jpg",
-  },
-  {
-    name: "Associate Professor Marta Harničárová, PhD",
-    title:
-      "Institute of Technology and Business in České Budějovice, Faculty of Technology, Czech Republic",
-    image: "marta.gif",
-  },
-  {
-    name: "Professor Jan Valíček, Ph.D",
-    title:
-      "Institute of Technology and Business in České Budějovice, Faculty of Technology, Czech Republic",
-    image: "jan.gif",
-  },
-  {
-    name: "Dr. Samiya Khan",
-    title:
-      "Lecturer in Computer Science at University of Southampton Delhi | Expert in Interdisciplinary Data Science with a focus on inclusive computing and social impact technologies",
-    image: "samiya.jpg",
-  },
-  {
-    name: "Dr. Kathrin Kind",
-    title:
-      "Member of the Board of Advisors, Swiss School of Business and Management; Chief Data Scientist / AI A. Director Global Growth Markets (EMEA/APAC) Cognizant",
-    image: "kat.jpg",
-  }
-],
-    
-};
+const API_URL = "https://ui-admin.vercel.app/api/v1/speakers";
 
 export default function PrevKeynote() {
-    const years = Object.keys(speakersData);
-    const [activeYear, setActiveYear] = useState('2025');
+  const [speakersByYear, setSpeakersByYear] = useState({
+    2024: [],
+    2025: [],
+  });
+  const [activeYear, setActiveYear] = useState("2025");
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
-    const speakers = speakersData[activeYear] || [];
+  const years = ["2024", "2025"];
 
-    return (
-        <div className="keynoteContainer">
-            <h1 className="keynoteHeading">Previous Keynote Speakers</h1>
+  useEffect(() => {
+    const fetchSpeakers = async () => {
+      try {
+        setLoading(true);
+        setError("");
 
-            {/* Tabs */}
-            <div className="tabs">
-                {years.map((year) => (
-                    <button
-                        key={year}
-                        className={`tabButton ${year === activeYear ? 'active' : ''}`}
-                        onClick={() => setActiveYear(year)}
-                    >
-                        {year}
-                    </button>
-                ))}
+        const responses = await Promise.all(
+          years.map(async (year) => {
+            const params = new URLSearchParams({
+              conference_id: "c2",
+              year,
+              type: "homepage",
+              speaker_type: "keynote",
+            });
+
+            const response = await fetch(`${API_URL}?${params}`);
+
+            if (!response.ok) {
+              throw new Error(`Failed to fetch speakers for ${year}`);
+            }
+
+            const data = await response.json();
+
+            return {
+              year,
+              speakers: (data.items || []).map((speaker) => ({
+                ...speaker,
+                image: speaker.image_url || speaker.image || "",
+                title: speaker.designation || speaker.title || "",
+              })),
+            };
+          })
+        );
+
+        const updatedSpeakers = {
+          2024: [],
+          2025: [],
+        };
+
+        responses.forEach(({ year, speakers }) => {
+          updatedSpeakers[year] = speakers;
+        });
+
+        setSpeakersByYear(updatedSpeakers);
+      } catch (err) {
+        console.error("Error fetching previous keynote speakers:", err);
+        setError("Unable to load previous keynote speakers. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchSpeakers();
+  }, []);
+
+  const speakers = speakersByYear[activeYear] || [];
+
+  return (
+    <div className="keynoteContainer">
+      <h1 className="keynoteHeading">Previous Keynote Speakers</h1>
+
+      <div className="tabs">
+        {years.map((year) => (
+          <button
+            key={year}
+            className={`tabButton ${
+              year === activeYear ? "active" : ""
+            }`}
+            onClick={() => setActiveYear(year)}
+          >
+            {year}
+          </button>
+        ))}
+      </div>
+
+      {loading ? (
+        <p>Loading keynote speakers...</p>
+      ) : error ? (
+        <p>{error}</p>
+      ) : speakers.length === 0 ? (
+        <p>No keynote speakers available for {activeYear}.</p>
+      ) : (
+        <div className="keynoteSpeaker">
+          {speakers.map((speaker) => (
+            <div
+              className="keynoteCard"
+              key={speaker.id || speaker.name}
+            >
+              <img src={speaker.image} alt={speaker.name} />
+              <p>
+                <strong>{speaker.name}</strong>
+                <br />
+                {speaker.title}
+              </p>
             </div>
-
-            {/* Speakers */}
-            <div className="keynoteSpeaker">
-                {speakers.map((speaker, index) => (
-                    <div className="keynoteCard" key={index}>
-                        <img src={speaker.image} alt={speaker.name} />
-                        <p>
-                            <strong>{speaker.name}</strong><br />
-                            {speaker.title}
-                        </p>
-                    </div>
-                ))}
-            </div>
+          ))}
         </div>
-    );
+      )}
+    </div>
+  );
 }

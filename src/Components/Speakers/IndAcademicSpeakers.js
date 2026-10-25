@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../AbtConference/abtConference.css";
 import "animate.css";
 import AOS from "aos";
@@ -6,35 +6,74 @@ import "aos/dist/aos.css";
 import Keynote from "./Keynote";
 import Footer from "../Footer/footer";
 
-// import Pdf4 from "../Downloads/pdfs/ICICC_Brochure.pdf";
-// import Pdf5 from "../Downloads/pdfs/sponsorship_Proposal.pdf";
-AOS.init();
+const API_URL = "https://ui-admin.vercel.app/api/v1/speakers";
 
 function IndAcademicSpeakers() {
-  const speakers2025 = [
-    {
-      name: "Aakash Mor",
-      designation:
-        "Academic Board Member, University of the Arts London | Artificial Intelligence Researcher, Advancing Trustworthy and Transparent AI",
-      image: "./aakash.jpg",
-    },
-  ];
+  const [speakersByYear, setSpeakersByYear] = useState({
+    2025: [],
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    AOS.init();
+
+    const fetchSpeakers = async () => {
+      try {
+        setLoading(true);
+        setError("");
+
+        const params = new URLSearchParams({
+          conference_id: "c2",
+          year: "2025",
+          type: "academics",
+          speaker_type: "invited",
+        });
+
+        const response = await fetch(`${API_URL}?${params}`);
+
+        if (!response.ok) {
+          throw new Error("Failed to fetch academic speakers");
+        }
+
+        const data = await response.json();
+
+        const speakers = (data.items || []).map((speaker) => ({
+          ...speaker,
+          image: speaker.image_url || speaker.image || "",
+        }));
+
+        setSpeakersByYear({
+          2025: speakers,
+        });
+      } catch (err) {
+        console.error("Error fetching academic speakers:", err);
+        setError("Unable to load academic speakers. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchSpeakers();
+  }, []);
 
   return (
     <>
       <div className="conference">
         <div className="ccontainer">
           <div className="heading">
-            <h1 style={{ color: "white" }}>Invited speakers from Academics</h1>
+            <h1 style={{ color: "white" }}>
+              Invited Speakers from Academics
+            </h1>
           </div>
+
           <hr />
 
           <div>
-            {/* Left about  */}
             <div className="Labout">
               <p>
-                We are pleased to invite you to join as a Invited Speaker at the
-                International Conference on Artificial Intelligence and
+                We are pleased to invite you to join as an Invited Speaker at
+                the International Conference on Artificial Intelligence and
                 Networking (ICAIN-2025), to be held on 6th–7th October 2025 at
                 BITS Pilani, Dubai Campus, in association with IIIT Allahabad.
                 The conference brings together leading researchers,
@@ -48,15 +87,19 @@ function IndAcademicSpeakers() {
                 <br />
                 We look forward to your inspiring contribution.
               </p>
-              <Keynote
-                speakersByYear={{
-                  2025: speakers2025,
-                }}
-              />
+
+              {loading ? (
+                <p>Loading academic speakers...</p>
+              ) : error ? (
+                <p>{error}</p>
+              ) : (
+                <Keynote speakersByYear={speakersByYear} />
+              )}
             </div>
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );
