@@ -39,13 +39,17 @@ const advcm = [
   { name: "Prof. (Dr.) Alfredo Cuzzocrea", info: "University of Calabria, Italy" },
   { name: "Prof. Roshan G. Ragel", info: "University of Peradeniya, Sri Lanka" },
   { name: "Prof (Dr.) Cenap Ozel", info: "King Abdulaziz University, Saudi Arabia" },
+  { name: "Garima Rao", info: "ISACA, IIA" },
   { name: "Prof (Dr.) David Camacho", info: "Associate Prof, Universidad Autonoma de Madrid, Spain" },
   { name: "Prof (Dr.) Gerhard-Wilhelm Weber", info: "Poznan University of Technology, Poland" },
+  { name: "Mohit Bansal", info: "Senior Manager, Security, San Francisco, United States" },
   { name: "Prof (Dr.) Huseyin Irmak", info: "Cankiri Karatekin University, Turkey" },
   { name: "Prof (Dr.) Joanna Jozefowska", info: "Pro-Rector for Research, Poznan University of Technology" },
+  { name: "Prof. (Dr.) Sai Mohan Dasari", info: "Masters of Science in Information Systems Technologies, Texas, US" },
   { name: "Prof (Dr.) Marius Balas", info: "Aurel Vlaicu University of Arad, Romania" },
   { name: "Prof. WSG Dr. Marzena Sobczak-Michałowska", info: "Vice-Rector, WSG University, Bydgoszcz, Poland" },
   { name: "Prof. (Dr.) Supaprawat Siripipatthanakul", info: "School of Business, GlobalNxt University, Malaysia, and the Faculty of Education and Public Health, Bangkokthonburi University, Thailand" },
+  { name: "Prof. (Dr.) Sravan Kumar Nendrambaka", info: "Masters in Information Technology" },
 
 ];
 
