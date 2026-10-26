@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import Keynote from "./Keynote";
 import Footer from "../Footer/footer";
 
-const API_URL = "https://ui-admin.vercel.app/api/v1/speakers";
+const API_URL = "https://ui-admin-zj60.onrender.com/api/v1/speakers";
 
 function IndKeynoteSpeakers() {
   const [speakersByYear, setSpeakersByYear] = useState({

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./keynote.css";
 
-const API_URL = "https://ui-admin.vercel.app/api/v1/speakers";
+const API_URL = "https://ui-admin-zj60.onrender.com/api/v1/speakers";
 
 export default function Keynote() {
   const [keynoteSpeakers, setKeynoteSpeakers] = useState([]);

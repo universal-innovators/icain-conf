@@ -13,7 +13,7 @@ export default function SpecialCard() {
     const fetchSessions = async () => {
       try {
         const response = await fetch(
-          'https://ui-admin.vercel.app/api/v1/sessions?conference_id=c2'
+          'https://ui-admin-zj60.onrender.com/api/v1/sessions?conference_id=c2'
         );
 
         if (!response.ok) {
