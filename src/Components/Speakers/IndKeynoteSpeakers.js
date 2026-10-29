@@ -25,7 +25,7 @@ function IndKeynoteSpeakers() {
         setLoading(true);
         setError("");
 
-        const years = [2024, 2025];
+        const years = [2024, 2025, 2026];
 
         const responses = await Promise.all(
           years.map(async (year) => {
