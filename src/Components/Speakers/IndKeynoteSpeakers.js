@@ -12,6 +12,7 @@ function IndKeynoteSpeakers() {
   const [speakersByYear, setSpeakersByYear] = useState({
     2024: [],
     2025: [],
+    2026: []
   });
 
   const [loading, setLoading] = useState(true);
@@ -57,7 +58,9 @@ function IndKeynoteSpeakers() {
         const updatedSpeakers = {
           2024: [],
           2025: [],
+          2026: []
         };
+
 
         responses.forEach(({ year, speakers }) => {
           updatedSpeakers[year] = speakers;
