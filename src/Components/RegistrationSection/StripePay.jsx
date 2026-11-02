@@ -13,7 +13,7 @@ function StripePay() {
         </p>
          <p className="submissionLinkheadRazor">
           <a
-            href="https://rzp.io/rzp/br5zownJ"
+            href="https://rzp.io/rzp/2XqVFyHn"
             target="_blank"
           >
             Pay via Razorpay
